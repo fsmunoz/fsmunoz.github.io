@@ -1,0 +1,127 @@
+= Polaris, Anno 0: Infrastructure as Code for the Here and Now
+ Frederico Muñoz / (Chief|IoT|SmarterCities) Architect 
+:sslide-background-video: stars.mp4
+:title-slide-background-video: stars.mp4
+:data-background-image: stars.png
+[transition=zoom, %notitle]
+[background-video="./stars.mp4",options="loop,muted"]
+== Reasons to Act
+
+[%step]
+* Speed, heavy processes, deployment time
+* Technological stack and approach viewed as outdated
+* Quality and alignment with modern approaches
+
+[background-video="./stars.mp4",options="loop,muted"]
+== Targets, Clouds, Clients
+
+[%step]
+* VMware is still the biggest target
+* Cloud providers used but not (yet) the most common target
+
+[background-video="./stars.mp4",options="loop,muted"]
+== The Plan
+
+[%step]
+* Target the most common existing scenario
+* Use community-aligned tools and *ideas*
+* Educate, grow and solve real problems
+
+[background-video="./stars.mp4",options="loop,muted"]
+== The Stack
+
+[%step]
+* Target VMware and IBM Cloud: Terraform
+* Build images from templates: Packer
+* Version everything: Github
+* Focus on pipelines: Concourse
+
+[transition=zoom, %notitle]
+== BUT REMEMBER
+
+*IDEAS BEFORE SOFTWARE*
+
+[%step]
+* Techonology is an enabler
+* Skills are meant to de continously developed
+
+
+
+[background-video="./stars.mp4",options="loop,muted"]
+== Innovation, integration and the world as it really is
+This is a post Big Band universe, hence
+[%step]
+* We have Processes
+* We have specific software tools
+* We have mandatory integrations
+
+[background-video="./stars.mp4",options="loop,muted"]
+== "Legacy" is a matter of taste
+
+Before reaching what is _possible_, we need to consider what is _needed_:
+[%step]
+* Monitoring: we have tools and processes built on them.
+* Backups: we have recovery strategies build on a set of solutions
+* etc.
+
+[background-video="./stars.mp4",options="loop,muted"]
+== This guided some key choices
+
+[%step]
+* Use Monitoring solutions in IBM Cloud to replicate existing GSMA solutions
+* Replicate interfaces of existing subsystems (backups, etc) in terms of pipeline integration
+* _Add_ more options (like RIG or ELK for data gathering and monitoring) but _automate_ existing ones as well.
+
+== Collaboration as the testbed of agility
+
+To work on this we adopted much of the same concpets for _collaboration_
+[%step]
+* Documents as code
+* Versioning
+* Build pipelines
+* ChatOps
+
+[background-video="./stars.mp4",options="loop,muted"]
+== What we have so far
+
+[%step]
+* VMware ESX on Softlayer
+* Concourse Build platform deployed
+* Initial test pipeline
+* Initial set of images
+
+[background-video="./stars.mp4",options="loop,muted"]
+== ... and more importantly
+
+* Documented processes with input/output requirements
+* The kernel of a team and the knowledge about what we need to learn
+* A vision of the broader IBM roadmap
+* A documented PoC with goals and requirements
+
+[background-video="./stars.mp4",options="loop,muted"]
+[transition=zoom, %notitle]
+== BUT
+
+* Recourses & priorities will always reach a bottleneck
+* High-level design is not bullet-proof
+* Complexity is never completely eliminated
+
+[background-video="./stars.mp4",options="loop,muted"]
+== The road ahead
+
+[%step]
+* Finish deployment of additional components
+* Build entire pipeline
+* Analise results
+
+[background-video="./stars.mp4",options="loop,muted"]
+== On Principles...
+
+Agility and "the Enterprise":
+
+"These are my Principles! If you don't like them... I have others."
+ - Groucho Marx
+
+
+
+

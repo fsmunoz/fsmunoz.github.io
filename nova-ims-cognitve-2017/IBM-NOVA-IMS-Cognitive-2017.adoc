@@ -1,0 +1,173 @@
+= Cognitive Analytics: an IBM perspective
+:author: Frederico Muñoz / Chief Architect
+:date: 20-Dec-2017
+:slide-background-video: stars.mp4
+:title-slide-background-video: stars.mp4
+:title-slide-background-image: cover_bg.png
+:data-background-video: stars.png
+
+
+_BI Talks @ NOVA IMS_
+
+[transition=zoom, %notitle]
+[background-video="./stars.mp4",options="loop,muted"]
+== A rose by any other name...
+
+[background-video="./stars.mp4",options="loop,muted"]
+== Analytics
+
+[%step]
+* «The scientific process of transforming data into insight for making better decisions» (INFORMS)
+
+[background-video="./stars.mp4",options="loop,muted"]
+== The Analytics Maturity Model
+[.step]
+- What happened? _Descriptive_
+- Why did it happen? _Diagnostic_
+- What will happen? _Predictive_
+- What should I do? _Prescriptive_
+
+[background-video="./stars.mp4",options="loop,muted"]
+== Analytics
+
+Analytics: transforming data into insights for making better decisions.
+[%step]
+* Data -> Insight -> Action
+
+[background-video="./stars.mp4",options="loop,muted"]
+== Cognitive & Analytics
+
+Is Cognitive Computing another layer _on top_ of the existing
+analytics ones?
+
+[background-video="./stars.mp4",options="loop,muted"]
+== Cognitive systems are different
+
+[.step]
+* They create deeper _human engagement_.
+* They scale and elevate _expertise_.
+* They infuse products and services with _cognition_.
+* They _enable cognitive processes_ and operations.
+* They enhance _exploration and discovery_.
+
+[background-video="./stars.mp4",options="loop,muted"]
+== Cognitive systems
+
+«...This platform must encompass machine learning, reasoning, natural
+language processing, speech and vision, human-computer interaction,
+dialog and narrative generation and more...»
+
+_- Kelly, J., 2015. *Computing, cognition and the future of knowing*. Whitepaper, IBM Reseach.
+Vancouver._
+
+[transition=zoom, %notitle]
+[background-video="./stars.mp4",options="loop,muted"]
+== Cognitive
+
+* Data -> Information -> Knowledge
+
+
+[background-video="./stars.mp4",options="loop,muted"]
+== Cognitive computing
+
+[%step]
+* _extends_ analytics.
+*  is able to consume and interpret _unstructured data_.
+* addresses _ambiguous_ problems
+* interacts naturally with humans
+
+=== *Programming* vs. *educating*.
+
+[background-video="./stars.mp4",options="loop,muted"]
+== Watson: from concepts to outcomes
+
+IBM *Watson for Genomics* helps analyze a patient’s tumor's
+  genomicdata by providing information on potential therapeutic
+  options with supporting evidence.
+  
+Precision Medicine: The New York Genome Center and Watson Health :
+https://www.youtube.com/watch?v=K9URgz7V9_0
+
+[background-video="./stars.mp4",options="loop,muted"]
+== Making sense of unstructured data
+
+[.step]
+* *Watson for Oncology* _consumes_ the growing body of medical
+  literature, guidelines, trials, articles, and patient data,
+  _interprets_ medical records and _suggests_ potential treatments.
+
+[background-video="./stars.mp4",options="loop,muted"]
+== Cognitive search
+
+IBM *Watson Discovery* service to adds cognitive search and content
+analytics engine to applications to identify patterns, trends and
+actionable insights that drive better decision-making.
+
+https://discovery-news-demo.ng.bluemix.net/
+
+
+[background-video="./stars.mp4",options="loop,muted"]
+== Watson Analytics
+
+Watson Analytics is a smart data analysis and visualization service
+you can use to quickly discover patterns and meaning in your data –
+all on your own. With guided data discovery, automated predictive
+analytics and cognitive capabilities such as natural language
+dialogue, you can interact with data conversationally to get answers
+you understand.
+
+https://watson.analytics.ibmcloud.com/
+
+[background-video="./stars.mp4",options="loop,muted"]
+== Watson: at your service
+
+Watson services are available to all in the IBM Cloud catalogue, including:
+
+* Visual Recognition: https://visual-recognition-demo.ng.bluemix.net/
+* Conversation: https://conversation-demo.ng.bluemix.net/
+* Speech to text: https://speech-to-text-demo.ng.bluemix.net/
+
+[background-video="./stars.mp4",options="loop,muted"]
+== Watson: at your service
+
+* Natural Language Classifier: https://natural-language-classifier-demo.ng.bluemix.net/
+* Natural Language Understanding:  https://natural-language-understanding-demo.ng.bluemix.net/
+* Personality Insigths: https://personality-insights-demo.ng.bluemix.net/
+* Tone Analyser: https://tone-analyzer-demo.ng.bluemix.net/
+
+
+[background-video="./stars.mp4",options="loop,muted"]
+== Community
+
+Tools, algorithms and approaches are incresingly more open and social.
+[%step]
+* Data Science Experience: Learn, create and collaborate
+https://datascience.ibm.com/
+* Cognitive Class & Data Scientist Workbench:  https://datascientistworkbench.com/
+* IBM Cloud https://console.bluemix.net/catalog/ : integrate all IBM
+  services with your solution, including Watson & Analytics.
+
+[background-video="./stars.mp4",options="loop,muted"]
+== Thank you!
+[source, .small]
+----
+               *                 
+              ***
+             *****                    A
+            *******                 
+          ***********                VERY
+        ***************
+      *******************            HAPPY
+          ***********
+        ***************            CHRISTMAS
+      *******************
+    ***********************         AND MY
+        ***************
+      *******************         BEST WISHES
+    ***********************
+  ***************************     FOR THE NEXT
+            ******
+            ******                    YEAR
+            ******
+----	    
+(Christmas Tree EXEC, first widely disruptive computer worm, 1987)
