@@ -1,13 +1,18 @@
 = Cognitive Analytics: an IBM perspective
-:author: Frederico Muñoz / Chief Architect
+:author: Frederico Muñoz / Chief Architect | SPGI Technical Expert Council | IBM Portugal
 :date: 20-Dec-2017
 :slide-background-video: stars.mp4
 :title-slide-background-video: stars.mp4
-:title-slide-background-image: cover_bg.png
+:_title-slide-background-image: cover_bg.png
 :data-background-video: stars.png
+:icons: font
+:email:<frederico.munoz@pt.ibm.com>
 
+_BI Talks_ @ *NOVA IMS*
+[.tiny, .center]
+20-Dec-2017
 
-_BI Talks @ NOVA IMS_
+icon:envelope-o[] <frederico.munoz@pt.ibm.com>
 
 [transition=zoom, %notitle]
 [background-video="./stars.mp4",options="loop,muted"]
@@ -76,25 +81,43 @@ Vancouver._
 * addresses _ambiguous_ problems
 * interacts naturally with humans
 
+[background-video="./stars.mp4",options="loop,muted"]
+== A breakthrough: Watson and Jeopardy!
+
+[.stretch]
+video::P18EdAKuC1U[youtube, start=0, options=autoplay]
+
 === *Programming* vs. *educating*.
 
 [background-video="./stars.mp4",options="loop,muted"]
 == Watson: from concepts to outcomes
 
 IBM *Watson for Genomics* helps analyze a patient’s tumor's
-  genomicdata by providing information on potential therapeutic
+  genomic data by providing information on potential therapeutic
   options with supporting evidence.
   
-Precision Medicine: The New York Genome Center and Watson Health :
-https://www.youtube.com/watch?v=K9URgz7V9_0
 
 [background-video="./stars.mp4",options="loop,muted"]
-== Making sense of unstructured data
+== Precision Medicine
+The New York Genome Center and Watson Health
+[.stretch]
+video::K9URgz7V9_0[youtube, start=0, options=autoplay]
 
-[.step]
+
+[background-video="./stars.mp4",options="loop,muted"]
+== Understanding unstructured data
+
 * *Watson for Oncology* _consumes_ the growing body of medical
   literature, guidelines, trials, articles, and patient data,
-  _interprets_ medical records and _suggests_ potential treatments.
+  _interprets_ medical records and _recommends_ potential courses of
+  action.
+
+[background-video="./stars.mp4",options="loop,muted"]
+== Manipal Hospitals: a case study
+
+[.stretch]
+video::fAiRqM44hgM[youtube, start=0, options=autoplay]
+
 
 [background-video="./stars.mp4",options="loop,muted"]
 == Cognitive search
@@ -105,12 +128,20 @@ actionable insights that drive better decision-making.
 
 https://discovery-news-demo.ng.bluemix.net/
 
+[background-video="./stars.mp4",options="loop,muted"]
+== Watson Discovery Service
+
+Overview demo.
+
+[.stretch]
+video::kwmqJRDbv98[youtube, start=0, options=autoplay]
+
 
 [background-video="./stars.mp4",options="loop,muted"]
 == Watson Analytics
 
 Watson Analytics is a smart data analysis and visualization service
-you can use to quickly discover patterns and meaning in your data –
+you can use to quickly _discover patterns and meaning_ in your data –
 all on your own. With guided data discovery, automated predictive
 analytics and cognitive capabilities such as natural language
 dialogue, you can interact with data conversationally to get answers
@@ -119,9 +150,19 @@ you understand.
 https://watson.analytics.ibmcloud.com/
 
 [background-video="./stars.mp4",options="loop,muted"]
+== Watson Analytics
+
+A basic step-by-step tutorial by Ryan Nelson.
+
+[.stretch]
+video::xBoem605XQ4[youtube, start=0, options=autoplay]
+
+
+[background-video="./stars.mp4",options="loop,muted"]
 == Watson: at your service
 
-Watson services are available to all in the IBM Cloud catalogue, including:
+Watson services are available to all in the IBM Cloud catalogue,
+including the following (with an easy-to-use demo for each!).
 
 * Visual Recognition: https://visual-recognition-demo.ng.bluemix.net/
 * Conversation: https://conversation-demo.ng.bluemix.net/
@@ -141,11 +182,47 @@ Watson services are available to all in the IBM Cloud catalogue, including:
 
 Tools, algorithms and approaches are incresingly more open and social.
 [%step]
-* Data Science Experience: Learn, create and collaborate
-https://datascience.ibm.com/
-* Cognitive Class & Data Scientist Workbench:  https://datascientistworkbench.com/
-* IBM Cloud https://console.bluemix.net/catalog/ : integrate all IBM
-  services with your solution, including Watson & Analytics.
+* Cognitive Class: Build Data Science and Cognitive Computing skills
+_for free_ today  https://cognitiveclass.ai
+* Data Scientist Workbench: virtual lab with Data Science tools ready to explore and put to use https://datascientistworkbench.com/
+
+[background-video="./stars.mp4",options="loop,muted"]
+== Community
+
+[%step]
+* Data Science Experience: Learn, create and collaborate https://datascience.ibm.com/
+* IBM Code: Code patterns, tech talks, open source projects, developer advocates, dynamic communities, upcoming events. https://developer.ibm.com/code/
+* IBM Cloud: integrate all IBM
+  services with your solution, including Watson & Analytics services https://console.bluemix.net/catalog/
+
+
+[background-video="./stars.mp4",options="loop,muted"]
+== Predictive Analytics and the Internet of Things
+
+https://www.ibm.com/blogs/internet-of-things/protecting-endangered-rhinos/
+ 
+* Over the past decade, more than 7,000 rhinos were killed across the African continent.
+* In 2016, more than 1,000 were killed in South Africa alone.
+* At this rate the rhino could become extinct in less than a decade.
+
+
+[background-video="./stars.mp4",options="loop,muted"]
+== How?
+
+Following the sentinels!
+
+[.step]
+* Rhinos are _not_ tracked so that they can't be found.
+* Other animals are monitored for their behaviour
+* The sensor data is used to create rule-based patterns, or algorithms, built on the prey-animals’ response to perceived threat
+
+[background-video="./stars.mp4",options="loop,muted"]
+== Fighting against poaching
+
+Using IoT and predictive analytics.
+
+[.stretch]
+video::E9olFUDD_2M[youtube, start=0, options=autoplay]
 
 [background-video="./stars.mp4",options="loop,muted"]
 == Thank you!
@@ -171,3 +248,17 @@ https://datascience.ibm.com/
             ******
 ----	    
 (Christmas Tree EXEC, first widely disruptive computer worm, 1987)
+
+[background-video="./stars.mp4",options="loop,muted"]
+== Contacts
+
+icon:envelope-o[] <frederico.munoz@pt.ibm.com>
+
+icon:linkedin[] https://www.linkedin.com/in/fsmunoz/
+
+icon:twitter[] https://twitter.com/fredericomunoz
+
+icon:github[] https://github.com/fsmunoz
+
+
+
