@@ -46,8 +46,10 @@ body:after {
 content: url(../../../ibm_white.png);
 position: fixed;
 bottom: 1mm;
-left: 1mm;;
-box-shadow: 5px 5px 10px #000; }
+left: 1mm; 
+width="10%";
+transform: scale(.5);
+}
 
 /*********************************************
  * HEADERS
