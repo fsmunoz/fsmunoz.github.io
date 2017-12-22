@@ -1,8 +1,8 @@
 = Cognitive Analytics: an IBM perspective
 :author: Frederico Muñoz / Chief Architect | SPGI Technical Expert Council | IBM Portugal
 :date: 20-Dec-2017
-:slide-background-video: stars.ogv
-:title-slide-background-video: stars.ogv
+:slide-background-video: stars.webm
+:title-slide-background-video: stars.webm
 :_title-slide-background-image: cover_bg.png
 :icons: font
 :email:<frederico.munoz@pt.ibm.com>
@@ -14,16 +14,16 @@ _BI Talks_ @ *NOVA IMS*
 icon:envelope-o[] <frederico.munoz@pt.ibm.com>
 
 [transition=zoom, %notitle]
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == A rose by any other name...
 
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == Analytics
 
 [%step]
 * «The scientific process of transforming data into insight for making better decisions» (INFORMS)
 
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == The Analytics Maturity Model
 [.step]
 - What happened? _Descriptive_
@@ -31,20 +31,20 @@ icon:envelope-o[] <frederico.munoz@pt.ibm.com>
 - What will happen? _Predictive_
 - What should I do? _Prescriptive_
 
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == Analytics
 
 Analytics: transforming data into insights for making better decisions.
 [%step]
 * Data -> Insight -> Action
 
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == Cognitive & Analytics
 
 Is Cognitive Computing another layer _on top_ of the existing
 analytics ones?
 
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == Cognitive systems are different
 
 [.step]
@@ -54,7 +54,7 @@ analytics ones?
 * They _enable cognitive processes_ and operations.
 * They enhance _exploration and discovery_.
 
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == Cognitive systems
 
 «...This platform must encompass machine learning, reasoning, natural
@@ -65,13 +65,13 @@ _- Kelly, J., 2015. *Computing, cognition and the future of knowing*. Whitepaper
 Vancouver._
 
 [transition=zoom, %notitle]
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == Cognitive
 
 * Data -> Information -> Knowledge
 
 
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == Cognitive computing
 
 [%step]
@@ -80,7 +80,7 @@ Vancouver._
 * addresses _ambiguous_ problems
 * interacts naturally with humans
 
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == A breakthrough: Watson and Jeopardy!
 
 [.stretch]
@@ -88,7 +88,7 @@ video::P18EdAKuC1U[youtube, start=0, options=autoplay]
 
 === *Programming* vs. *educating*.
 
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == Watson: from concepts to outcomes
 
 IBM *Watson for Genomics* helps analyze a patient’s tumor's
@@ -96,14 +96,14 @@ IBM *Watson for Genomics* helps analyze a patient’s tumor's
   options with supporting evidence.
   
 
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == Precision Medicine
 The New York Genome Center and Watson Health
 [.stretch]
 video::K9URgz7V9_0[youtube, start=0, options=autoplay]
 
 
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == Understanding unstructured data
 
 * *Watson for Oncology* _consumes_ the growing body of medical
@@ -111,14 +111,14 @@ video::K9URgz7V9_0[youtube, start=0, options=autoplay]
   _interprets_ medical records and _recommends_ potential courses of
   action.
 
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == Manipal Hospitals: a case study
 
 [.stretch]
 video::fAiRqM44hgM[youtube, start=0, options=autoplay]
 
 
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == Cognitive search
 
 IBM *Watson Discovery* service to adds cognitive search and content
@@ -127,7 +127,7 @@ actionable insights that drive better decision-making.
 
 https://discovery-news-demo.ng.bluemix.net/
 
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == Watson Discovery Service
 
 Overview demo.
@@ -136,7 +136,7 @@ Overview demo.
 video::kwmqJRDbv98[youtube, start=0, options=autoplay]
 
 
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == Watson Analytics
 
 Watson Analytics is a smart data analysis and visualization service
@@ -148,7 +148,7 @@ you understand.
 
 https://watson.analytics.ibmcloud.com/
 
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == Watson Analytics
 
 A basic step-by-step tutorial by Ryan Nelson.
@@ -157,7 +157,7 @@ A basic step-by-step tutorial by Ryan Nelson.
 video::xBoem605XQ4[youtube, start=0, options=autoplay]
 
 
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == Watson: at your service
 
 Watson services are available to all in the IBM Cloud catalogue,
@@ -167,7 +167,7 @@ including the following (with an easy-to-use demo for each!).
 * Conversation: https://conversation-demo.ng.bluemix.net/
 * Speech to text: https://speech-to-text-demo.ng.bluemix.net/
 
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == Watson: at your service
 
 * Natural Language Classifier: https://natural-language-classifier-demo.ng.bluemix.net/
@@ -176,7 +176,7 @@ including the following (with an easy-to-use demo for each!).
 * Tone Analyser: https://tone-analyzer-demo.ng.bluemix.net/
 
 
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == Community
 
 Tools, algorithms and approaches are incresingly more open and social.
@@ -185,7 +185,7 @@ Tools, algorithms and approaches are incresingly more open and social.
 _for free_ today  https://cognitiveclass.ai
 * Data Scientist Workbench: virtual lab with Data Science tools ready to explore and put to use https://datascientistworkbench.com/
 
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == Community
 
 [%step]
@@ -195,7 +195,7 @@ _for free_ today  https://cognitiveclass.ai
   services with your solution, including Watson & Analytics services https://console.bluemix.net/catalog/
 
 
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == Predictive Analytics and the Internet of Things
 
 https://www.ibm.com/blogs/internet-of-things/protecting-endangered-rhinos/
@@ -205,7 +205,7 @@ https://www.ibm.com/blogs/internet-of-things/protecting-endangered-rhinos/
 * At this rate the rhino could become extinct in less than a decade.
 
 
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == How?
 
 Following the sentinels!
@@ -215,7 +215,7 @@ Following the sentinels!
 * Other animals are monitored for their behaviour
 * The sensor data is used to create rule-based patterns, or algorithms, built on the prey-animals’ response to perceived threat
 
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == Fighting against poaching
 
 Using IoT and predictive analytics.
@@ -223,7 +223,7 @@ Using IoT and predictive analytics.
 [.stretch]
 video::E9olFUDD_2M[youtube, start=0, options=autoplay]
 
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == Thank you!
 [source, .small]
 ----
@@ -248,7 +248,7 @@ video::E9olFUDD_2M[youtube, start=0, options=autoplay]
 ----	    
 (Christmas Tree EXEC, first widely disruptive computer worm, 1987)
 
-[background-video="./stars.ogv",options="loop,muted"]
+[background-video="./stars.webm",options="loop,muted"]
 == Contacts
 
 image::https://avatars0.githubusercontent.com/u/285727?s=460&v=4[width="150", border="0"]
