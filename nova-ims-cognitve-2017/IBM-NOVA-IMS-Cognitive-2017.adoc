@@ -4,7 +4,6 @@
 :slide-background-video: stars.mp4
 :title-slide-background-video: stars.mp4
 :_title-slide-background-image: cover_bg.png
-:data-background-video: stars.png
 :icons: font
 :email:<frederico.munoz@pt.ibm.com>
 
