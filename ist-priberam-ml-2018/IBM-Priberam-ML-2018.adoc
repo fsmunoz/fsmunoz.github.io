@@ -276,7 +276,7 @@ http://console.bluemix.net
 [.big]
 == Watson Platform Services
 
-== part of the IBM Cloud catalogue
+== part of the IBM Cloud catalog
 
 == easily deployed and consumed by applications
 
@@ -352,6 +352,7 @@ https://watson.analytics.ibmcloud.com/
 [.bigger]
 == IBM Watson Data Platform
 
+
 [.big]
 == collaboration
 
@@ -368,6 +369,10 @@ https://watson.analytics.ibmcloud.com/
 == full lifecycle
 
 == (from getting the data to showing it)
+
+== !
+[.stretch]
+video::rMygSe0Jfo[youtube, start=0, options=autoplay]
 
 [.big]
 == in IBM Cloud
@@ -387,7 +392,7 @@ https://watson.analytics.ibmcloud.com/
 
 
 [.big]
-== IBM Data Catalogue
+== IBM Data Catalog
 
 == Discover and manage data sources
 == !
@@ -456,8 +461,12 @@ https://datascience.ibm.com/
 
 == and for that
 
+[background-image=https://images.techhive.com/images/article/2016/08/power9-dd1-die-photo-print-4x4-300dpi-100678307-large.jpg]
+== !
+
 [.bigger]
 == IBM PowerAI
+
 
 == !
 
