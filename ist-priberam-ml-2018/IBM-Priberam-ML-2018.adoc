@@ -2,7 +2,7 @@
 :date: 20-Feb-2019
 :slide-background-video: stars.webm
 :_title-slide-background-video: neurons.mp4
-:_title-slide-background-image: cover_bg.png
+:_title-slide-background-image: lisbon.jpg
 :_revealjs_center: false
 :icons: font
 
@@ -11,11 +11,31 @@
 *Frederico Muñoz* | Chief Architect -- SPGI Technical Expert Council
 Instituto Superior Técnico | Feb 2018.
 
+[.big]
+== Hello!
+
+== !
+image::https://avatars0.githubusercontent.com/u/285727?s=460&v=4[width="150", border="0"]
+
+icon:envelope-o[] <frederico.munoz@pt.ibm.com>
+
+icon:linkedin[] https://www.linkedin.com/in/fsmunoz/
+
+icon:twitter[] https://twitter.com/fredericomunoz
+
+icon:github[] https://github.com/fsmunoz
+
+
+
+== before anything else
+
 [.divider]
-== Introduction
+== let's begin with
 
-Some history.
+some history.
 
+[.big]
+== with some highlights of IBM Research in the field of AI
 
 [.bigger]
 == 1954
@@ -213,7 +233,7 @@ First computer to defeat human World Chess Champion, Garry Kasparov.
 
 == !
 [.stretch]
-video::P18EdAKuC1U[youtube, start=0, options=autoplay]
+video::P18EdAKuC1U[youtube, options=autoplay]
 
 == !
 [%step]
@@ -234,7 +254,8 @@ video::P18EdAKuC1U[youtube, start=0, options=autoplay]
 * They enhance _exploration and discovery_.
 
 
-== Cognitive systems
+
+== !
 
 «...This platform must encompass machine learning, reasoning, natural
 language processing, speech and vision, human-computer interaction,
@@ -246,14 +267,18 @@ Vancouver._
 
 == this leads us to a new level of tools
 
+[.big]
+[background-video="./neurons.mp4",options="loop,muted"]
 == a whole portfolio of Data Science, AI and Machine Learning solutions.
 
-== integrated and working together and with researchers
+== ...integrated and working together and with researchers
 
-== (well, that's the vision)
+== (that's the vision)
 
 ==  Data -> Information -> Knowledge
 
+
+[background-video="./clouds.mp4",options="loop,muted"]
 [.big]
 == Everything available on the cloud.
 
@@ -262,6 +287,7 @@ Vancouver._
 == ... but not just in _any_ cloud...
 
 [.bigger]
+[background-video="./stars.webm",options="loop,muted"]
 == IBM Cloud
 
 == !
@@ -312,9 +338,8 @@ https://tone-analyzer-demo.ng.bluemix.net/
 
 
 [.big]
-== Some solutions have different usage characteristics
+== Some solutions have different usage models
 
-== 
 [.big]
 == Watson Explorer
 
@@ -326,10 +351,14 @@ https://tone-analyzer-demo.ng.bluemix.net/
 * Powerful text analytics
 * Machine learning
 
+https://www.ibm.com/products/watson-explorer
+
 == !
 
 [.stretch]
 video::24ivtl4ggwY[youtube, start=130, options=autoplay]
+
+== and others offer an easy way to get information from data 
 
 [.big]
 == Watson Analytics
@@ -347,6 +376,7 @@ https://watson.analytics.ibmcloud.com/
 
 == but the focal point of all
 
+[.big]
 == and a huge part of IBM's vision
 
 [.bigger]
@@ -372,7 +402,7 @@ https://watson.analytics.ibmcloud.com/
 
 == !
 [.stretch]
-video::rMygSe0Jfo[youtube, start=0, options=autoplay]
+video::-rMygSe0Jfo[youtube, start=0, options=autoplay]
 
 [.big]
 == in IBM Cloud
@@ -461,7 +491,7 @@ https://datascience.ibm.com/
 
 == and for that
 
-[background-image=https://images.techhive.com/images/article/2016/08/power9-dd1-die-photo-print-4x4-300dpi-100678307-large.jpg]
+[background-image="./power9.jpg"]
 == !
 
 [.bigger]
@@ -480,8 +510,35 @@ https://datascience.ibm.com/
 
 https://www.ibm.com/blogs/research/2017/08/distributed-deep-learning/
 
+[background-image="ibm_old.jpg"]
+== We've been here for a while
 
-== some final links
+== and helped to achieve some rather important things
+
+[.big]
+== some (extremely) big
+
+== !
+[.stretch]
+video::nY25rlI0jkU[youtube, start=105, options=autoplay]
+
+[.big]
+== some (extremely) small
+
+== !
+[.stretch]
+video::oSCX78-8-q0[youtube, start=3, options=autoplay]
+
+[background-image="http://research.ibm.com/ibm-q/images/card-360.jpg"]
+[.big]
+== but always shaping the future
+
+== !
+[.stretch]
+video::o-FyH2A7Ed0[youtube, start=3, options=autoplay]
+
+
+== Some final links
 
 [.big]
 == Community
@@ -501,25 +558,16 @@ _for free_ today  https://cognitiveclass.ai
 
 
 [background-video="./stars.webm",options="loop,muted"]
-[.bigger]
+
+[background-image="./lisbon.jpg"]
+[.big]
 == Thank you!
 
 == References
 
 * IBM AI Research: https://researcher.watson.ibm.com/researcher/view_page.php?id=6813
-
-
-== Contacts
-
-image::https://avatars0.githubusercontent.com/u/285727?s=460&v=4[width="150", border="0"]
-
-icon:envelope-o[] <frederico.munoz@pt.ibm.com>
-
-icon:linkedin[] https://www.linkedin.com/in/fsmunoz/
-
-icon:twitter[] https://twitter.com/fredericomunoz
-
-icon:github[] https://github.com/fsmunoz
+* Neurons image by Michelle Kuykendal and Gareth Guvanasen (Georgia Tech's NeuroLab): https://www.youtube.com/watch?v=yy994HpFudc
+* Spring cloud time lapse by Harrison Rowntree (https://www.youtube.com/watch?v=Qu7mcKZgqv0)
 
 
 
