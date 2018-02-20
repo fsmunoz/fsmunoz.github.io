@@ -48,14 +48,35 @@ body {
 /* IBM LOGO IN CORNER */
 
 body:after {
-    content: url(../../../ibm_white.png);
-    position: fixed;
-    bottom: 0mm;
-    right: 1mm; 
-    width="10%";
-    transform: scale(.5);
+content: url(../../../ibm_white.png);
+position: fixed;
+bottom: 1mm;
+right: 1mm; 
+width="10%";
+transform: scale(.5);
 }
 
+#left {
+  aleft:-8.33%;
+  text-align: left;
+  float: left;
+  width:66%;
+  z-index:-10;
+}
+
+#right {
+  aleft:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:34%;
+  vertical-align: middle;
+}
+
+.reveal section img  {
+    vertical-align: middle;
+}
 /* .author:after { */
 /*     white-space: pre; */
 /*     content: " | Chief Architect"; */
@@ -94,22 +115,46 @@ includes author and role!  This follows one of the cover design option
 
 
 .reveal .divider h2 {
-    margin: 0 0 0 -15%;    
-    text-align: left;
+//    margin: 0 0 0 -15%;    
+//    text-align: left;
+    font-size: 3em;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.reveal .divider p {
+//    margin: 0 0 0 -15%;    
     font-size: 2em;
+    font-weight: 600;
+//    text-align: left;
+    color: #0f6dff;
+    //    vertical-align: top;
+    //margin-bottom: 100%;
+}
+
+.reveal .big h2 {
+//    margin: 0 0 0 -15%;    
+//    text-align: left;
+    font-size: 200%;
     font-weight: 600;
     vertical-align: top; }
 
-.reveal .divider p {
-    margin: 0 0 0 -15%;    
-    font-size: 2em;
-    font-weight: 600;
-    text-align: left;
+.reveal .bigger h2 {
+    font-size: 300%;
     color: #0f6dff;
-    vertical-align: top;
-    margin-bottom: 100%;
 }
 
+
+.reveal .bigquote p {
+//    margin: 0 0 0 -15%;    
+    font-size: 150%;
+    font-weight: normal;
+    font-style: italic;
+//    text-align: left;
+//    color: #0f6dff;
+    //    vertical-align: top;
+    //margin-bottom: 100%;
+}
 
 
 /*********************************************
@@ -160,8 +205,9 @@ a.reveal .title p {
   font-size: 2em; }
 
 .reveal h2 {
-    font-size: 1.6em;
+    font-size: 1em;
     font-weight: bold;
+    padding-bottom: 0%;
     //color: #0f6dff;
 }
 
@@ -333,7 +379,7 @@ a.reveal .title p {
 .reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #fff;
+  border: 1px solid #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
 
 .reveal section img.plain {
