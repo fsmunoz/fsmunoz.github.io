@@ -284,7 +284,15 @@ https://datascience.ibm.com/
 
 == Healthcare, Pharmaceuticals & Life Science
 
-Several projects, including an innovative project with Mundipharma:
+Several projects, including an innovative project with Mundipharma
+
+* Chatbots and pharmaceutical litereature.
+
+Working projects with healthcare groups, we've been working on
+
+[.step]
+* Adding cognitive support for patients with limited mobility.
+* Improving accessability using real-time AI-driven assistance.
 
 == Chatbots
 
@@ -294,15 +302,6 @@ In different industry segments we have active projects with _chatbots_
 * Automate first-line assistance.
 * Provide an expert assistance with the ability to understand ambiguous queries.
 * Add a natural-language interface to an existing solution.
-
-
-== Assistance in healthcare
-
-Working projects with healthcare groups, we've been working on
-
-[.step]
-* Adding cognitive support for patients with limited mobility.
-* Improving accessability using real-time AI-driven assistance.
 
 == Automation
 
@@ -364,7 +363,6 @@ the MIT campus.
 
 [background-image="https://cdn.technologyreview.com/i/images/ma18-quantum2.png""]
 == !
-Konrad Zuse
 
 Bennett and others realized that some kinds of computations that are
 exponentially time consuming, or even impossible, could be efficiently
