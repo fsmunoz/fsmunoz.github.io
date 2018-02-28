@@ -392,6 +392,18 @@ quantum computers for business and science.
 * IBM Q Network: advancing quantum computing together
 
 
+[.big]
+== These are all reasons behind IBM's motto
+
+[.huger]
+== THINK
+
+
+[background-image="./lisbon.jpg"]
+[.big]
+== Thank you!
+
+
 == Some final links
 
 [.big]
@@ -411,11 +423,7 @@ _for free_ today  https://cognitiveclass.ai
   services with your solution, including Watson & Analytics services https://console.bluemix.net/catalog/
 
 
-[background-video="./stars.webm",options="loop,muted"]
 
-[background-image="./lisbon.jpg"]
-[.big]
-== Thank you!
 
 == References
 * Fractal animation by Alexandre Tavernier (http://coolfractalanimations.blogspot.pt/2014/05/mandelbrot-set-animation-color-changes.html)
