@@ -353,6 +353,24 @@ For a major industrial company:
 [.big]
 == Quantum Computing
 
+
+== !
+
+In the summer of 1981, IBM and MIT organized a landmark event called
+the First Conference on the Physics of Computation.
+
+It took place at Endicott House, a French-style mansion not far from
+the MIT campus.
+
+[background-image="https://cdn.technologyreview.com/i/images/ma18-quantum2.png""]
+== !
+Konrad Zuse
+
+Bennett and others realized that some kinds of computations that are
+exponentially time consuming, or even impossible, could be efficiently
+performed with the help of quantum phenomena. A quantum computer would
+store information in quantum bits, or qubits.
+
 [background-image="http://static.dnaindia.com/sites/default/files/styles/full/public/2017/02/08/546623-2-richard-feynman-wiki-commons.jpg"]
 == !
 
@@ -372,8 +390,8 @@ quantum computers for business and science.
 == !
 
 * 20 qubit available, 50 qubit developed
-* QISkit: open to anyone for development
-* IBM Q Network
+* QISkit: open to *anyone* for development.
+* IBM Q Network: advancing quantum computing together
 
 
 == Some final links
