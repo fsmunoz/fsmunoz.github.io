@@ -353,7 +353,7 @@ Several projects, including an innovative project with Mundipharma
 focused on public awareness and information through a bot with domain
 knowledge.
 
-Some additional ongoing projects:
+== Some additional ongoing projects:
 
 [.step]
 * Adding cognitive support for patients with limited mobility.
@@ -361,6 +361,7 @@ Some additional ongoing projects:
 
 == Chatbots
 
+== !
 In different industry segments we have active projects around _chatbots_.
 
 [.step]
