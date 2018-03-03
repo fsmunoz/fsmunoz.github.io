@@ -1,4 +1,4 @@
-= From Artificial Intelligence to Quantum Computing: an IBM Journey in Physics
+= From Artificial Intelligence to Quantum Computing: an IBM Journey in Physics, AI and Science
 :date: 27-Feb-2019
 :slide-background-video: stars.webm
 :title-slide-background-video: stars.webm
@@ -8,8 +8,9 @@
 
 
 [.location]
-*Frederico Muñoz* | Chief Architect -- SPGI Technical Expert Council
-JEF·V / Instituto Superior Técnico | Feb 2018.
+*Frederico Muñoz* | Chief Architect | IBM Technical Expert Council (SPGI)
+Symposium on Physics Engineering  --  JEF·V
+Instituto Superior Técnico | Feb 2018
 
 [.big]
 == Hello!
@@ -25,6 +26,12 @@ icon:twitter[] https://twitter.com/fredericomunoz
 
 icon:github[] https://github.com/fsmunoz
 
+== About the Technical Expert Council
+
+The Technical Expert Council for Spain, Portugal, Greece and Israel is
+an affiliate of the IBM Academy of Technology.
+
+image::https://researcher.watson.ibm.com/researcher/images/aotlogo_100x100.png[width=20%,role=inline] 
 
 
 == !
@@ -43,8 +50,9 @@ To visualize the future of *IBM* you must know something of the past.
 [.bigger]
 == ...and Science in general.
 
+[background-image="http://www-03.ibm.com/press/us/en/attachment/34540.wss?fileId=ATTACH_FILE2&fileName=Binnig_Rohrer.jpg"]
 [.big]
-== Five IBM physicists have received the Nobel Prize for Physics
+== Five IBM physicists have received the Nobel Prize in Physics
 
 == !
 [.step]
@@ -52,13 +60,15 @@ To visualize the future of *IBM* you must know something of the past.
 * Gerd Bining and Heinrich Rohrer in 1986 for the scanning tunneling microscope.
 * Georg Bednorz and Alex Mueller in 1987 for research in superconductivity.
 
-== some additional highlights
+[.big]
+== And not just Nobel prizes
+
+Many essential scientific breakthroughs were born from IBM Research
+through the decades.
 
 == Quantum tunneling
 
-1958: Leo Esaki's discovery  of the semiconductor junction, called the Esaki diode, finds wide use in electronics applications	
-
-
+1958: Leo Esaki's discovery of the semiconductor junction, called the Esaki diode, finds wide use in electronics applications	
 
 [background-image=http://1.bp.blogspot.com/-0RDVXPxVh-g/U0xE4ANp3LI/AAAAAAAAABc/kJfowUD4Dnc/s1600/6.gif]
 == Fractal Geometry
@@ -88,7 +98,7 @@ To visualize the future of *IBM* you must know something of the past.
 *2004: Supercomputer to observe protein folding and gene development.*
 
 
-== and many others
+== ... and many others
 
 [.small]
 *1947*  Magnetic Core Memory  *1957*  Landauer Formalism - Conductance must come in Quantized Units
@@ -158,8 +168,18 @@ video::P18EdAKuC1U[youtube, options=autoplay]
 * AI ready
 * Secure to the core
 
+
 [.big]
 == Watson Platform Services
+
+Integrate Watson into existing applications or develop new ones
+through the use of comprehensive APIs.
+
+== some examples of available services
+
+(_plenty more on the IBM Cloud catalog!_)
+
+https://www.ibm.com/cloud
 
 == !
 [.step]
@@ -183,13 +203,10 @@ https://console.bluemix.net/developer/watson/starter-kits
 [.big]
 == !
 
-(we don't use those)
+(we also use them ourselves)
 
-== !
-
-_that often_.
 [.big]
-== we also build our solutions with specific solutions
+== We also have specific solutions for getting the most of unstructured data
 
 [.big]
 == Watson Explorer
@@ -202,18 +219,43 @@ _that often_.
 
 https://www.ibm.com/products/watson-explorer
 
+[.big]
+== Watson Knowledge Studio
+
+== !
+
+To become an expert in a given industry or domain, Watson must be
+trained. The Knowledge Studio helps with the training.
+
+https://www.ibm.com/watson/services/knowledge-studio/
+
+== !
+[.step]
+
+* Easy-to-use tools for annotating unstructured domain literature.
+* Uses those annotations to create a custom machine learning model that understands the language of the domain.
+* Create rule-based models that finds entities in documents based on rules that you define.
+
+[background-image="https://1.www.s81c.com/8034F2C/dal05/v1/AUTH_db1cfc7b-a055-460b-9274-1fd3f11fe689/5b0fd91ef0e1a6f21f6e983ccc7bbed5/offering_617b3d7b-5f48-4444-b52e-599853b78671.jpg"]
+== !
+
+
 
 == and to easily get insights from data
 
-[.big]
+[.bigger]
+[background-image="https://community.watsonanalytics.com/wp-content/uploads/2015/08/01-Spiral-Diagram.png"]
 == Watson Analytics
 
+== !
 * Smart data analysis and visualization
 * Quick to use
 * Guided and automatic predictive analytics
 * Natural Language dialogue.
 
 https://watson.analytics.ibmcloud.com/
+
+
 
 
 == but the focal point of all
@@ -258,16 +300,36 @@ https://watson.analytics.ibmcloud.com/
 [.big]
 == Some key components
 
-*IBM Data Catalog*: discover and manage data sources
+
+== IBM Data Catalog
+
+== !
+Discover and manage data sources
 
 https://www.ibm.com/cloud/data-catalog
 
-*Data Science Experience*: interactive and collaborative platform
+
+== Data Science Experience
+
+[background-image="https://datascience.ibm.com/graphics/landing/main/feature_center_2.jpg"]
+== !
+
+== ! 
+Interactive and collaborative platform for the different roles
+
+== !
+* Data Scientists
+* Data Engineers
+* Analysts
+* Machine Learning Engineers
 
 https://datascience.ibm.com/
 
+
+== now that we know a bit more about what we have
+
 [.big]
-== We have been using this to bring real results and tackle real challenges
+== let's talk about how we  have been using this to bring real results and tackle real challenges
 
 == globally and in Portugal
 
@@ -276,6 +338,7 @@ https://datascience.ibm.com/
 
 == Fraud detection
 
+== !
 [.step]
 * Project with SIBS.
 * Real-time fraud detection.
@@ -284,19 +347,21 @@ https://datascience.ibm.com/
 
 == Healthcare, Pharmaceuticals & Life Science
 
+== !
+
 Several projects, including an innovative project with Mundipharma
+focused on public awareness and information through a bot with domain
+knowledge.
 
-* Chatbots and pharmaceutical litereature.
-
-Working projects with healthcare groups, we've been working on
+Some additional ongoing projects:
 
 [.step]
 * Adding cognitive support for patients with limited mobility.
-* Improving accessability using real-time AI-driven assistance.
+* Improve accessability using real-time AI-driven assistance.
 
 == Chatbots
 
-In different industry segments we have active projects with _chatbots_
+In different industry segments we have active projects around _chatbots_.
 
 [.step]
 * Automate first-line assistance.
@@ -318,13 +383,16 @@ For a major industrial company:
 
 * Automatic classification of documents using a taxonomic tree and
   natural language processing.
+  
+* Streamline classification of
+  documents by suggesting classes based on thre analyses of the
+  documents (which are _unstructured data_).
 
 
 [.big]
-== We have many active projects on these fields
+== We have many active projects in these and other fields
 
 == in fact, we have a Cognite Asset Factory
-
 
 [.huger]
 θ
