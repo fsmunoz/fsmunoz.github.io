@@ -34,6 +34,7 @@ an affiliate of the IBM Academy of Technology.
 image::https://researcher.watson.ibm.com/researcher/images/aotlogo_100x100.png[width=20%,role=inline] 
 
 
+[background-image="https://www.ibm.com/watson/artwithwatson/img/portraits/TW_artwork_small.jpg"]
 == !
 [.bigquote]
 To visualize the future of *IBM* you must know something of the past.
@@ -136,7 +137,7 @@ video::P18EdAKuC1U[youtube, options=autoplay]
 
 
 [.big]
-== Building on that we have built something special
+== From that we have built something special
 
 [.big]
 [background-video="./neurons.mp4",options="loop,muted"]
