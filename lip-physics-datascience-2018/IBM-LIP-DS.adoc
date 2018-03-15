@@ -264,7 +264,6 @@ through the decades.
 *2011*  Non-Planar Devices *2012*  Holey Optochip - 1 Terabit per Second Optical Bus
 *2013*  Millimeter Wave
 
-
 == more recently, and in the field of Artificial Intelligence
 
 [.big]
@@ -278,6 +277,40 @@ through the decades.
 [.big]
 == From that we have built something special
 
+== Watson Services
+== !
+[.step]
+* Visual Recognition: https://visual-recognition-demo.ng.bluemix.net/
+* Conversation: https://conversation-demo.ng.bluemix.net/
+* Speech to text: https://speech-to-text-demo.ng.bluemix.net/
+* Natural Language Classifier: https://natural-language-classifier-demo.ng.bluemix.net/
+
+== !
+[.step]
+* Natural Language Understanding: https://natural-language-understanding-demo.ng.bluemix.net/
+* Personality Insigths: https://personality-insights-demo.ng.bluemix.net/
+* Tone Analyser: https://tone-analyzer-demo.ng.bluemix.net/
+
+== Watson Analytics
+Watson Analytics is a smart data analysis and visualization service
+you can use to quickly _discover patterns and meaning_ in your data –
+all on your own. With guided data discovery, automated predictive
+analytics and cognitive capabilities such as natural language
+dialogue, you can interact with data conversationally to get answers
+you understand.
+
+https://watson.analytics.ibmcloud.com/
+
+[background-image=https://www.kdnuggets.com/wp-content/uploads/churn-factor.jpg]
+== !
+
+== !
+
+* Watson Explorer
+* Watson for Oncoloy
+* Watson for Genomics
+* ...
+
 [.big]
 [background-video="./neurons.mp4",options="loop,muted"]
 == a whole portfolio of Data Science, AI and Machine Learning solutions.
@@ -287,28 +320,19 @@ through the decades.
 [.bigger]
 == IBM Watson Data Platform
 
-[.big]
-== collaboration
-
-[.big]
-== integration
-
-[.big]
-== discovery
-
-[.big]
-== openness
-
-[.big]
-== full lifecycle
+== !
+[.step]
+* collaboration
+* integration
+* discovery
+* openness
+* full lifecycle
 
 == (from getting the data to showing it)
 
 [.big]
 [background-video="./stars.webm",options="loop,muted"]
 == in IBM Cloud
-
-== _of course_
 
 == !
 
@@ -317,6 +341,15 @@ through the decades.
 * Data analysis
 * Model creation
 * Building apps
+
+[background-image=https://datascience.ibm.com/docs/api/content/desktop/images/dsx_desktop_resources.png]
+== !
+
+[background-image=https://cdn-images-1.medium.com/max/2000/1*vR5cIYgF00ql4z9n_nlOag.png]
+== !
+
+[background-image=wdp_newmodel.png]
+== !
 
 == We use this to build interesting things
 
@@ -384,6 +417,9 @@ https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century
 
 == _right next to you_
 
+== !
+[.small]
+wink wink, nod nod
 
 [.big]
 == Back to Physics...
