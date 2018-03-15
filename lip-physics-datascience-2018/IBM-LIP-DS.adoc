@@ -330,9 +330,23 @@ https://watson.analytics.ibmcloud.com/
 
 == (from getting the data to showing it)
 
+[background-image="./power9.jpg"]
+== on premisses
+
+== !
+IBM POWER8 and POWER9 processors with NVIDA Tesla P100 GPU
+
+«... close to ideal scaling with new distributed deep learning
+software which achieved record communication overhead and 95% scaling
+efficiency on the Caffe deep learning framework over 256 NVIDIA GPUs
+in 64 IBM Power systems...»
+
+https://www.ibm.com/blogs/research/2017/08/distributed-deep-learning/
+
 [.big]
 [background-video="./stars.webm",options="loop,muted"]
-== in IBM Cloud
+== or in the IBM Cloud
+
 
 == !
 
