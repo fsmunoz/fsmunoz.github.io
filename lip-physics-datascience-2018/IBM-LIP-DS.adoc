@@ -3,7 +3,6 @@
 :slide-background-video: stars.webm
 :title-slide-background-video: stars.webm
 :title-slide-background-image:  http://www.sissa.it/tpp/images/cloudchamber.png
-:_title-slide-background-image:sml.png
 :_revealjs_center: false
 :icons: font
 :stem: latexmath
