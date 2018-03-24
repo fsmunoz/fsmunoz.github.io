@@ -142,7 +142,7 @@ Crucially, Data Science is about...
 
 == ...
 
-[background-image=http://www.presentation-guru.com/wp-content/uploads/2017/06/data-visualization-1000x600.jpg]
+[background-image=https://images.pexels.com/photos/239898/pexels-photo-239898.jpeg]
 [.bigger]
 == Data
 
@@ -223,7 +223,7 @@ through the decades.
 
 1967 - IBM, researcher *Benoît Mandelbrot*.
 
-[background-image=https://c1.staticflickr.com/9/8119/8676926026_2ada5d22aa_h.jpg]
+[background-image=https://www.extremetech.com/wp-content/uploads/2013/05/8676926026_050edb283d_o.jpg]
 == Nanotechnology
 
 1981: Gerd Binnig and Heinrich Rohrer invent the scanning tunneling microscope, revolutionizing our ability to manipulate solid surfaces the size of atoms.
@@ -278,6 +278,9 @@ through the decades.
 == From that we have built something special
 
 == Watson Services
+
+(all links lead to demos you can try in this browser!)
+
 == !
 [.step]
 * Visual Recognition: https://visual-recognition-demo.ng.bluemix.net/
@@ -347,7 +350,6 @@ https://www.ibm.com/blogs/research/2017/08/distributed-deep-learning/
 [background-video="./stars.webm",options="loop,muted"]
 == or in the IBM Cloud
 
-
 == !
 
 * Data governance
@@ -409,7 +411,9 @@ https://medium.com/ibm-watson-data-lab/using-artificial-intelligence-to-search-f
 
 == Data Scientist: The Sexiest Job of the 21st Century
 
-== LinkedIn
+_Harvard Business Review_
+
+== Physics everywhere!
 
 Jonathan Goldman, PhD in Physics from Stanford "...was intrigued by
 the linking he did see going on and by the richness of the user
@@ -459,7 +463,7 @@ and on a more personal note.
 [background-image="https://i2.wp.com/jerimumgeek.oportaln10.com.br/wp-content/uploads/2016/09/indiana-jones.jpg?fit=1282%2C812&ssl=1"]
 == !
 
-[background-image=https://alexraphael.files.wordpress.com/2015/10/film-quizzes-archeology-film-4.png]
+[background-image=https://www.austinchronicle.com/binary/0f4e/lara.jpg]
 == !
 
 == ... but when faced with being limited in certain areas...
@@ -467,9 +471,16 @@ and on a more personal note.
 
 [background-image="https://www.delo.si/assets/media/picture/20130709/Znanost__Bohr_1_hires.jpeg0.jpeg?rev=1"]
 == !
+(concerning Bohr's interest in free will)
 [.bigquote]
 "I don't know. It was in some way my life, you see."
 -- Niels Bohr
+
+
+
+[.small]
+_American Institute of Physics, Niels Bohr - Session V_
+https://www.aip.org/history-programs/niels-bohr-library/oral-histories/4517-5
 
 [background-image="ibm_old.jpg"]
 == We've been here for a while
@@ -562,14 +573,35 @@ _for free_ today  https://cognitiveclass.ai
 * IBM Cloud: integrate all IBM
   services with your solution, including Watson & Analytics services https://console.bluemix.net/catalog/
 
+== References
 
-
+[.tiny]
+* Cover image: http://www.sissa.it/tpp/, Scuola Internazionale Superiore di Studi Avanzati.
+* Bruce Springsteen photo: Odissey https://www.theodysseyonline.com/reasons-why-you-should-be-bruce-springsteen-fan
+* Data Scientist Venn diagram: Stephan Kolassa on StackExchange https://datascience.stackexchange.com/questions/2403/data-science-without-knowledge-of-a-specific-topic-is-it-worth-pursuing-as-a-ca
+* Data photo courtesy of CBS Television Distribution,via TVLine http://tvline.com/2016/08/03/star-trek-discovery-returning-cast-the-next-generation-data-brent-spiner/ 
+* Data code image by Lorenzo Cafaro https://www.pexels.com/photo/close-up-code-coding-computer-239898/
+* CERN Standard Model Equation Cup by Rain Rabbit https://www.flickr.com/photos/37996583811@N01/10352854943
+* Standard Model Lagrangian extracted and typed by T.D. Gutierrez from a series of appendices in Diagrammatica by Nobel Laureate Martinus Veltman http://nuclear.ucdavis.edu/~tgutierr/files/stmL1.html; image created from a LaTeX source by the author.
+* Stephen Hawking photo from Ethan Goldstien in "The story of Stephen Hawking", http://www.geekycamel.com/the-story-of-stephen-hawking/
+* Neurons animation by Michelle Kuykendal and Gareth Guvanasen (Georgia Tech's NeuroLab): https://www.youtube.com/watch?v=yy994HpFudc
+* Heinrich Rohrer and Gerd Binnig photo by IBM http://www-03.ibm.com/press/us/en/photo/34540.wss
+* Fractal animation by Alexandre Tavernier (http://coolfractalanimations.blogspot.pt/2014/05/mandelbrot-set-animation-color-changes.html)
+* THINK nano video image by IBM via ExtremeTech https://www.extremetech.com/extreme/154664-ibm-creates-worlds-smallest-movie-with-a-handful-of-precisely-placed-atoms
+* Deep Blue image by The Conversation http://theconversation.com/twenty-years-on-from-deep-blue-vs-kasparov-how-a-chess-match-started-the-big-data-revolution-76882
+* IBM Blue Gene photo by Argonne National Laboratory via Wikipedia https://en.wikipedia.org/wiki/Blue_Gene#/media/File:IBM_Blue_Gene_P_supercomputer.jpg
+* Watson Analytics image by Ran Bi in KDNuggets https://www.kdnuggets.com/2014/11/ibm-watson-analytics-replace-data-scientists.html
 
 == References
-* Fractal animation by Alexandre Tavernier (http://coolfractalanimations.blogspot.pt/2014/05/mandelbrot-set-animation-color-changes.html)
+
+[.tiny]
+* POWER9 chip by IBM.
+* Data Science Experience image by IBM.
+* Allen Telescope Array in Adam Cox "Using Artificial Intelligence to Search for Extraterrestrial Intelligence" https://medium.com/ibm-watson-data-lab/using-artificial-intelligence-to-search-for-extraterrestrial-intelligence-ec19169e01af
+* Gordon Childe photo from The Times https://www.thetimes.co.uk/article/skara-brae-archaeologist-was-mi5-target-8qqnzxm6l
+* Harrison Ford as Indiana Jones photo from Jerimum Geek https://jerimumgeek.oportaln10.com.br/filmes-da-saga-indiana-jones-chegam-a-netflix-1494; Indiana Jones is a property of The Walt Disney Company.
+* Angelina Jolie as Lara Croft from Austin Chronical https://www.austinchronicle.com/events/film/special-screenings/lara-corft-tomb-raider-2191358/ ; Tomb Raider is a property of Square Enix, the Tomb Raider movie is a property of Paramount Pictures.
 * IBM AI Research: https://researcher.watson.ibm.com/researcher/view_page.php?id=6813
-* Neurons image by Michelle Kuykendal and Gareth Guvanasen (Georgia Tech's NeuroLab): https://www.youtube.com/watch?v=yy994HpFudc
-* Spring cloud time lapse by Harrison Rowntree (https://www.youtube.com/watch?v=Qu7mcKZgqv0)
 
 
 
