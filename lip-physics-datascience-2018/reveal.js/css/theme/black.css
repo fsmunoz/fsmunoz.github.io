@@ -173,6 +173,11 @@ includes author and role!  This follows one of the cover design option
     font-size: 15%;
 }
 
+.reveal .tiny {
+    font-size: 25%;
+    line-height: 70%;
+}
+
 .small {
     font-size: 85%;
 }

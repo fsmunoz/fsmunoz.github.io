@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif');
+@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+
+body {
+  background: #DDDDDD;
+  background-color: #DDDDDD;
+  font-family: "IBM Plex Sans", "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 42px;
+  font-weight: normal;
+  color: #fff; 
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    //margin: -40% 0 0px -20%;
+    color: #000000;
+    //color: #0f6dff;
+    //font-weight: 600;
+    font-family: "IBM Plex Sans", "Source Sans Pro", Helvetica, sans-serif;
+    line-height: 1.2;
+    //text-align: left;
+    letter-spacing: normal;
+    //text-transform: uppercase;
+    text-shadow: none;
+    word-wrap: break-word; }
