@@ -72,7 +72,7 @@ of study and varied kinds of learning, for it is by his judgement that
 all work done by the other arts is put to test..."
 -- Vitruvius (de arch. 2.1.1)
 
-[background-image=https://images.pexels.com/photos/239898/pexels-photo-239898.jpeg]
+[background-image=pexels-photo-239898.jpeg]
 [.big]
 == Cities have lots of data
 
