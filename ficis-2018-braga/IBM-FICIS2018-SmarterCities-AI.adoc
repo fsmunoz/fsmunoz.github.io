@@ -42,6 +42,10 @@ image::https://researcher.watson.ibm.com/researcher/images/aotlogo_100x100.png[w
 Since 2000, *52%* of companies in the Fortune 500 have either gone
 bankrupt, been acquired or ceased to exist.
 
+[background-image=blade-runner.jpg]
+== !
+(and it started before that...)
+
 == New business models affect society
 
 == ... and society's most complex organism
@@ -59,14 +63,8 @@ bankrupt, been acquired or ceased to exist.
 [.big]
 == Vitruvius
 
-[background-image=vitruvius_ideal_rv_bw.jpg]
-== Location, location, location...
-[.bigquote]
-"First comes the choice of a very healthy site"
--- Vitruvius (de arch.2.4.1)
 
-
-[background-image=vitruvius_ideal_rv_bw.jpg]
+[background-image=vitruvius_ideal_rv.jpg]
 == Data & Knowledge
 [.bigquote]
 "...The architect should be equipped with knowledge of many branches
@@ -78,8 +76,10 @@ all work done by the other arts is put to test..."
 [.big]
 == Cities have lots of data
 
-== this is the Internet of Things
+== (this is the Internet of Things, after all)
 
+
+[background-color="white"]
 == !
 [.stretch]
 image::image1.png[]
@@ -90,11 +90,14 @@ image::image1.png[]
 [.big]
 == But what can we do with it?
 
+[background-video="./neurons.mp4",options="loop,muted"]
 == Enter Data Science, Machine Learning...
+
 
 [.bigger]
 == and AI
 
+[background-image=vitruvius_ideal_rv.jpg]
 == Data & Knowledge
 [.bigquote]
 "...all that is greatest and essential is under the direction of the
@@ -113,9 +116,6 @@ thinking power of the mind and the understanding..."
 You can further expand on the definition by understanding that we
 solve those *business problems* using *artificial intelligence* to create
 *predictions and prescriptions* and to *optimize processes*.
-
-== !
-[background-video="./stars.webm",options="loop,muted"]
 
 == Analytics
 
@@ -152,12 +152,9 @@ solve those *business problems* using *artificial intelligence* to create
 
 == and also recent breakthroughs that ended the "AI Winter"
 
+[background-image=https://n1s1t23sxna2acyes3x4cz0h-wpengine.netdna-ssl.com/wp-content/uploads/2017/09/watson_on_jeopardy.jpg]
 [.big]
 == Watson Jeopardy! Challenge
-
-== !
-[.stretch]
-video::P18EdAKuC1U[youtube, options=autoplay]
 
 == !
 [%step]
@@ -167,8 +164,14 @@ video::P18EdAKuC1U[youtube, options=autoplay]
 == And for the city this can be applied in different scales.
 
 
-[background-image=vitruvius_ideal_rv_bw.jpg]
-== Supply chain
+[.big]
+== to build a Smarter Planet
+[background-iframe=https://www.youtube.com/embed/pkBwB8ofcXI?autoplay=1]
+== !
+
+
+[background-image=vitruvius_ideal_rv.jpg]
+== Supply chain, then and now
 [.bigquote]
 
 "...and selecting a neighbourhood that can supply plenty
@@ -177,6 +180,7 @@ convenient rivers or seaports affording easy means of transport to the
 city..."
 -- Vitruvius (de arch. 2.5.1)
 
+== Cities are also big centres of commerce and transportation.
 
 [.big]
 [background-image=news-transport-jan18-portofrotterdam.jpg]
@@ -195,7 +199,30 @@ city..."
 [background-image=port_digital.png]
 == !
 
-[background-image=vitruvius_ideal_rv_bw.jpg]
+
+[background-image=twin.png]
+== !
+
+[%step]
+ * *Digital twin*
+ * *Weather data integration*
+ * *Digitisation*
+ * *Operational improvements*
+
+
+== This is also why IBM acquired...
+
+[background-image="http://www.slate.com/content/dam/slate/blogs/moneybox/2015/10/29/2015-ibm-weather-company-logo-clouds.jpg.CROP.promo-xlarge2.jpg"]
+== !
+
+== !
+(largest IoT network in the world)
+
+[.big]
+== Smarter cities are composed of _smarter places_
+
+
+[background-image=vitruvius_ideal_rv.jpg]
 == Vertical space
 [.bigquote]
 
@@ -204,30 +231,77 @@ a result of the many floors high in the air, the Roman people easily
 find excellent places in which to live..."
 -- Vitruvius (de arch. 2.8.17)
 
-== Smarter cities are composed of _smarter places_
+[background-image="https://www.ibm.com/watson/assets/duo/img/hero/hero-kone2.jpg"]
+== !
+A billion people a day. Millions of elevators. No room for downtime
 
 [background-iframe=http://machineconversations.kone.com/]
 == !
 
-[background-iframe=https://www.youtube.com/embed/yirWh_RFkKgR0tHEJl_Y8E]
+
+== Change is inevitable.
+
+[background-image=vitruvius_ideal_rv.jpg]
+== Location, location, location...
+[.bigquote]
+"First comes the choice of a very healthy site"
+-- Vitruvius (de arch.2.4.1)
+
+== !
+and cities also change with time.
+
+[background-image=antonino.png]
+== New routes to new places
+
+== We work with those responsible to enable them to cope with change
+
+
+[background-image=ioc_tub.png]
+== !
+
 
 == !
 
-- Disrupção social e o que isso significa também para uma cidade
-- A Inteligência Artificial como parte dos novos desafios e modelos de negócio
-- A combinação IoT+AI como combinação fundamental de uma cidade
-- O acesso aos dados e a produção de dados: desafios tecnológicos e sociais
-- AI, Watson Analytics e Watson IoT: exemplos concretos de vária escala, desde elevadores a grandes portos, passando pelos trabsportes públicos.
-- A forma como a IBM seguiu estes desenvolvimentos desde muito cedo: o SC Challenge, etc.
- 
-Como pano de fundo a descrição da "cidade ideal" de Vitrúvio e como o conceito da cidade se adapta e evoluí, e como a Inteligência Artificial é um factor de disrupção fortíssimo, e um piscar de olhos aos TUB também. Essencialmente falar no que nos diferencia sem esquecer a componente de plataforma IoT.
- 
+integrating many data sources in real-time
 
-== IBM 5 in 5
+[background-image=iot_tub.png]
+== !
 
 == !
 
-and what it means to cities.
+and providing the tools to analyse all that data
+
+[background-image=watson_tub.png]
+== !
+
+[background-image=muralha_romana_medieval.JPG]
+== New times, new centralities, new challenges
+
+
+== Global Urban Trends
+[%step]
+* Urbanization and decentralization
+* Climate change
+* Migration
+
+== Social equity
+
+[background-image="image.imageformat.lightbox.822921197.jpg"]
+== Inequality has risen to its highest levels in the past three decades, interacting with the other trends in significant ways.
+
+[.big]
+== The real challenge?
+
+[background-image=https://ebooks.adelaide.edu.au/l/literature/science-and-literature-in-the-middle-ages/images/fig049.jpg]
+[.big]
+== Using AI, IoT and cognitive computing for the betterment of cities
+
+== !
+
+What the future holds?
+
+[background-image="http://web.eecs.umich.edu/~profmars/wp-content/uploads/2014/10/SHORPY_00529u1-1080x380.jpg"]
+== IBM Research 5 in 5
 
 [background-image=blockchain-stop.jpg]
 == Blockchain
@@ -268,596 +342,24 @@ solutions to control bias in AI and champion AI systems free of it.
 [background-image="http://research.ibm.com/ibm-q/images/card-360.jpg"]
 == Quantum computing
 
-In five years, the effects of quantum computing will reach beyond the research lab. It will be used extensively by new categories of professionals and developers looking to this emerging method of computing to solve problems once considered unsolvable. 
+In five years, the effects of quantum computing will reach beyond the
+research lab. It will be used extensively by new categories of
+professionals and developers looking to this emerging method of
+computing to solve problems once considered unsolvable.
 
 
+== In short, we need to see the City as continuously reinventing itself.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[.big]
-== Data Science
-
-[.big]
-[background-image=https://az616578.vo.msecnd.net/files/2016/04/08/6359575544022138351572625345_bs.jpg]
-== ... what is it good for?
-
-
+[background-image=https://www.augeoartspace.it/images/milano-duomo-irenekung.jpg]
 == !
 
-(absolutely... something!)
+_"La città di Leonia rifà se stessa tutti i giorni: ogni mattina la popolazione si risveglia tra lenzuola fresche, si la-va con saponette appena sgusciate dall’involucro, indos-sa vestaglie nuove fiammanti, estrae dal piú perfezionatofrigorifero barattoli di latta ancora intonsi, ascoltando leultime filastrocche dall’ultimo modello d’apparecchio"_
+-- Italo Calvino, Le città invisibili (Le città continue)
 
-[.bigger]
-== But what it is?
 
-== !
-plenty of definitions
-
-== !
-[.bigquote]
-"At its core, data science is applying the scientific method to solve business problems."
--- Seth Dobrin & Jean-François Puget (IBM)
-
-== !
-
-You can further expand on the definition by understanding that we
-solve those *business problems* using *artificial intelligence* to create
-*predictions and prescriptions* and to *optimize processes*.
-
-== !
-[background-video="./stars.webm",options="loop,muted"]
-
-== Analytics
-
-[%step]
-* «The scientific process of transforming data into insight for making better decisions» (INFORMS)
-
-== The Analytics Maturity Model
-[.step]
-- What happened? _Descriptive_
-- Why did it happen? _Diagnostic_
-- What will happen? _Predictive_
-- What should I do? _Prescriptive_
-
-== !
-
-Data Science includes analytics... but it is not (just) analytics.
-
-== So...what does it look like?
-
-== !
-Let's hear Alix explaining what she does as a Data Scientist at IBM
-
-== !
-[.stretch]
-video::7DnVAmbEBfk[youtube, options=autoplay]
-
-[.big]
-== Data Science
-
-A _new frontier_ in Analytics?
-
-== multiple domains, multiple skills
-
-== !
-image::datascientist_diagram.png[]
-[.small]
-(source: Stephan Kolassa on StackExchange)
-
-
-== but... what about Physics?
-
-[background-image=http://www.sissa.it/tpp/images/cloudchamber.png]
-[.big]
-== Is a background in Physics helpful?
-
-== !
-[.small]
-(spoiler warning: the answer is "yes" regardless of the question)
-
-== !
-
-This is one "laundry list" of what IBM looks for in a Data Scientist
-
-== !
-[.step]
-* Training as a scientist, with an MS or PhD
-* Expertise in machine learning and statistics, with an emphasis on decision optimization
-* Expertise in R, Python, or Scala
-* Ability to transform and manage large data sets
-* Proven ability to apply the skills above to real-world business problems
-* Ability to evaluate model performance and tune it accordingly
-
-== A Physics background prepares for *all* of them
-
-== !
-
-(do focus on the programming though)
-
-== !
-Crucially, Data Science is about...
-
-[background-image=https://pmctvline2.files.wordpress.com/2016/07/star-trek-discovery-brent-spiner-data.jpg?w=620]
-[.bigger]
-== Data
-
-== ...
-
-[background-image=https://images.pexels.com/photos/239898/pexels-photo-239898.jpeg]
-[.bigger]
-== Data
-
-[.big]
-== Lots of data
-
-== and making sense out of data
-
-[background-image="https://www.sciencealert.com/images/10352854943_12f4793308_k.jpg"]
-== !
-
-== sometimes more data ...
-
-[background-image="sml_white.png"]
-[.big]
-== ...doesn't necessarily help
-
-== !
-
-(especially when you don't know what to do with it)
-
-== But what's important is to keep asking.
-
-[background-image=http://d2otcp20hyujm8.cloudfront.net/wp-content/uploads/2017/09/18083123/ka2-F2E7-8FF5-F1E2.jpg]
-== !
-[.bigquote]
-"I am just a child who has never grown up. I still keep asking these 'how' and 'why' questions. Occasionally, I find an answer."
--- Stephen Hawking
-
-
-== !
-[.small]
-
-..._Data science employs techniques and theories drawn from many
-fields within the broad areas of mathematics, statistics,
-chemometrics, information science, and computer science, including
-*signal processing, probability models, machine learning, statistical
-learning, data mining, database, data engineering, pattern recognition
-and learning, visualization, predictive analytics, uncertainty
-modeling, data warehousing, data compression, computer programming,
-artificial intelligence, and high performance computing*..._
-
-[background-video="./neurons.mp4",options="loop,muted"]
-== most of that should sound awfully familiar to Physics graduates.
-
-[.big]
-== which explains why IBM has such long relation with Physics.
-
-== ...and Physics Engineering...
-
-== _... and Artificial Intelligence..._
-
-[.bigger]
-== ...and Science in general.
-
-[background-image="http://www-03.ibm.com/press/us/en/attachment/34540.wss?fileId=ATTACH_FILE2&fileName=Binnig_Rohrer.jpg"]
-[.big]
-== Five IBM physicists have received the Nobel Prize in Physics
-
-== !
-[.step]
-* Leo Esaki in 1973 for his work in semiconductors.
-* Gerd Bining and Heinrich Rohrer in 1986 for the scanning tunneling microscope.
-* Georg Bednorz and Alex Mueller in 1987 for research in superconductivity.
-
-[.big]
-== And not just Nobel prizes
-
-Many essential scientific breakthroughs were born from IBM Research
-through the decades.
-
-== Quantum tunneling
-
-1958: Leo Esaki's discovery of the semiconductor junction, called the Esaki diode, finds wide use in electronics applications	
-
-[background-image=http://1.bp.blogspot.com/-0RDVXPxVh-g/U0xE4ANp3LI/AAAAAAAAABc/kJfowUD4Dnc/s1600/6.gif]
-== Fractal Geometry
-
-1967 - IBM, researcher *Benoît Mandelbrot*.
-
-[background-image=https://www.extremetech.com/wp-content/uploads/2013/05/8676926026_050edb283d_o.jpg]
-== Nanotechnology
-
-1981: Gerd Binnig and Heinrich Rohrer invent the scanning tunneling microscope, revolutionizing our ability to manipulate solid surfaces the size of atoms.
-
-== Quantum teleportation
-
-1993: An international group of six scientists, including IBM Fellow Charles H. Bennett, confirmed the intuitions of the majority of science fiction writers by showing that perfect teleportation is indeed possible in principle, but only if the original is destroyed.
-
-
-[background-image=https://images.theconversation.com/files/168950/original/file-20170511-32613-1ipnlda.jpg?ixlib=rb-1.1.0&rect=0%2C49%2C2048%2C993&q=45&auto=format&w=1356&h=668&fit=crop]
-[.big]
-== Deep Blue Chess
-
-*1997: First computer to defeat human World Chess Champion, Garry Kasparov.*
-
-[background-image=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/IBM_Blue_Gene_P_supercomputer.jpg/1200px-IBM_Blue_Gene_P_supercomputer.jpg]
-[.big]
-== IBM Blue Gene
-
-*2004: Supercomputer to observe protein folding and gene development.*
-
-
-== ... and many others
-
-[.small]
-*1947*  Magnetic Core Memory  *1957*  Landauer Formalism - Conductance must come in Quantized Units
-*1958*  Quantum Tunnelling *1960* Thin Film Heads
-*1966*  Tunable Lasers *1966*  Two-Dimensional Electron Gas (2DEG)
-*1967*  Josephson Junctions *1968*  DRAM - 1 Transistor RAM
-*1974*  Dennard Scaling (aka Why Moore's Law also speeds up transistors in Lay Terms) *1978*  Scanning Tunneling Microscope (1986 Nobel Prize Winner)
-*1982*  Thermodynamics of Computation *1983*  High Temperature Superconductors (1987 Nobel Prize Winner)
-*1990*  Moving Atoms *1991*  RFID
-*1993*  Quantum Teleportation *1993*  Seminal Contributions to the Theoretical Foundation of Quantum Information Processing
-*1994*  High-Speed Silicon-Germanium Electronics *1997*  GMR - Giant Magnetoresistive Heads
-*1998*  Copper Interconnect *2002*  SOI: Silicon on Insulator
-*2002*  Theory of Nanoscale Material *2007*  High-K Gate Dieletric
-*2008*  Racetrack Memory *2008*  Cooling 3D Chips
-*2011*  Non-Planar Devices *2012*  Holey Optochip - 1 Terabit per Second Optical Bus
-*2013*  Millimeter Wave
-
-== more recently, and in the field of Artificial Intelligence
-
-[.big]
-== Watson Jeopardy! Challenge
-
-== !
-[%step]
-* First computer to defeat TV game show Jeopardy! champions.
-* Research teams are working to *adapt Watson to other information-intensive fields*, such as telecommunications, financial services and government.
-
-[.big]
-== From that we have built something special
-
-== Watson Services
-
-(all links lead to demos you can try in this browser!)
-
-== !
-[.step]
-* Visual Recognition: https://visual-recognition-demo.ng.bluemix.net/
-* Conversation: https://conversation-demo.ng.bluemix.net/
-* Speech to text: https://speech-to-text-demo.ng.bluemix.net/
-* Natural Language Classifier: https://natural-language-classifier-demo.ng.bluemix.net/
-
-== !
-[.step]
-* Natural Language Understanding: https://natural-language-understanding-demo.ng.bluemix.net/
-* Personality Insigths: https://personality-insights-demo.ng.bluemix.net/
-* Tone Analyser: https://tone-analyzer-demo.ng.bluemix.net/
-
-== Watson Analytics
-Watson Analytics is a smart data analysis and visualization service
-you can use to quickly _discover patterns and meaning_ in your data –
-all on your own. With guided data discovery, automated predictive
-analytics and cognitive capabilities such as natural language
-dialogue, you can interact with data conversationally to get answers
-you understand.
-
-https://watson.analytics.ibmcloud.com/
-
-[background-image=https://www.kdnuggets.com/wp-content/uploads/churn-factor.jpg]
-== !
-
-== !
-
-* Watson Explorer
-* Watson for Oncoloy
-* Watson for Genomics
-* ...
-
-[.big]
-[background-video="./neurons.mp4",options="loop,muted"]
-== a whole portfolio of Data Science, AI and Machine Learning solutions.
-
-== ...integrated and working together and with researchers
-
-[.bigger]
-== IBM Watson Data Platform
-
-== !
-[.step]
-* collaboration
-* integration
-* discovery
-* openness
-* full lifecycle
-
-== (from getting the data to showing it)
-
-[background-image="./power9.jpg"]
-== on premisses
-
-== !
-IBM POWER8 and POWER9 processors with NVIDA Tesla P100 GPU
-
-«... close to ideal scaling with new distributed deep learning
-software which achieved record communication overhead and 95% scaling
-efficiency on the Caffe deep learning framework over 256 NVIDIA GPUs
-in 64 IBM Power systems...»
-
-https://www.ibm.com/blogs/research/2017/08/distributed-deep-learning/
-
-[.big]
-[background-video="./stars.webm",options="loop,muted"]
-== or in the IBM Cloud
-
-== !
-
-* Data governance
-* Data preparation
-* Data analysis
-* Model creation
-* Building apps
-
-[background-image=https://datascience.ibm.com/docs/api/content/desktop/images/dsx_desktop_resources.png]
-== !
-
-[background-image=https://cdn-images-1.medium.com/max/2000/1*vR5cIYgF00ql4z9n_nlOag.png]
-== !
-
-[background-image=wdp_newmodel.png]
-== !
-
-== We use this to build interesting things
-
-== !
-
-an example
-
-== Adam Cox, Watson Data Platform, IBM.
-
-[.small]
-"Former astro-particle experimental physicist (neutrino physics and
-direct dark matter detection). Experience in all aspects of
-constructing large hardware and software projects, such as system
-design and integration, hardware design, hardware programming,
-commissioning and calibration, software engineering, data management
-and statistical analysis. As a Developer Advocate I build interesting
-data science projects for citizen scientists utilizing IBM Cloud
-technologies."
-
-[background-image=https://cdn-images-1.medium.com/max/600/1*Pp7iwy5FXXOp5zCJIVVChg.jpeg]
-== SETI @ IBM Cloud
-
-A citizen scientist project to apply deep learning to improve the
-state of the art in the search for extraterrestrial intelligence
-(SETI) research.
-
-[background-image=https://cdn-images-1.medium.com/max/600/1*lztrJJuhkBtxdomORdT2yA.png]
-== !
-[.black]
-Deep Neural Networks have been trained to classify simulated
-radio-telescope signals with 95% accuracy.
-
-https://medium.com/ibm-watson-data-lab/using-artificial-intelligence-to-search-for-extraterrestrial-intelligence-ec19169e01af
-
-
-== _Cleaning noise_ it's a huge parte of Data Science
-
-== !
-
-...Nyquist noise... Brownian motion... stochastic processes...
-
-== Rings a bell?
-
-== Data Scientist: The Sexiest Job of the 21st Century
-
-_Harvard Business Review_
-
-== Physics everywhere!
-
-Jonathan Goldman, PhD in Physics from Stanford "...was intrigued by
-the linking he did see going on and by the richness of the user
-profiles. It all made for messy data and unwieldy analysis, but as he
-began exploring people’s connections, he started to see
-possibilities. He began forming theories, testing hunches, and finding
-patterns that allowed him to predict whose networks a given profile
-would land in..."
-
-https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century
-
-[.big]
-== We have many active projects in these and other fields
-
-== in fact, we have a Cognite Asset Factory
-
-[.huger]
-θ
-
-== _right next to you_
-
-== !
-[.small]
-wink wink, nod nod
-
-[.big]
-== Back to Physics...
-
-== !
-and on a more personal note.
-
-== My own background has helped me in Data Science
-
-== !
-[.step]
-* Analyse many different types of data sources in search for relations
-* Observe social relations and apply scientific principles to the subject matter
-* Discover new material evidence and cross-check it with the existing scientific consensus
-* Select appropriate models depending on the data and the goals
-* Critically review the discovery process and suggest improvements
-
-[background-image="https://www.thetimes.co.uk/imageserver/image/methode%2Fsundaytimes%2Fprod%2Fweb%2Fbin%2F29e092be-e279-11e7-b446-30898d5bb4d6.jpg"]
-== ! 
-
-== Nothing?
-
-[background-image="https://i2.wp.com/jerimumgeek.oportaln10.com.br/wp-content/uploads/2016/09/indiana-jones.jpg?fit=1282%2C812&ssl=1"]
-== !
-
-[background-image=https://www.austinchronicle.com/binary/0f4e/lara.jpg]
-== !
-
-== ... but when faced with being limited in certain areas...
-
-
-[background-image="https://www.delo.si/assets/media/picture/20130709/Znanost__Bohr_1_hires.jpeg0.jpeg?rev=1"]
-== !
-(concerning Bohr's interest in free will)
-[.bigquote]
-"I don't know. It was in some way my life, you see."
--- Niels Bohr
-
-
-
-[.small]
-_American Institute of Physics, Niels Bohr - Session V_
-https://www.aip.org/history-programs/niels-bohr-library/oral-histories/4517-5
-
-[background-image="ibm_old.jpg"]
-== We've been here for a while
-
-== and helped to achieve some rather important things
-
-[background-video="./moon.mp4",options="loop,muted"]
-[.big]
-== some (extremely) big
-
-[background-video="./boy.mp4",options="loop,muted"]
-[.big]
-== some (extremely) small
-
-[background-image="http://research.ibm.com/ibm-q/images/card-360.jpg"]
-[.big]
-== but always shaping the future
-
-
-[.big]
-== Quantum Computing
-
-
-== !
-
-In the summer of 1981, IBM and MIT organized a landmark event called
-the First Conference on the Physics of Computation.
-
-It took place at Endicott House, a French-style mansion not far from
-the MIT campus.
-
-[background-image="https://cdn.technologyreview.com/i/images/ma18-quantum2.png""]
-== !
-
-Bennett and others realized that some kinds of computations that are
-exponentially time consuming, or even impossible, could be efficiently
-performed with the help of quantum phenomena. A quantum computer would
-store information in quantum bits, or qubits.
-
-[background-image="http://static.dnaindia.com/sites/default/files/styles/full/public/2017/02/08/546623-2-richard-feynman-wiki-commons.jpg"]
-== !
-
-"Nature is quantum, goddamn it! So if we want to simulate it, we need a quantum computer!"
--- Richard Feynman
-
-== !
-[.stretch]
-video::o-FyH2A7Ed0[youtube, start=0, options=autoplay]
-
-[background-image="http://research.ibm.com/ibm-q/images/card-360.jpg"]
-== IBM Q
-
-An industry-first initiative to build commercially available universal
-quantum computers for business and science.
-
-== !
-
-* 20 qubit available, 50 qubit developed
-* QISkit: open to *anyone* for development.
-* IBM Q Network: advancing quantum computing together
-
-
-[.big]
-== These are all reasons behind IBM's motto
-
-[.huger]
-== THINK
-
-
-[background-image="./lisbon.jpg"]
 [.big]
 == Thank you!
 
-
-== Some final links
-
-[.big]
-== Community
-
-Tools, algorithms and approaches are incresingly more open and social.
-
-* Cognitive Class: Build Data Science and Cognitive Computing skills
-_for free_ today  https://cognitiveclass.ai
-* Data Scientist Workbench: virtual lab with Data Science tools ready to explore and put to use https://datascientistworkbench.com/
-
-== !
-
-* Data Science Experience: Learn, create and collaborate https://datascience.ibm.com/
-* IBM Code: Code patterns, tech talks, open source projects, developer advocates, dynamic communities, upcoming events. https://developer.ibm.com/code/
-* IBM Cloud: integrate all IBM
-  services with your solution, including Watson & Analytics services https://console.bluemix.net/catalog/
-
-== References
-
-[.tiny]
-* Cover image: http://www.sissa.it/tpp/, Scuola Internazionale Superiore di Studi Avanzati.
-* Bruce Springsteen photo: Odissey https://www.theodysseyonline.com/reasons-why-you-should-be-bruce-springsteen-fan
-* Data Scientist Venn diagram: Stephan Kolassa on StackExchange https://datascience.stackexchange.com/questions/2403/data-science-without-knowledge-of-a-specific-topic-is-it-worth-pursuing-as-a-ca
-* Data photo courtesy of CBS Television Distribution,via TVLine http://tvline.com/2016/08/03/star-trek-discovery-returning-cast-the-next-generation-data-brent-spiner/ 
-* Data code image by Lorenzo Cafaro https://www.pexels.com/photo/close-up-code-coding-computer-239898/
-* CERN Standard Model Equation Cup by Rain Rabbit https://www.flickr.com/photos/37996583811@N01/10352854943
-* Standard Model Lagrangian extracted and typed by T.D. Gutierrez from a series of appendices in Diagrammatica by Nobel Laureate Martinus Veltman http://nuclear.ucdavis.edu/~tgutierr/files/stmL1.html; image created from a LaTeX source by the author.
-* Stephen Hawking photo from Ethan Goldstien in "The story of Stephen Hawking", http://www.geekycamel.com/the-story-of-stephen-hawking/
-* Neurons animation by Michelle Kuykendal and Gareth Guvanasen (Georgia Tech's NeuroLab): https://www.youtube.com/watch?v=yy994HpFudc
-* Heinrich Rohrer and Gerd Binnig photo by IBM http://www-03.ibm.com/press/us/en/photo/34540.wss
-* Fractal animation by Alexandre Tavernier (http://coolfractalanimations.blogspot.pt/2014/05/mandelbrot-set-animation-color-changes.html)
-* THINK nano video image by IBM via ExtremeTech https://www.extremetech.com/extreme/154664-ibm-creates-worlds-smallest-movie-with-a-handful-of-precisely-placed-atoms
-* Deep Blue image by The Conversation http://theconversation.com/twenty-years-on-from-deep-blue-vs-kasparov-how-a-chess-match-started-the-big-data-revolution-76882
-* IBM Blue Gene photo by Argonne National Laboratory via Wikipedia https://en.wikipedia.org/wiki/Blue_Gene#/media/File:IBM_Blue_Gene_P_supercomputer.jpg
-* Watson Analytics image by Ran Bi in KDNuggets https://www.kdnuggets.com/2014/11/ibm-watson-analytics-replace-data-scientists.html
-
-== References
-
-[.tiny]
-* POWER9 chip by IBM.
-* Data Science Experience image by IBM.
-* Allen Telescope Array in Adam Cox "Using Artificial Intelligence to Search for Extraterrestrial Intelligence" https://medium.com/ibm-watson-data-lab/using-artificial-intelligence-to-search-for-extraterrestrial-intelligence-ec19169e01af
-* Gordon Childe photo from The Times https://www.thetimes.co.uk/article/skara-brae-archaeologist-was-mi5-target-8qqnzxm6l
-* Harrison Ford as Indiana Jones photo from Jerimum Geek https://jerimumgeek.oportaln10.com.br/filmes-da-saga-indiana-jones-chegam-a-netflix-1494; Indiana Jones is a property of The Walt Disney Company.
-* Angelina Jolie as Lara Croft from Austin Chronical https://www.austinchronicle.com/events/film/special-screenings/lara-corft-tomb-raider-2191358/ ; Tomb Raider is a property of Square Enix, the Tomb Raider movie is a property of Paramount Pictures.
-* IBM AI Research: https://researcher.watson.ibm.com/researcher/view_page.php?id=6813
 
 
 
