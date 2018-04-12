@@ -388,37 +388,42 @@ but we'll do a hands-on demo of Watson Analytics now.
 
 https://watson.analytics.ibmcloud.com/?loginAccountId=3ZPDZ2KL8DE0&loginTenantId=054V4X80MS1P3P[Watson Analytics Portal link]
 
-== !
+[NOTE.speaker]
+--
+. Open CSV
+. "How to ask" - explains data entry
+. Ask "what is the cost of courses by organization?"
+. Select "What is the breakdown of Course cost by Organization?"
+. Tree map shows ammount of training per org as size of box
+. More detail  by clicking in box
+. Discoveries panel: without any action Watson Analytics identifies patterns and associations, updated in real-time
+. Let's see how it evolved over time: data slots at the bottom
+. Tap Multiplier, select Year, Done
+. Change the name by double clicking on tab name to "Course Costs"
+. Explore from more perspectives: Add a starting point from Discories, the "Course Cost by Department"
+. Now find how many new hires are planned: tap "Course cost" in theinteractive title (in blue), tap "External hires"
+. Change visualization: Tap Visualization Types, select Packed Bubble.
+. The discoveries panel is closed but can be reopened.
+. Change the title to "External Hires"
+. Now let's find out what is driving expenses!
+. Add a new tab to adda new starting point.
+. Ask "What drives expense total?", select.
+. Watson Analytics applies statistical algorithms to the data to discover insights,patterns, and correlations in the data. The spiral visualization shows you thekey drivers for the target, Expense total. The closer the driver is to the center,the stronger it is
+. Change name to Expense Total
+. Tap over a dot to see the predictive strength of each driver: Position and Organization impacts expense at 94%.
+. Let's add detailed visualization for it: Add Detailed Visualization (+)
+. Change name to Drivers and return to landing page
+. Creating a Display to share: tap Display->New Display
+. Name it and select Dashboard type, select the one with 4 rectangles.
+. Add by opening the Personal folder and drag the Course cost  to the top left, External Hires to the bottom left, Expense total to the top right , Drivers to the bottom right
+. Add a filter to see the impactof duration: tap filters, "Course days" in the "This tab" filter area. Move the slider and it updates in real-time.
+. Tap Course days again to close
+. Save to the Personal folder: one could add widgets, media, etc.
+. Share!
+. 
 
-(another example to catch up when you get home!)
+--
 
-[background-video="./stars.webm",options="loop,muted"]
-== Predictive Analytics and the Internet of Things
-
-https://www.ibm.com/blogs/internet-of-things/protecting-endangered-rhinos/
- 
-* Over the past decade, more than 7,000 rhinos were killed across the African continent.
-* In 2016, more than 1,000 were killed in South Africa alone.
-* At this rate the rhino could become extinct in less than a decade.
-
-== How?
-
-Following the sentinels!
-
-[.step]
-* Rhinos are _not_ tracked so that they can't be found.
-* Other animals are monitored for their behaviour
-* The sensor data is used to create rule-based patterns, or algorithms, built on the prey-animals’ response to perceived threat
-
-
-== Fighting against poaching
-
-Using IoT and predictive analytics.
-
-[.stretch]
-video::E9olFUDD_2M[youtube, start=0, options=autoplay]
-
-[background-video="./stars.webm",options="loop,muted"]
 == Community
 
 Tools, algorithms and approaches are incresingly more open and social.
