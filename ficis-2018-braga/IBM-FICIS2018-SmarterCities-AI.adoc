@@ -235,7 +235,7 @@ find excellent places in which to live..."
 == !
 A billion people a day. Millions of elevators. No room for downtime
 
-[background-iframe=http://machineconversations.kone.com/]
+[background-iframe=http://machineconversations.kone.com]
 == !
 
 
@@ -353,7 +353,7 @@ computing to solve problems once considered unsolvable.
 [background-image=https://www.augeoartspace.it/images/milano-duomo-irenekung.jpg]
 == !
 
-_"La città di Leonia rifà se stessa tutti i giorni: ogni mattina la popolazione si risveglia tra lenzuola fresche, si la-va con saponette appena sgusciate dall’involucro, indos-sa vestaglie nuove fiammanti, estrae dal piú perfezionatofrigorifero barattoli di latta ancora intonsi, ascoltando leultime filastrocche dall’ultimo modello d’apparecchio"_
+_"La città di Leonia rifà se stessa tutti i giorni: ogni mattina la popolazione si risveglia tra lenzuola fresche, si lava con saponette appena sgusciate dall’involucro, indossa vestaglie nuove fiammanti, estrae dal piú perfezionato frigorifero barattoli di latta ancora intonsi, ascoltando leultime filastrocche dall’ultimo modello d’apparecchio"_
 -- Italo Calvino, Le città invisibili (Le città continue)
 
 
