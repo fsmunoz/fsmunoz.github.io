@@ -1,0 +1,241 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Digital disruption origins, trends, impacts: An IBM Point-of-View</title><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" name="viewport"><link href="reveal.js/css/reveal.css" rel="stylesheet"><link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"><script type="text/x-mathjax-config">MathJax.Hub.Config({
+tex2jax: {
+  inlineMath: [["\\(", "\\)"]],
+  displayMath: [["\\[", "\\]"]],
+  ignoreClass: "nostem|nolatexmath"
+},
+asciimath2jax: {
+  delimiters: [["\\$", "\\$"]],
+  ignoreClass: "nostem|noasciimath"
+},
+TeX: { equationNumbers: { autoNumber: "none" } }
+});</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.4.0/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script><link href="reveal.js/lib/css/zenburn.css" rel="stylesheet"><script>document.write( '<link rel="stylesheet" href="reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );</script></head><body><div class="reveal"><div class="slides"><section class="title" data-state="title" data-background-image="luddites.png"><h1>Digital disruption origins, trends, impacts</h1><h2>An IBM Point-of-View</h2><div class="preamble"><div class="paragraph location"><p><strong>Frederico Muñoz</strong> | Chief Architect | IBM Technical Expert Council (SPGI)
+HUMANE Spring Seminar
+Aveiro | April 2018</p></div></div></section>
+<section id="_hello" class="big"><h2>Hello!</h2></section>
+<section><div class="imageblock" style=""><img src="https://avatars0.githubusercontent.com/u/285727?s=460&v=4" alt="285727?s=460&amp;v=4" width="150"></div>
+<div class="paragraph"><p><span class="icon"><i class="fa fa-envelope-o"></i></span> &lt;<a href="mailto:frederico.munoz@pt.ibm.com">frederico.munoz@pt.ibm.com</a>&gt;</p></div>
+<div class="paragraph"><p><span class="icon"><i class="fa fa-linkedin"></i></span> <a href="https://www.linkedin.com/in/fsmunoz/" class="bare">https://www.linkedin.com/in/fsmunoz/</a></p></div>
+<div class="paragraph"><p><span class="icon"><i class="fa fa-twitter"></i></span> <a href="https://twitter.com/fredericomunoz" class="bare">https://twitter.com/fredericomunoz</a></p></div>
+<div class="paragraph"><p><span class="icon"><i class="fa fa-github"></i></span> <a href="https://github.com/fsmunoz" class="bare">https://github.com/fsmunoz</a></p></div></section>
+<section id="_about_the_technical_expert_council"><h2>About the Technical Expert Council</h2><div class="paragraph"><p>The Technical Expert Council for Spain, Portugal, Greece and Israel is
+an affiliate of the IBM Academy of Technology.</p></div>
+<div class="imageblock inline" style=""><img src="https://researcher.watson.ibm.com/researcher/images/aotlogo_100x100.png" alt="aotlogo 100x100" width="20%"></div></section>
+<section id="_disruption" class="bigger"><h2>Disruption</h2></section>
+<section><div class="paragraph"><p>Since 2000, <strong>52%</strong> of companies in the Fortune 500 have either gone
+bankrupt, been acquired or ceased to exist.</p></div></section>
+<section data-background-image="blade-runner.jpg"><div class="paragraph"><p>(and it started before that&#8230;&#8203;)</p></div></section>
+<section id="_a_quick_look_at_some_of_today_s_industries"><h2>a quick look at some of today&#8217;s industries&#8230;&#8203;</h2></section>
+<section><div class="ulist"><ul><li class="fragment"><p>World&#8217;s largest taxi company owns no cars (Uber)</p></li><li class="fragment"><p>Largest accomodation provider owns no  realestate (Airbnb)</p></li><li class="fragment"><p>Largest phone companies own no telco infra (Skype, WeChat)</p></li><li class="fragment"><p>World&#8217;s most valubable retailer has no inventory (Alibaba)</p></li></ul></div></section>
+<section><div class="ulist"><ul><li class="fragment"><p>Most popular media owner creates no content (Facebook)</p></li><li class="fragment"><p>Fastest growing banks have no actual money (SocietyOne)</p></li><li class="fragment"><p>World&#8217;s largest movie house owns no ciname (Netflix)</p></li><li class="fragment"><p>Largest software vendors don&#8217;t write the apps (Google and Apple)</p></li></ul></div>
+<div class="paragraph reference"><p>IBM for Entreperneurs, Sandy Carter</p></div></section>
+<section><div class="paragraph"><p>Digitalisation changed things drastically</p></div></section>
+<section id="_how_did_we_get_here" class="big"><h2>How did we get here?</h2></section>
+<section data-background-image="https://fronteffects.files.wordpress.com/2014/04/tron-disneyscreencaps-com-7858.jpg"><div class="ulist"><ul><li><p>1972: Pulsar, the world&#8217;s first all-electronic digital watch and the first to use a digital display, is launched.</p></li><li><p>1975: The first digital camera, invented by Steven Sasson at Eastman Kodak, takes 23 seconds to capture its first image.</p></li><li><p>1977: Citibank installs its first ATM.</p></li><li><p>1982: The movie Tron is released.</p></li></ul></div></section>
+<section><div class="ulist"><ul><li><p>1982: The first commercial compact disc (CD) is produced,</p></li><li><p>1985: Whole Earth’s ‘Lectronic Link (WELL) established, one of the first “virtual communities.”</p></li></ul></div></section>
+<section id="_around_this_time_i_was_also_starting_out" data-background-image="https://d2c85jgx6ttczr.cloudfront.net/assets/import/2017/05/o-ZX-SPECTRUM-facebook.jpg"><h2>around this time I was also starting out&#8230;&#8203;</h2></section>
+<section id="__and_latter_getting_grounded_due_to_a_huge_phone_bill" data-background-image="https://cleaner.ansilove.org/artwork/cl!-ppcm.ans.png"><h2>&#8230;&#8203; and latter getting grounded due to a huge phone bill.</h2></section>
+<section data-background-image="https://blog.sciencemuseum.org.uk/wp-content/uploads/2017/08/WWW.jpg"><div class="ulist"><ul><li><p>1991:                                       The first 2G cellular network is launched in Finland.</p></li><li><p>1992:                              Tim Berners-Lee posts the first photo uploaded to the Web,</p></li><li><p>1994:                    A large pepperoni, mushroom and extra cheese pizza from Pizza Hut is ordered online, possibly the first transaction on the Web.</p></li><li><p>1998:                                       Digital Television transmission commences in the U.K. and the U.S</p></li></ul></div></section>
+<section data-background-image="film.jpg"><div class="ulist"><ul><li><p>2002:                                       Digital information storage surpasses non-digital for the first time.</p></li><li><p>2003:                                       More digital cameras than traditional film cameras are sold in the U.S. for the first time.</p></li><li><p>2003:                            The DVD format (launched in the late 1990s) becomes more popular than VHS in the U.S.</p></li><li><p>2008:                                       More music is sold by iTunes than by Wal-Mart.</p></li></ul></div></section>
+<section data-background-image="press.jpg"><div class="ulist"><ul><li><p>2011:                                       Amazon.com sells more Kindle books than print books.</p></li><li><p>2014:                                       Streaming revenue from services like Spotify and Pandora overtake CD sales for the first time.</p></li><li><p>2015                                       Every minute, Skype users make 110,040 calls, Twitter users send 347,222 tweets, YouTube users upload 300 hours of new videos, Pinterest users pin 9,722 images, Netflix subscribers stream 77,160 hours of video, Snapchat users share 284,722 snaps, and Facebook users like 4,166,667 posts.</p></li></ul></div></section>
+<section id="_key_factors_that_fueled_disruption"><h2>Key factors that fueled disruption</h2><div class="ulist"><ul><li><p>Rise of mobile</p></li><li><p>The Cloud</p></li><li><p>IoT</p></li></ul></div></section>
+<section><div class="ulist"><ul><li><p>"Digital first" culture competitors</p></li><li><p>Different customer interaction models</p></li><li><p>New markets</p></li></ul></div></section>
+<section><div class="paragraph bigquote"><p>As different as these new disruptors are from one another,
+they all display the ability to leverage digital technologies to
+understand the customer, sense market shifts, and innovate faster than
+the competition.&#8201;&#8212;&#8201;HBR 2016</p></div></section>
+<section id="_keeping_up"><h2>Keeping up</h2><div class="paragraph"><p>The use of data, analytics, and automation is considered essential to
+resist the onslaught.</p></div></section>
+<section id="_digital_intelligence" class="big"><h2>Digital intelligence</h2></section>
+<section><div class="ulist"><ul><li><p>Digitalisation by itself is not enough.</p></li><li><p>Analytics is needed to use the data to make better, more informed choices.</p></li></ul></div></section>
+<section id="_no_industry_is_immune" class="big"><h2>No industry is immune</h2></section>
+<section id="_financial_sector"><h2>Financial sector</h2><div class="ulist"><ul><li><p>ATMs are ubiquitous - but being replaced by cashless operations via mobile.</p></li><li><p>An onslaught of digital invaders like Simple, Tesco Bank, PayPal, Square, Alibaba.com, etc.</p></li><li><p>The need for speed and innovation pose a constant challenge when catering to an ever younger Digital generation.</p></li></ul></div></section>
+<section><div class="paragraph bigquote"><p>80% of CXOs are experimenting with different business models or thinking of doing so, using cloud for innovation.&#8201;&#8212;&#8201;Robert Leblanc, Senior Vice President, IBM Cloud,</p></div></section>
+<section id="_insurance"><h2>Insurance</h2><div class="ulist"><ul><li><p>Rapid digitization and changing customer demographics are putting
+immense pressure on the insurers today and making them rethink the way
+they run the insurance industry.</p></li><li><p>Millennials, who are the true digital
+generation, have already taken over the baby boomers and now make up a
+quarter of the UK population as per the Inkling Millenial Report
+2015.</p></li><li><p>Almost 20% of millennials say they would buy insurance from
+Google since they are easier to reach as per a recent IBM Institute of
+Business Value study.</p></li></ul></div></section>
+<section id="_automotive_industry_smartphones_on_wheels"><h2>Automotive industry: "smartphones on wheels"</h2><div class="ulist"><ul><li><p>The connected car and IoT</p></li><li><p>Autonomous driving</p></li><li><p>Mobile devices as the main form of interaction</p></li></ul></div></section>
+<section><div class="paragraph bigquote"><p>The fear of OEMs is that a car will become a
+smartphone on wheels, with cars built around their entertainment value
+rather than their hardware value.&#8201;&#8212;&#8201;Paul Fielden (Global Center of Competence Lead, IBM Automotive)
+== Analogs vs Digitals</p></div></section>
+<section><div class="paragraph"><p>From the HBR study:</p></div>
+<div class="ulist"><ul><li><p>A cement company invested in analytics.</p></li><li><p>An hospitality company invested heavily in analytics to people
+skilled in analysing digital trends.</p></li><li><p>Pharma companies are analysing data to track usage.</p></li></ul></div></section>
+<section id="_out_with_old_in_with_the_new"><h2>Out with old, in with the new?</h2></section>
+<section id="_the_incumbents_strike_back" class="big" data-background-image="https://cdn.vox-cdn.com/uploads/chorus_image/image/44154932/cdn.indiewire.0.0.jpg"><h2>The Incumbents Strike Back</h2></section>
+<section><div class="paragraph"><p>"What’s required, now more than ever, is the fortitude for perpetual reinvention."</p></div></section>
+<section id="_dancing_with_disruption"><h2>Dancing with disruption</h2><div class="paragraph"><p>Seventy-two percent of C-suite executives tell us that innovative
+industry incumbents lead the disruption in their industry</p></div></section>
+<section id="_what_changed" class="big"><h2>What changed?</h2></section>
+<section id="_one_wave_of_disruption_may_be_abating"><h2>One wave of disruption may be abating.</h2><div class="ulist"><ul><li class="fragment"><p>Ubiquitous mobility and digital media have already shaken up the most
+susceptible industries.</p></li><li class="fragment"><p>The number of business startups in the United States recently reached a 40-year low.</p></li><li class="fragment"><p>Incumbents honed their skills to acquire nascent disruptors, along
+with their digital skills and innovator talent.</p></li></ul></div></section>
+<section id="_disruption_without_startups"><h2>Disruption without startups</h2><div class="ulist"><ul><li><p>Disruption hasn’t gone underground. Instead, it’s emerging as a
+capability incumbents are ready to embrace.</p></li><li><p>Innovation is no longer the province of the hungry upstart.</p></li></ul></div></section>
+<section id="_the_path_to_personalization" class="big"><h2>The path to personalization</h2></section>
+<section><div class="paragraph"><p><em>In three sectors alone – retail, healthcare and financial services –
+personalization will drive a revenue shift of USD 800 billion to the
+15 percent of companies that get it right.</em></p></div></section>
+<section><div class="paragraph"><p><em>Discriminant analysis of C-suite executives’ responses to our
+questions reveals that one factor, more than any other, distinguishes
+the leaders – the Reinventors – from other organizations. It is the
+capacity to use data to identify unmet customer needs.</em></p></div></section>
+<section id="_ai_and_the_search_for_effective_personalisation"><h2>AI and the search for effective personalisation</h2><div class="paragraph"><p>As design thinkers, Reinventors are always on the hunt for new clues
+that reveal customer needs. Over one-quarter of Reinventors turn to
+artificial intelligence technologies and cognitive solutions to better
+understand customers and improve the customer experience.</p></div></section>
+<section id="_orchestrating_the_future" class="big"><h2>Orchestrating the future</h2></section>
+<section><div class="paragraph"><p>On average, platform orchestrators grow revenues faster and generate
+higher profits than other business models, earning market valuations
+as high as eight times revenue</p></div></section>
+<section id="_how_to_do_it"><h2>How to do it?</h2><div class="ulist"><ul><li class="fragment"><p><strong>Create value from reciprocity</strong> – Adopt a deeply collaborative
+approach that spans an ecosystem to create win-win propositions</p></li><li class="fragment"><p><strong>Capitalize on data</strong> – Cultivate and orchestrate data as their most
+important asset to hone performance and the capacity for continuous
+change</p></li><li class="fragment"><p><strong>Commit to innovation</strong> – Reallocate capital and resources from
+defending markets to innovating in new ones.</p></li></ul></div></section>
+<section id="_cooperation_and_competition"><h2>Cooperation and competition</h2><div class="paragraph"><p>The biggest step change between Platform Builders and the Platform
+Operators that already have platforms in place is their attitude
+toward competitors.</p></div></section>
+<section><div class="paragraph"><p><em>Six of Canada’s leading banks – the Bank of Montreal, Canadian
+Imperial Bank of Commerce, Desjardins Group, Royal Bank of Canada,
+Scotiabank and TD Bank – came together to establish a digital identity
+verification service on a blockchain platform.</em></p></div></section>
+<section id="_capitalise_on_data"><h2>Capitalise on data</h2><div class="ulist"><ul><li class="fragment"><p>be open to mutual advantage</p></li><li class="fragment"><p>double down on data</p></li></ul></div></section>
+<section id="_commit_to_inovation"><h2>Commit to inovation</h2><div class="paragraph"><p>Those who’ve already established a platform model are allocating on average 9.0 percent of their capital toward it.</p></div></section>
+<section id="_innovation_in_motion" class="big"><h2>Innovation in motion</h2><div class="paragraph"><p>Cultivating autonomy and continuous learning by implementing a more
+fluid work structure made up of cross-functional teams.</p></div></section>
+<section id="_becoming_agile"><h2>Becoming agile</h2><div class="ulist"><ul><li class="fragment"><p><strong>Dynamic vision</strong>: understanding where the industry is heading, promote
+transparency and dialogue with employees, clearly express the
+overall company vision.</p></li><li class="fragment"><p><strong>Open culture</strong> : promote active employee participation, empower teams, promote collaboration and knowledge sharing.</p></li><li class="fragment"><p><strong>Agile operations</strong>: invest in continuos employee skills development,
+reward both fast failure and sucessful innovation, adopted a fluid
+work structure built on cross-functional teams.</p></li></ul></div></section>
+<section id="_actions_to_take_now" class="big"><h2>Actions to take now</h2></section>
+<section id="_interrogate_your_environment"><h2>Interrogate your environment</h2><div class="ulist"><ul><li class="fragment"><p>Remain on high alert and avoid complacency about past successes.</p></li><li class="fragment"><p>Design and play a new offense.</p></li><li class="fragment"><p>Get ever closer.</p></li></ul></div></section>
+<section id="_commit_with_frequency"><h2>Commit with frequency</h2><div class="ulist"><ul><li class="fragment"><p>Divest to invest.</p></li><li class="fragment"><p>Invest for new growth.</p></li><li class="fragment"><p>Prioritize advocacy and co-creation over advertising.</p></li></ul></div></section>
+<section id="_experiment_deliberately"><h2>Experiment deliberately</h2><div class="ulist"><ul><li><p>Seek innovation over institutionalization.</p></li><li><p>Write new rules.</p></li><li><p>Find energy in motion.</p></li></ul></div></section>
+<section id="_architect_for_disruption" class="big"><h2>Architect for disruption</h2><div class="ulist"><ul><li><p>Relentlessly reduce unit IT costs by putting the right workload on
+the most suitable best-fit infrastructure.</p></li><li><p>Easily and securely store, process and find value in a continuous
+volume of structured and unstructured data.</p></li><li><p>Continually improve and personalize user experiences by infusing
+artificial intelligence (AI) and machine learning (ML) technologies.</p></li><li><p>Rapidly design, deploy and maintain your new transformative
+applications.</p></li></ul></div></section>
+<section id="_beyond_digital_disruption"><h2>Beyond digital disruption</h2></section>
+<section id="_cognitive_disruption" class="big"><h2>Cognitive disruption</h2></section>
+<section><div class="ulist"><ul><li><p>Understand – images, language and other unstructured data in claims
+photos, underwriters’ notes and contact center recordings.</p></li><li><p>Reason – by comprehending insurance concepts, forming hypotheses and
+inferring and extracting ideas.</p></li><li><p>Learn – by developing and sharpening expertise with each new data
+point, interaction and outcome.</p></li><li><p>Interact – with employees and policyholders in a natural way that
+allows cognitive solutions to dissolve barriers between humans and
+machine.</p></li></ul></div></section>
+<section><div class="paragraph"><p>What the future holds?</p></div></section>
+<section id="_ibm_research_5_in_5" data-background-image="http://web.eecs.umich.edu/~profmars/wp-content/uploads/2014/10/SHORPY_00529u1-1080x380.jpg"><h2>IBM Research 5 in 5</h2></section>
+<section id="_blockchain" data-background-image="blockchain-stop.jpg"><h2>Blockchain</h2></section>
+<section><div class="paragraph"><p>Within the next five years, cryptographic anchors and blockchain
+technology will ensure a product’s authenticity&#8201;&#8212;&#8201;from its point of
+origin to the hands of the customer.</p></div></section>
+<section id="_security_cryptography" data-background-image="leadspace-large.jpg"><h2>Security &amp; Cryptography</h2></section>
+<section><div class="paragraph"><p>The scale and sophistication of cyber-attacks escalates every year, as
+do the stakes. In five years, new methods of attack will make today’s
+security measures woefully inadequate.</p></div></section>
+<section id="_ai_robots_and_the_oceans" data-background-image="ocean-stop.jpg"><h2>AI, robots and the oceans</h2></section>
+<section><div class="paragraph"><p>In five years, small autonomous AI microscopes, networked in the cloud
+and deployed around the world, will continually monitor the condition
+of the natural resource most critical to our survival: water.</p></div></section>
+<section id="_ai_bias" data-background-image="illustration-net.png"><h2>AI bias</h2></section>
+<section><div class="paragraph"><p>Within five years, the number of biased AI systems and algorithms will
+increase. But we will deal with them accordingly – coming up with new
+solutions to control bias in AI and champion AI systems free of it.</p></div></section>
+<section id="_quantum_computing" data-background-image="http://research.ibm.com/ibm-q/images/card-360.jpg"><h2>Quantum computing</h2><div class="paragraph"><p>In five years, the effects of quantum computing will reach beyond the
+research lab. It will be used extensively by new categories of
+professionals and developers looking to this emerging method of
+computing to solve problems once considered unsolvable.</p></div></section>
+<section id="_in_education"><h2>In education</h2><div class="ulist"><ul><li><p>Khan Academy started as a Youtube playlist, now offers structured
+online courses.</p></li><li><p>edX, Coursera</p></li></ul></div></section>
+<section id="_from_the_universities"><h2>From the universities</h2><div class="ulist"><ul><li><p>MIT OpenCourseware</p></li></ul></div></section>
+<section data-background-image="https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/10/20/23/backtothefuture.jpg"></section>
+<section data-background-color="white"><div class="imageblock stretch" style=""><img src="external_threats.png" alt="external threats" height="100%"></div></section>
+<section id="_thank_you" class="big"><h2>Thank you!</h2></section>
+<section id="_references"><h2>References</h2><div class="ulist tiny"><ul><li><p>Cover <span class="image"><img src=" Luddites smashing a loom, from <a href="https://en.wikipedia.org/wiki/Luddite#/media/File:FrameBreaking-1812.jpg"" class="bare">https://en.wikipedia.org/wiki/Luddite#/media/File:FrameBreaking-1812.jpg"</a> alt="Wikipedia"></span></p></li><li><p>Cover image from Greek vase from <a href="https://www.studenthandouts.com/01-Web-Pages/01-Picture-Pages/09.03-Blue-Ancient-Greek-Classical-Education.htm">Student Handouts</a> (cf. FURTWÄNGLER, A.; REICHHOLD, K. Griechische Vasenmalerei, vols. I-III. 1904)</p></li><li><p>"The Empire Strikes Back" image from <a href="https://www.polygon.com/2014/11/14/7222237/this-modern-empire-strikes-back-trailer-is-just-fantastic">Polygon</a>. THE EMPIRE STRIKES BACK TM &amp; © 1980 Lucasfilm Ltd. (LFL) All rights reserved.</p></li><li><p>AI in Insurance data from <a href="https://www.ibm.com/blogs/insights-on-business/insurance/artificial-intelligence-machine-learning-insurance-industry/">Artificial intelligence and machine learning – Is this the next big disruption in the insurance industry?</a>
+== References</p></li><li><p><a href="https://www.ibm.com/services/insights/c-suite-study/19th-edition:">Global C-suite Study: Incumbents Strike Back</a>, IBM Institute for Business Value</p></li><li><p><a href="https://www.forbes.com/sites/gilpress/2015/12/27/a-very-short-history-of-digitization">A Very Short History of Digitization</a>, Gil Press, Forbes.</p></li></ul></div></section></div></div><script src="reveal.js/lib/js/head.min.js"></script><script src="reveal.js/js/reveal.js"></script><script>// See https://github.com/hakimel/reveal.js#configuration for a full list of configuration options
+Reveal.initialize({
+  // Display controls in the bottom right corner
+  controls: true,
+  // Display a presentation progress bar
+  progress: true,
+  // Display the page number of the current slide
+  slideNumber: false,
+  // Push each slide change to the browser history
+  history: false,
+  // Enable keyboard shortcuts for navigation
+  keyboard: true,
+  // Enable the slide overview mode
+  overview: true,
+  // Vertical centering of slides
+  center: true,
+  // Enables touch navigation on devices with touch input
+  touch: true,
+  // Loop the presentation
+  loop: false,
+  // Change the presentation direction to be RTL
+  rtl: false,
+  // Turns fragments on and off globally
+  fragments: true,
+  // Flags if the presentation is running in an embedded mode,
+  // i.e. contained within a limited portion of the screen
+  embedded: false,
+  // Number of milliseconds between automatically proceeding to the
+  // next slide, disabled when set to 0, this value can be overwritten
+  // by using a data-autoslide attribute on your slides
+  autoSlide: 0,
+  // Stop auto-sliding after user input
+  autoSlideStoppable: true,
+  // Enable slide navigation via mouse wheel
+  mouseWheel: false,
+  // Hides the address bar on mobile devices
+  hideAddressBar: true,
+  // Opens links in an iframe preview overlay
+  previewLinks: false,
+  // Theme (e.g., beige, black, league, night, serif, simple, sky, solarized, white)
+  // NOTE setting the theme in the config no longer works in reveal.js 3.x
+  //theme: Reveal.getQueryHash().theme || 'black',
+  // Transition style (e.g., none, fade, slide, convex, concave, zoom)
+  transition: Reveal.getQueryHash().transition || 'slide',
+  // Transition speed (e.g., default, fast, slow)
+  transitionSpeed: 'default',
+  // Transition style for full page slide backgrounds (e.g., none, fade, slide, convex, concave, zoom)
+  backgroundTransition: 'fade',
+  // Number of slides away from the current that are visible
+  viewDistance: 3,
+  // Parallax background image (e.g., "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'")
+  parallaxBackgroundImage: '',
+  // Parallax background size in CSS syntax (e.g., "2100px 900px")
+  parallaxBackgroundSize: '',
+
+  // The "normal" size of the presentation, aspect ratio will be preserved
+  // when the presentation is scaled to fit different resolutions. Can be
+  // specified using percentage units.
+  width: 960,
+  height: 700,
+
+  // Factor of the display size that should remain empty around the content
+  margin: 0.1,
+
+  // Bounds for smallest/largest possible scale to apply to content
+  minScale: 0.2,
+  maxScale: 1.5,
+
+  // Optional libraries used to extend on reveal.js
+  dependencies: [
+      { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      
+      { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+  ]
+});</script></body></html>

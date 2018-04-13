@@ -1,0 +1,462 @@
+= Digital disruption origins, trends, impacts: An IBM Point-of-View
+:date: 6-Apr-2018
+:slide-background-video: stars.webm
+:_title-slide-background-video: stars.webm
+:title-slide-background-image:  luddites.png
+:_revealjs_center: false
+:icons: font
+:stem: latexmath
+
+[.location]
+*Frederico Muñoz* | Chief Architect | IBM Technical Expert Council (SPGI)
+HUMANE Spring Seminar
+Aveiro | April 2018
+
+[.big]
+== Hello!
+
+== !
+image::https://avatars0.githubusercontent.com/u/285727?s=460&v=4[width="150", border="0"]
+
+icon:envelope-o[] <frederico.munoz@pt.ibm.com>
+
+icon:linkedin[] https://www.linkedin.com/in/fsmunoz/
+
+icon:twitter[] https://twitter.com/fredericomunoz
+
+icon:github[] https://github.com/fsmunoz
+
+== About the Technical Expert Council
+
+The Technical Expert Council for Spain, Portugal, Greece and Israel is
+an affiliate of the IBM Academy of Technology.
+
+image::https://researcher.watson.ibm.com/researcher/images/aotlogo_100x100.png[width=20%,role=inline] 
+
+
+[.bigger]
+== Disruption
+
+== !
+
+Since 2000, *52%* of companies in the Fortune 500 have either gone
+bankrupt, been acquired or ceased to exist.
+
+[background-image=blade-runner.jpg]
+== !
+(and it started before that...)
+
+== a quick look at some of today's industries...
+== !
+
+[%step]
+* World's largest taxi company owns no cars (Uber)
+* Largest accomodation provider owns no  realestate (Airbnb)
+* Largest phone companies own no telco infra (Skype, WeChat)
+* World's most valubable retailer has no inventory (Alibaba)
+
+== !
+[%step]
+* Most popular media owner creates no content (Facebook)
+* Fastest growing banks have no actual money (SocietyOne)
+* World's largest movie house owns no ciname (Netflix)
+* Largest software vendors don't write the apps (Google and Apple)
+
+[.reference]
+IBM for Entreperneurs, Sandy Carter
+
+
+== !
+
+Digitalisation changed things drastically
+
+[.big]
+== How did we get here?
+
+
+[background-image=https://fronteffects.files.wordpress.com/2014/04/tron-disneyscreencaps-com-7858.jpg]
+== !
+* 1972: Pulsar, the world's first all-electronic digital watch and the first to use a digital display, is launched.
+* 1975: The first digital camera, invented by Steven Sasson at Eastman Kodak, takes 23 seconds to capture its first image. 
+* 1977: Citibank installs its first ATM. 
+* 1982: The movie Tron is released.
+
+== !
+* 1982: The first commercial compact disc (CD) is produced,
+* 1985: Whole Earth’s ‘Lectronic Link (WELL) established, one of the first “virtual communities.”
+
+[background-image=https://d2c85jgx6ttczr.cloudfront.net/assets/import/2017/05/o-ZX-SPECTRUM-facebook.jpg]
+== around this time I was also starting out...
+
+[background-image=https://cleaner.ansilove.org/artwork/cl!-ppcm.ans.png]
+== ... and latter getting grounded due to a huge phone bill.
+
+[background-image=https://blog.sciencemuseum.org.uk/wp-content/uploads/2017/08/WWW.jpg]
+== !
+* 1991:                                       The first 2G cellular network is launched in Finland.
+* 1992:                              Tim Berners-Lee posts the first photo uploaded to the Web,
+* 1994:                    A large pepperoni, mushroom and extra cheese pizza from Pizza Hut is ordered online, possibly the first transaction on the Web.
+* 1998:                                       Digital Television transmission commences in the U.K. and the U.S
+
+[background-image=film.jpg]
+== !
+
+* 2002:                                       Digital information storage surpasses non-digital for the first time.
+* 2003:                                       More digital cameras than traditional film cameras are sold in the U.S. for the first time.
+* 2003:                            The DVD format (launched in the late 1990s) becomes more popular than VHS in the U.S.
+* 2008:                                       More music is sold by iTunes than by Wal-Mart.
+
+[background-image=press.jpg]
+== !
+* 2011:                                       Amazon.com sells more Kindle books than print books.
+* 2014:                                       Streaming revenue from services like Spotify and Pandora overtake CD sales for the first time.
+* 2015                                       Every minute, Skype users make 110,040 calls, Twitter users send 347,222 tweets, YouTube users upload 300 hours of new videos, Pinterest users pin 9,722 images, Netflix subscribers stream 77,160 hours of video, Snapchat users share 284,722 snaps, and Facebook users like 4,166,667 posts.
+
+
+
+== Key factors that fueled disruption
+
+* Rise of mobile
+* The Cloud
+* IoT
+
+
+== !
+
+* "Digital first" culture competitors
+* Different customer interaction models
+* New markets
+
+==  !
+[.bigquote]
+As different as these new disruptors are from one another,
+they all display the ability to leverage digital technologies to
+understand the customer, sense market shifts, and innovate faster than
+the competition.
+-- HBR 2016
+
+== Keeping up
+
+The use of data, analytics, and automation is considered essential to
+resist the onslaught.
+
+[.big]
+== Digital intelligence
+
+
+== !
+* Digitalisation by itself is not enough.
+* Analytics is needed to use the data to make better, more informed choices.
+
+[.big]
+== No industry is immune
+
+== Financial sector
+
+* ATMs are ubiquitous - but being replaced by cashless operations via mobile.
+* An onslaught of digital invaders like Simple, Tesco Bank, PayPal, Square, Alibaba.com, etc.
+* The need for speed and innovation pose a constant challenge when catering to an ever younger Digital generation.
+
+== !
+
+[.bigquote]
+80% of CXOs are experimenting with different business models or thinking of doing so, using cloud for innovation.
+-- Robert Leblanc, Senior Vice President, IBM Cloud,
+
+== Insurance
+
+* Rapid digitization and changing customer demographics are putting
+immense pressure on the insurers today and making them rethink the way
+they run the insurance industry.
+* Millennials, who are the true digital
+generation, have already taken over the baby boomers and now make up a
+quarter of the UK population as per the Inkling Millenial Report
+2015.
+* Almost 20% of millennials say they would buy insurance from
+Google since they are easier to reach as per a recent IBM Institute of
+Business Value study.
+
+== Automotive industry: "smartphones on wheels"
+
+* The connected car and IoT
+* Autonomous driving
+* Mobile devices as the main form of interaction
+
+== !
+[.bigquote]
+The fear of OEMs is that a car will become a
+smartphone on wheels, with cars built around their entertainment value
+rather than their hardware value.
+-- Paul Fielden (Global Center of Competence Lead, IBM Automotive)
+== Analogs vs Digitals
+
+== !
+
+From the HBR study:
+
+* A cement company invested in analytics.
+* An hospitality company invested heavily in analytics to people
+  skilled in analysing digital trends.
+* Pharma companies are analysing data to track usage.
+
+
+== Out with old, in with the new?
+
+[background-image="https://cdn.vox-cdn.com/uploads/chorus_image/image/44154932/cdn.indiewire.0.0.jpg"]
+[.big]
+== The Incumbents Strike Back
+
+== !
+
+"What’s required, now more than ever, is the fortitude for perpetual reinvention."
+
+== Dancing with disruption
+
+Seventy-two percent of C-suite executives tell us that innovative
+industry incumbents lead the disruption in their industry
+
+[.big]
+== What changed?
+
+== One wave of disruption may be abating.
+
+[%step]
+* Ubiquitous mobility and digital media have already shaken up the most
+susceptible industries.
+* The number of business startups in the United States recently reached a 40-year low.
+* Incumbents honed their skills to acquire nascent disruptors, along
+  with their digital skills and innovator talent.
+  
+
+== Disruption without startups
+
+* Disruption hasn’t gone underground. Instead, it’s emerging as a
+capability incumbents are ready to embrace.
+* Innovation is no longer the province of the hungry upstart. 
+
+[.big]
+== The path to personalization
+
+== !
+
+_In three sectors alone – retail, healthcare and financial services –
+personalization will drive a revenue shift of USD 800 billion to the
+15 percent of companies that get it right._
+
+== !
+
+_Discriminant analysis of C-suite executives’ responses to our
+questions reveals that one factor, more than any other, distinguishes
+the leaders – the Reinventors – from other organizations. It is the
+capacity to use data to identify unmet customer needs._
+
+== AI and the search for effective personalisation
+
+As design thinkers, Reinventors are always on the hunt for new clues
+that reveal customer needs. Over one-quarter of Reinventors turn to
+artificial intelligence technologies and cognitive solutions to better
+understand customers and improve the customer experience.
+
+[.big]
+== Orchestrating the future
+
+== !
+
+On average, platform orchestrators grow revenues faster and generate
+higher profits than other business models, earning market valuations
+as high as eight times revenue
+
+== How to do it?
+
+[%step]
+* *Create value from reciprocity* – Adopt a deeply collaborative
+   approach that spans an ecosystem to create win-win propositions
+* *Capitalize on data* – Cultivate and orchestrate data as their most
+   important asset to hone performance and the capacity for continuous
+   change
+* *Commit to innovation* – Reallocate capital and resources from
+   defending markets to innovating in new ones.
+
+== Cooperation and competition
+
+The biggest step change between Platform Builders and the Platform
+Operators that already have platforms in place is their attitude
+toward competitors.
+
+
+== !
+
+_Six of Canada’s leading banks – the Bank of Montreal, Canadian
+Imperial Bank of Commerce, Desjardins Group, Royal Bank of Canada,
+Scotiabank and TD Bank – came together to establish a digital identity
+verification service on a blockchain platform._
+
+== Capitalise on data
+
+[%step]
+* be open to mutual advantage
+* double down on data
+
+== Commit to inovation
+
+Those who’ve already established a platform model are allocating on average 9.0 percent of their capital toward it.
+
+[.big]
+== Innovation in motion
+
+Cultivating autonomy and continuous learning by implementing a more
+fluid work structure made up of cross-functional teams.
+
+== Becoming agile
+
+[%step]
+* *Dynamic vision*: understanding where the industry is heading, promote
+  transparency and dialogue with employees, clearly express the
+  overall company vision.
+* *Open culture* : promote active employee participation, empower teams, promote collaboration and knowledge sharing.
+* *Agile operations*: invest in continuos employee skills development,
+   reward both fast failure and sucessful innovation, adopted a fluid
+   work structure built on cross-functional teams.
+
+
+[.big]
+== Actions to take now
+
+
+== Interrogate your environment
+
+[%step]
+* Remain on high alert and avoid complacency about past successes.
+* Design and play a new offense.
+* Get ever closer.
+
+== Commit with frequency
+[%step]
+* Divest to invest.
+* Invest for new growth.
+* Prioritize advocacy and co-creation over advertising.
+
+== Experiment deliberately
+
+* Seek innovation over institutionalization.
+* Write new rules.
+* Find energy in motion.
+
+
+[.big]
+== Architect for disruption
+
+
+* Relentlessly reduce unit IT costs by putting the right workload on
+  the most suitable best-fit infrastructure.
+* Easily and securely store, process and find value in a continuous
+  volume of structured and unstructured data.
+* Continually improve and personalize user experiences by infusing
+  artificial intelligence (AI) and machine learning (ML) technologies.
+* Rapidly design, deploy and maintain your new transformative
+  applications.
+
+
+== Beyond digital disruption
+
+[.big]
+== Cognitive disruption
+
+== !
+* Understand – images, language and other unstructured data in claims
+  photos, underwriters’ notes and contact center recordings.
+* Reason – by comprehending insurance concepts, forming hypotheses and
+  inferring and extracting ideas.
+* Learn – by developing and sharpening expertise with each new data
+  point, interaction and outcome.
+* Interact – with employees and policyholders in a natural way that
+  allows cognitive solutions to dissolve barriers between humans and
+  machine.
+
+== !
+
+What the future holds?
+
+[background-image="http://web.eecs.umich.edu/~profmars/wp-content/uploads/2014/10/SHORPY_00529u1-1080x380.jpg"]
+== IBM Research 5 in 5
+
+[background-image=blockchain-stop.jpg]
+== Blockchain
+
+== !
+
+Within the next five years, cryptographic anchors and blockchain
+technology will ensure a product’s authenticity -- from its point of
+origin to the hands of the customer.
+
+[background-image=leadspace-large.jpg]
+== Security & Cryptography
+
+== !
+
+The scale and sophistication of cyber-attacks escalates every year, as
+do the stakes. In five years, new methods of attack will make today’s
+security measures woefully inadequate.
+
+[background-image=ocean-stop.jpg]
+== AI, robots and the oceans
+
+== !
+
+In five years, small autonomous AI microscopes, networked in the cloud
+and deployed around the world, will continually monitor the condition
+of the natural resource most critical to our survival: water.
+
+[background-image=illustration-net.png]
+== AI bias
+
+== !
+
+Within five years, the number of biased AI systems and algorithms will
+increase. But we will deal with them accordingly – coming up with new
+solutions to control bias in AI and champion AI systems free of it.
+
+[background-image="http://research.ibm.com/ibm-q/images/card-360.jpg"]
+== Quantum computing
+
+In five years, the effects of quantum computing will reach beyond the
+research lab. It will be used extensively by new categories of
+professionals and developers looking to this emerging method of
+computing to solve problems once considered unsolvable.
+
+
+
+== In education
+
+* Khan Academy started as a Youtube playlist, now offers structured
+  online courses.
+* edX, Coursera
+
+== From the universities
+
+* MIT OpenCourseware
+
+[background-image=https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/10/20/23/backtothefuture.jpg]
+== !
+
+[background-color="white"]
+== !
+[.stretch]
+image::external_threats.png[]
+[.big]
+== Thank you!
+
+
+
+== References
+
+[.tiny]
+
+* Cover image: Luddites smashing a loom, from https://en.wikipedia.org/wiki/Luddite#/media/File:FrameBreaking-1812.jpg[Wikipedia]
+* Cover image from Greek vase from https://www.studenthandouts.com/01-Web-Pages/01-Picture-Pages/09.03-Blue-Ancient-Greek-Classical-Education.htm[Student Handouts] (cf. FURTWÄNGLER, A.; REICHHOLD, K. Griechische Vasenmalerei, vols. I-III. 1904)
+* "The Empire Strikes Back" image from https://www.polygon.com/2014/11/14/7222237/this-modern-empire-strikes-back-trailer-is-just-fantastic[Polygon]. THE EMPIRE STRIKES BACK TM & © 1980 Lucasfilm Ltd. (LFL) All rights reserved.
+* AI in Insurance data from https://www.ibm.com/blogs/insights-on-business/insurance/artificial-intelligence-machine-learning-insurance-industry/[Artificial intelligence and machine learning – Is this the next big disruption in the insurance industry?]
+== References
+
+* https://www.ibm.com/services/insights/c-suite-study/19th-edition:[Global C-suite Study: Incumbents Strike Back], IBM Institute for Business Value
+* https://www.forbes.com/sites/gilpress/2015/12/27/a-very-short-history-of-digitization[A Very Short History of Digitization], Gil Press, Forbes.
