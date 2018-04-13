@@ -73,15 +73,18 @@ Digitalisation changed things drastically
 [.big]
 == How did we get here?
 
+== a quick journey through some milestones
 
 [background-image=https://fronteffects.files.wordpress.com/2014/04/tron-disneyscreencaps-com-7858.jpg]
 == !
+[%step]
 * 1972: Pulsar, the world's first all-electronic digital watch and the first to use a digital display, is launched.
 * 1975: The first digital camera, invented by Steven Sasson at Eastman Kodak, takes 23 seconds to capture its first image. 
 * 1977: Citibank installs its first ATM. 
 * 1982: The movie Tron is released.
 
 == !
+[%step]
 * 1982: The first commercial compact disc (CD) is produced,
 * 1985: Whole Earth’s ‘Lectronic Link (WELL) established, one of the first “virtual communities.”
 
@@ -93,6 +96,7 @@ Digitalisation changed things drastically
 
 [background-image=https://blog.sciencemuseum.org.uk/wp-content/uploads/2017/08/WWW.jpg]
 == !
+[%step]
 * 1991:                                       The first 2G cellular network is launched in Finland.
 * 1992:                              Tim Berners-Lee posts the first photo uploaded to the Web,
 * 1994:                    A large pepperoni, mushroom and extra cheese pizza from Pizza Hut is ordered online, possibly the first transaction on the Web.
@@ -100,7 +104,7 @@ Digitalisation changed things drastically
 
 [background-image=film.jpg]
 == !
-
+[%step]
 * 2002:                                       Digital information storage surpasses non-digital for the first time.
 * 2003:                                       More digital cameras than traditional film cameras are sold in the U.S. for the first time.
 * 2003:                            The DVD format (launched in the late 1990s) becomes more popular than VHS in the U.S.
@@ -108,6 +112,7 @@ Digitalisation changed things drastically
 
 [background-image=press.jpg]
 == !
+[%step]
 * 2011:                                       Amazon.com sells more Kindle books than print books.
 * 2014:                                       Streaming revenue from services like Spotify and Pandora overtake CD sales for the first time.
 * 2015                                       Every minute, Skype users make 110,040 calls, Twitter users send 347,222 tweets, YouTube users upload 300 hours of new videos, Pinterest users pin 9,722 images, Netflix subscribers stream 77,160 hours of video, Snapchat users share 284,722 snaps, and Facebook users like 4,166,667 posts.
@@ -116,78 +121,129 @@ Digitalisation changed things drastically
 
 == Key factors that fueled disruption
 
-* Rise of mobile
-* The Cloud
-* IoT
 
+[background-video="./clouds.mp4",options="loop,muted"]
+[.big]
+== Cloud
 
 == !
-
-* "Digital first" culture competitors
-* Different customer interaction models
-* New markets
-
-==  !
-[.bigquote]
-As different as these new disruptors are from one another,
-they all display the ability to leverage digital technologies to
-understand the customer, sense market shifts, and innovate faster than
-the competition.
--- HBR 2016
-
-== Keeping up
-
-The use of data, analytics, and automation is considered essential to
-resist the onslaught.
+"By 2020, businesses without cloud capabilities will be as uncommon as
+businesses without Internet are today. 30 percent of the largest new
+software investments will exist entirely on the cloud"
+-- Gartner 
 
 [.big]
-== Digital intelligence
-
+== Rise of mobile
 
 == !
-* Digitalisation by itself is not enough.
-* Analytics is needed to use the data to make better, more informed choices.
+[%step]
+* Always-on expectation
+* Interaction through mobile
+* Restructuring of social life
+
+
+[background-image=twin.png]
+== Internet of Things
+
+== !
+* Universal connectivity
+* Sensors everywhere
+* Huge ammount of data being generated
+* Ability to map the physical world to the digital model
+
+== !
+
+[.big]
+== So-called _disruptors_ took full advantage of these
+
+== !
+* "Digital first" culture competitors
+* Perceived the rise of different customer interaction models
+* Were able to explore new markets
+
+==  !
+
+"As different as these new disruptors are from one another,
+they all display the ability to leverage digital technologies to
+understand the customer, sense market shifts, and innovate faster than
+the competition."
+-- Harvard Business Report 2016
 
 [.big]
 == No industry is immune
 
 == Financial sector
 
+== !
 * ATMs are ubiquitous - but being replaced by cashless operations via mobile.
 * An onslaught of digital invaders like Simple, Tesco Bank, PayPal, Square, Alibaba.com, etc.
 * The need for speed and innovation pose a constant challenge when catering to an ever younger Digital generation.
 
 == !
-
 [.bigquote]
-80% of CXOs are experimenting with different business models or thinking of doing so, using cloud for innovation.
+"80% of CXOs are experimenting with different business models or
+thinking of doing so, using cloud for innovation."
 -- Robert Leblanc, Senior Vice President, IBM Cloud,
 
 == Insurance
 
-* Rapid digitization and changing customer demographics are putting
+== !
+* Rapid digitisation and changing customer demographics are putting
 immense pressure on the insurers today and making them rethink the way
 they run the insurance industry.
-* Millennials, who are the true digital
-generation, have already taken over the baby boomers and now make up a
-quarter of the UK population as per the Inkling Millenial Report
-2015.
+* Millennials, have already taken over the baby boomers and now make up a
+quarter of the UK population (Inkling Millenial Report 2015).
 * Almost 20% of millennials say they would buy insurance from
-Google since they are easier to reach as per a recent IBM Institute of
-Business Value study.
+Google since they are easier to reach (IBM Institute of
+Business Value study)
 
-== Automotive industry: "smartphones on wheels"
+== Automotive industry
 
+== !
 * The connected car and IoT
 * Autonomous driving
 * Mobile devices as the main form of interaction
 
 == !
 [.bigquote]
-The fear of OEMs is that a car will become a
+"The fear of OEMs is that a car will become a
 smartphone on wheels, with cars built around their entertainment value
-rather than their hardware value.
--- Paul Fielden (Global Center of Competence Lead, IBM Automotive)
+rather than their hardware value."
+-- Paul Fielden (IBM Automotive Global Center of Competence Lead)
+
+
+[.big]
+== There is a direct impact in terms of the social fabric and work relations
+
+== !
+[.bigquote]
+
+"According to our estimates, about 47 percent of total US employment is at
+risk. We further provide evidence that wages and educational attainment
+exhibit a strong negative relation-ship with an occupation’s
+probability of computerisation"
+-- Frei and Osborne, University of Oxford
+
+[background-image=http://idora.milliyet.com.tr/MolaSlider/2017/12/26/fft351_mf26404884.Jpeg]
+==  When one body exerts a force on a second body, the second body simultaneously exerts a force equal in magnitude and opposite in direction on the first body.
+
+
+[background-image=luddites.png]
+== !
+[.bigquote]
+
+"The sole cause of great riots was the new machines employed in cotton
+manufacture; the country notwithstandinghas greatly benefited from
+their erection [and] destroying them in this countrywould only be the
+means of transferring them to another [. . . ]to the detriment of the
+trade of Britain"
+-- ibid, (cited in Mantoux, 2006, p. 403).
+
+== !
+
+(but just like then, people are not scared of technology: they're
+scared of instability)
+
 == Analogs vs Digitals
 
 == !
@@ -195,7 +251,7 @@ rather than their hardware value.
 From the HBR study:
 
 * A cement company invested in analytics.
-* An hospitality company invested heavily in analytics to people
+* An hospitality company invested heavily in analytics and in people
   skilled in analysing digital trends.
 * Pharma companies are analysing data to track usage.
 
@@ -208,7 +264,12 @@ From the HBR study:
 
 == !
 
-"What’s required, now more than ever, is the fortitude for perpetual reinvention."
+What’s required, now more than ever, is the fortitude for perpetual reinvention.
+
+[background-color="white"]
+== !
+[.stretch]
+image::external_threats.png[]
 
 == Dancing with disruption
 
@@ -228,6 +289,12 @@ susceptible industries.
   with their digital skills and innovator talent.
   
 
+[.big]
+== On skills
+[.bigquote]
+"Since electrification, the story of the twentieth century has been the race between education and technology"
+-- Goldin and Katz (2009)
+
 == Disruption without startups
 
 * Disruption hasn’t gone underground. Instead, it’s emerging as a
@@ -243,6 +310,8 @@ _In three sectors alone – retail, healthcare and financial services –
 personalization will drive a revenue shift of USD 800 billion to the
 15 percent of companies that get it right._
 
+== From getting the data to using the data
+
 == !
 
 _Discriminant analysis of C-suite executives’ responses to our
@@ -252,10 +321,17 @@ capacity to use data to identify unmet customer needs._
 
 == AI and the search for effective personalisation
 
-As design thinkers, Reinventors are always on the hunt for new clues
+== !
+
+* AI used to get better understanding of customer needs
+* Cognitive solutions adopted to improve customer experience
+
+== !
+
+_As design thinkers, Reinventors are always on the hunt for new clues
 that reveal customer needs. Over one-quarter of Reinventors turn to
 artificial intelligence technologies and cognitive solutions to better
-understand customers and improve the customer experience.
+understand customers and improve the customer experience_
 
 [.big]
 == Orchestrating the future
@@ -268,6 +344,7 @@ as high as eight times revenue
 
 == How to do it?
 
+== !
 [%step]
 * *Create value from reciprocity* – Adopt a deeply collaborative
    approach that spans an ecosystem to create win-win propositions
@@ -279,9 +356,10 @@ as high as eight times revenue
 
 == Cooperation and competition
 
+== !
 The biggest step change between Platform Builders and the Platform
-Operators that already have platforms in place is their attitude
-toward competitors.
+Operators that already have platforms in place is their *attitude
+toward competitors*.
 
 
 == !
@@ -299,16 +377,20 @@ verification service on a blockchain platform._
 
 == Commit to inovation
 
-Those who’ve already established a platform model are allocating on average 9.0 percent of their capital toward it.
+== !
+Those who’ve already established a platform model are allocating on
+average 9.0 percent of their capital toward it.
 
 [.big]
 == Innovation in motion
 
+== !
 Cultivating autonomy and continuous learning by implementing a more
 fluid work structure made up of cross-functional teams.
 
 == Becoming agile
 
+== !
 [%step]
 * *Dynamic vision*: understanding where the industry is heading, promote
   transparency and dialogue with employees, clearly express the
@@ -328,7 +410,7 @@ fluid work structure made up of cross-functional teams.
 [%step]
 * Remain on high alert and avoid complacency about past successes.
 * Design and play a new offense.
-* Get ever closer.
+* Get ever closer - to everyone involved.
 
 == Commit with frequency
 [%step]
@@ -336,16 +418,25 @@ fluid work structure made up of cross-functional teams.
 * Invest for new growth.
 * Prioritize advocacy and co-creation over advertising.
 
+== and by the way
+
+[background-image=https://res.cloudinary.com/uktv/image/upload/v1372867533/ou70cqjaugarnjvy3xi0.jpg]
+== that's commit, not a committe.
+
 == Experiment deliberately
 
+[%step]
 * Seek innovation over institutionalization.
 * Write new rules.
 * Find energy in motion.
 
+== (IBM adopted this as well)
 
+[background-iframe=https://www.ibm.com/design/thinking/]
 [.big]
-== Architect for disruption
+== !
 
+== Architect for disruption
 
 * Relentlessly reduce unit IT costs by putting the right workload on
   the most suitable best-fit infrastructure.
@@ -357,15 +448,31 @@ fluid work structure made up of cross-functional teams.
   applications.
 
 
-== Beyond digital disruption
+== but there's something beyond digital disruption
 
 [.big]
+[background-image=neurons.mp4]
 == Cognitive disruption
 
+== We've mostly talked about impact of digitalisation and computerisation in routine tasks
+
+[.big]
+== But we're beyond that
+
+== we've already seen how important is...
+[background-image=https://images.pexels.com/photos/239898/pexels-photo-239898.jpeg]
+[.bigger]
+== Data
+
+[.big]
+== Lots of data
+
+== The advances in AI and cognitive computing put them to good use
+
 == !
-* Understand – images, language and other unstructured data in claims
-  photos, underwriters’ notes and contact center recordings.
-* Reason – by comprehending insurance concepts, forming hypotheses and
+
+* Understand – images, language and other unstructured data.
+* Reason – by comprehending domain-specific concepts, forming hypotheses and
   inferring and extracting ideas.
 * Learn – by developing and sharpening expertise with each new data
   point, interaction and outcome.
@@ -375,7 +482,15 @@ fluid work structure made up of cross-functional teams.
 
 == !
 
-What the future holds?
+"...within the next couple of decades, AI has a high likelihood of
+automating 70% of today’s jobs in the energy sector, and 65% of
+today’s jobs in consumer staples..."
+-- PwC
+
+== ... and thus bringing automation to non-routine cognitive tasks as well.
+
+[.big]
+== What the future holds?
 
 [background-image="http://web.eecs.umich.edu/~profmars/wp-content/uploads/2014/10/SHORPY_00529u1-1080x380.jpg"]
 == IBM Research 5 in 5
@@ -425,27 +540,66 @@ professionals and developers looking to this emerging method of
 computing to solve problems once considered unsolvable.
 
 
+[.big]
+== and what about education?
 
-== In education
-
+== !
 * Khan Academy started as a Youtube playlist, now offers structured
   online courses.
-* edX, Coursera
+* edX, Coursera and other MOOCs are increasingly popular (and have content by HE institutions)
+* Some have their own platforms (e.g. MIT OpenCourseware)
+* Huge pressure from industry in terms of skills
+* Changing expectations and behaviour from students
 
-== From the universities
 
-* MIT OpenCourseware
+[.big]
+== Will this shift the focus away from existing Higher Education institutions?
 
-[background-image=https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/10/20/23/backtothefuture.jpg]
+== probabily not
+
 == !
 
-[background-color="white"]
+* Recognition
+* Students are not customers
+* Teaching is not selling
+
+
+== still, some aspects to consider
+
+[.big]
+== IBM's PoV: Education in the Cognitive Era
+
+[background-iframe=https://www.ibm.com/watson/education]
 == !
-[.stretch]
-image::external_threats.png[]
+
+== !
+[%step]
+* Personalised teaching strategies.
+* Use what mobile connectivity offers in a way that is aligned with
+  pedagogical principals.
+* Make life easier - for students and faculty - by providing better,
+  more actionaly insights.
+* Use digital disruption to better align with the industry in terms of
+  needed skills.
+
+
+== !
+* Infuse technology in new ways to transform individualized learning.
+* Engage everyone in paving a better path to the future
+* Embrace new technology  at your own pace.
+* Help those who teach and those who learn.
+* Promote a lifelong journey.
+
+== one focus of tension
+
+[.big]
+== Prepare informed citizens, or prepare ready-to-employ workers?
+
+[background-image="theschoolboy.jpg"]
+== !
+
 [.big]
 == Thank you!
-
 
 
 == References
@@ -460,3 +614,5 @@ image::external_threats.png[]
 
 * https://www.ibm.com/services/insights/c-suite-study/19th-edition:[Global C-suite Study: Incumbents Strike Back], IBM Institute for Business Value
 * https://www.forbes.com/sites/gilpress/2015/12/27/a-very-short-history-of-digitization[A Very Short History of Digitization], Gil Press, Forbes.
+* Gartner data on cloud from https://www.ibm.com/blogs/cloud-computing/2017/02/01/cloud-digital-disruption/[Cloud digital revolution: Disrupt or be disrupted]
+* https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htm[Watson Education PoV]
