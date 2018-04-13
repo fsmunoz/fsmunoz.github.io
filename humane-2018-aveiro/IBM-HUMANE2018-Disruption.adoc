@@ -51,15 +51,15 @@ bankrupt, been acquired or ceased to exist.
 
 [%step]
 * World's largest taxi company owns no cars (Uber)
-* Largest accomodation provider owns no  realestate (Airbnb)
-* Largest phone companies own no telco infra (Skype, WeChat)
+* Largest accommodation provider owns no  real-estate (Airbnb)
+* Largest phone companies owns no telco infra (Skype, WeChat)
 * World's most valubable retailer has no inventory (Alibaba)
 
 == !
 [%step]
 * Most popular media owner creates no content (Facebook)
 * Fastest growing banks have no actual money (SocietyOne)
-* World's largest movie house owns no ciname (Netflix)
+* World's largest movie house owns no cinema (Netflix)
 * Largest software vendors don't write the apps (Google and Apple)
 
 [.reference]
@@ -85,7 +85,7 @@ Digitalisation changed things drastically
 
 == !
 [%step]
-* 1982: The first commercial compact disc (CD) is produced,
+* 1982: The first commercial compact disc (CD) is produced.
 * 1985: Whole Earth’s ‘Lectronic Link (WELL) established, one of the first “virtual communities.”
 
 [background-image=https://d2c85jgx6ttczr.cloudfront.net/assets/import/2017/05/o-ZX-SPECTRUM-facebook.jpg]
@@ -98,7 +98,7 @@ Digitalisation changed things drastically
 == !
 [%step]
 * 1991:                                       The first 2G cellular network is launched in Finland.
-* 1992:                              Tim Berners-Lee posts the first photo uploaded to the Web,
+* 1992:                              Tim Berners-Lee posts the first photo uploaded to the Web.
 * 1994:                    A large pepperoni, mushroom and extra cheese pizza from Pizza Hut is ordered online, possibly the first transaction on the Web.
 * 1998:                                       Digital Television transmission commences in the U.K. and the U.S
 
@@ -220,7 +220,7 @@ rather than their hardware value."
 
 "According to our estimates, about 47 percent of total US employment is at
 risk. We further provide evidence that wages and educational attainment
-exhibit a strong negative relation-ship with an occupation’s
+exhibit a strong negative relationship with an occupation’s
 probability of computerisation"
 -- Frei and Osborne, University of Oxford
 
@@ -233,9 +233,9 @@ probability of computerisation"
 [.bigquote]
 
 "The sole cause of great riots was the new machines employed in cotton
-manufacture; the country notwithstandinghas greatly benefited from
-their erection [and] destroying them in this countrywould only be the
-means of transferring them to another [. . . ]to the detriment of the
+manufacture; the country notwithstanding has greatly benefited from
+their erection [and] destroying them in this country would only be the
+means of transferring them to another [...] to the detriment of the
 trade of Britain"
 -- ibid, (cited in Mantoux, 2006, p. 403).
 
