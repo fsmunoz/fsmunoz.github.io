@@ -472,6 +472,7 @@ fluid work structure made up of cross-functional teams.
 
 == The advances in AI and cognitive computing put them to good use
 
+[background-image="https://vignette.wikia.nocookie.net/bladerunner/images/3/3e/Holden_and_Leon.jpg/revision/latest?cb=20091022233626"]
 == !
 
 * Understand – images, language and other unstructured data.
