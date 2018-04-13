@@ -264,6 +264,7 @@ From the HBR study:
   skilled in analysing digital trends.
 * Pharma companies are analysing data to track usage.
 
+[.big]
 == !
 
 What’s required, now more than ever, is the fortitude for perpetual reinvention.
@@ -478,11 +479,64 @@ fluid work structure made up of cross-functional teams.
   inferring and extracting ideas.
 * Learn – by developing and sharpening expertise with each new data
   point, interaction and outcome.
-* Interact – with employees and policyholders in a natural way that
+* Interact – with employees and policy holders in a natural way that
   allows cognitive solutions to dissolve barriers between humans and
   machine.
 
+== from here...
+
+[background-image=https://www-03.ibm.com/ibm/history/ibm100/images/icp/A138918I23240Y22/us__en_us__ibm100__700_series__checkers__620x350.jpg]
+[.big]
 == !
+
+* First checkers program to demonstrate that computers can learn
+from experience.
+* Used techniques such as mutable evaluation
+functions, hill climbing, and signature tables to explore rote and
+generalization learning. 
+[.big]
+
+[background-image=https://researcher.watson.ibm.com/researcher/files/us-bbfinkel/gtesauro_ai_350.jpg]
+== !
+
+* Nonlinear function approximation and *Reinforcement Learning*.
+* Neural net trained by a form of temporal-diference learning (TD).
+* Tested in Backgammon by a self-learning program.
+* With minimal search reached and surpassed human masters.
+
+
+==  ...to here...
+[background-image=https://images.theconversation.com/files/168950/original/file-20170511-32613-1ipnlda.jpg?ixlib=rb-1.1.0&rect=0%2C49%2C2048%2C993&q=45&auto=format&w=1356&h=668&fit=crop]
+[.big]
+== Deep Blue Chess
+
+*1997: First computer to defeat human World Chess Champion, Garry Kasparov.*
+
+== ... to here
+[.big]
+== Watson Jeopardy! Challenge
+
+== !
+[.stretch]
+video::P18EdAKuC1U[youtube, options=autoplay]
+
+== !
+[%step]
+* First computer to defeat TV game show Jeopardy! champions.
+* Research teams are working to *adapt Watson to other
+  information-intensive fields*, such as telecommunications, financial
+  services, government... *and education*.
+
+
+== ...and going here
+
+[background-image="http://research.ibm.com/ibm-q/images/card-360.jpg"]
+[.big]
+== Quantum computing
+
+== !
+
+== Impacts?
 
 "...within the next couple of decades, AI has a high likelihood of
 automating 70% of today’s jobs in the energy sector, and 65% of
@@ -601,6 +655,7 @@ computing to solve problems once considered unsolvable.
 == !
 
 [.big]
+[background-image=http://litoralmagazine.com/wp-content/uploads/2017/06/Aveiro-Universidade-litoral-magazine-1000x600.jpg]
 == Thank you!
 
 
