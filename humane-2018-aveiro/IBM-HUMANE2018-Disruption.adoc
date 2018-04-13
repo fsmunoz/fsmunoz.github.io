@@ -80,7 +80,9 @@ Digitalisation changed things drastically
 [%step]
 * 1972: Pulsar, the world's first all-electronic digital watch and the first to use a digital display, is launched.
 * 1975: The first digital camera, invented by Steven Sasson at Eastman Kodak, takes 23 seconds to capture its first image. 
-* 1977: Citibank installs its first ATM. 
+* 1977: Citibank installs its first ATM.
+* 1977: Apple ][
+* 1981: IBM PC
 * 1982: The movie Tron is released.
 
 == !
@@ -246,6 +248,13 @@ scared of instability)
 
 == Analogs vs Digitals
 
+
+== Out with old, in with the new?
+
+[background-image="https://cdn.vox-cdn.com/uploads/chorus_image/image/44154932/cdn.indiewire.0.0.jpg"]
+[.big]
+== The Incumbents Strike Back
+
 == !
 
 From the HBR study:
@@ -254,13 +263,6 @@ From the HBR study:
 * An hospitality company invested heavily in analytics and in people
   skilled in analysing digital trends.
 * Pharma companies are analysing data to track usage.
-
-
-== Out with old, in with the new?
-
-[background-image="https://cdn.vox-cdn.com/uploads/chorus_image/image/44154932/cdn.indiewire.0.0.jpg"]
-[.big]
-== The Incumbents Strike Back
 
 == !
 
