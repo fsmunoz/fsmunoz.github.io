@@ -1,4 +1,4 @@
-= Digital disruption origins, trends, impacts: An IBM Point-of-View
+= Digital disruption origins, trends, impacts: a view from the industry
 :date: 6-Apr-2018
 :slide-background-video: stars.webm
 :_title-slide-background-video: stars.webm
@@ -40,35 +40,37 @@ image::https://researcher.watson.ibm.com/researcher/images/aotlogo_100x100.png[w
 == !
 
 Since 2000, *52%* of companies in the Fortune 500 have either gone
-bankrupt, been acquired or ceased to exist.
+bankrupt, been acquired or ceased to exist^1^.
 
-[background-image=blade-runner.jpg]
+[abackground-image=blade-runner.jpg]
+[background-video=blade_runner.webm]
 == !
 (and it started before that...)
+
+[.copyright]
+© 1982, 1991 by the Blade Runner Partnership and/or The Ladd Company; film images © Warner Bros. 
 
 == a quick look at some of today's industries...
 == !
 
-[%step]
+
 * World's largest taxi company owns no cars (Uber)
 * Largest accommodation provider owns no  real-estate (Airbnb)
 * Largest phone companies owns no telco infra (Skype, WeChat)
 * World's most valubable retailer has no inventory (Alibaba)
 
 == !
-[%step]
+
+
 * Most popular media owner creates no content (Facebook)
 * Fastest growing banks have no actual money (SocietyOne)
 * World's largest movie house owns no cinema (Netflix)
 * Largest software vendors don't write the apps (Google and Apple)
 
-[.reference]
-IBM for Entreperneurs, Sandy Carter
+[.copyright]
+Sandy Carter, "IBM for Entrepreneurs"
 
-
-== !
-
-Digitalisation changed things drastically
+== Digitalisation changed things drastically
 
 [.big]
 == How did we get here?
@@ -77,7 +79,7 @@ Digitalisation changed things drastically
 
 [background-image=https://fronteffects.files.wordpress.com/2014/04/tron-disneyscreencaps-com-7858.jpg]
 == !
-[%step]
+
 * 1972: Pulsar, the world's first all-electronic digital watch and the first to use a digital display, is launched.
 * 1975: The first digital camera, invented by Steven Sasson at Eastman Kodak, takes 23 seconds to capture its first image. 
 * 1977: Citibank installs its first ATM.
@@ -85,41 +87,59 @@ Digitalisation changed things drastically
 * 1981: IBM PC
 * 1982: The movie Tron is released.
 
+[.copyright]
+Gil Press, "A Very Short History of Digitization", Forbes.
+Tron is © 1982 The Walt Disney Company
+
 == !
-[%step]
+
 * 1982: The first commercial compact disc (CD) is produced.
 * 1985: Whole Earth’s ‘Lectronic Link (WELL) established, one of the first “virtual communities.”
 
-[background-image=https://d2c85jgx6ttczr.cloudfront.net/assets/import/2017/05/o-ZX-SPECTRUM-facebook.jpg]
-== around this time I was also starting out...
 
-[background-image=https://cleaner.ansilove.org/artwork/cl!-ppcm.ans.png]
-== ... and latter getting grounded due to a huge phone bill.
+[background-image=https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/ZXSpectrum48k.jpg/1280px-ZXSpectrum48k.jpg]
+[.big]
+== (around this time I was also starting to be interested in computing)
+
+[abackground-image=https://cleaner.ansilove.org/artwork/cl!-ppcm.ans.png]
+[background-video=RedSectorBBS.mp4]
+[.big]
+== (and latter getting grounded due to a huge phone bill)
+
 
 [background-image=https://blog.sciencemuseum.org.uk/wp-content/uploads/2017/08/WWW.jpg]
 == !
-[%step]
-* 1991:                                       The first 2G cellular network is launched in Finland.
-* 1992:                              Tim Berners-Lee posts the first photo uploaded to the Web.
-* 1994:                    A large pepperoni, mushroom and extra cheese pizza from Pizza Hut is ordered online, possibly the first transaction on the Web.
-* 1998:                                       Digital Television transmission commences in the U.K. and the U.S
+
+* 1991: The first 2G cellular network is launched in Finland.
+* 1992: Tim Berners-Lee posts the first photo uploaded to the Web.
+* 1994: A large pepperoni, mushroom and extra cheese pizza from Pizza Hut is ordered online, possibly the first transaction on the Web.
+* 1998: Digital Television transmission commences in the U.K. and the U.S
+
+[.copyright]
+CC BY-NC-SA © The Board of Trustees of the Science Museum, London| CERN 
 
 [background-image=film.jpg]
 == !
-[%step]
-* 2002:                                       Digital information storage surpasses non-digital for the first time.
-* 2003:                                       More digital cameras than traditional film cameras are sold in the U.S. for the first time.
-* 2003:                            The DVD format (launched in the late 1990s) becomes more popular than VHS in the U.S.
+
+* 2002: Digital information storage surpasses non-digital for the first time.
+* 2003: More digital cameras than traditional film cameras are sold in the U.S. for the first time.
+* 2003: The DVD format (launched in the late 1990s) becomes more popular than VHS in the U.S.
 * 2008:                                       More music is sold by iTunes than by Wal-Mart.
 
 [background-image=press.jpg]
 == !
-[%step]
-* 2011:                                       Amazon.com sells more Kindle books than print books.
-* 2014:                                       Streaming revenue from services like Spotify and Pandora overtake CD sales for the first time.
-* 2015                                       Every minute, Skype users make 110,040 calls, Twitter users send 347,222 tweets, YouTube users upload 300 hours of new videos, Pinterest users pin 9,722 images, Netflix subscribers stream 77,160 hours of video, Snapchat users share 284,722 snaps, and Facebook users like 4,166,667 posts.
 
+* 2011: Amazon.com sells more Kindle books than print books.
+* 2014: Streaming revenue from services like Spotify and Pandora
+  overtake CD sales for the first time.
+* 2015: Every minute, Skype users make 110,040 calls, Twitter users
+  send 347,222 tweets, YouTube users upload 300 hours of new videos,
+  Pinterest users pin 9,722 images, Netflix subscribers stream 77,160
+  hours of video, Snapchat users share 284,722 snaps, and Facebook
+  users like 4,166,667 posts.
 
+[.copyright]
+_ Impressio Librorum_ © The Trustees of the British Museum; photograph, J.R. Freeman & Co. Ltd.
 
 == Key factors that fueled disruption
 
@@ -144,7 +164,8 @@ software investments will exist entirely on the cloud"
 * Restructuring of social life
 
 
-[background-image=twin.png]
+[background-image=https://upload.wikimedia.org/wikipedia/commons/c/c3/Internet_map_4096.png]
+[.big]
 == Internet of Things
 
 == !
@@ -169,7 +190,7 @@ software investments will exist entirely on the cloud"
 they all display the ability to leverage digital technologies to
 understand the customer, sense market shifts, and innovate faster than
 the competition."
--- Harvard Business Report 2016
+-- Harvard Business Review, 2016
 
 [.big]
 == No industry is immune
@@ -177,9 +198,12 @@ the competition."
 == Financial sector
 
 == !
-* ATMs are ubiquitous - but being replaced by cashless operations via mobile.
-* An onslaught of digital invaders like Simple, Tesco Bank, PayPal, Square, Alibaba.com, etc.
-* The need for speed and innovation pose a constant challenge when catering to an ever younger Digital generation.
+* ATMs are ubiquitous - but being replaced by cashless operations via
+  mobile.
+* An onslaught of digital invaders like Simple, Tesco Bank, PayPal,
+  Square, Alibaba.com, etc.
+* The need for speed and innovation pose a constant challenge when
+  catering to an ever younger Digital generation.
 
 == !
 [.bigquote]
@@ -194,7 +218,7 @@ thinking of doing so, using cloud for innovation."
 immense pressure on the insurers today and making them rethink the way
 they run the insurance industry.
 * Millennials, have already taken over the baby boomers and now make up a
-quarter of the UK population (Inkling Millenial Report 2015).
+quarter of the UK population (_Inkling Millenial Report 2015_).
 * Almost 20% of millennials say they would buy insurance from
 Google since they are easier to reach (IBM Institute of
 Business Value study)
@@ -224,11 +248,10 @@ rather than their hardware value."
 risk. We further provide evidence that wages and educational attainment
 exhibit a strong negative relationship with an occupation’s
 probability of computerisation"
--- Frei and Osborne, University of Oxford
+-- Frei and Osborne "The future of employment: how susceptible are jobs to computerisation?"
 
-[background-image=http://idora.milliyet.com.tr/MolaSlider/2017/12/26/fft351_mf26404884.Jpeg]
+[background-image=https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Sir_Isaac_Newton_%28%3F%29_showing_an_optical_experiment_to_an_aud_Wellcome_V0015818.jpg/800px-Sir_Isaac_Newton_%28%3F%29_showing_an_optical_experiment_to_an_aud_Wellcome_V0015818.jpg]
 ==  When one body exerts a force on a second body, the second body simultaneously exerts a force equal in magnitude and opposite in direction on the first body.
-
 
 [background-image=luddites.png]
 == !
@@ -239,7 +262,7 @@ manufacture; the country notwithstanding has greatly benefited from
 their erection [and] destroying them in this country would only be the
 means of transferring them to another [...] to the detriment of the
 trade of Britain"
--- ibid, (cited in Mantoux, 2006, p. 403).
+-- Mantoux (as cited by Frei and Osborn) 
 
 == !
 
@@ -254,6 +277,14 @@ scared of instability)
 [background-image="https://cdn.vox-cdn.com/uploads/chorus_image/image/44154932/cdn.indiewire.0.0.jpg"]
 [.big]
 == The Incumbents Strike Back
+
+[.copyright]
+© 1980 Lucasfilm Ltd
+
+[background-image=csuite.png]
+== Global C-suite study
+
+Dancing with disruption: Incumbents hit their stride
 
 == !
 
@@ -425,6 +456,8 @@ fluid work structure made up of cross-functional teams.
 
 [background-image=https://res.cloudinary.com/uktv/image/upload/v1372867533/ou70cqjaugarnjvy3xi0.jpg]
 == that's commit, not a committe.
+[.copyright]
+© BBC Two
 
 == Experiment deliberately
 
@@ -453,8 +486,9 @@ fluid work structure made up of cross-functional teams.
 
 == but there's something beyond digital disruption
 
+
+[background-video=neurons.mp4]
 [.big]
-[background-image=neurons.mp4]
 == Cognitive disruption
 
 == We've mostly talked about impact of digitalisation and computerisation in routine tasks
@@ -513,7 +547,7 @@ generalization learning.
 
 *1997: First computer to defeat human World Chess Champion, Garry Kasparov.*
 
-== ... to here
+== ... and here
 [.big]
 == Watson Jeopardy! Challenge
 
@@ -598,6 +632,7 @@ computing to solve problems once considered unsolvable.
 
 
 [.big]
+[background-image=gs.jpg]
 == and what about education?
 
 == !
@@ -652,25 +687,61 @@ computing to solve problems once considered unsolvable.
 [.big]
 == Prepare informed citizens, or prepare ready-to-employ workers?
 
-[background-image="theschoolboy.jpg"]
+[background-image="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Songs_of_Innocence_and_of_Experience%2C_copy_AA%2C_object_1.jpg/800px-Songs_of_Innocence_and_of_Experience%2C_copy_AA%2C_object_1.jpg"]
+
 == !
+[.bigquote]
+[.red]
+[%hardbreaks]
+But to go to school in a summer morn, -
+O it drives all joy away!
+Under a cruel eye outworn,
+The little ones spend the day
+In sighing and dismay.
+- William Blake, The Schoolboy
 
 [.big]
 [background-image=http://litoralmagazine.com/wp-content/uploads/2017/06/Aveiro-Universidade-litoral-magazine-1000x600.jpg]
 == Thank you!
 
 
+[.bibliography]
 == References
 
 [.tiny]
 
-* Cover image: Luddites smashing a loom, from https://en.wikipedia.org/wiki/Luddite#/media/File:FrameBreaking-1812.jpg[Wikipedia]
-* Cover image from Greek vase from https://www.studenthandouts.com/01-Web-Pages/01-Picture-Pages/09.03-Blue-Ancient-Greek-Classical-Education.htm[Student Handouts] (cf. FURTWÄNGLER, A.; REICHHOLD, K. Griechische Vasenmalerei, vols. I-III. 1904)
-* "The Empire Strikes Back" image from https://www.polygon.com/2014/11/14/7222237/this-modern-empire-strikes-back-trailer-is-just-fantastic[Polygon]. THE EMPIRE STRIKES BACK TM & © 1980 Lucasfilm Ltd. (LFL) All rights reserved.
-* AI in Insurance data from https://www.ibm.com/blogs/insights-on-business/insurance/artificial-intelligence-machine-learning-insurance-industry/[Artificial intelligence and machine learning – Is this the next big disruption in the insurance industry?]
-== References
-
-* https://www.ibm.com/services/insights/c-suite-study/19th-edition:[Global C-suite Study: Incumbents Strike Back], IBM Institute for Business Value
+* Cover image: Luddites smashing a loom, from https://en.wikipedia.org/wiki/Luddite#/media/File:FrameBreaking-1812.jpg[Wikipedia] (edited by the author).
+* * https://www.capgemini.com/consulting/resources/digital-transformation-review-7-strategies-for-the-age-of-digital-disruption/[Cap Gemini, Digital Transformation Review nº 7]
+* The Blade Runner film, "Blade Runner" trademark, and many of the sounds, images and movie clips are Copyright © 1982, 1991 by the Blade Runner Partnership and/or The Ladd Company. Additional images and content are Copyright © Warner Bros.
+* Sandy Carter in "IBM for Entrepreneurs", via https://www.siliconrepublic.com/companies/digital-disruption-changed-8-industries-forever[John Kennedy, Silicon Republic, "How digital disruption changed 8 industries forever"]
 * https://www.forbes.com/sites/gilpress/2015/12/27/a-very-short-history-of-digitization[A Very Short History of Digitization], Gil Press, Forbes.
-* Gartner data on cloud from https://www.ibm.com/blogs/cloud-computing/2017/02/01/cloud-digital-disruption/[Cloud digital revolution: Disrupt or be disrupted]
-* https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htm[Watson Education PoV]
+* Tron and the Tron movie © 1982 The Walt Disney Company
+* ZX Spectrum image by Bill Bertram - Own work, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=170050[Wikipedia]
+* Red Sector BBS "Mega Quick Intro" available from http://janeway.exotica.org.uk/release.php?id=74946 and https://www.youtube.com/watch?v=cFruJN5BiJQ[Youtube]
+* NeXT Cube used by Tim Berners-Lee to design the World Wide Web at CERN, 1990, from http://collection.sciencemuseum.org.uk/objects/co8232360/next-cube-computer-1990-personal-computer[Science Museum], © The Board of Trustees of the Science Museum, London| CERN.
+* Camera film wallpaper image from http://www.wallpapername.com/Body_Parts/hands/cityscapes_hands_film_negative_1920x1200_wallpaper_54156[Wallpapername].
+* Impressio Librorum (Book Printing), plate 4 from the Nova Reperta (New Inventions of Modern Times), c. 1580–1605, engraving by Theodoor Galle after a drawing by Jan van der Straet, c. 1550; in the British Museum / Courtesy of the trustees of the British Museum; photograph, J.R. Freeman & Co. Ltd. https://www.britannica.com/technology/printing-press
+* "Gartner Says By 2020, a Corporate "No-Cloud" Policy Will Be as Rare as a "No-Internet" Policy Is Today", https://www.gartner.com/newsroom/id/3354117[Gartner]
+* Internet map https://commons.wikimedia.org/wiki/File:Internet_map_1024.jpg[Wikipedia Commons] by The Opte Project (CC BY 2.5)
+* Harvard Business Review,  https://hbr.org/sponsored/2016/12/from-data-to-disruption-innovation-through-digital-intelligence[From Data to Disruption: Innovation Through Digital Intelligence]
+* https://www.ibm.com/blogs/insights-on-business/banking/digital-business-transformation-financial-services/[Outthink Competition in Financial Services through Digital Business Transformation]
+
+== !
+
+* http://www.thisisinkling.com/inklingreports/2016/1/21/inkling-report-no-1-uk-millennials[Inkling Report No. 1: UK Millenials]
+* https://www.ibm.com/blogs/insights-on-business/insurance/artificial-intelligence-machine-learning-insurance-industry/[Artificial intelligence and machine learning – Is this the next big disruption in the insurance industry?]
+*https://www-935.ibm.com/services/multimedia/IBMCAI-Digital-disruption-in-automotive.pdf[Digital disruption and the future of the automotive industry], IBM.
+* FREY, Carl Benedikt; OSBORNE, Michael A. The future of employment: how susceptible are jobs to computerisation?. Technological Forecasting and Social Change, 2017, 114: 254-280 (https://www.oxfordmartin.ox.ac.uk/downloads/academic/The_Future_of_Employment.pdf[pdf])
+* Isaac Newton wood engraving by Martin after C. Laverie, https://commons.wikimedia.org/wiki/File:Sir_Isaac_Newton_(%3F)_showing_an_optical_experiment_to_an_aud_Wellcome_V0015818.jpg[Wikipedia Commons] CC BY 4.0
+* "The Empire Strikes Back" image from https://www.polygon.com/2014/11/14/7222237/this-modern-empire-strikes-back-trailer-is-just-fantastic[Polygon]. THE EMPIRE STRIKES BACK TM & © 1980 Lucasfilm Ltd. (LFL) All rights reserved.
+* https://www.ibm.com/services/insights/c-suite-study/19th-edition[Inside the Global C-suite Study]
+* "Yes Minister" and "Yes Prime Minister" © BBC Two
+* https://www.ibm.com/design/thinking/[IBM Design Thinking]
+* PwC, https://www.pwc.co.uk/economic-services/ukeo/pwcukeo-section-4-automation-march-2017-v2.pdf[Will robots steal our jobs? The potential impact of automation on the UK and other major economies]
+* http://research.ibm.com/5-in-5/[IBM Research 5 in 5]
+* https://www.ibm.com/watson/education[IBM Watson for Education]
+* Image from Greek vase from https://www.studenthandouts.com/01-Web-Pages/01-Picture-Pages/09.03-Blue-Ancient-Greek-Classical-Education.htm
+* https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Songs_of_Innocence_and_of_Experience%2C_copy_AA%2C_object_1.jpg/800px-Songs_of_In["Songs of Experience" image from Wikipedia Commons], William Blake quote from "Songs of Innocence and Songs of Experience", Dover Thrift Editions,199
+* Image from the University of Aveiro © Universidade de Aveiro
+
+
