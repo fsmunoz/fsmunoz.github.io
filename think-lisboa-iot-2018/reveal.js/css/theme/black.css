@@ -161,6 +161,10 @@ includes author and role!  This follows one of the cover design option
     color: #0f6dff;
 }
 
+.reveal .blue h2 {
+    color: #0f6dff;
+}
+
 
 .reveal .bigquote p {
 //    margin: 0 0 0 -15%;    
@@ -290,6 +294,9 @@ a.reveal .title p {
 
 .reveal ol {
   list-style-type: decimal; }
+
+.reveal .nobullets ul {
+  list-style-type: none; }
 
 .reveal ul {
   list-style-type: disc; }

@@ -12,23 +12,13 @@
 THINK Lisboa
 Convento do Beato | Junho 2018
 
-== !
-image::https://avatars0.githubusercontent.com/u/285727?s=460&v=4[width="150", border="0"]
-
-icon:envelope-o[] <frederico.munoz@pt.ibm.com>
-
-icon:linkedin[] https://www.linkedin.com/in/fsmunoz/
-
-icon:twitter[] https://twitter.com/fredericomunoz
-
-icon:github[] https://github.com/fsmunoz
 
 
 [.bigger]
 == Internet of Things
 
 [.big]
-== Conectividade
+== Conetividade
 
 ==  (de forma segura)
 
@@ -40,9 +30,8 @@ icon:github[] https://github.com/fsmunoz
 [.bigger]
 == Chega?
 
-== !
-
-para a IBM é o início
+[.big]
+== para a IBM é o início
 
 == A grande questão...
 [.bigger]
@@ -61,7 +50,7 @@ para a IBM é o início
 
 Toda a informação recolhida, normalizada e preparada para análise.
 
-== Com objectivos concretos.
+== Com objetivos concretos.
 
 [.big]
 [background-video="./weather.mp4",options="loop,muted"]
@@ -77,13 +66,14 @@ Toda a informação recolhida, normalizada e preparada para análise.
 
 == !
 
-(mais de 10 000 em cada asa!)
+(mais de 10.000 em cada asa!)
 
+[background-video="./airtraffic.mp4",options="loop,muted"]
 == (e são milhares de aviões em milhares de rotas)
 
 == !
 
-todos estes dados recolhidos permitem-nos compreender e actuar sobre algo conhecido de todos...
+todos estes dados recolhidos permitem-nos compreender e atuar sobre algo conhecido de todos...
 
 [.big]
 [background-image=https://media.giphy.com/media/3owvKgRjmrtgJikO7C/giphy.gif]
@@ -94,10 +84,10 @@ todos estes dados recolhidos permitem-nos compreender e actuar sobre algo conhec
 (mais do que uma questão de conforto, causa de milhões em custos operacionais e de manutenção)
 
 [background-iframe=https://www.youtube.com/embed/kQIkqD8pd-I?autoplay=1]
-== (para remover, deve ser demasiado longo)
+== !
 
 [.big]
-== O IoT é um ponto de partida 
+== A IoT é um ponto de partida 
 
 == !
 * Inteligência Artificial
@@ -108,8 +98,9 @@ todos estes dados recolhidos permitem-nos compreender e actuar sobre algo conhec
 
 == Esta capacidade única de integração que permite ir mais além
 
+[bbackground-video="./neurons.mp4",options="loop,muted"]
 [.big]
-== como assistentes de IA para a Internet das Coisas
+==  e criar assistentes de IA para a Internet das Coisas
 
 [background-iframe=https://www.youtube.com/embed/UkZJHVzVW-U?autoplay=1]
 == !
@@ -126,17 +117,18 @@ todos estes dados recolhidos permitem-nos compreender e actuar sobre algo conhec
 * Gerir
 
 [.big]
-[background-image=https://www.ibm.com/blogs/policy/wp-content/uploads/2018/01/Leadspace-653137674-1024x724.jpg]
-== Preservando a privacidade e transparência com os detentores dos dados.
+[background-image=leadspace-large.jpg]
+== Preservando a privacidade e transparência para com os detentores dos dados.
 
 [background-color=white]
-== Uma arquitectura flexível e aberta
+== Uma arquitetura flexível e aberta
 [.stretch]
-image::https://console.bluemix.net/docs/api/content/services/IoT/images/architecture_platform_2.svg[]
+image::./architecture_platform_2.svg[]
 
-[background-image=https://i.pinimg.com/originals/a8/e2/25/a8e225f40b2ef5beb6860a70da4f188d.jpg]
-[.bigger]
-== com capacidade de análise e reacção na periferia
+[bbackground-image=https://i.pinimg.com/originals/a8/e2/25/a8e225f40b2ef5beb6860a70da4f188d.jpg]
+[background-video="./tjbot.mp4",options="loop,muted"]
+[.big]
+== com capacidade de análise e reação na periferia
 
 [.big]
 [background-video="./clouds.mp4",options="loop,muted"]
@@ -145,25 +137,23 @@ image::https://console.bluemix.net/docs/api/content/services/IoT/images/architec
 == Só esta combinação permite ir além do «em tempo real»...
 
 [background-video="./powerboat.mp4",options="loop,muted"]
-[.big]
-== E permite reagir ao que se vai ainda passar, fundamental no caso de SilverHook Powerboats.
+== !
 
+**E permite reagir ao que ainda**
+
+**se vai ainda passar**
+
+[.big]
 == Para a IBM
 
 [background-video="./IBM_PoR.mp4",options="loop,muted"]
 == desde a criação de um gémeo digital de um dos maiores portos do mundo
-
-[.step]
-* (com a sensorização em ambiente terreste e aquático e determinação das melhores rotas)
+(com a sensorização em ambiente terreste e aquático e determinação das melhores rotas)
 
 [background-video="./ibm-rhinos.mp4",options="loop,muted"]
 [.big]
-== até à protecção dos rinocerontes africanos de caçadores furtivos
-
-[background-image=https://www.ibm.com/annualreport/2017/assets/images/14-grid/10-rhino.jpg]
-
-[.step]
-* (usando dados de sensores na fauna local)
+== até à proteção dos rinocerontes africanos de caçadores furtivos
+(usando dados de sensores na fauna local)
 
 [background-video="./moon.mp4",options="loop,muted"]
 == O limite é, hoje como ontem, a nossa capacidade de imaginar o futuro.
@@ -182,16 +172,22 @@ image::https://console.bluemix.net/docs/api/content/services/IoT/images/architec
 
 * Torres
 * Logística
-* Transporte
+* Transportes
 * Retalho
 * Cidades Inteligentes
+* Connected Cars
 
 == estamos preparados para ultrapassar esses limites convosco.
 
 [.big]
-[background-image="ibm_old.jpg"]
 == Obrigado!
+image::https://avatars0.githubusercontent.com/u/285727?s=460&v=4[width="150", border="0"]
 
+icon:envelope-o[] <frederico.munoz@pt.ibm.com>
 
+icon:linkedin[] https://www.linkedin.com/in/fsmunoz/
 
+icon:twitter[] https://twitter.com/fredericomunoz
+
+icon:github[] https://github.com/fsmunoz
 
