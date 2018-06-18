@@ -1,5 +1,5 @@
-= THINK Lisboa: IoT, para além da conectividade de dispositivos
-:date: 4-Apr-2018
+= THINK Lisboa: IoT, para além da conetividade de dispositivos
+:date: 18-Jun-2018
 :slide-background-video: stars.webm
 :_title-slide-background-video: stars.webm
 :_title-slide-background-image:  vitruvius_ideal_rv.jpg
