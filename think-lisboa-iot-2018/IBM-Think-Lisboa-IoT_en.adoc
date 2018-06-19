@@ -72,7 +72,7 @@ All this information is gathered, stored, processed and analysed.
 
 == !
 
-all this data is used to understand and act upon something known to allof us...
+all this data is used to understand and act upon something known to allot of us...
 
 [.big]
 [background-image=https://media.giphy.com/media/3owvKgRjmrtgJikO7C/giphy.gif]
@@ -105,7 +105,7 @@ all this data is used to understand and act upon something known to allof us...
 == !
 
 
-== IBM IoT allows
+== IBM IoT has a unique combination of abilities.
 
 == !
 
@@ -133,12 +133,12 @@ image::./architecture_platform_2.svg[]
 [background-video="./clouds.mp4",options="loop,muted"]
 == ... and always available on the IBM Cloud.
 
-== Only this ability makes it possible to go beyond "real time"...
+== Only this makes it possible to go beyond "real time"...
 
 [background-video="./powerboat.mp4",options="loop,muted"]
 == !
 
-** and react to what is going to happen
+**and react to what is going to happen**
 
 [.big]
 == Because for IBM
