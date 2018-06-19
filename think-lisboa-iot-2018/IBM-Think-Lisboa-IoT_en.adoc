@@ -68,7 +68,7 @@ All this information is gathered, stored, processed and analysed.
 (more than 10.000 in each wing!)
 
 [background-video="./airtraffic.mp4",options="loop,muted"]
-== and there are thousands of planes in thosands of routes, daily.
+== and there are thousands of planes in thousands of routes, daily.
 
 == !
 
@@ -120,7 +120,7 @@ all this data is used to understand and act upon something known to allof us...
 == Preserving privacy and transparency with data owners.
 
 [background-color=white]
-== A flexivle and open architecture
+== A flexible and open architecture
 [.stretch]
 image::./architecture_platform_2.svg[]
 
