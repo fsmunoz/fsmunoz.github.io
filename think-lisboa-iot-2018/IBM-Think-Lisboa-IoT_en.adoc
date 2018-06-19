@@ -1,4 +1,4 @@
-= THINK Lisboa: IoT, beyond connecivity and data
+= THINK Lisboa: IoT, beyond connectivity and data
 :date: 18-Jun-2018
 :slide-background-video: stars.webm
 :_title-slide-background-video: stars.webm
