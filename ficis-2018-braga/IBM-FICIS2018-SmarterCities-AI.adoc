@@ -42,7 +42,7 @@ image::https://researcher.watson.ibm.com/researcher/images/aotlogo_100x100.png[w
 Since 2000, *52%* of companies in the Fortune 500 have either gone
 bankrupt, been acquired or ceased to exist.
 
-[background-image=blade-runner.jpg]
+[background-image=../images/blade-runner.jpg]
 == !
 (and it started before that...)
 
@@ -50,7 +50,7 @@ bankrupt, been acquired or ceased to exist.
 
 == ... and society's most complex organism
 
-[background-image=vitruvius_ideal_rv_bw.jpg]
+[background-image=../images/vitruvius_ideal_rv_bw.jpg]
 [.big]
 
 == The City
@@ -59,12 +59,12 @@ bankrupt, been acquired or ceased to exist.
 
 == and because of that we'll let someone as old as the city of Braga guide use.
 
-[background-image=vitruvius.jpg]
+[background-image=../images/vitruvius.jpg]
 [.big]
 == Vitruvius
 
 
-[background-image=vitruvius_ideal_rv.jpg]
+[background-image=../images/vitruvius_ideal_rv.jpg]
 == Data & Knowledge
 [.bigquote]
 "...The architect should be equipped with knowledge of many branches
@@ -72,7 +72,7 @@ of study and varied kinds of learning, for it is by his judgement that
 all work done by the other arts is put to test..."
 -- Vitruvius (de arch. 2.1.1)
 
-[background-image=pexels-photo-239898.jpeg]
+[background-image=../images/pexels-photo-239898.jpeg]
 [.big]
 == Cities have lots of data
 
@@ -82,7 +82,7 @@ all work done by the other arts is put to test..."
 [background-color="white"]
 == !
 [.stretch]
-image::image1.png[]
+image::../images/image1.png[]
 
 
 == we have data
@@ -97,7 +97,7 @@ image::image1.png[]
 [.bigger]
 == and AI
 
-[background-image=vitruvius_ideal_rv.jpg]
+[background-image=../images/vitruvius_ideal_rv.jpg]
 == Data & Knowledge
 [.bigquote]
 "...all that is greatest and essential is under the direction of the
@@ -170,7 +170,7 @@ solve those *business problems* using *artificial intelligence* to create
 == !
 
 
-[background-image=vitruvius_ideal_rv.jpg]
+[background-image=../images/vitruvius_ideal_rv.jpg]
 == Supply chain, then and now
 [.bigquote]
 
@@ -183,7 +183,7 @@ city..."
 == Cities are also big centres of commerce and transportation.
 
 [.big]
-[background-image=news-transport-jan18-portofrotterdam.jpg]
+[background-image=../images/news-transport-jan18-portofrotterdam.jpg]
 == Port of Rotterdam
 
 
@@ -196,11 +196,11 @@ city..."
  * 3.3% of Dutch GDP
 
 
-[background-image=port_digital.png]
+[background-image=../images/port_digital.png]
 == !
 
 
-[background-image=twin.png]
+[background-image=../images/twin.png]
 == !
 
 [%step]
@@ -222,7 +222,7 @@ city..."
 == Smarter cities are composed of _smarter places_
 
 
-[background-image=vitruvius_ideal_rv.jpg]
+[background-image=../images/vitruvius_ideal_rv.jpg]
 == Vertical space
 [.bigquote]
 
@@ -241,7 +241,7 @@ A billion people a day. Millions of elevators. No room for downtime
 
 == Change is inevitable.
 
-[background-image=vitruvius_ideal_rv.jpg]
+[background-image=../images/vitruvius_ideal_rv.jpg]
 == Location, location, location...
 [.bigquote]
 "First comes the choice of a very healthy site"
@@ -250,13 +250,13 @@ A billion people a day. Millions of elevators. No room for downtime
 == !
 and cities also change with time.
 
-[background-image=antonino.png]
+[background-image=../images/antonino.png]
 == New routes to new places
 
 == We work with those responsible to enable them to cope with change
 
 
-[background-image=ioc_tub.png]
+[background-image=../images/ioc_tub.png]
 == !
 
 
@@ -264,17 +264,17 @@ and cities also change with time.
 
 integrating many data sources in real-time
 
-[background-image=iot_tub.png]
+[background-image=../images/iot_tub.png]
 == !
 
 == !
 
 and providing the tools to analyse all that data
 
-[background-image=watson_tub.png]
+[background-image=../images/watson_tub.png]
 == !
 
-[background-image=muralha_romana_medieval.JPG]
+[background-image=../images/muralha_romana_medieval.JPG]
 == New times, new centralities, new challenges
 
 
@@ -286,7 +286,7 @@ and providing the tools to analyse all that data
 
 == Social equity
 
-[background-image="image.imageformat.lightbox.822921197.jpg"]
+[background-image="./images/image.imageformat.lightbox.822921197.jpg"]
 == Inequality has risen to its highest levels in the past three decades, interacting with the other trends in significant ways.
 
 [.big]
@@ -303,7 +303,7 @@ What the future holds?
 [background-image="http://web.eecs.umich.edu/~profmars/wp-content/uploads/2014/10/SHORPY_00529u1-1080x380.jpg"]
 == IBM Research 5 in 5
 
-[background-image=blockchain-stop.jpg]
+[background-image=../images/blockchain-stop.jpg]
 == Blockchain
 
 == !
@@ -312,7 +312,7 @@ Within the next five years, cryptographic anchors and blockchain
 technology will ensure a product’s authenticity -- from its point of
 origin to the hands of the customer.
 
-[background-image=leadspace-large.jpg]
+[background-image=../images/leadspace-large.jpg]
 == Security & Cryptography
 
 == !
@@ -321,7 +321,7 @@ The scale and sophistication of cyber-attacks escalates every year, as
 do the stakes. In five years, new methods of attack will make today’s
 security measures woefully inadequate.
 
-[background-image=ocean-stop.jpg]
+[background-image=../images/ocean-stop.jpg]
 == AI, robots and the oceans
 
 == !
@@ -330,7 +330,7 @@ In five years, small autonomous AI microscopes, networked in the cloud
 and deployed around the world, will continually monitor the condition
 of the natural resource most critical to our survival: water.
 
-[background-image=illustration-net.png]
+[background-image=../images/illustration-net.png]
 == AI bias
 
 == !
