@@ -378,9 +378,29 @@ e as soluções necessárias para analisar os dados
 
 == É necessário conseguir construir soluções para as oportunidades existentes
 
+* TUB
+* NAV
+* Tomar
+* Delta
+* Viseu
+* Abrantes
+* Sogrape
+* Ponta Delgada
+* ...
+
+== tendo em conta a complexidade dos projectos
 == !
 
 IoT, AI, Machine Learning, Cloud, Data Science...
+
+== Tecnologias
+
+Python, Cisco IoS, Clojure, IBM Maximo, Java, Node-RED, Javascript,
+DB2, Openwhisk, Watson Analytics, Grafana, VMware, GNU/Linux, bash,
+node.js, Dojo, CouchDB, Intelligent Operations Center, SPSS, Watson
+Studio, C, Dojo, CPLEX, Watson IoT Platform, Kubernetes, Kapua, MQTT,
+Cognos, R, IBM Cloud, Kura, Cisco IOX, Kafka, LoRA, REST, JSON,
+DashDB, Watson APIs, ...
 
 == !
 [.stretch]
@@ -393,13 +413,6 @@ image::../images/iot_factory.png[]
 * Multi-disciplinar por natureza
 * Foco na solução
 
-== Tecnologias
-
-Python, Cisco IoS, Clojure, IBM Maximo, Java, Node-RED, Javascript,
-DB2, Openwhisk, Watson Analytics, Grafana, VMware, GNU/Linux, bash,
-node.js, Dojo, CouchDB, Intelligent Operations Center, SPSS, Watson
-Studio, C, Dojo, CPLEX, Watson IoT Platform, Kubernetes, Kapua, MQTT,
-Cognos, R, IBM Cloud, Kura, Cisco IOX...
 
 
 [.big]
