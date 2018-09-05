@@ -1,0 +1,94 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>CaaS for Portugal</title><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" name="viewport"><link href="reveal.js/css/reveal.css" rel="stylesheet"><link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme"><link href="reveal.js/lib/css/zenburn.css" rel="stylesheet"><script>document.write( '<link rel="stylesheet" href="reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );</script></head><body><div class="reveal"><div class="slides"><section class="title" data-state="title"><h1>CaaS for Portugal</h1></section><section id="_introduction"><h2>Introduction</h2><div class="paragraph"><p>In preparation of the on-site visit regarding the Containers as a
+Service (CaaS) offering made in Spain some this document contains
+high-level highlights of the kind of doubts and questions that the
+Portuguese team has at the moment; not having an intimate knowledge of
+the solution it is likely that not all of them are apropriate but they
+are still a reference that can help guide the information sharing process</p></div></section>
+<section><section id="_doubts"><h2>Doubts</h2></section><section id="_management"><h2>Management</h2><div class="olist arabic"><ol class="arabic"><li><p>What are the components used for monitoring?</p></li><li><p>Is the monitoring integrated (or integratable) into existins
+GSMA-based solutions or should it be considered a completely different
+approach (self-contained and not dependent or integrated into anything else, e.g. Prometheus/Graphana/ELK/etc)?</p></li><li><p>Is the monitoring for the Containers different from the one used for
+the managed-from infrastructure?</p></li><li><p>What is the backup approach for the containers?
+.</p></li></ol></div></section><section id="_additional_services"><h2>Additional services</h2><div class="olist arabic"><ol class="arabic"><li><p>Is migration analysis a part of the offering?</p></li><li><p>If migration analysis is part of the offering, is it standalone or
+articulated with other units (e.g. Cloud, GBS)</p></li></ol></div></section><section id="_caas_and_cloud_offerings"><h2>CaaS and Cloud offerings</h2><div class="olist arabic"><ol class="arabic"><li><p>What is the relation with ICP? Can ICP be leveraged/proposed as a
+basis for the CaaS offering?
+.</p></li></ol></div></section><section id="_costing_princing_and_scope"><h2>Costing, princing and scope</h2><div class="olist arabic"><ol class="arabic"><li><p>What are the key price drivers in the offering?</p></li><li><p>Is there a responsability matrix or service description that quickly
+identifies the scope?</p></li><li><p>Are there minimum reuquirements for an initial setup?</p></li></ol></div></section><section id="_non_functional_requirements"><h2>Non-functional requirements</h2><div class="olist arabic"><ol class="arabic"><li><p>What is the overall DR approach?</p></li><li><p>Is Business Continuitiy possible and/or integrated into the design?</p></li></ol></div>
+<div class="paragraph"><p>Que parceiros?
+Que contas?</p></div></section></section></div></div><script src="reveal.js/lib/js/head.min.js"></script><script src="reveal.js/js/reveal.js"></script><script>// See https://github.com/hakimel/reveal.js#configuration for a full list of configuration options
+Reveal.initialize({
+  // Display controls in the bottom right corner
+  controls: true,
+  // Display a presentation progress bar
+  progress: true,
+  // Display the page number of the current slide
+  slideNumber: false,
+  // Push each slide change to the browser history
+  history: false,
+  // Enable keyboard shortcuts for navigation
+  keyboard: true,
+  // Enable the slide overview mode
+  overview: true,
+  // Vertical centering of slides
+  center: true,
+  // Enables touch navigation on devices with touch input
+  touch: true,
+  // Loop the presentation
+  loop: false,
+  // Change the presentation direction to be RTL
+  rtl: false,
+  // Turns fragments on and off globally
+  fragments: true,
+  // Flags if the presentation is running in an embedded mode,
+  // i.e. contained within a limited portion of the screen
+  embedded: false,
+  // Number of milliseconds between automatically proceeding to the
+  // next slide, disabled when set to 0, this value can be overwritten
+  // by using a data-autoslide attribute on your slides
+  autoSlide: 0,
+  // Stop auto-sliding after user input
+  autoSlideStoppable: true,
+  // Enable slide navigation via mouse wheel
+  mouseWheel: false,
+  // Hides the address bar on mobile devices
+  hideAddressBar: true,
+  // Opens links in an iframe preview overlay
+  previewLinks: false,
+  // Theme (e.g., beige, black, league, night, serif, simple, sky, solarized, white)
+  // NOTE setting the theme in the config no longer works in reveal.js 3.x
+  //theme: Reveal.getQueryHash().theme || 'black',
+  // Transition style (e.g., none, fade, slide, convex, concave, zoom)
+  transition: Reveal.getQueryHash().transition || 'slide',
+  // Transition speed (e.g., default, fast, slow)
+  transitionSpeed: 'default',
+  // Transition style for full page slide backgrounds (e.g., none, fade, slide, convex, concave, zoom)
+  backgroundTransition: 'fade',
+  // Number of slides away from the current that are visible
+  viewDistance: 3,
+  // Parallax background image (e.g., "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'")
+  parallaxBackgroundImage: '',
+  // Parallax background size in CSS syntax (e.g., "2100px 900px")
+  parallaxBackgroundSize: '',
+
+  // The "normal" size of the presentation, aspect ratio will be preserved
+  // when the presentation is scaled to fit different resolutions. Can be
+  // specified using percentage units.
+  width: 960,
+  height: 700,
+
+  // Factor of the display size that should remain empty around the content
+  margin: 0.1,
+
+  // Bounds for smallest/largest possible scale to apply to content
+  minScale: 0.2,
+  maxScale: 1.5,
+
+  // Optional libraries used to extend on reveal.js
+  dependencies: [
+      { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      
+      { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+  ]
+});</script></body></html>

@@ -1,0 +1,191 @@
+= THINK Lisboa: IoT, para além da conetividade de dispositivos
+:date: 18-Jun-2018
+:slide-background-video: stars.webm
+:_title-slide-background-video: stars.webm
+:_title-slide-background-image:  vitruvius_ideal_rv.jpg
+:_revealjs_center: false
+:icons: font
+:stem: latexmath
+
+[.location]
+*Frederico Muñoz* | Chief Architect | IBM Technical Expert Council (SPGI)
+THINK Lisboa
+Convento do Beato | Junho 2018
+
+[.bigger]
+== Internet of Things
+
+[.big]
+== Conetividade
+
+==  (de forma segura)
+
+[.big]
+== Armazenamento dos dados
+
+==  (também de forma segura)
+
+[.bigger]
+== Chega?
+
+[.big]
+== para a IBM é o início
+
+== A grande questão...
+[.bigger]
+== O que fazer com os dados?
+
+== alguns exemplos
+
+[.big]
+== The Weather Company
+
+[.big]
+[background-image=https://www-03.ibm.com/press/us/en/attachment/50220.wss?fileId=ATTACH_FILE2&fileName=IBM&TWCPWS.png]
+==  20 milhões de fontes de dados
+
+== !
+
+Toda a informação recolhida, normalizada e preparada para análise.
+
+== Com objetivos concretos.
+
+[.big]
+[background-video="./weather.mp4",options="loop,muted"]
+== Construir melhores modelos preditivos.
+
+== um outro exemplo
+
+[.big]
+[background-image=https://www.ibm.com/cognitive/uk-en/outthink/img/lh_aviation_outthink_1920px.jpg]
+== Aviação com Watson
+
+== cada avião contém milhares de sensores
+
+== !
+
+(mais de 10.000 em cada asa!)
+
+[background-video="./airtraffic.mp4",options="loop,muted"]
+== (e são milhares de aviões em milhares de rotas)
+
+== !
+
+todos estes dados recolhidos permitem-nos compreender e atuar sobre algo conhecido de todos...
+
+[.big]
+[background-image=https://media.giphy.com/media/3owvKgRjmrtgJikO7C/giphy.gif]
+== Turbulência
+
+== !
+
+(mais do que uma questão de conforto, causa de milhões em custos operacionais e de manutenção)
+
+[background-iframe=https://www.youtube.com/embed/kQIkqD8pd-I?autoplay=1]
+== !
+
+[.big]
+== A IoT é um ponto de partida 
+
+== !
+* Inteligência Artificial
+* Cloud
+* Mobile
+* APIs e Microserviços
+* Blockchain
+
+== Esta capacidade única de integração que permite ir mais além
+
+[bbackground-video="./neurons.mp4",options="loop,muted"]
+[.big]
+==  e criar assistentes de IA para a Internet das Coisas
+
+[background-iframe=https://www.youtube.com/embed/UkZJHVzVW-U?autoplay=1]
+== !
+
+
+== A plataforma IBM IoT permite
+
+== !
+
+* Ligar
+* Misturar
+* Agregar
+* Explorar
+* Gerir
+
+[.big]
+[background-image=leadspace-large.jpg]
+== Preservando a privacidade e transparência para com os detentores dos dados.
+
+[background-color=white]
+== Uma arquitetura flexível e aberta
+[.stretch]
+image::./architecture_platform_2.svg[]
+
+[bbackground-image=https://i.pinimg.com/originals/a8/e2/25/a8e225f40b2ef5beb6860a70da4f188d.jpg]
+[background-video="./tjbot.mp4",options="loop,muted"]
+[.big]
+== com capacidade de análise e reação na periferia
+
+[.big]
+[background-video="./clouds.mp4",options="loop,muted"]
+== ... e sempre disponível na IBM Cloud.
+
+== Só esta combinação permite ir além do «em tempo real»...
+
+[background-video="./powerboat.mp4",options="loop,muted"]
+== !
+
+**E permite reagir ao que ainda**
+
+**se vai passar**
+
+[.big]
+== Para a IBM
+
+[background-video="./IBM_PoR.mp4",options="loop,muted"]
+== desde a criação de um gémeo digital de um dos maiores portos do mundo
+(com a sensorização em ambiente terreste e aquático e determinação das melhores rotas)
+
+[background-video="./ibm-rhinos.mp4",options="loop,muted"]
+[.big]
+== até à proteção dos rinocerontes africanos de caçadores furtivos
+(usando dados de sensores na fauna local)
+
+[background-video="./moon.mp4",options="loop,muted"]
+== O limite é, hoje como ontem, a nossa capacidade de imaginar o futuro.
+
+== E em Portugal?
+
+== !
+
+* Vídeo-vigilância
+* Hospitais
+* Indústria
+* Contadores
+* Estacionamento
+
+== !
+
+* Torres
+* Logística
+* Transportes
+* Retalho
+* Cidades Inteligentes
+* Connected Cars
+
+== estamos preparados para ultrapassar esses limites convosco.
+
+[.big]
+== Obrigado!
+image::https://avatars0.githubusercontent.com/u/285727?s=460&v=4[width="150", border="0"]
+
+icon:envelope-o[] <frederico.munoz@pt.ibm.com>
+
+icon:linkedin[] https://www.linkedin.com/in/fsmunoz/
+
+icon:twitter[] https://twitter.com/fredericomunoz
+
+icon:github[] https://github.com/fsmunoz
+
