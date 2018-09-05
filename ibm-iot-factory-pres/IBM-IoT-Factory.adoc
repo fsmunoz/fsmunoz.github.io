@@ -378,6 +378,7 @@ e as soluções necessárias para analisar os dados
 
 == É necessário conseguir construir soluções para as oportunidades existentes
 
+== !
 * TUB
 * NAV
 * Tomar
