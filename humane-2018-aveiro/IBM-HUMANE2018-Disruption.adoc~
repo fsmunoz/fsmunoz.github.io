@@ -1,4 +1,4 @@
-= Digital disruption origins, trends, impacts: An IBM Point-of-View
+= Digital disruption origins, trends, impacts: a view from the industry
 :date: 6-Apr-2018
 :slide-background-video: stars.webm
 :_title-slide-background-video: stars.webm
@@ -33,8 +33,6 @@ an affiliate of the IBM Academy of Technology.
 
 image::https://researcher.watson.ibm.com/researcher/images/aotlogo_100x100.png[width=20%,role=inline] 
 
-[%notitle,background-iframe="https://www.youtube.com/embed/LaApqL4QjH8?rel=0&start=3&enablejsapi=1&autoplay=1&loop=1&controls=0&modestbranding=1"]
-== a youtube video
 
 [.bigger]
 == Disruption
@@ -42,16 +40,236 @@ image::https://researcher.watson.ibm.com/researcher/images/aotlogo_100x100.png[w
 == !
 
 Since 2000, *52%* of companies in the Fortune 500 have either gone
-bankrupt, been acquired or ceased to exist.
+bankrupt, been acquired or ceased to exist^1^.
 
-[background-iframe="https://www.youtube.com/embed/ZZ17UsZ0DEQ?autoplay=1&mute=1"]
+[abackground-image=blade-runner.jpg]
+[background-video=blade_runner.webm]
 == !
 (and it started before that...)
 
+[.copyright]
+© 1982, 1991 by the Blade Runner Partnership and/or The Ladd Company; film images © Warner Bros. 
+
+== a quick look at some of today's industries...
 == !
-[background-image=blade-runner.jpg]
+
+
+* World's largest taxi company owns no cars (Uber)
+* Largest accommodation provider owns no  real-estate (Airbnb)
+* Largest phone companies owns no telco infra (Skype, WeChat)
+* World's most valubable retailer has no inventory (Alibaba)
+
 == !
-(and it started before that...)
+
+
+* Most popular media owner creates no content (Facebook)
+* Fastest growing banks have no actual money (SocietyOne)
+* World's largest movie house owns no cinema (Netflix)
+* Largest software vendors don't write the apps (Google and Apple)
+
+[.copyright]
+Sandy Carter, "IBM for Entrepreneurs"
+
+== Digitalisation changed things drastically
+
+[.big]
+== How did we get here?
+
+== a quick journey through some milestones
+
+[background-image=https://fronteffects.files.wordpress.com/2014/04/tron-disneyscreencaps-com-7858.jpg]
+== !
+
+* 1972: Pulsar, the world's first all-electronic digital watch and the first to use a digital display, is launched.
+* 1975: The first digital camera, invented by Steven Sasson at Eastman Kodak, takes 23 seconds to capture its first image. 
+* 1977: Citibank installs its first ATM.
+* 1977: Apple ][
+* 1981: IBM PC
+* 1982: The movie Tron is released.
+
+[.copyright]
+Gil Press, "A Very Short History of Digitization", Forbes.
+Tron is © 1982 The Walt Disney Company
+
+== !
+
+* 1982: The first commercial compact disc (CD) is produced.
+* 1985: Whole Earth’s ‘Lectronic Link (WELL) established, one of the first “virtual communities.”
+
+
+[background-image=https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/ZXSpectrum48k.jpg/1280px-ZXSpectrum48k.jpg]
+[.big]
+== (around this time I was also starting to be interested in computing)
+
+[abackground-image=https://cleaner.ansilove.org/artwork/cl!-ppcm.ans.png]
+[background-video=RedSectorBBS.mp4]
+[.big]
+== (and latter getting grounded due to a huge phone bill)
+
+
+[background-image=https://blog.sciencemuseum.org.uk/wp-content/uploads/2017/08/WWW.jpg]
+== !
+
+* 1991: The first 2G cellular network is launched in Finland.
+* 1992: Tim Berners-Lee posts the first photo uploaded to the Web.
+* 1994: A large pepperoni, mushroom and extra cheese pizza from Pizza Hut is ordered online, possibly the first transaction on the Web.
+* 1998: Digital Television transmission commences in the U.K. and the U.S
+
+[.copyright]
+CC BY-NC-SA © The Board of Trustees of the Science Museum, London| CERN 
+
+[background-image=film.jpg]
+== !
+
+* 2002: Digital information storage surpasses non-digital for the first time.
+* 2003: More digital cameras than traditional film cameras are sold in the U.S. for the first time.
+* 2003: The DVD format (launched in the late 1990s) becomes more popular than VHS in the U.S.
+* 2008:                                       More music is sold by iTunes than by Wal-Mart.
+
+[background-image=press.jpg]
+== !
+
+* 2011: Amazon.com sells more Kindle books than print books.
+* 2014: Streaming revenue from services like Spotify and Pandora
+  overtake CD sales for the first time.
+* 2015: Every minute, Skype users make 110,040 calls, Twitter users
+  send 347,222 tweets, YouTube users upload 300 hours of new videos,
+  Pinterest users pin 9,722 images, Netflix subscribers stream 77,160
+  hours of video, Snapchat users share 284,722 snaps, and Facebook
+  users like 4,166,667 posts.
+
+[.copyright]
+_ Impressio Librorum_ © The Trustees of the British Museum; photograph, J.R. Freeman & Co. Ltd.
+
+== Key factors that fueled disruption
+
+
+[background-video="./clouds.mp4",options="loop,muted"]
+[.big]
+== Cloud
+
+== !
+"By 2020, businesses without cloud capabilities will be as uncommon as
+businesses without Internet are today. 30 percent of the largest new
+software investments will exist entirely on the cloud"
+-- Gartner 
+
+[.big]
+== Rise of mobile
+
+== !
+[%step]
+* Always-on expectation
+* Interaction through mobile
+* Restructuring of social life
+
+
+[background-image=https://upload.wikimedia.org/wikipedia/commons/c/c3/Internet_map_4096.png]
+[.big]
+== Internet of Things
+
+== !
+* Universal connectivity
+* Sensors everywhere
+* Huge ammount of data being generated
+* Ability to map the physical world to the digital model
+
+== !
+
+[.big]
+== So-called _disruptors_ took full advantage of these
+
+== !
+* "Digital first" culture competitors
+* Perceived the rise of different customer interaction models
+* Were able to explore new markets
+
+==  !
+
+"As different as these new disruptors are from one another,
+they all display the ability to leverage digital technologies to
+understand the customer, sense market shifts, and innovate faster than
+the competition."
+-- Harvard Business Review, 2016
+
+[.big]
+== No industry is immune
+
+== Financial sector
+
+== !
+* ATMs are ubiquitous - but being replaced by cashless operations via
+  mobile.
+* An onslaught of digital invaders like Simple, Tesco Bank, PayPal,
+  Square, Alibaba.com, etc.
+* The need for speed and innovation pose a constant challenge when
+  catering to an ever younger Digital generation.
+
+== !
+[.bigquote]
+"80% of CXOs are experimenting with different business models or
+thinking of doing so, using cloud for innovation."
+-- Robert Leblanc, Senior Vice President, IBM Cloud,
+
+== Insurance
+
+== !
+* Rapid digitisation and changing customer demographics are putting
+immense pressure on the insurers today and making them rethink the way
+they run the insurance industry.
+* Millennials, have already taken over the baby boomers and now make up a
+quarter of the UK population (_Inkling Millenial Report 2015_).
+* Almost 20% of millennials say they would buy insurance from
+Google since they are easier to reach (IBM Institute of
+Business Value study)
+
+== Automotive industry
+
+== !
+* The connected car and IoT
+* Autonomous driving
+* Mobile devices as the main form of interaction
+
+== !
+[.bigquote]
+"The fear of OEMs is that a car will become a
+smartphone on wheels, with cars built around their entertainment value
+rather than their hardware value."
+-- Paul Fielden (IBM Automotive Global Center of Competence Lead)
+
+
+[.big]
+== There is a direct impact in terms of the social fabric and work relations
+
+== !
+[.bigquote]
+
+"According to our estimates, about 47 percent of total US employment is at
+risk. We further provide evidence that wages and educational attainment
+exhibit a strong negative relationship with an occupation’s
+probability of computerisation"
+-- Frei and Osborne "The future of employment: how susceptible are jobs to computerisation?"
+
+[background-image=https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Sir_Isaac_Newton_%28%3F%29_showing_an_optical_experiment_to_an_aud_Wellcome_V0015818.jpg/800px-Sir_Isaac_Newton_%28%3F%29_showing_an_optical_experiment_to_an_aud_Wellcome_V0015818.jpg]
+==  When one body exerts a force on a second body, the second body simultaneously exerts a force equal in magnitude and opposite in direction on the first body.
+
+[background-image=luddites.png]
+== !
+[.bigquote]
+
+"The sole cause of great riots was the new machines employed in cotton
+manufacture; the country notwithstanding has greatly benefited from
+their erection [and] destroying them in this country would only be the
+means of transferring them to another [...] to the detriment of the
+trade of Britain"
+-- Mantoux (as cited by Frei and Osborn) 
+
+== !
+
+(but just like then, people are not scared of technology: they're
+scared of instability)
+
+== Analogs vs Digitals
 
 
 == Out with old, in with the new?
@@ -60,306 +278,310 @@ bankrupt, been acquired or ceased to exist.
 [.big]
 == The Incumbents Strike Back
 
+[.copyright]
+© 1980 Lucasfilm Ltd
+
+[background-image=csuite.png]
+== Global C-suite study
+
+Dancing with disruption: Incumbents hit their stride
+
 == !
 
-"What’s required, now more than ever, is the fortitude for perpetual reinvention."
+From the HBR study:
 
+* A cement company invested in analytics.
+* An hospitality company invested heavily in analytics and in people
+  skilled in analysing digital trends.
+* Pharma companies are analysing data to track usage.
 
-[background-image=https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/10/20/23/backtothefuture.jpg]
+[.big]
 == !
+
+What’s required, now more than ever, is the fortitude for perpetual reinvention.
 
 [background-color="white"]
 == !
 [.stretch]
 image::external_threats.png[]
-[.big]
-== Thank you!
 
+== Dancing with disruption
 
-== Refere
-
-== References
-
-[.tiny]
-
-* Cover image: Luddites smashing a loom, from https://en.wikipedia.org/wiki/Luddite#/media/File:FrameBreaking-1812.jpg[Wikipedia]
-* Cover image from Greek vase from https://www.studenthandouts.com/01-Web-Pages/01-Picture-Pages/09.03-Blue-Ancient-Greek-Classical-Education.htm[Student Handouts] (cf. FURTWÄNGLER, A.; REICHHOLD, K. Griechische Vasenmalerei, vols. I-III. 1904)
-* "The Empire Strikes Back" image from https://www.polygon.com/2014/11/14/7222237/this-modern-empire-strikes-back-trailer-is-just-fantastic[Polygon]. THE EMPIRE STRIKES BACK TM & © 1980 Lucasfilm Ltd. (LFL) All rights reserved.
-
-== References
-
-* https://www.ibm.com/services/insights/c-suite-study/19th-edition:[Global C-suite Study: Incumbents Strike Back], IBM Institute for Business Value
-
-
-
-
-
-
-
-
-
-== New business models affect society
-
-
-
-
-
-
-
-
-
-
-== ... and society's most complex organism
-
-[background-image=vitruvius_ideal_rv_bw.jpg]
-[.big]
-
-== The City
-
-== this is not new
-
-== and because of that we'll let someone as old as the city of Braga guide use.
-
-[background-image=vitruvius.jpg]
-[.big]
-== Vitruvius
-
-
-[background-image=vitruvius_ideal_rv.jpg]
-== Data & Knowledge
-[.bigquote]
-"...The architect should be equipped with knowledge of many branches
-of study and varied kinds of learning, for it is by his judgement that
-all work done by the other arts is put to test..."
--- Vitruvius (de arch. 2.1.1)
-
-[background-image=pexels-photo-239898.jpeg]
-[.big]
-== Cities have lots of data
-
-== (this is the Internet of Things, after all)
-
-
-[background-color="white"]
-== !
-[.stretch]
-image::image1.png[]
-
-
-== we have data
+Seventy-two percent of C-suite executives tell us that innovative
+industry incumbents lead the disruption in their industry
 
 [.big]
-== But what can we do with it?
+== What changed?
 
-[background-video="./neurons.mp4",options="loop,muted"]
-== Enter Data Science, Machine Learning...
-
-
-[.bigger]
-== and AI
-
-[background-image=vitruvius_ideal_rv.jpg]
-== Data & Knowledge
-[.bigquote]
-"...all that is greatest and essential is under the direction of the
-thinking power of the mind and the understanding..."
--- Vitruvius (de arch. 6.0.3)
-
-== First, some definitions
-
-== !
-[.bigquote]
-"At its core, data science is applying the scientific method to solve business problems."
--- Seth Dobrin & Jean-François Puget (IBM)
-
-== !
-
-You can further expand on the definition by understanding that we
-solve those *business problems* using *artificial intelligence* to create
-*predictions and prescriptions* and to *optimize processes*.
-
-== Analytics
+== One wave of disruption may be abating.
 
 [%step]
-* «The scientific process of transforming data into insight for making better decisions» (INFORMS)
+* Ubiquitous mobility and digital media have already shaken up the most
+susceptible industries.
+* The number of business startups in the United States recently reached a 40-year low.
+* Incumbents honed their skills to acquire nascent disruptors, along
+  with their digital skills and innovator talent.
+  
 
-== The Analytics Maturity Model
-[.step]
-- What happened? _Descriptive_
-- Why did it happen? _Diagnostic_
-- What will happen? _Predictive_
-- What should I do? _Prescriptive_
+[.big]
+== On skills
+[.bigquote]
+"Since electrification, the story of the twentieth century has been the race between education and technology"
+-- Goldin and Katz (2009)
 
-[background-video="./stars.webm",options="loop,muted"]
-== Cognitive systems are different
+== Disruption without startups
 
-[.step]
-* They create deeper _human engagement_.
-* They scale and elevate _expertise_.
-* They infuse products and services with _cognition_.
-* They _enable cognitive processes_ and operations.
-* They enhance _exploration and discovery_.
+* Disruption hasn’t gone underground. Instead, it’s emerging as a
+capability incumbents are ready to embrace.
+* Innovation is no longer the province of the hungry upstart. 
+
+[.big]
+== The path to personalization
+
+== !
+
+_In three sectors alone – retail, healthcare and financial services –
+personalization will drive a revenue shift of USD 800 billion to the
+15 percent of companies that get it right._
+
+== From getting the data to using the data
+
+== !
+
+_Discriminant analysis of C-suite executives’ responses to our
+questions reveals that one factor, more than any other, distinguishes
+the leaders – the Reinventors – from other organizations. It is the
+capacity to use data to identify unmet customer needs._
+
+== AI and the search for effective personalisation
+
+== !
+
+* AI used to get better understanding of customer needs
+* Cognitive solutions adopted to improve customer experience
+
+== !
+
+_As design thinkers, Reinventors are always on the hunt for new clues
+that reveal customer needs. Over one-quarter of Reinventors turn to
+artificial intelligence technologies and cognitive solutions to better
+understand customers and improve the customer experience_
+
+[.big]
+== Orchestrating the future
+
+== !
+
+On average, platform orchestrators grow revenues faster and generate
+higher profits than other business models, earning market valuations
+as high as eight times revenue
+
+== How to do it?
+
+== !
+[%step]
+* *Create value from reciprocity* – Adopt a deeply collaborative
+   approach that spans an ecosystem to create win-win propositions
+* *Capitalize on data* – Cultivate and orchestrate data as their most
+   important asset to hone performance and the capacity for continuous
+   change
+* *Commit to innovation* – Reallocate capital and resources from
+   defending markets to innovating in new ones.
+
+== Cooperation and competition
+
+== !
+The biggest step change between Platform Builders and the Platform
+Operators that already have platforms in place is their *attitude
+toward competitors*.
 
 
-== AI
-"By AI we mean anything that makes machines act more intelligently"
--- IBM Research AI Research Group
+== !
 
-== This could use "classical" approaches
+_Six of Canada’s leading banks – the Bank of Montreal, Canadian
+Imperial Bank of Commerce, Desjardins Group, Royal Bank of Canada,
+Scotiabank and TD Bank – came together to establish a digital identity
+verification service on a blockchain platform._
 
+== Capitalise on data
+
+[%step]
+* be open to mutual advantage
+* double down on data
+
+== Commit to inovation
+
+== !
+Those who’ve already established a platform model are allocating on
+average 9.0 percent of their capital toward it.
+
+[.big]
+== Innovation in motion
+
+== !
+Cultivating autonomy and continuous learning by implementing a more
+fluid work structure made up of cross-functional teams.
+
+== Becoming agile
+
+== !
+[%step]
+* *Dynamic vision*: understanding where the industry is heading, promote
+  transparency and dialogue with employees, clearly express the
+  overall company vision.
+* *Open culture* : promote active employee participation, empower teams, promote collaboration and knowledge sharing.
+* *Agile operations*: invest in continuos employee skills development,
+   reward both fast failure and sucessful innovation, adopted a fluid
+   work structure built on cross-functional teams.
+
+
+[.big]
+== Actions to take now
+
+
+== Interrogate your environment
+
+[%step]
+* Remain on high alert and avoid complacency about past successes.
+* Design and play a new offense.
+* Get ever closer - to everyone involved.
+
+== Commit with frequency
+[%step]
+* Divest to invest.
+* Invest for new growth.
+* Prioritize advocacy and co-creation over advertising.
+
+== and by the way
+
+[background-image=https://res.cloudinary.com/uktv/image/upload/v1372867533/ou70cqjaugarnjvy3xi0.jpg]
+== that's commit, not a committe.
+[.copyright]
+© BBC Two
+
+== Experiment deliberately
+
+[%step]
+* Seek innovation over institutionalization.
+* Write new rules.
+* Find energy in motion.
+
+== (IBM adopted this as well)
+
+[background-iframe=https://www.ibm.com/design/thinking/]
+[.big]
+== !
+
+== Architect for disruption
+
+* Relentlessly reduce unit IT costs by putting the right workload on
+  the most suitable best-fit infrastructure.
+* Easily and securely store, process and find value in a continuous
+  volume of structured and unstructured data.
+* Continually improve and personalize user experiences by infusing
+  artificial intelligence (AI) and machine learning (ML) technologies.
+* Rapidly design, deploy and maintain your new transformative
+  applications.
+
+
+== but there's something beyond digital disruption
+
+
+[background-video=neurons.mp4]
+[.big]
+== Cognitive disruption
+
+== We've mostly talked about impact of digitalisation and computerisation in routine tasks
+
+[.big]
+== But we're beyond that
+
+== we've already seen how important is...
+[background-image=https://images.pexels.com/photos/239898/pexels-photo-239898.jpeg]
+[.bigger]
+== Data
+
+[.big]
+== Lots of data
+
+== The advances in AI and cognitive computing put them to good use
+
+[background-image="https://vignette.wikia.nocookie.net/bladerunner/images/3/3e/Holden_and_Leon.jpg/revision/latest?cb=20091022233626"]
+== !
+
+* Understand – images, language and other unstructured data.
+* Reason – by comprehending domain-specific concepts, forming hypotheses and
+  inferring and extracting ideas.
+* Learn – by developing and sharpening expertise with each new data
+  point, interaction and outcome.
+* Interact – with employees and policy holders in a natural way that
+  allows cognitive solutions to dissolve barriers between humans and
+  machine.
+
+== from here...
+
+[background-image=https://www-03.ibm.com/ibm/history/ibm100/images/icp/A138918I23240Y22/us__en_us__ibm100__700_series__checkers__620x350.jpg]
+[.big]
+== !
+
+* First checkers program to demonstrate that computers can learn
+from experience.
+* Used techniques such as mutable evaluation
+functions, hill climbing, and signature tables to explore rote and
+generalization learning. 
+[.big]
+
+[background-image=https://researcher.watson.ibm.com/researcher/files/us-bbfinkel/gtesauro_ai_350.jpg]
+== !
+
+* Nonlinear function approximation and *Reinforcement Learning*.
+* Neural net trained by a form of temporal-diference learning (TD).
+* Tested in Backgammon by a self-learning program.
+* With minimal search reached and surpassed human masters.
+
+
+==  ...to here...
 [background-image=https://images.theconversation.com/files/168950/original/file-20170511-32613-1ipnlda.jpg?ixlib=rb-1.1.0&rect=0%2C49%2C2048%2C993&q=45&auto=format&w=1356&h=668&fit=crop]
 [.big]
 == Deep Blue Chess
 
-== and also recent breakthroughs that ended the "AI Winter"
+*1997: First computer to defeat human World Chess Champion, Garry Kasparov.*
 
-[background-image=https://n1s1t23sxna2acyes3x4cz0h-wpengine.netdna-ssl.com/wp-content/uploads/2017/09/watson_on_jeopardy.jpg]
+== ... and here
 [.big]
 == Watson Jeopardy! Challenge
 
 == !
+[.stretch]
+video::P18EdAKuC1U[youtube, options=autoplay]
+
+== !
 [%step]
 * First computer to defeat TV game show Jeopardy! champions.
-* Research teams are working to *adapt Watson to other information-intensive fields*, such as telecommunications, financial services and government.
+* Research teams are working to *adapt Watson to other
+  information-intensive fields*, such as telecommunications, financial
+  services, government... *and education*.
 
-== And for the city this can be applied in different scales.
 
+== ...and going here
+
+[background-image="http://research.ibm.com/ibm-q/images/card-360.jpg"]
+[.big]
+== Quantum computing
+
+== !
+
+== Impacts?
+
+"...within the next couple of decades, AI has a high likelihood of
+automating 70% of today’s jobs in the energy sector, and 65% of
+today’s jobs in consumer staples..."
+-- PwC
+
+== ... and thus bringing automation to non-routine cognitive tasks as well.
 
 [.big]
-== to build a Smarter Planet
-[background-iframe=https://www.youtube.com/embed/pkBwB8ofcXI?autoplay=1]
-== !
-
-
-[background-image=vitruvius_ideal_rv.jpg]
-== Supply chain, then and now
-[.bigquote]
-
-"...and selecting a neighbourhood that can supply plenty
-of food stuffs to maintain the community, with good roads or else
-convenient rivers or seaports affording easy means of transport to the
-city..."
--- Vitruvius (de arch. 2.5.1)
-
-== Cities are also big centres of commerce and transportation.
-
-[.big]
-[background-image=news-transport-jan18-portofrotterdam.jpg]
-== Port of Rotterdam
-
-
-== !
-
-[%step]
- * 140 000 ships/year
- * 42 km port area
- * 90 000 people employed
- * 3.3% of Dutch GDP
-
-
-[background-image=port_digital.png]
-== !
-
-
-[background-image=twin.png]
-== !
-
-[%step]
- * *Digital twin*
- * *Weather data integration*
- * *Digitisation*
- * *Operational improvements*
-
-
-== This is also why IBM acquired...
-
-[background-image="http://www.slate.com/content/dam/slate/blogs/moneybox/2015/10/29/2015-ibm-weather-company-logo-clouds.jpg.CROP.promo-xlarge2.jpg"]
-== !
-
-== !
-(largest IoT network in the world)
-
-[.big]
-== Smarter cities are composed of _smarter places_
-
-
-[background-image=vitruvius_ideal_rv.jpg]
-== Vertical space
-[.bigquote]
-
-"...The accommodations within the city walls being thus multiplied as
-a result of the many floors high in the air, the Roman people easily
-find excellent places in which to live..."
--- Vitruvius (de arch. 2.8.17)
-
-[background-image="https://www.ibm.com/watson/assets/duo/img/hero/hero-kone2.jpg"]
-== !
-A billion people a day. Millions of elevators. No room for downtime
-
-[background-iframe=http://machineconversations.kone.com/]
-== !
-
-
-== Change is inevitable.
-
-[background-image=vitruvius_ideal_rv.jpg]
-== Location, location, location...
-[.bigquote]
-"First comes the choice of a very healthy site"
--- Vitruvius (de arch.2.4.1)
-
-== !
-and cities also change with time.
-
-[background-image=antonino.png]
-== New routes to new places
-
-== We work with those responsible to enable them to cope with change
-
-
-[background-image=ioc_tub.png]
-== !
-
-
-== !
-
-integrating many data sources in real-time
-
-[background-image=iot_tub.png]
-== !
-
-== !
-
-and providing the tools to analyse all that data
-
-[background-image=watson_tub.png]
-== !
-
-[background-image=muralha_romana_medieval.JPG]
-== New times, new centralities, new challenges
-
-
-== Global Urban Trends
-[%step]
-* Urbanization and decentralization
-* Climate change
-* Migration
-
-== Social equity
-
-[background-image="image.imageformat.lightbox.822921197.jpg"]
-== Inequality has risen to its highest levels in the past three decades, interacting with the other trends in significant ways.
-
-[.big]
-== The real challenge?
-
-[background-image=https://ebooks.adelaide.edu.au/l/literature/science-and-literature-in-the-middle-ages/images/fig049.jpg]
-[.big]
-== Using AI, IoT and cognitive computing for the betterment of cities
-
-== !
-
-What the future holds?
+== What the future holds?
 
 [background-image="http://web.eecs.umich.edu/~profmars/wp-content/uploads/2014/10/SHORPY_00529u1-1080x380.jpg"]
 == IBM Research 5 in 5
@@ -409,16 +631,117 @@ professionals and developers looking to this emerging method of
 computing to solve problems once considered unsolvable.
 
 
-== In short, we need to see the City as continuously reinventing itself.
+[.big]
+[background-image=gs.jpg]
+== and what about education?
 
-[background-image=https://www.augeoartspace.it/images/milano-duomo-irenekung.jpg]
+== !
+* Khan Academy started as a Youtube playlist, now offers structured
+  online courses.
+* edX, Coursera and other MOOCs are increasingly popular (and have content by HE institutions)
+* Some have their own platforms (e.g. MIT OpenCourseware)
+* Huge pressure from industry in terms of skills
+* Changing expectations and behaviour from students
+
+
+[.big]
+== Will this shift the focus away from existing Higher Education institutions?
+
+== probabily not
+
 == !
 
-_"La città di Leonia rifà se stessa tutti i giorni: ogni mattina la popolazione si risveglia tra lenzuola fresche, si la-va con saponette appena sgusciate dall’involucro, indos-sa vestaglie nuove fiammanti, estrae dal piú perfezionatofrigorifero barattoli di latta ancora intonsi, ascoltando leultime filastrocche dall’ultimo modello d’apparecchio"_
--- Italo Calvino, Le città invisibili (Le città continue)
+* Recognition
+* Students are not customers
+* Teaching is not selling
 
 
+== still, some aspects to consider
+
+[.big]
+== IBM's PoV: Education in the Cognitive Era
+
+[background-iframe=https://www.ibm.com/watson/education]
+== !
+
+== !
+[%step]
+* Personalised teaching strategies.
+* Use what mobile connectivity offers in a way that is aligned with
+  pedagogical principals.
+* Make life easier - for students and faculty - by providing better,
+  more actionaly insights.
+* Use digital disruption to better align with the industry in terms of
+  needed skills.
 
 
+== !
+* Infuse technology in new ways to transform individualized learning.
+* Engage everyone in paving a better path to the future
+* Embrace new technology  at your own pace.
+* Help those who teach and those who learn.
+* Promote a lifelong journey.
+
+== one focus of tension
+
+[.big]
+== Prepare informed citizens, or prepare ready-to-employ workers?
+
+[background-image="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Songs_of_Innocence_and_of_Experience%2C_copy_AA%2C_object_1.jpg/800px-Songs_of_Innocence_and_of_Experience%2C_copy_AA%2C_object_1.jpg"]
+
+== !
+[.bigquote]
+[.red]
+[%hardbreaks]
+But to go to school in a summer morn, -
+O it drives all joy away!
+Under a cruel eye outworn,
+The little ones spend the day
+In sighing and dismay.
+- William Blake, The Schoolboy
+
+[.big]
+[background-image=http://litoralmagazine.com/wp-content/uploads/2017/06/Aveiro-Universidade-litoral-magazine-1000x600.jpg]
+== Thank you!
+
+
+[.bibliography]
+== References
+
+[.tiny]
+
+* Cover image: Luddites smashing a loom, from https://en.wikipedia.org/wiki/Luddite#/media/File:FrameBreaking-1812.jpg[Wikipedia] (edited by the author).
+* * https://www.capgemini.com/consulting/resources/digital-transformation-review-7-strategies-for-the-age-of-digital-disruption/[Cap Gemini, Digital Transformation Review nº 7]
+* The Blade Runner film, "Blade Runner" trademark, and many of the sounds, images and movie clips are Copyright © 1982, 1991 by the Blade Runner Partnership and/or The Ladd Company. Additional images and content are Copyright © Warner Bros.
+* Sandy Carter in "IBM for Entrepreneurs", via https://www.siliconrepublic.com/companies/digital-disruption-changed-8-industries-forever[John Kennedy, Silicon Republic, "How digital disruption changed 8 industries forever"]
+* https://www.forbes.com/sites/gilpress/2015/12/27/a-very-short-history-of-digitization[A Very Short History of Digitization], Gil Press, Forbes.
+* Tron and the Tron movie © 1982 The Walt Disney Company
+* ZX Spectrum image by Bill Bertram - Own work, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=170050[Wikipedia]
+* Red Sector BBS "Mega Quick Intro" available from http://janeway.exotica.org.uk/release.php?id=74946 and https://www.youtube.com/watch?v=cFruJN5BiJQ[Youtube]
+* NeXT Cube used by Tim Berners-Lee to design the World Wide Web at CERN, 1990, from http://collection.sciencemuseum.org.uk/objects/co8232360/next-cube-computer-1990-personal-computer[Science Museum], © The Board of Trustees of the Science Museum, London| CERN.
+* Camera film wallpaper image from http://www.wallpapername.com/Body_Parts/hands/cityscapes_hands_film_negative_1920x1200_wallpaper_54156[Wallpapername].
+* Impressio Librorum (Book Printing), plate 4 from the Nova Reperta (New Inventions of Modern Times), c. 1580–1605, engraving by Theodoor Galle after a drawing by Jan van der Straet, c. 1550; in the British Museum / Courtesy of the trustees of the British Museum; photograph, J.R. Freeman & Co. Ltd. https://www.britannica.com/technology/printing-press
+* "Gartner Says By 2020, a Corporate "No-Cloud" Policy Will Be as Rare as a "No-Internet" Policy Is Today", https://www.gartner.com/newsroom/id/3354117[Gartner]
+* Internet map https://commons.wikimedia.org/wiki/File:Internet_map_1024.jpg[Wikipedia Commons] by The Opte Project (CC BY 2.5)
+* Harvard Business Review,  https://hbr.org/sponsored/2016/12/from-data-to-disruption-innovation-through-digital-intelligence[From Data to Disruption: Innovation Through Digital Intelligence]
+* https://www.ibm.com/blogs/insights-on-business/banking/digital-business-transformation-financial-services/[Outthink Competition in Financial Services through Digital Business Transformation]
+
+== !
+
+* http://www.thisisinkling.com/inklingreports/2016/1/21/inkling-report-no-1-uk-millennials[Inkling Report No. 1: UK Millenials]
+* https://www.ibm.com/blogs/insights-on-business/insurance/artificial-intelligence-machine-learning-insurance-industry/[Artificial intelligence and machine learning – Is this the next big disruption in the insurance industry?]
+*https://www-935.ibm.com/services/multimedia/IBMCAI-Digital-disruption-in-automotive.pdf[Digital disruption and the future of the automotive industry], IBM.
+* FREY, Carl Benedikt; OSBORNE, Michael A. The future of employment: how susceptible are jobs to computerisation?. Technological Forecasting and Social Change, 2017, 114: 254-280 (https://www.oxfordmartin.ox.ac.uk/downloads/academic/The_Future_of_Employment.pdf[pdf])
+* Isaac Newton wood engraving by Martin after C. Laverie, https://commons.wikimedia.org/wiki/File:Sir_Isaac_Newton_(%3F)_showing_an_optical_experiment_to_an_aud_Wellcome_V0015818.jpg[Wikipedia Commons] CC BY 4.0
+* "The Empire Strikes Back" image from https://www.polygon.com/2014/11/14/7222237/this-modern-empire-strikes-back-trailer-is-just-fantastic[Polygon]. THE EMPIRE STRIKES BACK TM & © 1980 Lucasfilm Ltd. (LFL) All rights reserved.
+* https://www.ibm.com/services/insights/c-suite-study/19th-edition[Inside the Global C-suite Study]
+* "Yes Minister" and "Yes Prime Minister" © BBC Two
+* https://www.ibm.com/design/thinking/[IBM Design Thinking]
+* PwC, https://www.pwc.co.uk/economic-services/ukeo/pwcukeo-section-4-automation-march-2017-v2.pdf[Will robots steal our jobs? The potential impact of automation on the UK and other major economies]
+* http://research.ibm.com/5-in-5/[IBM Research 5 in 5]
+* https://www.ibm.com/watson/education[IBM Watson for Education]
+* Image from Greek vase from https://www.studenthandouts.com/01-Web-Pages/01-Picture-Pages/09.03-Blue-Ancient-Greek-Classical-Education.htm
+* https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Songs_of_Innocence_and_of_Experience%2C_copy_AA%2C_object_1.jpg/800px-Songs_of_In["Songs of Experience" image from Wikipedia Commons], William Blake quote from "Songs of Innocence and Songs of Experience", Dover Thrift Editions,199
+* Image from the University of Aveiro © Universidade de Aveiro
 
 
