@@ -118,7 +118,7 @@ Tron is © 1982 The Walt Disney Company
 [.copyright]
 CC BY-NC-SA © The Board of Trustees of the Science Museum, London| CERN 
 
-[background-image="../images/film.jpg"]
+[background-image=film.jpg]
 == !
 
 * 2002: Digital information storage surpasses non-digital for the first time.
@@ -126,7 +126,7 @@ CC BY-NC-SA © The Board of Trustees of the Science Museum, London| CERN
 * 2003: The DVD format (launched in the late 1990s) becomes more popular than VHS in the U.S.
 * 2008:                                       More music is sold by iTunes than by Wal-Mart.
 
-[background-image="../images/press.jpg"]
+[background-image=press.jpg]
 == !
 
 * 2011: Amazon.com sells more Kindle books than print books.
