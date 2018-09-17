@@ -41,7 +41,7 @@ Since 2000, *52%* of companies in the Fortune 500 have either gone
 bankrupt, been acquired or ceased to exist^1^.
 
 [.copyright]
-Ray Wang, Cloud Is The 'Foundation For Digital Transformation, Forbes 2014.
+Ray Wang, "Cloud Is The Foundation For Digital Transformation", Forbes 2014.
 
 == a quick look at some of today's industries...
 
@@ -68,3 +68,25 @@ Sandy Carter, "IBM for Entrepreneurs"
 
 [.big]
 == How did we get here?
+
+== a quick journey through some milestones
+
+[background-image=https://fronteffects.files.wordpress.com/2014/04/tron-disneyscreencaps-com-7858.jpg]
+== !
+
+* 1972: Pulsar, the world's first all-electronic digital watch and the first to use a digital display, is launched.
+* 1975: The first digital camera, invented by Steven Sasson at Eastman Kodak, takes 23 seconds to capture its first image. 
+* 1977: Citibank installs its first ATM.
+* 1977: Apple ][
+* 1981: IBM PC
+* 1982: The movie Tron is released.
+
+[.copyright]
+Gil Press, "A Very Short History of Digitization", Forbes.
+Tron is © 1982 The Walt Disney Company
+
+== !
+
+* 1982: The first commercial compact disc (CD) is produced.
+* 1985: Whole Earth’s Electronic Link (WELL) established, one of the first “virtual communities.”
+
