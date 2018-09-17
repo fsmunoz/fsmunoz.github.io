@@ -105,7 +105,7 @@ Tron is © 1982 The Walt Disney Company
 * 1998: Digital Television transmission commences in the U.K. and the U.S
 
 [.copyright]
-NeXT Station image: CC BY-NC-SA © The Board of Trustees of the Science Museum, London| CERN 
+NeXT Station image: CC BY-NC-SA © The Board of Trustees of the Science Museum, London|CERN 
 
 [background-image="../images/film.jpg"]
 == !
