@@ -240,7 +240,7 @@ executives say competition is coming
 from new and unexpected places.
 
 [.copyright]
-A healthy outlook: Digital Reinvention in healthcare] IBM Institute for Business Value.
+A healthy outlook: Digital Reinvention in healthcare, IBM Institute for Business Value.
 
 == Technological advancements are helping healthcare to become more personalized, more cost-effective and scalable
 
@@ -404,3 +404,42 @@ in many ways
 [.big]
 == Thank you!
 
+[.bibliography]
+== Additional information
+
+* https://www.ibm.com/watson/health/[Watson Health: Cognitive Healthcare Solutions], landing page.
+* https://www.youtube.com/IBMWatsonHealth[IBM Watson Health videos], Youtube channel.
+* https://www-935.ibm.com/services/us/gbs/thoughtleadership/drhealthcare/[A healthy outlook: Digital Reinvention in healthcare], IBM Institute for Business Value study on disruption in healthcare.
+* https://www.ibm.com/blogs/policy/trust-principles/[IBM’s Principles for Trust and Transparency]
+
+== !
+
+* https://www.noticiasaominuto.com/tech/771035/watson-o-medico-do-futuro-esta-a-caminho-de-portugal[Watson: O 'médico' do futuro está a caminho de Portugal],  Cristina Semião, Healthcare Manager IBM Portugal.
+* https://expresso.sapo.pt/economia/2017-09-12-Saude-O-futuro-passa-pela-inteligencia-artificial-e-pelo-cruzamento-de-dados-dos-cidadaos#gs.m_BcRNs[Saúde: O futuro passa pela inteligência artificial e pelo cruzamento de dados dos cidadãos], Cristina Semião, Healthcare Manager IBM Portugal.
+
+== !
+
+* http://www.research.ibm.com/history/[History of Progress: IBM Research]
+* https://www.youtube.com/watch?v=OxpuU6baGqY[IBM Centennial Film: They Were There - People who changed the way the world works]
+* https://www.ibm.com/blogs/watson-health/watson-health-get-facts/[Watson Health: Get the Facts], overview of advances and application of Watson in the healthcare domain, updated and with references.
+
+== !
+
+* http://myemail.constantcontact.com/IBM-Watson-Health-Scientific-Update-Year-in-Review.html?soid=1129673529564&aid=f5zyPh1LeMI[Introducing the Watson Health 100: Scientific Update Year in Review], curated scientific update "year in review" featuring the top 100 studies.
+* http://myemail.constantcontact.com/IBM-Watson-Health-Scientific-Update--Q1-2018-.html?soid=1129673529564&aid=xVnu-QTiSSA[2018 Q1 Watson Health Scientific Update]
+* http://myemail.constantcontact.com/IBM-Watson-Health-Scientific-Update--Q2-2018.html?soid=1129673529564&aid=2dTK9ByyOj8[2018 Q2 Watson Health Scientific Update]
+
+
+== References
+[.tiny]
+* Sandy Carter in "IBM for Entrepreneurs", via https://www.siliconrepublic.com/companies/digital-disruption-changed-8-industries-forever[John Kennedy, Silicon Republic, "How digital disruption changed 8 industries forever"]
+* https://www.forbes.com/sites/gilpress/2015/12/27/a-very-short-history-of-digitization[A Very Short History of Digitization], Gil Press, Forbes.
+* Tron and the Tron movie © 1982 The Walt Disney Company
+* ZX Spectrum image by Bill Bertram - Own work, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=170050[Wikipedia]
+* NeXT Cube used by Tim Berners-Lee to design the World Wide Web at CERN, 1990, from http://collection.sciencemuseum.org.uk/objects/co8232360/next-cube-computer-1990-personal-computer[Science Museum], © The Board of Trustees of the Science Museum, London| CERN.
+* Camera film wallpaper image from http://www.wallpapername.com/Body_Parts/hands/cityscapes_hands_film_negative_1920x1200_wallpaper_54156[Wallpapername].
+* Impressio Librorum (Book Printing), plate 4 from the Nova Reperta (New Inventions of Modern Times), c. 1580–1605, engraving by Theodoor Galle after a drawing by Jan van der Straet, c. 1550; in the British Museum / Courtesy of the trustees of the British Museum; photograph, J.R. Freeman & Co. Ltd. https://www.britannica.com/technology/printing-press
+* "Gartner Says By 2020, a Corporate "No-Cloud" Policy Will Be as Rare as a "No-Internet" Policy Is Today", https://www.gartner.com/newsroom/id/3354117[Gartner]
+* https://www-935.ibm.com/services/multimedia/IBMCAI-Digital-disruption-in-automotive.pdf[Digital disruption and the future of the automotive industry], IBM.
+* FREY, Carl Benedikt; OSBORNE, Michael A. The future of employment: how susceptible are jobs to computerisation?. Technological Forecasting and Social Change, 2017, 114: 254-280 (https://www.oxfordmartin.ox.ac.uk/downloads/academic/The_Future_of_Employment.pdf[pdf])
+* https://www.ibm.com/services/insights/c-suite-study/19th-edition[Inside the Global C-suite Study]
