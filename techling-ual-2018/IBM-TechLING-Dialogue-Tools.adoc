@@ -394,7 +394,7 @@ The New York Genome Center and Watson Health
 
 == An example of Watson Assistant: booking a flight
 
-http://flight-booking-demo.mybluemix.net/?cm_sp=dw-bluemix-_-in-_-devcenter
+link:++http://flight-booking-demo.mybluemix.net/?cm_sp=dw-bluemix-_-in-_-devcenter++[Booking demo]
 
 [background-color="white"]
 [background-iframe="http://flight-booking-demo.mybluemix.net/?cm_sp=dw-bluemix-_-in-_-devcenter"]
