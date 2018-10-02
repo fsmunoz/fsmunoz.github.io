@@ -397,7 +397,7 @@ The New York Genome Center and Watson Health
 link:++http://flight-booking-demo.mybluemix.net/?cm_sp=dw-bluemix-_-in-_-devcenter++[Booking demo]
 
 [background-color="white"]
-[background-iframe="http://flight-booking-demo.mybluemix.net/?cm_sp=dw-bluemix-_-in-_-devcenter"]
+[background-iframe="http://flight-booking-demo.mybluemix.net/"]
 == !
 
 
