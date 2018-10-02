@@ -93,7 +93,7 @@ Division Laboratory in San Jose, Calif.
 a forerunner of today's voice recognition systems, it performed
 arithmetic on voice command.
 
-[background-image=../images/uima_xml.jpg]
+[background-iframe=https://www.youtube.com/embed/rQco1sa9AwU?autoplay=1]
 == !
 
 
@@ -394,10 +394,10 @@ The New York Genome Center and Watson Health
 
 == An example of Watson Assistant: booking a flight
 
-
+http://flight-booking-demo.mybluemix.net/?cm_sp=dw-bluemix-_-in-_-devcenter
 
 [background-color="white"]
-[background-iframe=http://flight-booking-demo.mybluemix.net/?cm_sp=dw-bluemix-_-in-_-devcenter]
+[background-iframe="http://flight-booking-demo.mybluemix.net/?cm_sp=dw-bluemix-_-in-_-devcenter"]
 == !
 
 
@@ -433,6 +433,10 @@ the Watson Translate technology, instead of SMT.
 
 [background-image=https://cdn-images-1.medium.com/max/1600/1*XbWg1IhzkATeDJvSgRPRlw.png]
 == !
+
+[background-iframe=https://language-translator-demo.ng.bluemix.net/]
+== !
+
 
 == Natural Language Understanding
 
