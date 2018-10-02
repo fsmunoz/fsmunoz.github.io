@@ -428,7 +428,7 @@ had a pioneering role and is still the mostly used model today.
 [background-video="../videos/neurons.mp4"]
 == !
 
-IBM uses Neural Machine Translation (NMT) as the underlying model for
+IBM uses https://www.ibm.com/blogs/watson/2018/07/improving-the-accuracy-speed-of-translations-with-neural-machine-translation/[Neural Machine Translation] (NMT) as the underlying model for
 the Watson Translate technology, instead of SMT.
 
 [background-image=https://cdn-images-1.medium.com/max/1600/1*XbWg1IhzkATeDJvSgRPRlw.png]
