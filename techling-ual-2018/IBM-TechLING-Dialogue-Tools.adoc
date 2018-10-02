@@ -38,11 +38,32 @@ image::https://researcher.watson.ibm.com/researcher/images/aotlogo_100x100.png[w
 
 We've been working on them for quite some time now.
 
+[background-color="white"]
+[background-image=../images/ibm_100_translate.png]
+== !
+
+
 [.big]
 == let's catch up with some history.
 
 [.big]
 == with some highlights of IBM Research in the field.
+
+[.bigger]
+== 1931
+
+==  IBM-Filene-Finlay translator
+
+[background-image=../images/ibm_lon.jpg]
+== !
+
+== ! 
+* Installed at the League of Nations in Geneva.
+* Speeches were pre-translated and read simultaneously.
+* The system was modified during the Nuremberg war crime trials of
+1946, for true simultaneous interpretation—speakers had to speak
+slowly, allowing all of the interpreters to speak along with them.
+
 
 [.bigger]
 == 1954
