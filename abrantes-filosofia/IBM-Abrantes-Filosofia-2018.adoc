@@ -1,4 +1,4 @@
-= IBM Watson: sistemas cognitivos e a Inteligência Artificial
+= IBM Watson: Sistemas cognitivos e a Inteligência Artificial
 :date: 12-Apr-2018
 :slide-background-video: stars.webm
 :_title-slide-background-image: cover_bg.png
@@ -12,7 +12,7 @@ Festival de Filosofia
 Abrantes | Novembro 2018
 
 [.big]
-== Hello!
+== Bom dia!
 
 == !
 image::https://avatars0.githubusercontent.com/u/285727?s=460&v=4[width="150", border="0"]
@@ -59,7 +59,7 @@ Vancouver._
 
 [%step]
 * Vai para _além_ da análise.
-* É capazde consumir e interpretar _informação não estruturada_.
+* É capaz de consumir e interpretar _informação não estruturada_.
 * Endereça _problemas ambíguos_.
 * Interage naturalmente connosco.
 
@@ -100,7 +100,8 @@ video::77Bvz4qZ_Rw[youtube, start=10, options=autoplay]
 
 == !
 
-* Primeiro programa de Damas que demonstra a capacidade de um computador aprender através da experiência.
+* Primeiro programa de Damas que demonstra a capacidade de um
+  computador aprender através da experiência.
 
 [.bigger]
 == 1972
@@ -128,15 +129,14 @@ video::77Bvz4qZ_Rw[youtube, start=10, options=autoplay]
 
 == !
 
-
-* First real-time demonstration of a large vocabulary *speech recognition dictation system*.
-* Major advance in speech recognition -- accuracy and fundamental underlying model.
+* Primeira demonstração de reconhecimento de voz em tempo real com largo vocabulário.
+* Avanço fundamental no reconhecimento de voz em termos de eficácia, precisão e validade do modelo.
 
 [.bigger]
 == 1985
 
 [.big]
-== Limited Reasoning
+== Raciocínio limitado
 
 [.big]
 
@@ -144,24 +144,24 @@ video::77Bvz4qZ_Rw[youtube, start=10, options=autoplay]
 
 == !
 
-* Introduced and studied several new logics for
-belief and knowledge, all of which held that agents are not *logically
-omniscient*.
+* Novas lógicas de conhecimento assentes em agentes que não são loicamente omniscientes.
+* Importante pois permite a contrução de modelos mais próximos do
+  raciocínio limitado, e assim mais próximos do pensamento humano.
 
 [.bigger]
 == 1988
 
 [.big]
-== Statistical Translation Between Languages
+== Tradução estatística entre línguas
 
 [background-image=https://upload.wikimedia.org/wikipedia/commons/d/d7/IBM_models_03.jpg]
 == !
 
 
-== ! 
-* Major advance in teaching a machine how to translate one human language into another.
-* Used alignment and Hidden Markov Models.
+== !
 
+* Marco na criação de estratégias de ensino a máquinas par a tradução automática entre duas linguas.
+* Assente Modelos Ocultos de Markov.
 
 [.bigger]
 == 1992
@@ -179,24 +179,26 @@ omniscient*.
 
 == !
 [%step]
-* Nonlinear function approximation and *Reinforcement Learning*.
-* Neural net trained by a form of temporal-diference learning (TD).
-* Tested in Backgammon by a self-learning program.
-* With minimal search reached and surpassed human masters.
+* Aproximação não-linear e *aprendizagem por reforço*.
+* Aplicada ao Gamão por um programa que aprendeu sozinho.
+* Com esforço mínimo atingiu e ultrapassou o nível de mestres humanos.
 
 [.bigger]
 == 1995
 
 [.big]
-== Reasoning about Knowledge
+== Pensando sobre o Conhecimento
 
 == Ronald Fagin, Joseph Y. Halpern, Yoram Moses, Moshe Vardi.
 
 == !
 
-* Provided a general discussion of approaches to reasoning about knowledge and its applications to distributed systems, artificial intelligence, and game theory.
-* It brings eight years of work by the authors into a cohesive framework for understanding and analyzing reasoning about knowledge that is intuitive, mathematically well founded, useful in practice, and widely applicable.
-
+* Um trabalho base para a discussão sobre o pensamento, conhecimento e
+  as aplicações da Inteligência Artificial e teoria de jogos.
+* Transformar o resultado de oito anos de trabalho numa plataforma
+  coerente para a análise e compreensão do temo do _conhecimento_
+  matematicamente fundamentada, intuitiva e genericamente aplicável.
+  
 [.bigger]
 == 1997
 
@@ -204,7 +206,7 @@ omniscient*.
 [.big]
 == Deep Blue Chess
 
-First computer to defeat human World Chess Champion, Garry Kasparov.
+Primeiro computador a derrotar um Campeão do Mundo de Xadrez, Garry Kasparov.
 
 [.bigger]
 == 2002
@@ -213,9 +215,9 @@ First computer to defeat human World Chess Champion, Garry Kasparov.
 == BLEU: Bilingual Evaluation Understudy
 
 == !
-* Method of automatic machine translation evaluation.
-* Quick, inexpensive, language-independent,  correlates highly with human evaluation, and has little marginal cost per run.
 
+* Método de tradução automática
+* Rápido, barato, independente da linguagem, com elevada correlação com os resultados humanos.
 
 [.bigger]
 == 2009
@@ -228,152 +230,201 @@ First computer to defeat human World Chess Champion, Garry Kasparov.
 == !
 [%step]
 * Unstructured Information Management Architecture (UIMA)
-* OASIS standard as of March 2009.
-* Signaled a major advance in handling real-world unstructured information, which is typically text-heavy, but may also contain dates, numbers and facts.
+* Standard OASIS desde Março de 2009.
+* Foi fundamentalpara o avanço da manipulação de informação
+  não-estruturada que é tipicamente texto mas pode conter datas,
+  números e factor.
 
 [.bigger]
 == 2009
 
 [.big]
-== More Statistical Machine Translation
+== Mais Statistical Machine Translation
 
 
 == Salim Roukos
 
 == !
-* Development of a series of steps to estimate more complex translation models from earlier easier -- and cruder -- translation models.
-* A sequence of five models was used to estimate a word alignment between the words of a source and a target sentence.
-* These models are referred to in the scientific literature as "IBM Model through IBM Model 5» .
+
+* Sequência de cinco modelos usados para estimar o alinhamento entre palavras de um texto base e uma frase alvo.
+* Estes modelos são conhecidos na literatura científica como "Modelos IBM de alinhamento".
 
 [.bigger]
-== 2011
+== Em 2011, um passo fundamental
 
-== A breakthrough: Watson and Jeopardy!
-
+==  Watson and Jeopardy!
 [.stretch]
 video::P18EdAKuC1U[youtube, start=0, options=autoplay]
 
 
 == !
 [%step]
-* First computer to defeat TV game show Jeopardy! champions.
-* Research teams are working to *adapt Watson to other information-intensive fields*, such as telecommunications, financial services and government.
+* Primeiro computador a derrotar campeões de Jeopardy!
+* Utilizou mecanismos cognitivos para compreender, pesquisar, contruir uma resposta e exprimi-la.
 
-== Watson: from concepts to outcomes
 
-IBM *Watson for Genomics* helps analyze a patient’s tumor's
-  genomic data by providing information on potential therapeutic
-  options with supporting evidence.
-  
+== Mas... como funciona?
 
-== Precision Medicine
+== E o que são estes componentes "cognitivos"?
+
+== !
+
+e podemos utilizá-los?
+
+
+== Muitos deles, sim!
+
+== Watson Explorer Content Analytics
+
+* Recolhe e analisa dados estruturados e não estruturados em
+  documentos, correio electrónico, bases-de-dados, páginas web e
+  outras fontes.
+* Utiliza uma abordagem de relacionamento livre entre dos dados que
+  não parte de uma hipótese inicial.
+
+[background-color="white"]
+== !
+
+image::../images/oneWEX-flow-guided.png[width=100%,role=inline]
+
+== !
+
+"I WAS DRIVING MY 2005 FORD FREESTYLE AND HAD COME TO A COMPLETE
+STOP. I HAD MY FOOT ON THE BRAKE. WHEN I TOOK MY FOOT OFF OF THE BRAKE
+THE CAR SURGED FORWARD WITHOUT MY EVER HAVING TOUCHED THE
+ACCELERATOR. I SLAMMED MY FOOT ON THE BRAKE TO AVOID HITTING THE CAR
+AHEAD OF ME. MY CAR STALLED AND I WAS ABLE TO RESTART IT. THE CHECK
+ENGINE LIGHT CAME ON. MY MECHANIC TOLD ME THAT THE THROTTLE BODY
+NEEDED REPLACEMENT."
+
+[background-iframe=https://www.ibm.com/cloud/garage/demo/try-watson-explorer/]
+== !
+
+== Um exemplo em medicia
+
 The New York Genome Center and Watson Health
-[.stretch]
-video::K9URgz7V9_0[youtube, start=0, options=autoplay]
 
-
-== Understanding unstructured data
-
-* *Watson for Oncology* _consumes_ the growing body of medical
-  literature, guidelines, trials, articles, and patient data,
-  _interprets_ medical records and _recommends_ potential courses of
-  action.
-
-== Manipal Hospitals: a case study
-
-[.stretch]
-video::fAiRqM44hgM[youtube, start=0, options=autoplay]
-
-== Watson is also made available through services and solutions
-
-[background-video="./clouds.mp4",options="loop,muted"]
-[.big]
-== Everything available on the IBM cloud.
-
-
-
-[background-video="./neurons.mp4",options="loop,muted"]
-== Cognitive search
-
-IBM *Watson Discovery* service to adds cognitive search and content
-analytics engine to applications to identify patterns, trends and
-actionable insights that drive better decision-making.
-
-https://discovery-news-demo.ng.bluemix.net/
-
-== Watson Discovery Service
-
-Overview demo.
-
-[.stretch]
-video::kwmqJRDbv98[youtube, start=0, options=autoplay]
-
-
-==  !
-Watson services are available to all in the IBM Cloud catalogue,
-including the following (with an easy-to-use demo for each!).
-
-* Visual Recognition: https://visual-recognition-demo.ng.bluemix.net/
-* Conversation: https://conversation-demo.ng.bluemix.net/
-* Speech to text: https://speech-to-text-demo.ng.bluemix.net/
-
-[background-video="./stars.webm",options="loop,muted"]
-== Watson: at your service
-
-* Natural Language Classifier: https://natural-language-classifier-demo.ng.bluemix.net/
-* Natural Language Understanding:  https://natural-language-understanding-demo.ng.bluemix.net/
-* Personality Insigths: https://personality-insights-demo.ng.bluemix.net/
-* Tone Analyser: https://tone-analyzer-demo.ng.bluemix.net/
-
-== Watson Analytics
-
-Watson Analytics is a smart data analysis and visualization service
-you can use to quickly _discover patterns and meaning_ in your data –
-all on your own. With guided data discovery, automated predictive
-analytics and cognitive capabilities such as natural language
-dialogue, you can interact with data conversationally to get answers
-you understand.
-
-https://watson.analytics.ibmcloud.com/
-
+[background-iframe=https://www.youtube.com/embed/K9URgz7V9_0?autoplay=1]
 == !
-There is this step-by-step tutorial by Ryan Nelson...
 
-[.stretch]
-video::xBoem605XQ4[youtube, start=0, options=autoplay]
+
+== Watson Discovery
+
+* NLP
+* Treino de relevância
+* Criação de modelos e anotações.
+
+[background-iframe=https://www.ibm.com/watson/services/discovery-3/demo/index.html#demo]
+== ! 
+
+
+== Watson Assistant
+
+* Criar conversas e diálogos.
+* Permite modelar fluxos conversacionais.
+
+
+[background-iframe=https://www.ibm.com/cloud/garage/demo/try-watson-assistant/]
+== !
+
+
+== Um exemplo de Watson Assistant: marcar um voo
+
+link:++http://flight-booking-demo.mybluemix.net/?cm_sp=dw-bluemix-_-in-_-devcenter++[Booking demo]
+
+[background-color="white"]
+[background-iframe="http://flight-booking-demo.mybluemix.net/"]
+== !
+
+
+== Esta capacidade de criar diálogos pode ser aliada à análise e exploração de dados.
+
+== Watson Expert Assist
 
 == !
 
-but we'll do a hands-on demo of Watson Analytics now.
+Diálogos com base na aprendizagem de um _corpus_ de conhecimento.
 
-https://watson.analytics.ibmcloud.com/?loginAccountId=3ZPDZ2KL8DE0&loginTenantId=054V4X80MS1P3P[Watson Analytics Portal link]
-
-== Community
-
-Tools, algorithms and approaches are incresingly more open and social.
-[%step]
-* Cognitive Class: Build Data Science and Cognitive Computing skills
-_for free_ today  https://cognitiveclass.ai
-* Data Scientist Workbench: virtual lab with Data Science tools ready to explore and put to use https://datascientistworkbench.com/
-
-[background-video="./stars.webm",options="loop,muted"]
-== Community
-
-[%step]
-* Watson Data Platform: Learn, create and collaborate https://datascience.ibm.com/
-* IBM Code: Code patterns, tech talks, open source projects, developer advocates, dynamic communities, upcoming events. https://developer.ibm.com/code/
-* IBM Cloud: integrate all IBM
-  services with your solution, including Watson & Analytics services https://console.bluemix.net/catalog/
+[background-iframe=https://www.ibm.com/cloud/garage/demo/try-watson-expert-assist/]
+== !
 
 
-[background-image="./lisbon.jpg"]
+== Compreensão de linguagem
+
+* Compreensão de linguagem natural.
+* Analisa texto e identifica conceitos, entidades, palavras-chave, sentimentos...
+
+== !
+
+https://natural-language-understanding-demo.ng.bluemix.net/
+
+== Análise de entoação
+
+== !
+
+Usa análise linguística para detectar entoações que indiquem
+diferentes estados emocionais.
+
+
+== !
+
+[.quote]
+"To derive emotion scores from text, IBM Watson Tone Analyzer uses a
+stacked generalisation-based ensemble framework to achieve greater
+predictive accuracy [5].Features such as n-grams (unigrams, bigrams
+and trigrams), punctuation, emoticons,curse words, greeting words
+(such as “hello”, “hi” and “thanks”) and sentiment polarity are fed
+into machine learning algorithms to classify emotion categories."
+-- MOSTAFA, Mohamed, et al. Incorporating emotion and personality-based analysis in user-centered modelling. In: International Conference on Innovative Techniques and Applications of Artificial Intelligence. Springer, Cham, 2016. p. 383-389.
+
+== !
+
+https://natural-language-understanding-demo.ng.bluemix.net/
+
+== A fala é uma área importante para um sistema cognitivo
+
+[background-iframe=https://www.youtube.com/embed/7qnd-hdmgfk?autoplay=1]
+== !
+
+== !
+_In memoriam_  Douglas Rain, 1928-2018 (the voice of HAL9000 in _2001: A Space Odyssey_)
+
+== ... tal como a imagem ...
+
+[background-iframe=https://watson-visual-recognition-duo-dev.ng.bluemix.net/]
+== !
+
+==  e a conversão de texto e voz 
+
+* Speech to Text: https://speech-to-text-demo.ng.bluemix.net/
+* Text to Speech: https://text-to-speech-demo.ng.bluemix.net/
+
+
+== Com estes exemplos podemos perceber melhor como funciona:
+
+
+[background-iframe=https://www.youtube.com/embed/DywO4zksfXw?autoplay=1]
+== !
+
+[background-image=https://nit.pt/wp-content/uploads/2017/03/metropolis-754x394.jpg]
+== A AI e nós: o Project Debater
+
+[background-iframe=https://www.research.ibm.com/artificial-intelligence/project-debater/]
+== .
+
+[background-iframe=https://www.youtube.com/embed/UeF_N1r91RQ?autoplay=1]
+== !
+
+[background-image=../images/blade-runner.jpg]
+== .
+* É pensamento?
+* São autónomos?
+* Podem formular novos pensamentos?
+* Podem construir _máquinas noéticas_?
+
+
+[background-image=../images/igm_old.jpg]
 [.big]
-== Thank you!
+== Obrigado!
 
-
-== References
-
-* IBM AI Research: https://researcher.watson.ibm.com/researcher/view_page.php?id=6813
-* Neurons image by Michelle Kuykendal and Gareth Guvanasen (Georgia Tech's NeuroLab): https://www.youtube.com/watch?v=yy994HpFudc
-* Spring cloud time lapse by Harrison Rowntree (https://www.youtube.com/watch?v=Qu7mcKZgqv0)
 
