@@ -23,6 +23,11 @@ icon:twitter[] https://twitter.com/fredericomunoz
 
 icon:github[] https://github.com/fsmunoz
 
+== Ligação para esta apresentação:
+
+image::qrcode.png[width=60%,role=inline] 
+
+
 == Sobre o Technical Expert Council
 
 O Technical Expert Council para Espanha, Portugal, Grécia e Israel é
