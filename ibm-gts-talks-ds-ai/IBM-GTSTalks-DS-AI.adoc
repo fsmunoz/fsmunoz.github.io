@@ -9,7 +9,7 @@
 [.location]
 *Frederico Muñoz* | Chief Architect | IBM Technical Expert Council (SPGI)
 GTS Talks
-Lisbon | February 2019
+Lisbon | Fevereiro 2020
 
 
 == !
