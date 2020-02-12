@@ -587,16 +587,3 @@ https://w3.ibm.com/w3publisher/agile-accelerate-gts-delivery
 * http://myemail.constantcontact.com/IBM-Watson-Health-Scientific-Update--Q2-2018.html?soid=1129673529564&aid=2dTK9ByyOj8[2018 Q2 Watson Health Scientific Update]
 
 
-== References
-[.tiny]
-* Sandy Carter in "IBM for Entrepreneurs", via https://www.siliconrepublic.com/companies/digital-disruption-changed-8-industries-forever[John Kennedy, Silicon Republic, "How digital disruption changed 8 industries forever"]
-* https://www.forbes.com/sites/gilpress/2015/12/27/a-very-short-history-of-digitization[A Very Short History of Digitization], Gil Press, Forbes.
-* Tron and the Tron movie © 1982 The Walt Disney Company
-* ZX Spectrum image by Bill Bertram - Own work, CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=170050[Wikipedia]
-* NeXT Cube used by Tim Berners-Lee to design the World Wide Web at CERN, 1990, from http://collection.sciencemuseum.org.uk/objects/co8232360/next-cube-computer-1990-personal-computer[Science Museum], © The Board of Trustees of the Science Museum, London| CERN.
-* Camera film wallpaper image from http://www.wallpapername.com/Body_Parts/hands/cityscapes_hands_film_negative_1920x1200_wallpaper_54156[Wallpapername].
-* Impressio Librorum (Book Printing), plate 4 from the Nova Reperta (New Inventions of Modern Times), c. 1580–1605, engraving by Theodoor Galle after a drawing by Jan van der Straet, c. 1550; in the British Museum / Courtesy of the trustees of the British Museum; photograph, J.R. Freeman & Co. Ltd. https://www.britannica.com/technology/printing-press
-* "Gartner Says By 2020, a Corporate "No-Cloud" Policy Will Be as Rare as a "No-Internet" Policy Is Today", https://www.gartner.com/newsroom/id/3354117[Gartner]
-* https://www-935.ibm.com/services/multimedia/IBMCAI-Digital-disruption-in-automotive.pdf[Digital disruption and the future of the automotive industry], IBM.
-* FREY, Carl Benedikt; OSBORNE, Michael A. The future of employment: how susceptible are jobs to computerisation?. Technological Forecasting and Social Change, 2017, 114: 254-280 (https://www.oxfordmartin.ox.ac.uk/downloads/academic/The_Future_of_Employment.pdf[pdf])
-* https://www.ibm.com/services/insights/c-suite-study/19th-edition[Inside the Global C-suite Study]
