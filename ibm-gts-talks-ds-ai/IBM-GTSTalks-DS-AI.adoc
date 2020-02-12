@@ -574,10 +574,6 @@ https://w3.ibm.com/w3publisher/agile-accelerate-gts-delivery
 * https://www-935.ibm.com/services/us/gbs/thoughtleadership/drhealthcare/[A healthy outlook: Digital Reinvention in healthcare], IBM Institute for Business Value study on disruption in healthcare.
 * https://www.ibm.com/blogs/policy/trust-principles/[IBM’s Principles for Trust and Transparency]
 
-== !
-
-* https://www.noticiasaominuto.com/tech/771035/watson-o-medico-do-futuro-esta-a-caminho-de-portugal[Watson: O 'médico' do futuro está a caminho de Portugal],  Cristina Semião, Healthcare Manager IBM Portugal.
-* https://expresso.sapo.pt/economia/2017-09-12-Saude-O-futuro-passa-pela-inteligencia-artificial-e-pelo-cruzamento-de-dados-dos-cidadaos#gs.m_BcRNs[Saúde: O futuro passa pela inteligência artificial e pelo cruzamento de dados dos cidadãos], Cristina Semião, Healthcare Manager IBM Portugal.
 
 == !
 
