@@ -1,0 +1,292 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>O impacto da Inteligência Artifical no suporte à decisão</title><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" name="viewport"><link href="reveal.js/css/reveal.css" rel="stylesheet"><link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"><link href="reveal.js/lib/css/zenburn.css" rel="stylesheet"><script>document.write( '<link rel="stylesheet" href="reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );</script></head><body><div class="reveal"><div class="slides"><section class="title" data-state="title"><h1>O impacto da Inteligência Artifical no suporte à decisão</h1><div class="preamble"><div class="paragraph location"><p><strong>Frederico Muñoz</strong> | Chief Architect | IBM Technical Expert Council (SPGI)
+PAGeM - Faculdade de Farmácia da Universidade de Lisboa
+Lisboa | Maio 2019</p></div></div></section>
+<section id="_ol" class="big"><h2>Olá!</h2></section>
+<section><div class="imageblock" style=""><img src="https://avatars0.githubusercontent.com/u/285727?s=460&v=4" alt="285727?s=460&amp;v=4" width="150"></div>
+<div class="paragraph"><p><span class="icon"><i class="fa fa-envelope-o"></i></span> &lt;<a href="mailto:frederico.munoz@pt.ibm.com">frederico.munoz@pt.ibm.com</a>&gt;</p></div>
+<div class="paragraph"><p><span class="icon"><i class="fa fa-linkedin"></i></span> <a href="https://www.linkedin.com/in/fsmunoz/" class="bare">https://www.linkedin.com/in/fsmunoz/</a></p></div>
+<div class="paragraph"><p><span class="icon"><i class="fa fa-twitter"></i></span> <a href="https://twitter.com/fredericomunoz" class="bare">https://twitter.com/fredericomunoz</a></p></div>
+<div class="paragraph"><p><span class="icon"><i class="fa fa-github"></i></span> <a href="https://github.com/fsmunoz" class="bare">https://github.com/fsmunoz</a></p></div></section>
+<section id="_sobre_o_technical_expert_council"><h2>Sobre o Technical Expert Council</h2><div class="paragraph"><p>O Technical Expert Council para Espanha, Portugal, Grécia e Israel é
+um organismo afiliado da IBM Academy of Technology.</p></div>
+<div class="imageblock inline" style=""><img src="https://researcher.watson.ibm.com/researcher/images/aotlogo_100x100.png" alt="aotlogo 100x100" width="20%"></div></section>
+<section id="_histria" class="bigger"><h2>História</h2><div class="paragraph"><p>O caminho que fizemos</p></div></section>
+<section id="_atravs_de_momementos_fundamentais_da_ibm_research_nos_campos_da_ia_e_investigao_cognitiva" class="big"><h2>através de momementos fundamentais da IBM Research nos campos da IA e Investigação Cognitiva</h2></section>
+<section id="_1954" class="bigger"><h2>1954</h2></section>
+<section id="_mark_i_and_mark_ii_automatic_language_translators" class="big"><h2>Mark I and Mark II Automatic Language Translators</h2></section>
+<section data-transition="zoom"><div class="ulist"><ul><li><p>Tradução automática de Russo para Inglês, começando por 250 palavras e tradução de textos de química orgânica.</p></li><li><p>Em 1960 o vocabulários é de 170 000 palavras em vários domínios.</p></li></ul></div></section>
+<section id="_ibm_harvard_mark_i"><h2>IBM Harvard Mark I</h2><div class="videoblock stretch stretch"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/77Bvz4qZ_Rw?rel=0&amp;start=10" frameborder="0" allowfullscreen data-autoplay></iframe></div></section>
+<section id="_1959" class="bigger"><h2>1959</h2></section>
+<section id="_arthur_lee_samuel" class="big"><h2>Arthur Lee Samuel</h2></section>
+<section data-background-image="https://www-03.ibm.com/ibm/history/ibm100/images/icp/A138918I23240Y22/us__en_us__ibm100__700_series__checkers__620x350.jpg"></section>
+<section id="_checkers_player" class="big"><h2>Checkers Player</h2></section>
+<section><div class="ulist"><ul><li><p>Primeiro programa de Damas que demonstra a capacidade de um
+computador aprender através da experiência.</p></li></ul></div></section>
+<section id="_1972" class="bigger"><h2>1972</h2></section>
+<section id="_robert_mercer" class="big"><h2>Robert Mercer</h2></section>
+<section data-background-image="https://researcher.watson.ibm.com/researcher/files/us-bbfinkel/robert_mercer.jpg"></section>
+<section id="_reconhecimento_de_voz_probabilstico" class="big"><h2>Reconhecimento de Voz Probabilístico</h2></section>
+<section><div class="ulist"><ul><li><p>A IBM desenvolve a abordagem fundamental ao <strong>reconhecimento de voz
+probabilístico</strong> baseado em ideas da Teoria da Informação.</p></li></ul></div></section>
+<section id="_1984" class="bigger"><h2>1984</h2></section>
+<section id="_reconhecimento_de_voz_em_tempo_real" class="big"><h2>Reconhecimento de voz em tempo real</h2></section>
+<section><div class="ulist"><ul><li><p>Primeira demonstração de reconhecimento de voz em tempo real com largo vocabulário.</p></li><li><p>Avanço fundamental no reconhecimento de voz em termos de eficácia, precisão e validade do modelo.</p></li></ul></div></section>
+<section id="_1985" class="bigger"><h2>1985</h2></section>
+<section id="_raciocnio_limitado" class="big"><h2>Raciocínio limitado</h2></section>
+<section id="_fangin_halpern" class="big"><h2>Fangin &amp; Halpern</h2></section>
+<section><div class="ulist"><ul><li><p>Novas lógicas de conhecimento assentes em agentes que não são loicamente omniscientes.</p></li><li><p>Importante pois permite a contrução de modelos mais próximos do
+raciocínio limitado, e assim mais próximos do pensamento humano.</p></li></ul></div></section>
+<section id="_1988" class="bigger"><h2>1988</h2></section>
+<section id="_traduo_estatstica_entre_lnguas" class="big"><h2>Tradução estatística entre línguas</h2></section>
+<section data-background-image="https://upload.wikimedia.org/wikipedia/commons/d/d7/IBM_models_03.jpg"></section>
+<section><div class="ulist"><ul><li><p>Marco na criação de estratégias de ensino a máquinas par a tradução automática entre duas linguas.</p></li><li><p>Assente Modelos Ocultos de Markov.</p></li></ul></div></section>
+<section id="_1992" class="bigger"><h2>1992</h2></section>
+<section id="_gerald_tesauro" class="big"><h2>Gerald Tesauro</h2></section>
+<section data-background-image="https://researcher.watson.ibm.com/researcher/files/us-bbfinkel/gtesauro_ai_350.jpg"></section>
+<section id="_td_gammon" class="big"><h2>TD-Gammon</h2></section>
+<section><div class="ulist"><ul><li class="fragment"><p>Aproximação não-linear e <strong>aprendizagem por reforço</strong>.</p></li><li class="fragment"><p>Aplicada ao Gamão por um programa que aprendeu sozinho.</p></li><li class="fragment"><p>Com esforço mínimo atingiu e ultrapassou o nível de mestres humanos.</p></li></ul></div></section>
+<section id="_1995" class="bigger"><h2>1995</h2></section>
+<section id="_pensando_sobre_o_conhecimento" class="big"><h2>Pensando sobre o Conhecimento</h2></section>
+<section id="_ronald_fagin_joseph_y_halpern_yoram_moses_moshe_vardi"><h2>Ronald Fagin, Joseph Y. Halpern, Yoram Moses, Moshe Vardi.</h2></section>
+<section><div class="ulist"><ul><li><p>Um trabalho base para a discussão sobre o pensamento, conhecimento e
+as aplicações da Inteligência Artificial e teoria de jogos.</p></li><li><p>Transformar o resultado de oito anos de trabalho numa plataforma
+coerente para a análise e compreensão do temo do <em>conhecimento</em>
+matematicamente fundamentada, intuitiva e genericamente aplicável.</p></li></ul></div></section>
+<section id="_1997" class="bigger"><h2>1997</h2></section>
+<section id="_deep_blue_chess" class="big" data-background-image="https://images.theconversation.com/files/168950/original/file-20170511-32613-1ipnlda.jpg?ixlib=rb-1.1.0&rect=0%2C49%2C2048%2C993&q=45&auto=format&w=1356&h=668&fit=crop"><h2>Deep Blue Chess</h2><div class="paragraph"><p>Primeiro computador a derrotar um Campeão do Mundo de Xadrez, Garry Kasparov.</p></div></section>
+<section id="_2002" class="bigger"><h2>2002</h2></section>
+<section id="_bleu_bilingual_evaluation_understudy" class="big"><h2>BLEU: Bilingual Evaluation Understudy</h2></section>
+<section><div class="ulist"><ul><li><p>Método de tradução automática</p></li><li><p>Rápido, barato, independente da linguagem, com elevada correlação com os resultados humanos.</p></li></ul></div></section>
+<section id="_2009" class="bigger"><h2>2009</h2></section>
+<section id="_uima_unstructured_information_management" class="big"><h2>UIMA: Unstructured Information Management</h2></section>
+<section id="_apache_uima_project_team"><h2>Apache UIMA Project Team</h2></section>
+<section><div class="ulist"><ul><li class="fragment"><p>Unstructured Information Management Architecture (UIMA)</p></li><li class="fragment"><p>Standard OASIS desde Março de 2009.</p></li><li class="fragment"><p>Foi fundamentalpara o avanço da manipulação de informação
+não-estruturada que é tipicamente texto mas pode conter datas,
+números e factor.</p></li></ul></div></section>
+<section id="_2009_2" class="bigger"><h2>2009</h2></section>
+<section id="_mais_statistical_machine_translation" class="big"><h2>Mais Statistical Machine Translation</h2></section>
+<section id="_salim_roukos"><h2>Salim Roukos</h2></section>
+<section><div class="ulist"><ul><li><p>Sequência de cinco modelos usados para estimar o alinhamento entre palavras de um texto base e uma frase alvo.</p></li><li><p>Estes modelos são conhecidos na literatura científica como "Modelos IBM de alinhamento".</p></li></ul></div></section>
+<section id="_em_2011_um_passo_fundamental" class="bigger"><h2>Em 2011, um passo fundamental</h2></section>
+<section id="_watson_and_jeopardy"><h2>Watson and Jeopardy!</h2></section>
+<section data-background-iframe="https://www.youtube.com/embed/P18EdAKuC1U?autoplay=1"></section>
+<section><div class="ulist"><ul><li class="fragment"><p>Primeiro computador a derrotar campeões de Jeopardy!</p></li><li class="fragment"><p>Utilizou mecanismos cognitivos para compreender, pesquisar, contruir uma resposta e exprimi-la.</p></li></ul></div></section>
+<section id="_mas_como_funciona"><h2>Mas&#8230;&#8203; como funciona?</h2></section>
+<section id="_e_o_que_so_estes_componentes_cognitivos"><h2>E o que são estes componentes "cognitivos"?</h2></section>
+<section id="_conceitos" class="bigger"><h2>Conceitos</h2><div class="paragraph"><p>AI, Machine Learning, Cognitive&#8230;&#8203;</p></div></section>
+<section><div class="imageblock inline" style=""><img src="../images/the-new-technologies.jpg" alt="the new technologies" width="100%"></div></section>
+<section id="_aprendizagem_por_mquinas"><h2>Aprendizagem por máquinas</h2><div class="ulist"><ul><li><p>Capacidade de computadores aprenderem com novos dados.</p></li><li><p>Algoritmos que aprendem com dados e permitem estabelecer previsões
+ou outras capacidade com base nessa aprendizagem.</p></li></ul></div></section>
+<section id="_inteligncia_artificial"><h2>Inteligência Artificial</h2><div class="ulist"><ul><li><p>Com base em informação, capacidade de tomar decisões e acções que
+melhor se adequem a um determinado contexto.</p></li></ul></div></section>
+<section id="_computao_cognitiva"><h2>Computação cognitiva</h2><div class="ulist"><ul><li><p>Sistemas que interagem naturalmente com pessoas.</p></li></ul></div></section>
+<section id="_sistemas_cognitivos_so_diferentes" data-transition="zoom"><h2>Sistemas cognitivos são diferentes</h2><div class="ulist step"><ul><li class="fragment"><p>Um nível superior de interacção humana.</p></li><li class="fragment"><p>Capacidade de  aumentar o conhecimento.</p></li><li class="fragment"><p>Adicionam capacidades cognitivas a soluções.</p></li><li class="fragment"><p>Utilizam <em>processos cognitivos</em></p></li><li class="fragment"><p>Potenciam a exploração e descoberta.</p></li></ul></div></section>
+<section id="_sistemas_cognitivos"><h2>Sistemas cognitivos</h2><div class="paragraph"><p>«&#8230;&#8203; Esta plataforma tem de incluir <em>machine learning</em>, raciocínio, processamento de linguagem, fala e visão, interacção homem-computador, diálogo e produção narrativa, entre outros&#8230;&#8203;»
+<em>- Kelly, J., 2015. <strong>Computing, cognition and the future of knowing</strong>. Whitepaper, IBM Reseach.
+Vancouver.</em></p></div></section>
+<section id="_cognitivo" data-transition="zoom" data-background-video="./stars.webm" data-background-video-loop data-background-video-muted><h2>Cognitivo</h2><div class="ulist"><ul><li><p>Dados &#8594; Informação &#8594; Conhecimento</p></li></ul></div></section>
+<section id="_computao_cognitiva_2"><h2>Computação cognitiva</h2><div class="ulist"><ul><li class="fragment"><p>Vai para <em>além</em> da análise.</p></li><li class="fragment"><p>É capaz de consumir e interpretar <em>informação não estruturada</em>.</p></li><li class="fragment"><p>Endereça <em>problemas ambíguos</em>.</p></li><li class="fragment"><p>Interage naturalmente connosco.</p></li></ul></div></section>
+<section><div class="paragraph"><p>e podemos utilizá-los?</p></div></section>
+<section id="_muitos_deles_sim"><h2>Muitos deles, sim!</h2></section>
+<section id="_agora_que_temos_alguns_conceitos"><h2>agora que temos alguns conceitos</h2></section>
+<section id="_o_estado_da_arte" class="bigger"><h2>O estado da arte</h2><div class="paragraph"><p>Exemplos reais de apoio à decisão</p></div></section>
+<section id="_watson_explorer_content_analytics"><h2>Watson Explorer Content Analytics</h2><div class="ulist"><ul><li><p>Recolhe e analisa dados estruturados e não estruturados em
+documentos, correio electrónico, bases-de-dados, páginas web e
+outras fontes.</p></li><li><p>Utiliza uma abordagem de relacionamento livre entre dos dados que
+não parte de uma hipótese inicial.</p></li></ul></div></section>
+<section data-background-color="white"><div class="imageblock inline" style=""><img src="../images/oneWEX-flow-guided.png" alt="oneWEX flow guided" width="100%"></div></section>
+<section><div class="paragraph"><p>"I WAS DRIVING MY 2005 FORD FREESTYLE AND HAD COME TO A COMPLETE
+STOP. I HAD MY FOOT ON THE BRAKE. WHEN I TOOK MY FOOT OFF OF THE BRAKE
+THE CAR SURGED FORWARD WITHOUT MY EVER HAVING TOUCHED THE
+ACCELERATOR. I SLAMMED MY FOOT ON THE BRAKE TO AVOID HITTING THE CAR
+AHEAD OF ME. MY CAR STALLED AND I WAS ABLE TO RESTART IT. THE CHECK
+ENGINE LIGHT CAME ON. MY MECHANIC TOLD ME THAT THE THROTTLE BODY
+NEEDED REPLACEMENT."</p></div></section>
+<section data-background-iframe="https://www.ibm.com/cloud/garage/demo/try-watson-explorer/"></section>
+<section id="_watson_discovery"><h2>Watson Discovery</h2><div class="ulist"><ul><li><p>NLP</p></li><li><p>Treino de relevância</p></li><li><p>Criação de modelos e anotações.</p></li></ul></div></section>
+<section data-background-iframe="https://www.ibm.com/watson/services/discovery-3/demo/index.html#demo"></section>
+<section id="_watson_assistant"><h2>Watson Assistant</h2><div class="ulist"><ul><li><p>Criar conversas e diálogos.</p></li><li><p>Permite modelar fluxos conversacionais.</p></li></ul></div></section>
+<section data-background-iframe="https://www.ibm.com/cloud/garage/demo/try-watson-assistant/"></section>
+<section id="_um_exemplo_de_watson_assistant_marcar_um_voo"><h2>Um exemplo de Watson Assistant: marcar um voo</h2><div class="paragraph"><p><a href="http://flight-booking-demo.mybluemix.net/?cm_sp=dw-bluemix-_-in-_-devcenter">Booking demo</a></p></div></section>
+<section data-background-color="white" data-background-iframe="http://flight-booking-demo.mybluemix.net/"></section>
+<section id="_esta_capacidade_de_criar_dilogos_pode_ser_aliada__anlise_e_explorao_de_dados"><h2>Esta capacidade de criar diálogos pode ser aliada à análise e exploração de dados.</h2></section>
+<section id="_watson_expert_assist"><h2>Watson Expert Assist</h2></section>
+<section><div class="paragraph"><p>Diálogos com base na aprendizagem de um <em>corpus</em> de conhecimento.</p></div></section>
+<section data-background-iframe="https://www.ibm.com/cloud/garage/demo/try-watson-expert-assist/"></section>
+<section id="_compreenso_de_linguagem"><h2>Compreensão de linguagem</h2><div class="ulist"><ul><li><p>Compreensão de linguagem natural.</p></li><li><p>Analisa texto e identifica conceitos, entidades, palavras-chave, sentimentos&#8230;&#8203;</p></li></ul></div></section>
+<section><div class="paragraph"><p><a href="https://natural-language-understanding-demo.ng.bluemix.net/" class="bare">https://natural-language-understanding-demo.ng.bluemix.net/</a></p></div></section>
+<section id="_anlise_de_entoao"><h2>Análise de entoação</h2></section>
+<section><div class="paragraph"><p>Usa análise linguística para detectar entoações que indiquem
+diferentes estados emocionais.</p></div></section>
+<section><div class="quoteblock quote"><blockquote>To derive emotion scores from text, IBM Watson Tone Analyzer uses a
+stacked generalisation-based ensemble framework to achieve greater
+predictive accuracy [5].Features such as n-grams (unigrams, bigrams
+and trigrams), punctuation, emoticons,curse words, greeting words
+(such as “hello”, “hi” and “thanks”) and sentiment polarity are fed
+into machine learning algorithms to classify emotion categories.</blockquote><div class="attribution"><cite>Mohamed, et al. Incorporating emotion and personality-based analysis in user-centered modelling. In: International Conference on Innovative Techniques and Applications of Artificial Intelligence. Springer, Cham, 2016. p. 383-389.</cite><br>&#8212; MOSTAFA</div></div></section>
+<section><div class="paragraph"><p><a href="https://natural-language-understanding-demo.ng.bluemix.net/" class="bare">https://natural-language-understanding-demo.ng.bluemix.net/</a></p></div></section>
+<section id="_a_fala__uma_rea_importante_para_um_sistema_cognitivo"><h2>A fala é uma área importante para um sistema cognitivo</h2></section>
+<section id="__tal_como_a_imagem"><h2>&#8230;&#8203; tal como a imagem &#8230;&#8203;</h2></section>
+<section data-background-iframe="https://watson-visual-recognition-duo-dev.ng.bluemix.net/"></section>
+<section id="_e_a_converso_de_texto_e_voz"><h2>e a conversão de texto e voz</h2><div class="ulist"><ul><li><p>Speech to Text: <a href="https://speech-to-text-demo.ng.bluemix.net/" class="bare">https://speech-to-text-demo.ng.bluemix.net/</a></p></li><li><p>Text to Speech: <a href="https://text-to-speech-demo.ng.bluemix.net/" class="bare">https://text-to-speech-demo.ng.bluemix.net/</a></p></li></ul></div></section>
+<section id="_com_estes_exemplos_podemos_perceber_melhor_como_funciona"><h2>Com estes exemplos podemos perceber melhor como funciona:</h2></section>
+<section data-background-iframe="https://www.youtube.com/embed/DywO4zksfXw?autoplay=1"></section>
+<section id="_a_ai_e_ns_o_project_debater" class="big" data-background-image="https://nit.pt/wp-content/uploads/2017/03/metropolis-754x394.jpg"><h2>A AI e nós: o Project Debater</h2></section>
+<section data-background-iframe="https://www.research.ibm.com/artificial-intelligence/project-debater/"></section>
+<section data-background-iframe="https://www.youtube.com/embed/UeF_N1r91RQ?autoplay=1"></section>
+<section id="_e_podemos_participar"><h2>e podemos participar&#8230;&#8203;</h2></section>
+<section data-background-iframe="https://ces.debater-event.us-south.containers.appdomain.cloud/events"></section>
+<section id="_e_na_rea_da_sade" class="bigger"><h2>E na área da saúde?</h2></section>
+<section data-background-image="https://www-935.ibm.com/services/us/gbs/thoughtleadership/images/healthcare_banner.jpg"><div class="paragraph"><p>"Global healthcare is experiencing dramatic and remarkable
+change. New and emerging technologies – such as AI, cognitive
+computing, IoT, Cloud and 3D printing, among many others – are
+converging to change not only how, where and with what precision
+healthcare is delivered, but also the very definition of healthcare."&#8201;&#8212;&#8201;A Healthy Outlook: Digital Reinvention in Healthcare, IBM Institute
+for Business Value</p></div></section>
+<section id="_de_actividades_isoladas"><h2>De actividades isoladas</h2></section>
+<section><div class="paragraph"><p>&#8230;&#8203;para um ecossistema integrado de investigadores, reguladores,
+prestadores que interagem a um nível mais pessoal com pacientes.</p></div></section>
+<section><div class="imageblock inline" style=""><img src="../images/healthcare_map_ibv.png" alt="healthcare map ibv" width="100%"></div></section>
+<section id="_os_avanos_tecnolgicos_esto_a_tornar_possvel_uma_maior_personalizao"><h2>Os avanços tecnológicos estão a tornar possível uma maior personalização.</h2></section>
+<section><div class="paragraph"><p>&#8230;&#8203;enquanto o número de trabalhadores da área da saúde está
+projectada para diminuir significativamente devido a "mudanças sociais e demográficas".</p></div></section>
+<section id="__e_no_ser_fundamental_entender_estas_mudanas" class="big"><h2>(e não será fundamental entender estas mudanças?)</h2></section>
+<section id="_um_ponto_fundamental_nesta_mudana"><h2>Um ponto fundamental nesta mudança</h2></section>
+<section id="_dados" class="bigger" data-background-image="https://images.pexels.com/photos/239898/pexels-photo-239898.jpeg"><h2>Dados</h2></section>
+<section id="__muitos_dados" class="big"><h2>(muitos dados)</h2></section>
+<section><div class="ulist"><ul><li><p>Genoma de um paciente oncológicos: 0.5 TB</p></li><li><p>Número de horas por mês para actualização com base na leitura de artigos: ~627/mês.</p></li></ul></div>
+<div class="paragraph copyright"><p>ALPER, Brian S., et al. How much effort is needed to keep up with the literature relevant for primary care?. Journal of the Medical Library association, 2004, 92.4: 429. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC521514/#FNIRP" class="bare">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC521514/#FNIRP</a></p></div></section>
+<section id="_os_avanos_em_ai_e_sistemas_cognitivos_utilizam_esta_enorme_quantidade_de_dados"><h2>Os avanços em AI e sistemas cognitivos utilizam esta enorme quantidade de dados.</h2></section>
+<section data-background-video="../videos/neurons.mp4"><div class="ulist"><ul><li><p><strong>Compreender</strong> - images, linguagem, outros dados não estruturados</p></li><li><p><strong>Raciocionar</strong> - compreendendo conceitos específicas de cada domínio do
+conhecimento, formulando hipóteses e inferindo conceitos.</p></li><li><p><strong>Aprender</strong> - desenvolvendo conhecimento com cada nova interacção</p></li><li><p><strong>Interagir</strong> - com diversas pessoas com perfis diferentes, de forma
+natural e de forma a esbater as barreiras entre pessoas e máquina.</p></li></ul></div></section>
+<section id="_de_conceitos_a_resultados" class="bigger"><h2>De conceitos a resultados</h2><div class="paragraph"><p>através de exemplos concretos
+== !</p></div>
+<div class="ulist"><ul><li><p>Watson for Genomics</p></li><li><p>Watson for Oncology</p></li><li><p>Watson for Clinical Trial Matching</p></li><li><p>Watson for Drug Discovery</p></li><li><p>Watson for Care Management</p></li></ul></div></section>
+<section><div class="paragraph"><p>IBM <strong>Watson for Genomics</strong> analiza a informação genética de carcinomas
+e aponta para possíveis opções terapêuticas <em>com evidências</em>.</p></div></section>
+<section data-background-iframe="https://www.youtube.com/embed/MkoMUuUOpxM?autoplay=1"></section>
+<section id="_compreendendo_dados_no_estruturados"><h2>Compreendendo dados não-estruturados.</h2><div class="paragraph"><p><strong>Watson for Oncology</strong> consome o <em>corpus</em> gigantesco de literatura,
+ estudos, guias, ensaios clínicos e dados de pacientes, interpreta
+ registos médicos e recomenda potenciais caminhos.</p></div></section>
+<section data-background-iframe="https://www.youtube.com/embed/338CIHlVi7A?autoplay=1"></section>
+<section id="__em_em_vez_de_perder_o_pouco_tempo_disponvel_em"><h2><em>(&#8230;&#8203;em vez de perder o pouco tempo disponível&#8230;&#8203;)</em></h2><div class="ulist"><ul><li><p>A tecnologia é um dos aspectos a considerar, e potencialmente não o
+mais importante.</p></li><li><p>As condições concretas em que a prestação de cuidados de saúde e
+investigação é feita é fundamental.</p></li></ul></div></section>
+<section id="_watson_for_drug_discovery"><h2>Watson for Drug Discovery</h2><div class="paragraph"><p><strong>Watson for Drug Discovery</strong> reveals connections and relationships
+ among genes, drugs, diseases and other entities by analyzing multiple
+ sets of life sciences knowledge. Researchers can generate new
+ hypotheses using the resulting dynamic visualizations and
+ evidence-backed predictions.</p></div></section>
+<section id="_estas_possibilidades_nascem_da_investigao"><h2>estas possibilidades nascem da investigação</h2></section>
+<section data-background-iframe="https://www.youtube.com/embed/e3USliqAC9Q?autoplay=1"></section>
+<section><div class="paragraph"><p><strong>Watson for Clinical Trial Matching</strong> facilita a tomada de decisões ao
+ identificar uma lista de possíveis ensaios clínicos adequados a cada paciente.</p></div></section>
+<section data-background-iframe="https://www.youtube.com/embed/grDWR7hMQQQ?autoplay=1"></section>
+<section id="_o_futuro" class="bigger"><h2>O futuro</h2><div class="paragraph"><p>desafios e oportunidades</p></div></section>
+<section id="_a_ia_e_ns" class="big"><h2>A IA e nós</h2></section>
+<section id="_estamos_a_ser_substitudos" data-background-image="https://nit.pt/wp-content/uploads/2017/03/metropolis-754x394.jpg"><h2>Estamos a ser substituídos?</h2></section>
+<section id="_so_estes_sistemas_de_deciso_sistemas_de_substituio"><h2>São estes sistemas de decisão sistemas de substituição?</h2></section>
+<section id="_ibm_s_principles_for_trust_and_transparency"><h2>IBM&#8217;s Principles for Trust and Transparency</h2></section>
+<section><div class="ulist"><ul><li><p>The purpose of AI is to <strong>augment human intelligence</strong>.</p></li><li><p>Data and insights belong to their creator.</p></li><li><p>New technology, including AI systems, must be transparent and explainable.</p></li></ul></div></section>
+<section data-background-image="../images/leadspace-large.jpg"><div class="paragraph"><p>As soluções existentes fazem <strong>recomendações</strong>, disponibilizam
+informação <strong>focada e relevante</strong> a profissionais e investigadores, que são quem tomam as decisões.</p></div></section>
+<section id="_as_tecnologias_permitem_que_possamos_fazer_o_melhor_que_sabemos" data-background-image="https://robohub.org/wp-content/uploads/2016/08/bigstock-Man-and-robot-meet-and-handsha-127357220.jpg"><h2>As tecnologias permitem que possamos fazer o melhor que sabemos.</h2></section>
+<section id="_mas"><h2>mas&#8230;&#8203;</h2></section>
+<section data-background-image="http://static.dnaindia.com/sites/default/files/styles/full/public/2017/02/08/546623-2-richard-feynman-wiki-commons.jpg"><div class="quoteblock"><blockquote>Nature is quantum, goddamn it! So if we want to simulate it, we need a quantum computer!</blockquote><div class="attribution">&#8212; Richard Feynman</div></div></section>
+<section data-background-iframe="https://www.youtube.com/embed/o-FyH2A7Ed0?autoplay=1"></section>
+<section id="_ibm_q" data-background-image="http://research.ibm.com/ibm-q/images/card-360.jpg"><h2>IBM Q</h2></section>
+<section><div class="ulist"><ul><li><p>50 qubits</p></li><li><p>QISkit</p></li><li><p>IBM Q Network</p></li></ul></div></section>
+<section data-background-iframe="https://qiskit.org/aqua"></section>
+<section id="_supremacia_quntica_vantagem_quntica"><h2>Supremacia quântica, vantagem quântica</h2><div class="ulist"><ul><li><p>Vantagem quântica é a possibilidade de resolver problemas de forma mais rápida que os sistemas clássicos.</p></li><li><p>Supremacia quântica é a capacidade de resolver problemas que na prática são impossíveis de resolver classicamente.</p></li></ul></div></section>
+<section id="_estudos_de_caso" class="bigger"><h2>Estudos de caso</h2></section>
+<section id="_precision_medicine"><h2>Precision Medicine</h2><div class="paragraph"><p>The New York Genome Center and Watson Health</p></div></section>
+<section data-background-iframe="https://www.youtube.com/embed/K9URgz7V9_0?autoplay=1"></section>
+<section id="_manipal_hospitals_identificao_de_carcinomas"><h2>Manipal Hospitals: identificação de carcinomas</h2></section>
+<section data-background-iframe="https://www.youtube.com/embed/fAiRqM44hgM?autoplay=1"></section>
+<section id="_eyes_of_watson_anlise_radiolgica"><h2>Eyes of Watson: análise radiológica</h2></section>
+<section data-background-iframe="https://www.youtube.com/embed/XLb0xUe80uo?autoplay=1"></section>
+<section id="_novartis_pathai_anlise_visual_para_identificao_de_patologias" data-background-iframe="https://www.youtube.com/embed/NdajYEIPZio?autoplay=1"><h2>Novartis, PathAI: análise visual para identificação de patologias.</h2></section>
+<section id="_obrigado" class="big"><h2>Obrigado</h2></section>
+<section id="_additional_information" class="bibliography"><h2>Additional information</h2><div class="ulist"><ul><li><p><a href="https://www.ibm.com/watson/health/">Watson Health: Cognitive Healthcare Solutions</a>, landing page.</p></li><li><p><a href="https://www.youtube.com/IBMWatsonHealth">IBM Watson Health videos</a>, Youtube channel.</p></li><li><p><a href="https://www-935.ibm.com/services/us/gbs/thoughtleadership/drhealthcare/">A healthy outlook: Digital Reinvention in healthcare</a>, IBM Institute for Business Value study on disruption in healthcare.</p></li><li><p><a href="https://www.ibm.com/blogs/policy/trust-principles/">IBM’s Principles for Trust and Transparency</a></p></li></ul></div></section>
+<section><div class="ulist"><ul><li><p><a href="https://www.noticiasaominuto.com/tech/771035/watson-o-medico-do-futuro-esta-a-caminho-de-portugal">Watson: O 'médico' do futuro está a caminho de Portugal</a>,  Cristina Semião, Healthcare Manager IBM Portugal.</p></li><li><p><a href="https://expresso.sapo.pt/economia/2017-09-12-Saude-O-futuro-passa-pela-inteligencia-artificial-e-pelo-cruzamento-de-dados-dos-cidadaos#gs.m_BcRNs">Saúde: O futuro passa pela inteligência artificial e pelo cruzamento de dados dos cidadãos</a>, Cristina Semião, Healthcare Manager IBM Portugal.</p></li></ul></div></section>
+<section><div class="ulist"><ul><li><p><a href="http://www.research.ibm.com/history/">History of Progress: IBM Research</a></p></li><li><p><a href="https://www.youtube.com/watch?v=OxpuU6baGqY">IBM Centennial Film: They Were There - People who changed the way the world works</a></p></li><li><p><a href="https://www.ibm.com/blogs/watson-health/watson-health-get-facts/">Watson Health: Get the Facts</a>, overview of advances and application of Watson in the healthcare domain, updated and with references.</p></li></ul></div></section>
+<section><div class="ulist"><ul><li><p><a href="http://myemail.constantcontact.com/IBM-Watson-Health-Scientific-Update-Year-in-Review.html?soid=1129673529564&amp;aid=f5zyPh1LeMI">Introducing the Watson Health 100: Scientific Update Year in Review</a>, curated scientific update "year in review" featuring the top 100 studies.</p></li><li><p><a href="http://myemail.constantcontact.com/IBM-Watson-Health-Scientific-Update&#8212;&#8203;Q1-2018-.html?soid=1129673529564&amp;aid=xVnu-QTiSSA">2018 Q1 Watson Health Scientific Update</a></p></li><li><p><a href="http://myemail.constantcontact.com/IBM-Watson-Health-Scientific-Update&#8212;&#8203;Q2-2018.html?soid=1129673529564&amp;aid=2dTK9ByyOj8">2018 Q2 Watson Health Scientific Update</a></p></li></ul></div></section>
+<section id="_references"><h2>References</h2><div class="ulist tiny"><ul><li><p>Sandy Carter in "IBM for Entrepreneurs", via <a href="https://www.siliconrepublic.com/companies/digital-disruption-changed-8-industries-forever">John Kennedy, Silicon Republic, "How digital disruption changed 8 industries forever"</a></p></li><li><p><a href="https://www.forbes.com/sites/gilpress/2015/12/27/a-very-short-history-of-digitization">A Very Short History of Digitization</a>, Gil Press, Forbes.</p></li><li><p>Tron and the Tron movie © 1982 The Walt Disney Company</p></li><li><p>ZX Spectrum image by Bill Bertram - Own work, CC BY-SA 2.5, <a href="https://commons.wikimedia.org/w/index.php?curid=170050">Wikipedia</a></p></li><li><p>NeXT Cube used by Tim Berners-Lee to design the World Wide Web at CERN, 1990, from <a href="http://collection.sciencemuseum.org.uk/objects/co8232360/next-cube-computer-1990-personal-computer">Science Museum</a>, © The Board of Trustees of the Science Museum, London| CERN.</p></li><li><p>Camera film wallpaper image from <a href="http://www.wallpapername.com/Body_Parts/hands/cityscapes_hands_film_negative_1920x1200_wallpaper_54156">Wallpapername</a>.</p></li><li><p>Impressio Librorum (Book Printing), plate 4 from the Nova Reperta (New Inventions of Modern Times), c. 1580–1605, engraving by Theodoor Galle after a drawing by Jan van der Straet, c. 1550; in the British Museum / Courtesy of the trustees of the British Museum; photograph, J.R. Freeman &amp; Co. Ltd. <a href="https://www.britannica.com/technology/printing-press" class="bare">https://www.britannica.com/technology/printing-press</a></p></li><li><p>"Gartner Says By 2020, a Corporate "No-Cloud" Policy Will Be as Rare as a "No-Internet" Policy Is Today", <a href="https://www.gartner.com/newsroom/id/3354117">Gartner</a></p></li><li><p><a href="https://www-935.ibm.com/services/multimedia/IBMCAI-Digital-disruption-in-automotive.pdf">Digital disruption and the future of the automotive industry</a>, IBM.</p></li><li><p>FREY, Carl Benedikt; OSBORNE, Michael A. The future of employment: how susceptible are jobs to computerisation?. Technological Forecasting and Social Change, 2017, 114: 254-280 (<a href="https://www.oxfordmartin.ox.ac.uk/downloads/academic/The_Future_of_Employment.pdf">pdf</a>)</p></li><li><p><a href="https://www.ibm.com/services/insights/c-suite-study/19th-edition">Inside the Global C-suite Study</a></p></li></ul></div></section></div></div><script src="reveal.js/lib/js/head.min.js"></script><script src="reveal.js/js/reveal.js"></script><script>// See https://github.com/hakimel/reveal.js#configuration for a full list of configuration options
+Reveal.initialize({
+  // Display controls in the bottom right corner
+  controls: true,
+  // Display a presentation progress bar
+  progress: true,
+  // Display the page number of the current slide
+  slideNumber: false,
+  // Push each slide change to the browser history
+  history: false,
+  // Enable keyboard shortcuts for navigation
+  keyboard: true,
+  // Enable the slide overview mode
+  overview: true,
+  // Vertical centering of slides
+  center: true,
+  // Enables touch navigation on devices with touch input
+  touch: true,
+  // Loop the presentation
+  loop: false,
+  // Change the presentation direction to be RTL
+  rtl: false,
+  // Turns fragments on and off globally
+  fragments: true,
+  // Flags if the presentation is running in an embedded mode,
+  // i.e. contained within a limited portion of the screen
+  embedded: false,
+  // Number of milliseconds between automatically proceeding to the
+  // next slide, disabled when set to 0, this value can be overwritten
+  // by using a data-autoslide attribute on your slides
+  autoSlide: 0,
+  // Stop auto-sliding after user input
+  autoSlideStoppable: true,
+  // Enable slide navigation via mouse wheel
+  mouseWheel: false,
+  // Hides the address bar on mobile devices
+  hideAddressBar: true,
+  // Opens links in an iframe preview overlay
+  previewLinks: false,
+  // Theme (e.g., beige, black, league, night, serif, simple, sky, solarized, white)
+  // NOTE setting the theme in the config no longer works in reveal.js 3.x
+  //theme: Reveal.getQueryHash().theme || 'black',
+  // Transition style (e.g., none, fade, slide, convex, concave, zoom)
+  transition: Reveal.getQueryHash().transition || 'slide',
+  // Transition speed (e.g., default, fast, slow)
+  transitionSpeed: 'default',
+  // Transition style for full page slide backgrounds (e.g., none, fade, slide, convex, concave, zoom)
+  backgroundTransition: 'fade',
+  // Number of slides away from the current that are visible
+  viewDistance: 3,
+  // Parallax background image (e.g., "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'")
+  parallaxBackgroundImage: '',
+  // Parallax background size in CSS syntax (e.g., "2100px 900px")
+  parallaxBackgroundSize: '',
+
+  // The "normal" size of the presentation, aspect ratio will be preserved
+  // when the presentation is scaled to fit different resolutions. Can be
+  // specified using percentage units.
+  width: 960,
+  height: 700,
+
+  // Factor of the display size that should remain empty around the content
+  margin: 0.1,
+
+  // Bounds for smallest/largest possible scale to apply to content
+  minScale: 0.2,
+  maxScale: 1.5,
+
+  // Optional libraries used to extend on reveal.js
+  dependencies: [
+      { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      
+      { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+  ]
+});</script></body></html>

@@ -1,0 +1,19 @@
+[background-video="./stars.mp4",options="loop,muted"]
+= Title Slide
+:backend: revealjs
+
+
+== Slide One
+
+* Foo
+* Bar
+* World
+
+== Slide Two
+
+Hello World - Good Bye Cruel World
+
+[NOTE.speaker]
+--
+Actually things aren't that bad
+--

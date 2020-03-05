@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    
+    <h1>Presentations</h1>
+    <br/>
+      <a href="nova-ims-cognitve-2017/IBM-NOVA-IMS-Cognitive-2017.html">NOVA IMS Cognitive Analytics</a>
+    <br/>
+    <a href="ist-priberam-ml-2018/IBM-Priberam-ML-2018.html">Priberam IST</a>
+    <br/>
+    <a href="ist-jef5-2018/IBM-JEF5-AI-Quantum.html">JEF V</a>
+    <br/>
+    <a href="lip-physics-datascience-2018/IBM-LIP-DS.html">LIP (Astro)particle Physics and Data Science</a>
+    <br/>
+    <a href="ficis-2018-braga/IBM-FICIS2018-SmarterCities-AI.html">FICIS 2018</a>
+    <br/>
+    <a href="nova-ims-cognitve-2018/IBM-NOVA-IMS-Cognitive-2018.html">NOVA IMS Analytics Seminar</a>
+    <br/>
+    <a href="humane-2018-aveiro/IBM-HUMANE2018-Disruption.html">HUMANE 2018</a>
+    <br/>
+    <a href="think-lisboa-iot-2018/IBM-Think-Lisboa-IoT.html">THINK Lisboa 2018</a> <a href="think-lisboa-iot-2018/IBM-Think-Lisboa-IoT_en.html">(en)</a>
+    <br/>
+    <a href="pfizer-watson-health-2018/IBM-Pfizer-Watson-Health-2018.html">Watson Health, Pfizer Townhall Talks</a>	
+    <br/>
+    <a href="techling-ual-2018/IBM-TechLING-Dialogue-Tools.html">TechLING 2018, UAL</a>	
+    <br/>
+    <a href="abrantes-filosofia/IBM-Abrantes-Filosofia-2018.html">Festival de Filosofia, Abrantes 2018</a>	
+    <br/>
+    <a href="/ist-enef-2019/IBM-ENEF.html">ENEF, IST 2019</a>
+    <br/>
+    <a href="ff-pagem-ia/IBM-FF-IA.html">Faculdade de Farmácia, PAGeM</a>	
+    <br/>
+    <a href="hcd-cultura-hospital/IBM-HCD-Cultura.html">HCD, Cultura no Hospital</a>	
+
+  </body>
+</html>

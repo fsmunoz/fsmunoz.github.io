@@ -5,6 +5,7 @@
 :title-slide-background-image: north_pole.png
 :icons: font
 :email: <frederico.munoz@pt.ibm.com>
+:revealjs_plugin_pdf: enabled
 
 [.location]
 *Frederico Muñoz* | Chief Architect | IBM Technical Expert Council (SPGI)
