@@ -42,30 +42,20 @@ image::https://researcher.watson.ibm.com/researcher/images/aotlogo_100x100.png[w
 == But let's catch up with some history.
 
 
-[background-iframe=https://www.ibm.com/ibm/history/ibm100/images/icp/J142198M81239V14/us__en_us__ibm100__ibm_founded__icon__540x324.png]
+
+[background-iframe=https://www.youtube.com/embed/-eWxUWJgfzk?autoplay=1]
+== !
+
+[background-iframe=https://www.ibm.com/ibm/history/history/history_intro.html]
 == !
 
 
 [.big]
-== In more detail
+== Some highlights
 
 [.bigger]
 == 1954
 
-[.big]
-== Mark I and Mark II Automatic Language Translators
-
-[transition=zoom]
-== !
-
-* Automatic translators from Russian to English, starting with a
-250-word vocabulay, translated organic chemistry texts.
-* 1960s: the Mark II had a 170,000-word vocabulary and
-could cover a wide domain.
-
-
-[background-iframe=https://www.youtube.com/embed/77Bvz4qZ_Rw?autoplay=1&s=10]
-== !
 
 [background-image="http://www-03.ibm.com/press/us/en/attachment/34540.wss?fileId=ATTACH_FILE2&fileName=Binnig_Rohrer.jpg"]
 [.big]
@@ -132,6 +122,8 @@ through the decades.
 *2008*  Racetrack Memory *2008*  Cooling 3D Chips
 *2011*  Non-Planar Devices *2012*  Holey Optochip - 1 Terabit per Second Optical Bus
 *2013*  Millimeter Wave
+
+
 
 [.bigger]
 == 2011
@@ -200,19 +192,6 @@ dialog and narrative generation and more...»
 _- Kelly, J., 2015. *Computing, cognition and the future of knowing*. Whitepaper, IBM Reseach.
 Vancouver._
 
-[transition=zoom, %notitle]
-[background-video="./stars.webm",options="loop,muted"]
-== Cognitive
-
-* Data -> Information -> Knowledge
-
-== Cognitive computing
-
-[%step]
-* _extends_ analytics.
-*  is able to consume and interpret _unstructured data_.
-* addresses _ambiguous_ problems
-* interacts naturally with humans
 
 == !
 
@@ -484,6 +463,7 @@ https://dataplatform.cloud.ibm.com/
 
 == So why should AI be limited to the Earth?
 
+
 [.big]
 == Project CIMON
 
@@ -514,22 +494,6 @@ The world’s first AI-powered companion in space
 * Data and insights belong to their creator.
 * New technology, including AI systems, must be transparent and explainable.
 
-[background-image="ibm_old.jpg"]
-== We've been here for a while
-
-== and helped to achieve some rather important things
-
-[background-video="./moon.mp4",options="loop,muted"]
-[.big]
-== some (extremely) big
-
-[background-video="./boy.mp4",options="loop,muted"]
-[.big]
-== some (extremely) small
-
-[background-image="http://research.ibm.com/ibm-q/images/card-360.jpg"]
-[.big]
-== but always shaping the future
 
 
 [.big]
@@ -573,12 +537,37 @@ quantum computers for business and science.
 * QISkit: open to *anyone* for development.
 * IBM Q Network: advancing quantum computing together
 
+[background-iframe=https://quantum-computing.ibm.com/composer]
+== !
 
+
+[background-image="ibm_old.jpg"]
+== We've been here for a while
+
+== and helped to achieve some rather important things
+
+[background-video="../videos/moon.mp4",options="loop,muted"]
 [.big]
-== These are all reasons behind IBM's motto
+== some (extremely) big
+
+[background-video="../videos//boy.mp4",options="loop,muted"]
+[.big]
+== some (extremely) small
+
+[background-image="http://research.ibm.com/ibm-q/images/card-360.jpg"]
+[.big]
+== but always shaping the future
+
+== in our very own way.
+[background-iframe=https://newsroom.ibm.com/2019-02-26-IBM-Named-One-of-the-2019-Worlds-Most-Ethical-Companies]
+
+== !
+[.big]
+== These are all reasons behind IBM's motto - yesterday, today and tomorrow.
 
 [.huger]
 == THINK
+
 
 [.big]
 == Thank you!
