@@ -531,7 +531,7 @@ quantum computers for business and science.
 
 == !
 
-* 20 qubit available, 50 qubit developed
+* 50 qubit available
 * QISkit: open to *anyone* for development.
 * IBM Q Network: advancing quantum computing together
 
@@ -543,6 +543,8 @@ quantum computers for business and science.
 [background-iframe=https://quantum-computing.ibm.com/composer]
 == !
 
+== !
+https://quantum-computing.ibm.com/composer
 
 [background-image="ibm_old.jpg"]
 == We've been here for a while
