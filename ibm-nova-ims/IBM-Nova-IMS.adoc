@@ -525,7 +525,7 @@ store information in quantum bits, or qubits.
 [.stretch]
 video::o-FyH2A7Ed0[youtube, start=0, options=autoplay]
 
-[background-image="http://research.ibm.com/ibm-q/images/card-360.jpg"]
+[background-image="../images/ibmq.jpg]
 == IBM Q
 
 An industry-first initiative to build commercially available universal
@@ -536,6 +536,11 @@ quantum computers for business and science.
 * 20 qubit available, 50 qubit developed
 * QISkit: open to *anyone* for development.
 * IBM Q Network: advancing quantum computing together
+
+== IBM Q System One
+
+[background-iframe=https://www.youtube.com/embed/LAA0-vjTaNY?autoplay=1]
+== !
 
 [background-iframe=https://quantum-computing.ibm.com/composer]
 == !
