@@ -53,8 +53,6 @@ image::https://researcher.watson.ibm.com/researcher/images/aotlogo_100x100.png[w
 [.big]
 == Some highlights
 
-[.bigger]
-== 1954
 
 
 [background-image="http://www-03.ibm.com/press/us/en/attachment/34540.wss?fileId=ATTACH_FILE2&fileName=Binnig_Rohrer.jpg"]
