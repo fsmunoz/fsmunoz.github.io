@@ -102,6 +102,10 @@ through the decades.
 
 *2004: Supercomputer to observe protein folding and gene development.*
 
+==  (and today Summit is also the most powerful supercomputer)
+
+[background-iframe=https://www.youtube.com/embed/OlH5BG9giWI?autoplay=1]
+== !
 
 == ... and many others
 
@@ -265,26 +269,12 @@ NEEDED REPLACEMENT."
 * Dialog flows, which you organize to lead users who digress from the
   conversation back to the original conversation
 
-== The use-cases are endless... from food 
+== The use-cases are endless - here is one applied to online banking
 
-
-https://food-coach.ng.bluemix.net
-
-== ... to banking.
-
-https://watson-assistant-demo.ng.bluemix.net/?_ga=2.34304741.515941904.1571645077-1060344906.1570202388
+https://watson-assistant-demo.ng.bluemix.net/
 
 == With this hability to dialogue we can add content mininging and exploration.
 
-== Watson Expert Assist
-
-== !
-
-Dialogue with domain-specific catalogue and deep knowledge
-discovery.
-
-[background-iframe=https://www.ibm.com/cloud/garage/demo/try-watson-expert-assist/]
-== !
 
 == Machine Translation
 
@@ -367,22 +357,24 @@ And essential for cognitive systems
 == !
 
 [.big]
-== Recently went even further
+== Recently we went even further
 
 [.big]
 [background-image=https://www.research.ibm.com/artificial-intelligence/project-debater/images/leadspace-procon.png]
 == Project Debater
+
+https://www.research.ibm.com/artificial-intelligence/project-debater/
 
 == The first AI system that can debate humans on complex topics.
 
 [background-iframe=https://www.youtube.com/embed/FmGNwMyFCqo?autoplay=1]
 == !
 
-== ... and you can try it right now
-[background-iframe=https://ces.debater-event.us-south.containers.appdomain.cloud/#/]
+== ... and you can try it right now and join a debate
+[background-iframe=https://ui.debater.res.ibm.com/domain/public]
 == !
  
-== We also have healthcare applications, of course.
+== There are also application to healthcare applications, of course.
 
 
 == !
@@ -395,7 +387,6 @@ And here the challenge and also opportunity is also
 
 [.big]
 == (lots of data)
-
 
 == !
 
@@ -451,13 +442,22 @@ medical registies and makes evidence-based recommendations.
 [.bigger]
 == Watson Data Platform
 
+- Watson Studio
+- Watson Machine Learning
+- Watson Knowledge Catalog
+
 == !
 
 https://dataplatform.cloud.ibm.com/
 
-== and also made available as a Cloud Pak
-[background-iframe=https://www.ibm.com/products/cloud-pak-for-data]
+
+== Cognos Analytics
+
+The evolution of Business Intelligence with the incorporation of AI
+
+[background-iframe=http://cognos-analytics-experience.mybluemix.net/]
 == !
+
 
 == So why should AI be limited to the Earth?
 
@@ -523,11 +523,33 @@ store information in quantum bits, or qubits.
 [.stretch]
 video::o-FyH2A7Ed0[youtube, start=0, options=autoplay]
 
+== How does it work?
+
+
+[background-iframe=https://www.youtube.com/embed/WVv5OAR4Nik?autoplay=1]
+== !
+
+
+== Quantum starts here!
+
+Education, links, videos, notebooks...
+
+https://www.ibm.com/quantum-computing/
+
+[background-iframe=https://www.ibm.com/quantum-computing/]
+== !
+
 [background-image="../images/ibmq.jpg]
 == IBM Q
 
 An industry-first initiative to build commercially available universal
 quantum computers for business and science.
+
+== IBM Quantum Experience
+
+Your starting point to access quantum computing:
+
+https://quantum-computing.ibm.com/
 
 == !
 
@@ -540,11 +562,6 @@ quantum computers for business and science.
 [background-iframe=https://www.youtube.com/embed/LAA0-vjTaNY?autoplay=1]
 == !
 
-[background-iframe=https://quantum-computing.ibm.com/composer]
-== !
-
-== !
-https://quantum-computing.ibm.com/composer
 
 [background-image="ibm_old.jpg"]
 == We've been here for a while
