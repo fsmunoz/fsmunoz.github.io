@@ -8,55 +8,73 @@
   <link 
     href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
     rel="stylesheet"  type='text/css'>  
-  
+  <link rel="stylesheet" href="maplayer/dist/css/jQuery.mb.miniAudioPlayer.min.css" />
+
 </head>
 <body>
-  <!-- partial:index.partial.html -->
+  
   <div class="wrapper">
+    	<a id="example" 
+	   class="audio {loop:true, inLine:false, downloadable:true}" 
+	   href="videos/airglow_innermission.mp3">
+	  Airglow - Innermission
+	</a>
     <div class="contacts">
-    <a href="mailto:fsm@sdf.org"><span class="icon"><i class="fa fa-envelope-o fa-5x"></i></span></a> 
-    <a href="https://www.linkedin.com/in/fsmunoz/"><span class="icon"><i class="fa fa-linkedin fa-5x"></i></span></a>
-    <a href="https://github.com/fsmunoz"><span class="icon"><i class="fa fa-github fa-5x"></i></span></a>  
+      <a href="mailto:fsm@sdf.org"><span class="icon"><i class="fa fa-envelope-o fa-5x"></i></span></a> 
+      <a href="https://www.linkedin.com/in/fsmunoz/"><span class="icon"><i class="fa fa-linkedin fa-5x"></i></span></a>
+      <a href="https://github.com/fsmunoz"><span class="icon"><i class="fa fa-github fa-5x"></i></span></a>  
     </div>
-
+    
     <div class="m-grid"></div>
     <div class="m-logo">
       <div class="m-logo__wrap">
+
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script><script  src="./script.js"></script>
-	
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>  
+	<script src="maplayer/dist/jquery.mb.miniAudioPlayer.min.js"></script>
+
+
+	<script>$(".audio").mb_miniPlayer({
+    showControls:true,
+    addShadow: true,
+    loop: true,
+    animate: true
+	});
+	</script>
 	<h1>Frederico Muñoz</h1>
 	<h2 class="subtitle">Cloud, Architecture, Data Science & everything</h2>
 	<br>
 	<div class="presentations">
 	  <h3>2021</h3>
 	  <a href="k8s-diagrams/k8s-diagrams.html"
-	  target="_blank">Automatic production of Kubernetes diagrams
-	  with Python, JupyterLab and Diagrams [online
-	  presentation]</a> <br/>
+	     target="_blank">Automatic production of Kubernetes diagrams
+	    with Python, JupyterLab and Diagrams [online
+	    presentation]</a> <br/>
 	  <a href="https://nbviewer.jupyter.org/github/fsmunoz/pt-act-parlamentar/blob/eu-votes-3300/European_Parliament.ipynb"
-	    target="_blank">European Parliament: a view on Political
+	     target="_blank">European Parliament: a view on Political
 	    Groups through the last 3000 votes [Jupyter notebook].</a>
-	    <br/>
-	  <a href="https://www.linkedin.com/pulse/english-proficiency-index-2020-closer-look-language-family-mu%25C3%25B1oz/"
-	  target="_blank">English Proficiency Index 2020: a closer
-	  look by language family, population and GDP [SAS Studio]</a>
-<!--
 	  <br/>
-	  <h3>2020</h3>
-	  <a href="ibm-nova-ims/IBM-Nova-IMS.html">IBM Presentation to NOVA</a>
-	  <br/>	
-	  <a href="ist-enef-2020-2/IBM-ENEF.html">Physic Engineering & National Physics Students Conferece - IST</a>
-	  <h3>2019</h3>	
-	  <a href="hcd-cultura-hospital/IBM-HCD-Cultura.html">HCD, Cultura no Hospital</a>	
-	  <h3>2018</h3>	
-	  <a href="pfizer-watson-health-2018/IBM-Pfizer-Watson-Health-2018.html">Watson Health, Pfizer Townhall Talks</a>
-
--->
+	  <a href="https://www.linkedin.com/pulse/english-proficiency-index-2020-closer-look-language-family-mu%25C3%25B1oz/"
+	     target="_blank">English Proficiency Index 2020: a closer
+	    look by language family, population and GDP [SAS Studio]</a>
+	  <!--
+	      <br/>
+	      <h3>2020</h3>
+	      <a href="ibm-nova-ims/IBM-Nova-IMS.html">IBM Presentation to NOVA</a>
+	      <br/>	
+	      <a href="ist-enef-2020-2/IBM-ENEF.html">Physic Engineering & National Physics Students Conferece - IST</a>
+	      <h3>2019</h3>	
+	      <a href="hcd-cultura-hospital/IBM-HCD-Cultura.html">HCD, Cultura no Hospital</a>	
+	      <h3>2018</h3>	
+	      <a href="pfizer-watson-health-2018/IBM-Pfizer-Watson-Health-2018.html">Watson Health, Pfizer Townhall Talks</a>
+	      
+	      -->
 	</div>
       </div>      
-    </div>    
+    </div>
   </div>
-  <!-- partial -->
-  
+
 </body>
 </html>
+	

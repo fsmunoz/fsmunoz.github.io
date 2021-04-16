@@ -48,10 +48,10 @@ a:-webkit-any-link {
     transform: scale(0);
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 26px;
 }
 .m-logo h1 {
-  //font-family: "Press start 2p", sans-serif;
+  afont-family: "Press start 2p", sans-serif;
   font-family:  'Zen Dots',sans-serif;    
   font-size: 62px;
   letter-spacing: -4px;
@@ -65,7 +65,8 @@ a:-webkit-any-link {
 
 
 .m-logo .subtitle {
-     color: #ec008a;     
+    acolor: #ec008a;
+    color: #4666FF;     
      font-size: 50px;
      margin: 0;
      font-family: "Lobster","Mr Dafoe", serif;
