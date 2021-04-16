@@ -1,0 +1,267 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Artificial Intelligence, Data Science &amp; Quantum Computing: a journey through IBM developments</title><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" name="viewport"><link href="reveal.js/css/reveal.css" rel="stylesheet"><link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"><link href="reveal.js/lib/css/zenburn.css" rel="stylesheet"><script>document.write( '<link rel="stylesheet" href="reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );</script></head><body><div class="reveal"><div class="slides"><section class="title" data-state="title"><h1>Artificial Intelligence, Data Science &amp; Quantum Computing</h1><h2>a journey through IBM developments</h2><div class="preamble"><div class="paragraph location"><p><strong>Frederico Muñoz</strong> | Chief Architect | IBM Technical Expert Council (SPGI)
+NOVA University
+Lisbon | March 2020</p></div></div></section>
+<section id="_hello" class="big"><h2>Hello!</h2></section>
+<section><div class="imageblock" style=""><img src="https://avatars0.githubusercontent.com/u/285727?s=460&v=4" alt="285727?s=460&amp;v=4" width="150"></div>
+<div class="paragraph"><p><span class="icon"><i class="fa fa-envelope-o"></i></span> &lt;<a href="mailto:frederico.munoz@pt.ibm.com">frederico.munoz@pt.ibm.com</a>&gt;</p></div>
+<div class="paragraph"><p><span class="icon"><i class="fa fa-linkedin"></i></span> <a href="https://www.linkedin.com/in/fsmunoz/" class="bare">https://www.linkedin.com/in/fsmunoz/</a></p></div>
+<div class="paragraph"><p><span class="icon"><i class="fa fa-twitter"></i></span> <a href="https://twitter.com/fredericomunoz" class="bare">https://twitter.com/fredericomunoz</a></p></div>
+<div class="paragraph"><p><span class="icon"><i class="fa fa-github"></i></span> <a href="https://github.com/fsmunoz" class="bare">https://github.com/fsmunoz</a></p></div></section>
+<section id="_about_the_technical_expert_council"><h2>About the Technical Expert Council</h2><div class="paragraph"><p>The Technical Expert Council for Spain, Portugal, Greece and Israel is
+an affiliate of the IBM Academy of Technology.</p></div>
+<div class="imageblock inline" style=""><img src="https://researcher.watson.ibm.com/researcher/images/aotlogo_100x100.png" alt="aotlogo 100x100" width="20%"></div></section>
+<section id="_ai_quantum_computing_cloud_data_science" class="bigger"><h2>AI, Quantum computing, Cloud, Data Science&#8230;&#8203;</h2></section>
+<section id="_hot_topics_today"><h2>Hot topics today</h2></section>
+<section id="_but_let_s_catch_up_with_some_history" class="big"><h2>But let&#8217;s catch up with some history.</h2></section>
+<section data-background-iframe="https://www.youtube.com/embed/-eWxUWJgfzk?autoplay=1"></section>
+<section data-background-iframe="https://www.ibm.com/ibm/history/history/history_intro.html"></section>
+<section id="_some_highlights" class="big"><h2>Some highlights</h2></section>
+<section id="_five_ibm_physicists_have_received_the_nobel_prize_in_physics" class="big" data-background-image="http://www-03.ibm.com/press/us/en/attachment/34540.wss?fileId=ATTACH_FILE2&fileName=Binnig_Rohrer.jpg"><h2>Five IBM physicists have received the Nobel Prize in Physics</h2></section>
+<section><div class="ulist step"><ul><li class="fragment"><p>Leo Esaki in 1973 for his work in semiconductors.</p></li><li class="fragment"><p>Gerd Bining and Heinrich Rohrer in 1986 for the scanning tunneling microscope.</p></li><li class="fragment"><p>Georg Bednorz and Alex Mueller in 1987 for research in superconductivity.</p></li></ul></div></section>
+<section id="_and_not_just_nobel_prizes" class="big"><h2>And not just Nobel prizes</h2><div class="paragraph"><p>Many essential scientific breakthroughs were born from IBM Research
+through the decades.</p></div></section>
+<section id="_quantum_tunneling"><h2>Quantum tunneling</h2><div class="paragraph"><p>1958: Leo Esaki&#8217;s discovery of the semiconductor junction, called the Esaki diode, finds wide use in electronics applications</p></div></section>
+<section id="_fractal_geometry" data-background-image="http://1.bp.blogspot.com/-0RDVXPxVh-g/U0xE4ANp3LI/AAAAAAAAABc/kJfowUD4Dnc/s1600/6.gif"><h2>Fractal Geometry</h2><div class="paragraph"><p>1967 - IBM, researcher <strong>Benoît Mandelbrot</strong>.</p></div></section>
+<section id="_nanotechnology" data-background-image="https://c1.staticflickr.com/9/8119/8676926026_2ada5d22aa_h.jpg"><h2>Nanotechnology</h2><div class="paragraph"><p>1981: Gerd Binnig and Heinrich Rohrer invent the scanning tunneling microscope, revolutionizing our ability to manipulate solid surfaces the size of atoms.</p></div></section>
+<section id="_quantum_teleportation"><h2>Quantum teleportation</h2><div class="paragraph"><p>1993: An international group of six scientists, including IBM Fellow Charles H. Bennett, confirmed the intuitions of the majority of science fiction writers by showing that perfect teleportation is indeed possible in principle, but only if the original is destroyed.</p></div></section>
+<section id="_deep_blue_chess" class="big" data-background-image="https://images.theconversation.com/files/168950/original/file-20170511-32613-1ipnlda.jpg?ixlib=rb-1.1.0&rect=0%2C49%2C2048%2C993&q=45&auto=format&w=1356&h=668&fit=crop"><h2>Deep Blue Chess</h2><div class="paragraph"><p><strong>1997: First computer to defeat human World Chess Champion, Garry Kasparov.</strong></p></div></section>
+<section id="_ibm_blue_gene" class="big" data-background-image="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/IBM_Blue_Gene_P_supercomputer.jpg/1200px-IBM_Blue_Gene_P_supercomputer.jpg"><h2>IBM Blue Gene</h2><div class="paragraph"><p><strong>2004: Supercomputer to observe protein folding and gene development.</strong></p></div></section>
+<section id="__and_today_summit_is_also_the_most_powerful_supercomputer"><h2>(and today Summit is also the most powerful supercomputer)</h2></section>
+<section data-background-iframe="https://www.youtube.com/embed/OlH5BG9giWI?autoplay=1"></section>
+<section id="__and_many_others"><h2>&#8230;&#8203; and many others</h2><div class="paragraph small"><small><strong>1947</strong>  Magnetic Core Memory  <strong>1957</strong>  Landauer Formalism - Conductance must come in Quantized Units
+<strong>1958</strong>  Quantum Tunnelling <strong>1960</strong> Thin Film Heads
+<strong>1966</strong>  Tunable Lasers <strong>1966</strong>  Two-Dimensional Electron Gas (2DEG)
+<strong>1967</strong>  Josephson Junctions <strong>1968</strong>  DRAM - 1 Transistor RAM
+<strong>1974</strong>  Dennard Scaling (aka Why Moore&#8217;s Law also speeds up transistors in Lay Terms) <strong>1978</strong>  Scanning Tunneling Microscope (1986 Nobel Prize Winner)
+<strong>1982</strong>  Thermodynamics of Computation <strong>1983</strong>  High Temperature Superconductors (1987 Nobel Prize Winner)
+<strong>1990</strong>  Moving Atoms <strong>1991</strong>  RFID
+<strong>1993</strong>  Quantum Teleportation <strong>1993</strong>  Seminal Contributions to the Theoretical Foundation of Quantum Information Processing
+<strong>1994</strong>  High-Speed Silicon-Germanium Electronics <strong>1997</strong>  GMR - Giant Magnetoresistive Heads
+<strong>1998</strong>  Copper Interconnect <strong>2002</strong>  SOI: Silicon on Insulator
+<strong>2002</strong>  Theory of Nanoscale Material <strong>2007</strong>  High-K Gate Dieletric
+<strong>2008</strong>  Racetrack Memory <strong>2008</strong>  Cooling 3D Chips
+<strong>2011</strong>  Non-Planar Devices <strong>2012</strong>  Holey Optochip - 1 Terabit per Second Optical Bus
+<strong>2013</strong>  Millimeter Wave</small></div></section>
+<section id="_2011" class="bigger"><h2>2011</h2></section>
+<section id="_a_breakthrough_watson_and_jeopardy"><h2>A breakthrough: Watson and Jeopardy!</h2></section>
+<section data-background-iframe="https://www.youtube.com/embed/P18EdAKuC1U?autoplay=1"></section>
+<section><div class="ulist"><ul><li class="fragment"><p>First computer to defeat TV game show Jeopardy! champions.</p></li><li class="fragment"><p>Research teams are working to <strong>adapt Watson to other
+information-intensive fields</strong>, such as telecommunications, financial
+services and government.</p></li></ul></div></section>
+<section id="_but_how_does_it_work" class="big"><h2>But&#8230;&#8203; how does it work?</h2></section>
+<section id="__and_how_does_cognitive_computing_related_with_ai"><h2>&#8230;&#8203; and how does cognitive computing related with AI?</h2></section>
+<section id="_concepts" class="bigger"><h2>Concepts</h2><div class="paragraph"><p>AI, Machine Learning, Cognitive&#8230;&#8203;</p></div></section>
+<section><div class="imageblock inline" style=""><img src="../images/the-new-technologies.jpg" alt="the new technologies" width="100%"></div></section>
+<section id="_machine_learning"><h2>Machine Learning</h2><div class="ulist"><ul><li><p>Provides computers with the ability to continuing learning without being pre-programmed after a manual.</p></li><li><p>Algorithms that learn from data and create foresights based on this data.</p></li></ul></div></section>
+<section id="_artificial_intelligence"><h2>Artificial Intelligence</h2><div class="ulist"><ul><li><p>When machines – based on information – are able to make decisions, which maximizes the chances of success in a given topic.</p></li><li><p>By the use of Machine Learning, Artificial Intelligence is able to
+use learning from a data set to solve problems and give relevant
+recommendations.</p></li></ul></div></section>
+<section id="_cognitive_computing"><h2>Cognitive computing</h2><div class="ulist"><ul><li><p>Systems that learn at scale, reason with purpose and interact with humans naturally</p></li><li><p>A mixture of computer science and cognitive science – that is, the understanding of the human brain and how it works</p></li></ul></div></section>
+<section id="_cognitive_systems_are_different"><h2>Cognitive systems are different</h2><div class="ulist step"><ul><li class="fragment"><p>They create deeper <em>human engagement</em>.</p></li><li class="fragment"><p>They scale and elevate <em>expertise</em>.</p></li><li class="fragment"><p>They infuse products and services with <em>cognition</em>.</p></li><li class="fragment"><p>They <em>enable cognitive processes</em> and operations.</p></li><li class="fragment"><p>They enhance <em>exploration and discovery</em>.</p></li></ul></div></section>
+<section id="_cognitive_systems"><h2>Cognitive systems</h2><div class="paragraph"><p>«&#8230;&#8203;This platform must encompass machine learning, reasoning, natural
+language processing, speech and vision, human-computer interaction,
+dialog and narrative generation and more&#8230;&#8203;»</p></div>
+<div class="paragraph"><p><em>- Kelly, J., 2015. <strong>Computing, cognition and the future of knowing</strong>. Whitepaper, IBM Reseach.
+Vancouver.</em></p></div></section>
+<section><div class="paragraph"><p>and can we use them?</p></div></section>
+<section id="_yes" class="bigger"><h2>Yes!</h2></section>
+<section><div class="paragraph"><p>it&#8217;s important to understand what IBM Watson is&#8230;&#8203;</p></div></section>
+<section id="_watson_exists_in_three_forms"><h2>Watson exists in three forms</h2><div class="ulist"><ul><li><p><strong>Tools</strong> for companies that want to build their own AI.</p></li><li><p><strong>Applications</strong> for companies that want to buy a pre-packaged AI
+solution.</p></li><li><p>Embedded machine learning and AI <strong>features</strong>.</p></li></ul></div></section>
+<section><div class="paragraph"><p>and we&#8217;ll see examples from all of them.</p></div></section>
+<section id="_watson_explorer_content_analytics"><h2>Watson Explorer Content Analytics</h2><div class="ulist"><ul><li><p>Collects and analyzes structured and unstructured content in
+documents, email, databases, websites, and other enterprise
+repositories</p></li><li><p>Uses UIMA annotators</p></li><li><p>Uses a "hypothesis free" approach by surfacing data and
+relationships that span both structured and unstructured data.</p></li></ul></div></section>
+<section data-background-color="white"><div class="paragraph"><p>"I WAS DRIVING MY 2005 FORD FREESTYLE AND HAD COME TO A COMPLETE
+STOP. I HAD MY FOOT ON THE BRAKE. WHEN I TOOK MY FOOT OFF OF THE BRAKE
+THE CAR SURGED FORWARD WITHOUT MY EVER HAVING TOUCHED THE
+ACCELERATOR. I SLAMMED MY FOOT ON THE BRAKE TO AVOID HITTING THE CAR
+AHEAD OF ME. MY CAR STALLED AND I WAS ABLE TO RESTART IT. THE CHECK
+ENGINE LIGHT CAME ON. MY MECHANIC TOLD ME THAT THE THROTTLE BODY
+NEEDED REPLACEMENT."</p></div></section>
+<section data-background-iframe="https://www.ibm.com/cloud/garage/demo/try-watson-explorer/"></section>
+<section id="_watson_discovery"><h2>Watson Discovery</h2><div class="ulist"><ul><li><p>Embedded NLP</p></li><li><p>Relevance Training</p></li><li><p>Custom Model Annotation/Extraction</p></li></ul></div></section>
+<section data-background-iframe="https://www.ibm.com/cloud/garage/dte/producttour/discover-hidden-insights-your-data"></section>
+<section id="_discovery_is_important_to_add_to_em_conversations_em_and_produce_a_dialogue"><h2>Discovery is important to add to <em>conversations</em> and produce a dialogue.</h2></section>
+<section id="_watson_assistant"><h2>Watson Assistant</h2><div class="ulist"><ul><li><p>Create meaningful conversations</p></li><li><p>Model natural conversation flows</p></li></ul></div></section>
+<section><div class="ulist"><ul><li><p>Intents and entities, which you create to train Watson to understand meaningful examples</p></li><li><p>Slots, which you use to capture context from a user to reduce redundancy</p></li><li><p>Handlers, which you manage for users who go off topic</p></li><li><p>Dialog flows, which you organize to lead users who digress from the
+conversation back to the original conversation</p></li></ul></div></section>
+<section id="_the_use_cases_are_endless_here_is_one_applied_to_online_banking"><h2>The use-cases are endless - here is one applied to online banking</h2><div class="paragraph"><p><a href="https://watson-assistant-demo.ng.bluemix.net/" class="bare">https://watson-assistant-demo.ng.bluemix.net/</a></p></div></section>
+<section id="_with_this_hability_to_dialogue_we_can_add_content_mininging_and_exploration"><h2>With this hability to dialogue we can add content mininging and exploration.</h2></section>
+<section id="_machine_translation"><h2>Machine Translation</h2><div class="ulist"><ul><li><p>An area of focus for IBM for decades</p></li><li><p>Many existing offerings from various companies</p></li><li><p>Several open-source approaches available</p></li><li><p>Different models used</p></li></ul></div></section>
+<section><div class="paragraph"><p>As mentioned, Statistic Machine Translation was something in which IBM
+had a pioneering role and is still the mostly used model today.</p></div></section>
+<section data-background-video="../videos/neurons.mp4"><div class="paragraph"><p>IBM uses <a href="https://www.ibm.com/blogs/watson/2018/07/improving-the-accuracy-speed-of-translations-with-neural-machine-translation/">Neural Machine Translation</a> (NMT) as the underlying model for
+the Watson Translate technology, instead of SMT.</p></div></section>
+<section data-background-image="https://cdn-images-1.medium.com/max/1600/1*XbWg1IhzkATeDJvSgRPRlw.png"></section>
+<section data-background-iframe="https://language-translator-demo.ng.bluemix.net/"></section>
+<section id="_natural_language_understanding"><h2>Natural Language Understanding</h2><div class="ulist"><ul><li><p>Collection of APIs that offer text analysis through natural language processing.</p></li><li><p>It can analyze text to help you understand its concepts, entities, keywords, sentiment, and more.</p></li><li><p>Allows the creation of new models.</p></li></ul></div></section>
+<section><div class="paragraph"><p><a href="https://natural-language-understanding-demo.ng.bluemix.net/" class="bare">https://natural-language-understanding-demo.ng.bluemix.net/</a></p></div></section>
+<section id="_tone_analysis"><h2>Tone Analysis</h2></section>
+<section><div class="paragraph"><p>The IBM Watson Tone Analyzer service uses linguistic analysis to
+detect emotional and language tones in written text. The service can
+analyze tone at both the document and sentence levels.</p></div></section>
+<section><div class="quoteblock quote"><blockquote>To derive emotion scores from text, IBM Watson Tone Analyzer uses a
+stackedgeneralisation-based ensemble framework to achieve greater
+predictive accuracy [5].Features such as n-grams (unigrams, bigrams
+and trigrams), punctuation, emoticons,curse words, greeting words
+(such as “hello”, “hi” and “thanks”) and sentiment po-larity are fed
+into machine learning algorithms to classify emotion categories.</blockquote><div class="attribution"><cite>Mohamed, et al. Incorporating emotion and personality-based analysis in user-centered modelling. In: International Conference on Innovative Techniques and Applications of Artificial Intelligence. Springer, Cham, 2016. p. 383-389.</cite><br>&#8212; MOSTAFA</div></div></section>
+<section><div class="paragraph"><p><a href="https://natural-language-understanding-demo.ng.bluemix.net/" class="bare">https://natural-language-understanding-demo.ng.bluemix.net/</a></p></div></section>
+<section id="_speech_is_an_aditional_area_with_constant_evolution"><h2>Speech is an aditional area with constant evolution</h2></section>
+<section><div class="paragraph"><p>And essential for cognitive systems</p></div></section>
+<section data-background-iframe="https://www.youtube.com/embed/7qnd-hdmgfk?autoplay=1"></section>
+<section><div class="ulist"><ul><li><p>Speech to Text: <a href="https://speech-to-text-demo.ng.bluemix.net/" class="bare">https://speech-to-text-demo.ng.bluemix.net/</a></p></li><li><p>Text to Speech: <a href="https://text-to-speech-demo.ng.bluemix.net/" class="bare">https://text-to-speech-demo.ng.bluemix.net/</a></p></li></ul></div></section>
+<section id="_with_this_examples_we_can_now_understand_a_bit_better_how_watson_works"><h2>With this examples we can now understand a bit better how Watson works</h2></section>
+<section data-background-iframe="https://www.youtube.com/embed/DywO4zksfXw?autoplay=1"></section>
+<section id="_recently_we_went_even_further" class="big"><h2>Recently we went even further</h2></section>
+<section id="_project_debater" class="big" data-background-image="https://www.research.ibm.com/artificial-intelligence/project-debater/images/leadspace-procon.png"><h2>Project Debater</h2><div class="paragraph"><p><a href="https://www.research.ibm.com/artificial-intelligence/project-debater/" class="bare">https://www.research.ibm.com/artificial-intelligence/project-debater/</a></p></div></section>
+<section id="_the_first_ai_system_that_can_debate_humans_on_complex_topics"><h2>The first AI system that can debate humans on complex topics.</h2></section>
+<section data-background-iframe="https://www.youtube.com/embed/FmGNwMyFCqo?autoplay=1"></section>
+<section id="__and_you_can_try_it_right_now_and_join_a_debate"><h2>&#8230;&#8203; and you can try it right now and join a debate</h2></section>
+<section data-background-iframe="https://ui.debater.res.ibm.com/domain/public"></section>
+<section id="_there_are_also_application_to_healthcare_applications_of_course"><h2>There are also application to healthcare applications, of course.</h2></section>
+<section><div class="paragraph"><p>And here the challenge and also opportunity is also</p></div></section>
+<section id="_data" class="bigger" data-background-image="../images/pexels-photo-239898.jpeg"><h2>Data</h2></section>
+<section id="__lots_of_data" class="big"><h2>(lots of data)</h2></section>
+<section><div class="ulist"><ul><li><p>Human Genome of a single oncology patient: half a Terabyte.</p></li><li><p>Number of hours to keep up with medical literature: ~160.</p></li></ul></div>
+<div class="paragraph copyright"><p>ALPER, Brian S., et al. How much effort is needed to keep up with the literature relevant for primary care?. Journal of the Medical Library association, 2004, 92.4: 429. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC521514/#FNIRP" class="bare">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC521514/#FNIRP</a></p></div></section>
+<section id="_the_advances_in_ai_and_cognitive_computing_make_use_of_this_data"><h2>The advances in AI and cognitive computing make use of this data</h2></section>
+<section data-background-video="../videos/neurons.mp4"><div class="ulist"><ul><li><p>Understand – images, language and other unstructured data.</p></li><li><p>Reason – by comprehending domain-specific concepts, forming hypotheses and
+inferring and extracting ideas.</p></li><li><p>Learn – by developing and sharpening expertise with each new data
+point, interaction and outcome.</p></li><li><p>Interact – with employees and policy holders in a natural way that
+allows cognitive solutions to dissolve barriers between humans and
+machine.</p></li></ul></div></section>
+<section id="_some_applications_in_healthcare" class="bigger"><h2>Some applications in healthcare</h2></section>
+<section><div class="paragraph"><p>IBM <strong>Watson for Genomics</strong> analyses the genetic information of
+carcinoma and suggests possible therapeutical options <em>while providing evidences of the reasons for the suggestion</em>.</p></div></section>
+<section data-background-iframe="https://www.youtube.com/embed/K9URgz7V9_0?autoplay=1"></section>
+<section id="_undeerstanding_non_structured_data"><h2>Undeerstanding non-structured data</h2><div class="paragraph"><p><strong>Watson for Oncology</strong> consumes the huge <em>corpus</em> of literature,
+guides, studies, papers, clinical trials and pacient data, interprets
+medical registies and makes evidence-based recommendations.</p></div></section>
+<section data-background-iframe="https://www.youtube.com/embed/338CIHlVi7A?autoplay=1"></section>
+<section id="_a_whole_portfolio_of_data_science_ai_and_machine_learning_solutions" class="big" data-background-video="../videos/neurons.mp4" data-background-video-loop data-background-video-muted><h2>a whole portfolio of Data Science, AI and Machine Learning solutions.</h2></section>
+<section id="_watson_data_platform" class="bigger"><h2>Watson Data Platform</h2><div class="ulist"><ul><li><p>Watson Studio</p></li><li><p>Watson Machine Learning</p></li><li><p>Watson Knowledge Catalog</p></li></ul></div></section>
+<section><div class="paragraph"><p><a href="https://dataplatform.cloud.ibm.com/" class="bare">https://dataplatform.cloud.ibm.com/</a></p></div></section>
+<section id="_cognos_analytics"><h2>Cognos Analytics</h2><div class="paragraph"><p>The evolution of Business Intelligence with the incorporation of AI</p></div></section>
+<section data-background-iframe="http://cognos-analytics-experience.mybluemix.net/"></section>
+<section id="_so_why_should_ai_be_limited_to_the_earth"><h2>So why should AI be limited to the Earth?</h2></section>
+<section id="_project_cimon" class="big"><h2>Project CIMON</h2><div class="paragraph"><p>The world’s first AI-powered companion in space</p></div></section>
+<section data-background-iframe="https://www.ibm.com/thought-leadership/smart/de-de/ai-in-space/"></section>
+<section data-background-iframe="https://www.youtube.com/embed/afutNx1weec?autoplay=1"></section>
+<section id="_artificial_intelligence_and_us"><h2>Artificial Intelligence and us</h2></section>
+<section id="_are_we_being_replaced" data-background-image="https://nit.pt/wp-content/uploads/2017/03/metropolis-754x394.jpg"><h2>Are we "being replaced"?</h2></section>
+<section id="_no" class="big"><h2>No</h2></section>
+<section id="_ibm_s_principles_for_trust_and_transparency"><h2>IBM&#8217;s Principles for Trust and Transparency</h2></section>
+<section><div class="ulist"><ul><li><p>The purpose of AI is to <strong>augment human intelligence</strong>.</p></li><li><p>Data and insights belong to their creator.</p></li><li><p>New technology, including AI systems, must be transparent and explainable.</p></li></ul></div></section>
+<section id="_quantum_computing" class="big"><h2>Quantum Computing</h2></section>
+<section><div class="paragraph"><p>In the summer of 1981, IBM and MIT organized a landmark event called
+the First Conference on the Physics of Computation.</p></div>
+<div class="paragraph"><p>It took place at Endicott House, a French-style mansion not far from
+the MIT campus.</p></div></section>
+<section data-background-image="https://cdn.technologyreview.com/i/images/ma18-quantum2.png"><div class="paragraph"><p>Bennett and others realized that some kinds of computations that are
+exponentially time consuming, or even impossible, could be efficiently
+performed with the help of quantum phenomena. A quantum computer would
+store information in quantum bits, or qubits.</p></div></section>
+<section data-background-image="http://static.dnaindia.com/sites/default/files/styles/full/public/2017/02/08/546623-2-richard-feynman-wiki-commons.jpg"><div class="quoteblock"><blockquote>Nature is quantum, goddamn it! So if we want to simulate it, we need a quantum computer!</blockquote><div class="attribution">&#8212; Richard Feynman</div></div></section>
+<section><div class="videoblock stretch stretch"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/o-FyH2A7Ed0?rel=0&amp;start=0" frameborder="0" allowfullscreen data-autoplay></iframe></div></section>
+<section id="_how_does_it_work"><h2>How does it work?</h2></section>
+<section data-background-iframe="https://www.youtube.com/embed/WVv5OAR4Nik?autoplay=1"></section>
+<section id="_quantum_starts_here"><h2>Quantum starts here!</h2><div class="paragraph"><p>Education, links, videos, notebooks&#8230;&#8203;</p></div>
+<div class="paragraph"><p><a href="https://www.ibm.com/quantum-computing/" class="bare">https://www.ibm.com/quantum-computing/</a></p></div></section>
+<section data-background-iframe="https://www.ibm.com/quantum-computing/"></section>
+<section id="_ibm_q" data-background-image=""../images/ibmq.jpg"><h2>IBM Q</h2><div class="paragraph"><p>An industry-first initiative to build commercially available universal
+quantum computers for business and science.</p></div></section>
+<section id="_ibm_quantum_experience"><h2>IBM Quantum Experience</h2><div class="paragraph"><p>Your starting point to access quantum computing:</p></div>
+<div class="paragraph"><p><a href="https://quantum-computing.ibm.com/" class="bare">https://quantum-computing.ibm.com/</a></p></div></section>
+<section><div class="ulist"><ul><li><p>50 qubit available</p></li><li><p>QISkit: open to <strong>anyone</strong> for development.</p></li><li><p>IBM Q Network: advancing quantum computing together</p></li></ul></div></section>
+<section id="_ibm_q_system_one"><h2>IBM Q System One</h2></section>
+<section data-background-iframe="https://www.youtube.com/embed/LAA0-vjTaNY?autoplay=1"></section>
+<section id="_we_ve_been_here_for_a_while" data-background-image="ibm_old.jpg"><h2>We&#8217;ve been here for a while</h2></section>
+<section id="_and_helped_to_achieve_some_rather_important_things"><h2>and helped to achieve some rather important things</h2></section>
+<section id="_some_extremely_big" class="big" data-background-video="../videos/moon.mp4" data-background-video-loop data-background-video-muted><h2>some (extremely) big</h2></section>
+<section id="_some_extremely_small" class="big" data-background-video="../videos//boy.mp4" data-background-video-loop data-background-video-muted><h2>some (extremely) small</h2></section>
+<section id="_but_always_shaping_the_future" class="big" data-background-image="http://research.ibm.com/ibm-q/images/card-360.jpg"><h2>but always shaping the future</h2></section>
+<section id="_in_our_very_own_way"><h2>in our very own way.</h2></section>
+<section data-background-iframe="https://www.ibm.com/blogs/corporate-social-responsibility/2020/02/ethisphere-2020/"></section>
+<section id="_these_are_all_reasons_behind_ibm_s_motto_yesterday_today_and_tomorrow" class="big"><h2>These are all reasons behind IBM&#8217;s motto - yesterday, today and tomorrow.</h2></section>
+<section id="_think" class="huger"><h2>THINK</h2></section>
+<section id="_thank_you" class="big"><h2>Thank you!</h2></section></div></div><script src="reveal.js/lib/js/head.min.js"></script><script src="reveal.js/js/reveal.js"></script><script>// See https://github.com/hakimel/reveal.js#configuration for a full list of configuration options
+Reveal.initialize({
+  // Display controls in the bottom right corner
+  controls: true,
+  // Display a presentation progress bar
+  progress: true,
+  // Display the page number of the current slide
+  slideNumber: false,
+  // Push each slide change to the browser history
+  history: false,
+  // Enable keyboard shortcuts for navigation
+  keyboard: true,
+  // Enable the slide overview mode
+  overview: true,
+  // Vertical centering of slides
+  center: true,
+  // Enables touch navigation on devices with touch input
+  touch: true,
+  // Loop the presentation
+  loop: false,
+  // Change the presentation direction to be RTL
+  rtl: false,
+  // Turns fragments on and off globally
+  fragments: true,
+  // Flags if the presentation is running in an embedded mode,
+  // i.e. contained within a limited portion of the screen
+  embedded: false,
+  // Number of milliseconds between automatically proceeding to the
+  // next slide, disabled when set to 0, this value can be overwritten
+  // by using a data-autoslide attribute on your slides
+  autoSlide: 0,
+  // Stop auto-sliding after user input
+  autoSlideStoppable: true,
+  // Enable slide navigation via mouse wheel
+  mouseWheel: false,
+  // Hides the address bar on mobile devices
+  hideAddressBar: true,
+  // Opens links in an iframe preview overlay
+  previewLinks: false,
+  // Theme (e.g., beige, black, league, night, serif, simple, sky, solarized, white)
+  // NOTE setting the theme in the config no longer works in reveal.js 3.x
+  //theme: Reveal.getQueryHash().theme || 'black',
+  // Transition style (e.g., none, fade, slide, convex, concave, zoom)
+  transition: Reveal.getQueryHash().transition || 'slide',
+  // Transition speed (e.g., default, fast, slow)
+  transitionSpeed: 'default',
+  // Transition style for full page slide backgrounds (e.g., none, fade, slide, convex, concave, zoom)
+  backgroundTransition: 'fade',
+  // Number of slides away from the current that are visible
+  viewDistance: 3,
+  // Parallax background image (e.g., "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'")
+  parallaxBackgroundImage: '',
+  // Parallax background size in CSS syntax (e.g., "2100px 900px")
+  parallaxBackgroundSize: '',
+
+  // The "normal" size of the presentation, aspect ratio will be preserved
+  // when the presentation is scaled to fit different resolutions. Can be
+  // specified using percentage units.
+  width: 960,
+  height: 700,
+
+  // Factor of the display size that should remain empty around the content
+  margin: 0.1,
+
+  // Bounds for smallest/largest possible scale to apply to content
+  minScale: 0.2,
+  maxScale: 1.5,
+
+  // Optional libraries used to extend on reveal.js
+  dependencies: [
+      { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      
+      { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+  ]
+});</script></body></html>
