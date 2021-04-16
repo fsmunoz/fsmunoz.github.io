@@ -2,8 +2,7 @@
 @import 'https://fonts.googleapis.com/css?family=Press+Start+2P';
 @import 'https://fonts.googleapis.com/css?family=Mr+Dafoe';
 @import 'https://fonts.googleapis.com/css?family=Changa+One';
-@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Lobster&family=Zen+Dots&display=swap');
 body {
   background: #000;
   background-image: linear-gradient(to bottom, #6A0275 10%, #040C4A 60%);
@@ -21,6 +20,10 @@ body {
       max-width: 400px;
       margin: 0 auto;  
 }
+.presentations{
+    text-align: center;
+}
+
 i {
     font-family: 'FontAwesome';
     font-style: normal;
@@ -32,23 +35,23 @@ a:-webkit-any-link {
     
 }
 .m-logo {
-  height: 100vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
   z-index: 501;
-  font-family:  'Comfortaa', 'Zen Dots',sans-serif;      
+  font-family:  'Comfortaa', 'Zen Dots',sans-serif;
 }
 .m-logo__wrap {
-  transform: scale(0);
-  text-align: center;
-  text-decoration: none;
-  font-size: 25px;
+    transform: scale(0);
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
 }
 .m-logo h1 {
-  //  font-family: "Press start 2p", sans-serif;
+  //font-family: "Press start 2p", sans-serif;
   font-family:  'Zen Dots',sans-serif;    
   font-size: 62px;
   letter-spacing: -4px;
@@ -62,12 +65,12 @@ a:-webkit-any-link {
 
 
 .m-logo .subtitle {
-  color: #ec008a;
-  font-size: 50px;
-  margin: 0;
-    font-family: "Mr Dafoe", serif;
-  //font-family:  'Zen Dots',serif;  
-  text-shadow: 0px 1x 0px #530031;
+     color: #ec008a;     
+     font-size: 50px;
+     margin: 0;
+     font-family: "Lobster","Mr Dafoe", serif;
+     //font-family:  'Zen Dots',serif;  
+     text-shadow: 0px 1x 0px #530031;
 }
 
 
