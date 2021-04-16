@@ -1,0 +1,278 @@
+= AI, Quantum, Data Science: an IBM Journey in Physics and Science
+:date: 3-March-2020
+:slide-background-video: stars.webm
+:title-slide-background-video: stars.webm
+:_title-slide-background-image:  http://www-03.ibm.com/ibm/history/ibm100/images/icp/J254848W74388D95/us__en_us__ibm100__fractals__harrington_01__620x350.jpg
+:_revealjs_center: false
+:icons: font
+
+
+[.location]
+*Frederico Muñoz* | Chief Architect | IBM Technical Expert Council (SPGI)
+*Roy Cecil* | Analytics Solution Architect | IBM Technical Expert Council (SPGI)
+Encontro Nacional de Estudantes de Física | Instituto Superior Técnico | March 2020
+
+== About the Technical Expert Council
+
+The Technical Expert Council for Spain, Portugal, Greece and Israel is
+an affiliate of the IBM Academy of Technology.
+
+image::https://researcher.watson.ibm.com/researcher/images/aotlogo_100x100.png[width=20%,role=inline] 
+
+
+[background-image="https://www.ibm.com/watson/artwithwatson/img/portraits/TW_artwork_small.jpg"]
+== !
+[.bigquote]
+To visualize the future of *IBM* you must know something of the past.
+-- Thomas J. Watson, Sr.
+
+
+[.big]
+== IBM has a long relation with Physics.
+
+== ...and Physics Engineering...
+
+== _... and Artificial Intelligence..._
+
+[.bigger]
+== ...and Science in general.
+
+[background-image="http://www-03.ibm.com/press/us/en/attachment/34540.wss?fileId=ATTACH_FILE2&fileName=Binnig_Rohrer.jpg"]
+[.big]
+== Five IBM physicists have received the Nobel Prize in Physics
+
+== !
+[.step]
+* Leo Esaki in 1973 for his work in semiconductors.
+* Gerd Bining and Heinrich Rohrer in 1986 for the scanning tunneling microscope.
+* Georg Bednorz and Alex Mueller in 1987 for research in superconductivity.
+
+[.big]
+== And not just Nobel prizes
+
+Many essential scientific breakthroughs were born from IBM Research
+through the decades.
+
+== Quantum tunneling
+
+1958: Leo Esaki's discovery of the semiconductor junction, called the Esaki diode, finds wide use in electronics applications	
+
+[background-image=http://1.bp.blogspot.com/-0RDVXPxVh-g/U0xE4ANp3LI/AAAAAAAAABc/kJfowUD4Dnc/s1600/6.gif]
+== Fractal Geometry
+
+1967 - IBM, researcher *Benoît Mandelbrot*.
+
+[background-image=https://c1.staticflickr.com/9/8119/8676926026_2ada5d22aa_h.jpg]
+== Nanotechnology
+
+1981: Gerd Binnig and Heinrich Rohrer invent the scanning tunneling microscope, revolutionizing our ability to manipulate solid surfaces the size of atoms.
+
+== Quantum teleportation
+
+1993: An international group of six scientists, including IBM Fellow Charles H. Bennett, confirmed the intuitions of the majority of science fiction writers by showing that perfect teleportation is indeed possible in principle, but only if the original is destroyed.
+
+
+[background-image=https://images.theconversation.com/files/168950/original/file-20170511-32613-1ipnlda.jpg?ixlib=rb-1.1.0&rect=0%2C49%2C2048%2C993&q=45&auto=format&w=1356&h=668&fit=crop]
+[.big]
+== Deep Blue Chess
+
+*1997: First computer to defeat human World Chess Champion, Garry Kasparov.*
+
+[background-image=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/IBM_Blue_Gene_P_supercomputer.jpg/1200px-IBM_Blue_Gene_P_supercomputer.jpg]
+[.big]
+== IBM Blue Gene
+
+*2004: Supercomputer to observe protein folding and gene development.*
+
+
+[background-image=https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Summit_%28supercomputer%29.jpg/800px-Summit_%28supercomputer%29.jpg]
+== !
+(and by the way, IBM Summit is currently the worlds most powerful supercomputer)
+
+== ... and many others
+
+[.small]
+*1947*  Magnetic Core Memory  *1957*  Landauer Formalism - Conductance must come in Quantized Units
+*1958*  Quantum Tunnelling *1960* Thin Film Heads
+*1966*  Tunable Lasers *1966*  Two-Dimensional Electron Gas (2DEG)
+*1967*  Josephson Junctions *1968*  DRAM - 1 Transistor RAM
+*1974*  Dennard Scaling (aka Why Moore's Law also speeds up transistors in Lay Terms) *1978*  Scanning Tunneling Microscope (1986 Nobel Prize Winner)
+*1982*  Thermodynamics of Computation *1983*  High Temperature Superconductors (1987 Nobel Prize Winner)
+*1990*  Moving Atoms *1991*  RFID
+*1993*  Quantum Teleportation *1993*  Seminal Contributions to the Theoretical Foundation of Quantum Information Processing
+*1994*  High-Speed Silicon-Germanium Electronics *1997*  GMR - Giant Magnetoresistive Heads
+*1998*  Copper Interconnect *2002*  SOI: Silicon on Insulator
+*2002*  Theory of Nanoscale Material *2007*  High-K Gate Dieletric
+*2008*  Racetrack Memory *2008*  Cooling 3D Chips
+*2011*  Non-Planar Devices *2012*  Holey Optochip - 1 Terabit per Second Optical Bus
+*2013*  Millimeter Wave
+
+
+== more recently, and in the field of Artificial Intelligence
+
+[.big]
+== we had a well-known breakthrough
+
+[.big]
+[background-image=https://tedconfblog.files.wordpress.com/2013/04/watson_the_computer_beats_ken_jennings_and_brad_rutter_at_jeopardy_full-1.jpg?w=900&h=531]
+== Watson Jeopardy! Challenge
+
+== !
+[%step]
+* First computer to defeat TV game show Jeopardy! champions.
+* Research teams are working to *adapt Watson to other information-intensive fields*, such as telecommunications, financial services and government.
+
+
+
+[.big]
+== And recently went even further
+
+[.big]
+[background-image=https://www.research.ibm.com/artificial-intelligence/project-debater/images/leadspace-procon.png]
+== Project Debater
+
+== The first AI system that can debate humans on complex topics.
+
+[background-iframe=https://www.youtube.com/embed/FmGNwMyFCqo?autoplay=1]
+== !
+
+== ... and you can try it right now
+[background-iframe=https://ces.debater-event.us-south.containers.appdomain.cloud/#/]
+== !
+
+
+[.big]
+[background-video="./neurons.mp4",options="loop,muted"]
+== a whole portfolio of Data Science, AI and Machine Learning solutions.
+
+
+== We've been here for a while
+
+== and helped to achieve some rather important things
+
+[background-video="./moon.mp4",options="loop,muted"]
+[.big]
+== some (extremely) big
+
+[background-video="./boy.mp4",options="loop,muted"]
+[.big]
+== some (extremely) small
+
+
+== So why should AI be limited to the Earth?
+
+[.big]
+== Project CIMON
+
+The world’s first AI-powered companion in space
+
+[background-iframe=https://www.ibm.com/thought-leadership/smart/de-de/ai-in-space/]
+== !  
+
+
+[background-iframe=https://www.youtube.com/embed/afutNx1weec?autoplay=1]
+== !
+
+
+[background-image="http://research.ibm.com/ibm-q/images/card-360.jpg"]
+[.big]
+== Shapping the future is more than a value: it's a practice at IBM.
+
+[.big]
+== Quantum Computing
+
+== !
+
+In the summer of 1981, IBM and MIT organized a landmark event called
+the First Conference on the Physics of Computation.
+
+It took place at Endicott House, a French-style mansion not far from
+the MIT campus.
+
+[background-image="https://cdn.technologyreview.com/i/images/ma18-quantum2.png""]
+== !
+
+Bennett and others realized that some kinds of computations that are
+exponentially time consuming, or even impossible, could be efficiently
+performed with the help of quantum phenomena. A quantum computer would
+store information in quantum bits, or qubits.
+
+[background-image="http://static.dnaindia.com/sites/default/files/styles/full/public/2017/02/08/546623-2-richard-feynman-wiki-commons.jpg"]
+== !
+
+"Nature is quantum, goddamn it! So if we want to simulate it, we need a quantum computer!"
+-- Richard Feynman
+
+
+[background-iframe=https://www.youtube.com/embed/o-FyH2A7Ed0?autoplay=1]
+== !
+
+
+[background-image="http://research.ibm.com/ibm-q/images/card-360.jpg"]
+== IBM Q
+
+An industry-first initiative to build commercially available universal
+quantum computers for business and science.
+
+== !
+
+* 50 qubits
+* QISkit: open to *anyone* for development.
+* IBM Q Network: advancing quantum computing together
+
+
+== Now comercially available for the first timer. Ever.
+
+[background-iframe=https://www.youtube.com/embed/LAA0-vjTaNY?autoplay=1]
+== !
+
+== A quantum computer is... different
+[background-iframe=https://www.youtube.com/embed/o-FyH2A7Ed0?autoplay=1]
+== !
+
+[.bigger]
+[background-image="../images/bloch_sphere.png"]
+== Here, Physics is everywhere...
+
+
+[.big]
+== In the end, all of this advances stem from our motto.
+
+[.huger]
+== THINK
+
+[background-image="./lisbon.jpg"]
+[.big]
+== Thank you!
+
+
+== Some final links
+
+[.big]
+== Community
+
+Tools, algorithms and approaches are incresingly more open and social.
+
+* Cognitive Class: Build Data Science and Cognitive Computing skills
+_for free_ today  https://cognitiveclass.ai
+* Data Scientist Workbench: virtual lab with Data Science tools ready to explore and put to use https://datascientistworkbench.com/
+
+== !
+
+* Data Science Experience: Learn, create and collaborate https://datascience.ibm.com/
+* IBM Code: Code patterns, tech talks, open source projects, developer advocates, dynamic communities, upcoming events. https://developer.ibm.com/code/
+* IBM Cloud: integrate all IBM
+  services with your solution, including Watson & Analytics services https://console.bluemix.net/catalog/
+
+
+== References
+
+* SETI@IBM https://github.com/ibm-watson-data-lab/seti_at_ibm
+
+== References
+* Fractal animation by Alexandre Tavernier (http://coolfractalanimations.blogspot.pt/2014/05/mandelbrot-set-animation-color-changes.html)
+* IBM AI Research: https://researcher.watson.ibm.com/researcher/view_page.php?id=6813
+* Neurons image by Michelle Kuykendal and Gareth Guvanasen (Georgia Tech's NeuroLab): https://www.youtube.com/watch?v=yy994HpFudc
+* Spring cloud time lapse by Harrison Rowntree (https://www.youtube.com/watch?v=Qu7mcKZgqv0)
+
+
