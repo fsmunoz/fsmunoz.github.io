@@ -512,6 +512,7 @@ distmat = pd.DataFrame(
 ## Normalise by scaling between 0-1, using dataframe max value to keep the symmetry.
 ## This is essentially a cosmetic step
 #distmat=((distmat-distmat.min().min())/(distmat.max().max()-distmat.min().min()))*1
+    
 distmat.style.apply(highlight_diag, axis=None)
 
 

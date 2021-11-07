@@ -40,11 +40,11 @@ import xml.etree.ElementTree as ET
 
 #oe_url = "http://app.parlamento.pt/webutils/docs/doc.xml?path=6148523063446f764c324679626d56304c3239775a57356b595852684c3052685a47397a51574a6c636e52766379395063734f6e5957316c626e52764a5449775a47386c4d6a4246633352685a47387657456c574a5449775447566e61584e7359585231636d457654305651636d397762334e3059584e426248526c636d466a595738794d4449785433497565473173&fich=OEPropostasAlteracao2021Or.xml&Inline=true"
 #oe_tree = ET.parse(urlopen(oe_url))
-oe_file = './OE2020r.xml'
+oe_file = './OEPropostasAlteracao2021Or.xml'
 oe_tree = ET.parse(oe_file)
 
 
-# In[26]:
+# In[4]:
 
 
 import collections
@@ -96,7 +96,7 @@ print("\nProposals:",counter)
 print(vc)
 
 
-# In[6]:
+# In[5]:
 
 
 import pandas as pd
@@ -105,7 +105,7 @@ oe_df = pd.DataFrame(oe_list)
 oe_df
 
 
-# In[7]:
+# In[6]:
 
 
 import collections
@@ -159,7 +159,7 @@ print("\nProposals:",counter)
 print("Voting sessions:", vc)
 
 
-# In[12]:
+# In[7]:
 
 
 import pandas as pd
@@ -172,13 +172,13 @@ oe_df = oe_df.fillna("")
 oe_df
 
 
-# In[18]:
+# In[8]:
 
 
 oe_df.to_json("oe2021.json", orient="records")
 
 
-# In[ ]:
+# In[9]:
 
 
 from IPython.display import display, HTML
@@ -198,18 +198,17 @@ var table = new Tabulator("#example-table", {
     resizableRows:true,       //allow row order to be changed
     autoColumns:true,
     layout:"fitColumns",
-   // ajaxURL:"http://0.0.0.0:8000/all_votes.json", //ajax URL
     ajaxURL:"./oe2021.json", //ajax URL
 });
 
 //trigger download of data.csv file
 document.getElementById("download-csv").addEventListener("click", function(){
-    table.download("csv", "data.csv");
+    table.download("csv", "oe2021.csv");
 });
 
 //trigger download of data.json file
 document.getElementById("download-json").addEventListener("click", function(){
-    table.download("json", "data.json");
+    table.download("json", "oe2021.json");
 });
 
 </script>
