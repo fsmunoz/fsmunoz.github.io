@@ -261,11 +261,17 @@ l14af.rename(columns={'Cristina Rodrigues (Ninsc)': 'CR', 'Joacine Katar Moreira
 l14af.info()
 
 
+# In[10]:
+
+
+#l14a.to_csv("all_votes.csv")
+
+
 # ## As propostas: quantidade, aprovações, rejeições
 # 
 # O total de propostas votadas na generalidade, com a identificação das aprovadas e rejeitadas, é o seguinte:
 
-# In[10]:
+# In[11]:
 
 
 l14af.groupby('GP')[['id']].count().sort_values(by=['id'], axis=0, ascending=False).plot(kind="bar",stacked=True,figsize=(6,6))
@@ -276,7 +282,7 @@ plt.show()
 # Em formato tabular, com os totais.
 # ```
 
-# In[11]:
+# In[12]:
 
 
 ct = pd.crosstab(l14af.GP, l14af.resultado)
@@ -284,7 +290,7 @@ ct["Total"] = ct["Aprovado"] + ct["Rejeitado"]
 ct.sort_values(by=['Total'], axis=0, ascending=False)
 
 
-# In[12]:
+# In[13]:
 
 
 ct.sort_values(by=['Total'], axis=0, ascending=False).drop("Total", axis=1).plot(kind="bar", stacked=True)
@@ -293,7 +299,7 @@ plt.show()
 
 # Com esta informação, e de forma muito semelhante à utilizada para determinar os apoios às propostas de alteração do Orçamento de Estado, é possível determinar os padrões de votação; o diagrama seguinte mostra a relação entre cada par de partidos: no eixo horizontal quem propõe, e no vertical como votaram:
 
-# In[13]:
+# In[14]:
 
 
 mycol  = ['GP', 'BE', 'PCP', 'PEV', 'PS', 'L/JKM', 'CR', 'PAN','PSD','IL','CDS-PP', 'CH' ]
@@ -302,7 +308,7 @@ submissions_ini = df[mycol]
 submissions_ini.head()
 
 
-# In[14]:
+# In[15]:
 
 
 import seaborn as sns
@@ -369,7 +375,7 @@ plt.show()
 
 # Uma outra visualização que foca cada gráfico nas propostas de cada partido, e como votaram os restantes_
 
-# In[15]:
+# In[16]:
 
 
 from IPython.display import display
@@ -425,7 +431,7 @@ plt.show()
 # 
 # 
 
-# In[16]:
+# In[17]:
 
 
 lpev = l14af[l14af["GP"] == "PEV"]
