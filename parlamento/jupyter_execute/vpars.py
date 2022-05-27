@@ -73,7 +73,7 @@ vpars_sa[vpars_sa["Aprov"] < 0.5]
 
 
 # ```{margin} Votações adicionais
-# Os dados recolhidos são relativos ao processo de votação original, não sendo impossível que existam votações separadas que alterem a situação. É de resto uma realidade, dado que o deputado do PRD referido é posteriormente sujeito a uma votação separada e e eleito para o cargo; não foi encontrada votação equivalente para Kruz Abecassis mas tal não significa que não tenha existido.
+# Os dados recolhidos são relativos ao processo de votação original, não sendo impossível que existam votações separadas que alterem a situação. É de resto uma realidade, dado que o deputado do PRD referido é posteriormente sujeito a uma votação separada e e eleito para o cargo; não foi encontrada votação equivalente para Kruz Abecassis que tenha tido resultado positivo (há uma nova votação a 31 de Outubro para preencher exactamente os dois lugares vagos pela não eleição dos candidatos do CSD-PP, mas com o mesmo resultado), mas tal não significa que não tenha existido em sessões posteriores
 # ```
 
 # Quer isto dizer que não foram eleitos? De facto, foi precisamente isso que ocorreu: no Diário da Assembleia da República referente a 26 de Agosto de 1987 consta a acta da votação do dia anterior com o seguinte teor: *"Por outro lado, o candidato ao lugar da Vice-Presidente da Mesa da Assembleia da República António Alves Marques Júnior [...] não recolheram votos suficientes para a sua eleição"*. De idêntica forma aa cta referente ao dia 31 de Outubro de 1995 refere que *"Os Srs Deputados Nuno Kruz Abecasis e Maria Helena P. Nogueira não obtiveram o número de votos necessário para serem eleitos."*
