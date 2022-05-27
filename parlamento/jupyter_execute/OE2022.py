@@ -618,7 +618,7 @@ sns.set()
 sns.set_style("ticks")
 
 fig, ax = plt.subplots(figsize=(8,8))
-fig.suptitle('Portuguese Parliament Voting Records Analysis, 14th Legislature', fontsize=14)
+fig.suptitle('2022 Budget Approval', fontsize=14)
 ax.set_title('MDS with Spectrum Scaling clusters (2D)')
 
 
