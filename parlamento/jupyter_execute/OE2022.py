@@ -483,7 +483,7 @@ sns.clustermap(
     #standard_scale=1,
     row_linkage=distmat_link,
     col_linkage=distmat_link,
-    figsize=(8,8)).fig.suptitle('Votações do OE 2021: Clustermap')
+    figsize=(8,8)).fig.suptitle('Votações do OE 2022: Clustermap')
 
 plt.show()
 
@@ -530,7 +530,7 @@ sns.heatmap(
     square =True,
     fmt="d",
     cbar_kws={"shrink": 0.8})
-plt.title('Iniciativas parlamentares: votos idênticos, XIV Leg.')
+plt.title('Votação do OE 2022, votos idênticos.')
 
 plt.show()
 
