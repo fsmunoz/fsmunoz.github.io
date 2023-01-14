@@ -17,16 +17,44 @@ Traceback (most recent call last):
     raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
 nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
 ------------------
-for label, x, y in zip(distmat_mm.columns, coords[:, 0], coords[:, 1]):
-    print(label,x,y)
+mds = MDS(n_components=3, dissimilarity='precomputed',random_state=1234, n_init=100, max_iter=1000)
+results = mds.fit(distmat.values)
+parties = distmat.columns
+coords = results.embedding_
+import plotly.graph_objects as go
+# Create figure
+fig = go.Figure()
+
+# Loop df columns and plot columns to the figure
+for label, x, y, z in zip(parties, coords[:, 0], coords[:, 1], coords[:, 2]):
+    fig.add_trace(go.Scatter3d(x=[x], y=[y], z=[z],
+                        text=label,
+                        textposition="top center",
+                        mode='markers+text', # 'lines' or 'markers'
+                        name=label))
+fig.update_layout(
+    width = 1000,
+    height = 1000,
+    title = "15th Legislature: 3D MDS",
+    template="plotly_white",
+    showlegend=False
+)
+fig.update_yaxes(
+    scaleanchor = "x",
+    scaleratio = 1,
+  )
+plot(fig, filename = 'l15-3d-mds.html')
+display(HTML('l15-3d-mds.html'))
 ------------------
 
 [0;31m---------------------------------------------------------------------------[0m
-[0;31mNameError[0m                                 Traceback (most recent call last)
-[0;32m/tmp/ipykernel_53335/3350237485.py[0m in [0;36m<module>[0;34m[0m
-[0;32m----> 1[0;31m [0;32mfor[0m [0mlabel[0m[0;34m,[0m [0mx[0m[0;34m,[0m [0my[0m [0;32min[0m [0mzip[0m[0;34m([0m[0mdistmat_mm[0m[0;34m.[0m[0mcolumns[0m[0;34m,[0m [0mcoords[0m[0;34m[[0m[0;34m:[0m[0;34m,[0m [0;36m0[0m[0;34m][0m[0;34m,[0m [0mcoords[0m[0;34m[[0m[0;34m:[0m[0;34m,[0m [0;36m1[0m[0;34m][0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-[0m[1;32m      2[0m     [0mprint[0m[0;34m([0m[0mlabel[0m[0;34m,[0m[0mx[0m[0;34m,[0m[0my[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;31mTypeError[0m                                 Traceback (most recent call last)
+[0;32m/tmp/ipykernel_300544/3915135355.py[0m in [0;36m<module>[0;34m[0m
+[1;32m     25[0m     [0mscaleratio[0m [0;34m=[0m [0;36m1[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     26[0m   )
+[0;32m---> 27[0;31m [0mplot[0m[0;34m([0m[0mfig[0m[0;34m,[0m [0mfilename[0m [0;34m=[0m [0;34m'l15-3d-mds.html'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     28[0m [0mdisplay[0m[0;34m([0m[0mHTML[0m[0;34m([0m[0;34m'l15-3d-mds.html'[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
 
-[0;31mNameError[0m: name 'coords' is not defined
-NameError: name 'coords' is not defined
+[0;31mTypeError[0m: 'PathCollection' object is not callable
+TypeError: 'PathCollection' object is not callable
 

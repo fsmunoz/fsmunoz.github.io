@@ -4,7 +4,7 @@
 # # A XV Legislatura: os primeiros 6 meses
 
 # ```{epigraph}
-# "O primeiro é breve, mas perigoso, atravessa vários obstáculos que só poderá evitar com muitíssimo trabalho; o outro mais largo, com margens, é plano e fácil se ajudar com magnetismo, não desvia nem à esquerda, nem à direita. O terceiro é certamente a via real: alguns prazeres eespetáculos de nosso Rei tornam seu caminho agradável. Mas apenas um dentre mil chegam porele ao objetivo. Entretanto, pelo quarto nenhum homem pode chegar ao Palácio do Rei."
+# "O primeiro é breve, mas perigoso, atravessa vários obstáculos que só poderá evitar com muitíssimo trabalho; o outro mais largo, com margens, é plano e fácil se ajudar com magnetismo, não desvia nem à esquerda, nem à direita. O terceiro é certamente a via real: alguns prazeres e espetáculos de nosso Rei tornam seu caminho agradável. Mas apenas um dentre mil chegam por ele ao objetivo. Entretanto, pelo quarto nenhum homem pode chegar ao Palácio do Rei."
 # 
 # -- As Bodas Químicas de CR
 # ```
@@ -17,7 +17,7 @@
 # 
 # As eleições legislativas realizadas em Janeiro de 2022 seguiram-se à dissolução da Assembleia da República, opção tomada pelo Presidente da República após a não aprovação do Orçamento de Estado para 2022. O governo minoritário do Partido Socialista governava desde 2015 com o apoio parlamentar dos partidos à sua esquerda, não tendo existido convergência suficient para assegurar a aprovação do Orçamento de Estado pelos votos contra de BE, PCP e PEV.
 # 
-# O resultado das eleições ditou uma maioria absoluta do PS, perdas substancias de BE, PCP e PAN, crescimento significativo de Chega e IL (ambos a constituirem grupo parlamentar), e a eleição de um deputado do Livre.
+# O resultado das eleições ditou uma maioria absoluta do PS, perdas substancias de BE, PCP e PAN, crescimento significativo de Chega e IL (ambos a constituirem grupo parlamentar), e a eleição de um deputado do Livre. CDS-PP não elege nenhum deputado, pela primeira vez, e PEV também não: ambos os partidos perdem a representação parlamentar.
 # 
 # 
 
@@ -546,16 +546,49 @@ plt.show()
 glue("mds_15", fig, display=False)
 
 
+# In[22]:
+
+
+from sklearn.decomposition import PCA
+pca = PCA(n_components=2)
+Xt = pca.fit_transform(distmat_mm.values)
+plot = plt.scatter(Xt[:,0], Xt[:,1])
+plt.show()
+
+
+# In[23]:
+
+
+from sklearn.preprocessing import StandardScaler
+
+pca = PCA(n_components=2,random_state=1020)
+Xt = pca.fit_transform(distmat_mm.values)
+
+sns.set()
+sns.set_style("ticks")
+
+fig, ax = plt.subplots(figsize=(8,8))
+fig.suptitle('Portuguese Parliament Voting Records Analysis, 15th Legislature', fontsize=14)
+ax.set_title('MDS with Spectrum Scaling clusters (2D)')
+for label, x, y in zip(distmat_mm.columns, Xt[:, 0], Xt[:, 1]):
+    ax.scatter(x, y, c = "C"+str(sc_dict[label]+3
+                                ), s=250)
+    ax.axis('equal')
+    ax.annotate(label,xy = (x-0.02, y+0.025))
+
+plt.show()
+
+
 # Por último, o mesmo MDS em 3D, e em forma interactiva:
 
-# In[22]:
+# In[24]:
 
 
 for label, x, y in zip(distmat_mm.columns, coords[:, 0], coords[:, 1]):
     print(label,x,y)
 
 
-# In[23]:
+# In[25]:
 
 
 mds = MDS(n_components=3, dissimilarity='precomputed',random_state=1234, n_init=100, max_iter=1000)
@@ -592,7 +625,7 @@ display(HTML('l15-3d-mds.html'))
 
 # Utilizámos a mesma abordagem já detalhada em pormenor em análises da XIV legislatura, para a qual remetemos para mais detalhes. De forma resumida, a análise é feito com base nas propostas votadas na generalidade - e apenas essas - e das quais se obtem o partido que apresenta a iniciativa, e os votos dos restantes.
 
-# In[24]:
+# In[32]:
 
 
 #votes_hm=votes[l14_parties]
@@ -601,7 +634,7 @@ l15af["GP"] = l15af["iniAutorGruposParlamentares"]
 l15af = l15af[l15af["GP"].notna()]
 
 
-# In[25]:
+# In[33]:
 
 
 l15a.columns
@@ -609,7 +642,7 @@ l15a.columns
 
 # O total de propostas votadas na generalidade, com a identificação das aprovadas e rejeitadas, é o seguinte:
 
-# In[26]:
+# In[34]:
 
 
 l15af.groupby('GP')[['id']].count().sort_values(by=['id'], axis=0, ascending=False).plot(kind="bar",stacked=True,figsize=(6,6))
@@ -620,7 +653,7 @@ plt.show()
 # Em formato tabular, com os totais.
 # ```
 
-# In[27]:
+# In[35]:
 
 
 ct = pd.crosstab(l15af.GP, l15af.resultado)
@@ -630,7 +663,7 @@ ct.sort_values(by=['Total'], axis=0, ascending=False)
 
 # Podemos também visualizar a quantidade de propostas aprovadas e rejeitadas:
 
-# In[28]:
+# In[36]:
 
 
 ct.sort_values(by=['Total'], axis=0, ascending=False).drop("Total", axis=1).plot(kind="bar", stacked=True)
@@ -639,7 +672,7 @@ plt.show()
 
 # Com esta informação, e de forma muito semelhante à utilizada para determinar os apoios às propostas de alteração do Orçamento de Estado, é possível determinar os padrões de votação; o diagrama seguinte mostra a relação entre cada par de partidos: no eixo horizontal quem propõe, e no vertical como votaram:
 
-# In[29]:
+# In[37]:
 
 
 mycol  = ['GP', 'BE', 'PCP', 'L','PS', 'PAN','PSD','IL', 'CH' ]
@@ -648,7 +681,7 @@ submissions_ini = df[mycol]
 submissions_ini.head()
 
 
-# In[30]:
+# In[38]:
 
 
 import seaborn as sns
@@ -715,7 +748,7 @@ plt.show()
 
 # Uma outra visualização que foca cada gráfico nas propostas de cada partido, e como votaram os restantes:
 
-# In[31]:
+# In[39]:
 
 
 from IPython.display import display
@@ -761,7 +794,7 @@ plt.show()
 # 
 # 
 
-# In[32]:
+# In[78]:
 
 
 lpcp = l15af[l15af["GP"] == "PCP"]
@@ -771,13 +804,13 @@ with pd.option_context("display.max_colwidth", -1):
 lpan = l15af[l15af["GP"] == "PAN"]
 with pd.option_context("display.max_colwidth", -1):
     display(lpan[[iniTitulo]])
-# In[33]:
+# In[73]:
 
 
 lpan = l15af[l15af["GP"] == "PAN"]
 
 
-# In[34]:
+# In[80]:
 
 
 lpcp = l15af[l15af["GP"] == "PCP"]
@@ -789,7 +822,7 @@ with pd.option_context("display.max_colwidth", -1):
 # 
 # Usando a tabela obtida através da análise dos votos é possível ver os dados fundamentais das votações na generalidade.
 
-# In[35]:
+# In[125]:
 
 
 with pd.option_context("display.max_colwidth", -1,'display.max_rows', 500):
