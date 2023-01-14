@@ -5,6 +5,7 @@
 
 # ```{epigraph}
 # Considerar todas as coisas como accidentes de uma illusão irracional, embora cada uma se apresente reacional para si mesma - nisto reside o princípio da sabedoria. Mas estes princípio da sabedoria não é mais que metade do entendimento das mesmas coisas. A outra parte do entendimento consiste no conhecimento d'essas coisas, na participação intima d'ellas.
+# 
 # -- Fernando Pessoa, Esp. 54A-p, in Yvette Centeno «Fernando Pessoa e a Filosofia Hermética»
 # ```
 
