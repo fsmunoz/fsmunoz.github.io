@@ -197,7 +197,7 @@ var table = new Tabulator("#example-table", {
     resizableRows:true,       //allow row order to be changed
     autoColumns:true,
     layout:"fitColumns",
-    ajaxURL:"./oe2021.json", //ajax URL
+    ajaxURL:"./oe2023.json", //ajax URL
 });
 
 //trigger download of data.csv file
