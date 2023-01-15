@@ -161,9 +161,8 @@ ct = pd.crosstab(oe_df.GP, oe_df.State)[['Aprovado(a) por Unanimidade em Plenár
                                          'Aprovado(a) em Plenário',
                                          'Aprovado(a) em Comissão',
                                          'Aprovado(a) Parcialmente em Comissão',
-                                         'Retirado(a)',
                                          'Rejeitado(a) em Plenário',
-                                         'Rejeitado(a) em Comissão'
+                                         'Rejeitado(a) em Comissão',
                                         ]]
 ct
 
