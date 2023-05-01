@@ -49,7 +49,7 @@ display(HTML('l15-3d-mds.html'))
 
 [0;31m---------------------------------------------------------------------------[0m
 [0;31mTypeError[0m                                 Traceback (most recent call last)
-[0;32m/tmp/ipykernel_300544/3915135355.py[0m in [0;36m<module>[0;34m[0m
+[0;32m/tmp/ipykernel_109287/3915135355.py[0m in [0;36m<module>[0;34m[0m
 [1;32m     25[0m     [0mscaleratio[0m [0;34m=[0m [0;36m1[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
 [1;32m     26[0m   )
 [0;32m---> 27[0;31m [0mplot[0m[0;34m([0m[0mfig[0m[0;34m,[0m [0mfilename[0m [0;34m=[0m [0;34m'l15-3d-mds.html'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m

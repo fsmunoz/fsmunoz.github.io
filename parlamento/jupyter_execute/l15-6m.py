@@ -375,7 +375,7 @@ plt.show()
 
 # Uma outra visualização que foca cada gráfico nas propostas de cada partido, e como votaram os restantes_
 
-# In[16]:
+# In[211]:
 
 
 from IPython.display import display
@@ -431,7 +431,7 @@ plt.show()
 # 
 # 
 
-# In[17]:
+# In[229]:
 
 
 lpev = l14af[l14af["GP"] == "PEV"]

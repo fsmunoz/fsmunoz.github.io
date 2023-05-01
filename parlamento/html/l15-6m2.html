@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>7. A XV Legislatura: os primeiros 6 meses &#8212; Proximidades e distâncias: análise da actividade parlamentar, 2015-2021</title>
+    <title>8. A XV Legislatura: os primeiros 6 meses &#8212; Proximidades e distâncias: análise da actividade parlamentar, 2015-2021</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -54,8 +54,8 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="8. Orçamento de Estado de 2021" href="OE2021.html" />
-    <link rel="prev" title="6. As votações no tempo: comparação das legislaturas e anos" href="comp_anos.html" />
+    <link rel="next" title="9. Orçamento de Estado de 2021" href="OE2021.html" />
+    <link rel="prev" title="7. Suporte, distâncias e aprovações na linha temporal" href="evol_anos-update.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -139,9 +139,14 @@
    6. As votações no tempo: comparação das legislaturas e anos
   </a>
  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="evol_anos-update.html">
+   7. Suporte, distâncias e aprovações na linha temporal
+  </a>
+ </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   7. A XV Legislatura: os primeiros 6 meses
+   8. A XV Legislatura: os primeiros 6 meses
   </a>
  </li>
 </ul>
@@ -153,17 +158,17 @@
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="OE2021.html">
-   8. Orçamento de Estado de 2021
+   9. Orçamento de Estado de 2021
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="OE2022.html">
-   9. Orçamento de Estado de 2022
+   10. Orçamento de Estado de 2022
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="OE2023.html">
-   10. Orçamento de Estado de 2023
+   11. Orçamento de Estado de 2023
   </a>
  </li>
 </ul>
@@ -175,12 +180,12 @@
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="conc.html">
-   11. Conclusão
+   12. Conclusão
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="bib.html">
-   12. Biliografia
+   13. Biliografia
   </a>
  </li>
 </ul>
@@ -198,6 +203,11 @@
  <li class="toctree-l1">
   <a class="reference internal" href="dados-OE2021.html">
    Os dados do Orçamento de Estado de 2021
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="dados-OE2023.html">
+   Os dados do Orçamento de Estado de 2023
   </a>
  </li>
  <li class="toctree-l1 has-children">
@@ -353,27 +363,27 @@
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#os-primeiros-meses-da-xv-legislatura">
-   7.1. Os primeiros meses da XV legislatura
+   8.1. Os primeiros meses da XV legislatura
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#mapa-termico-das-votacoes">
-   7.2. Mapa térmico das votações
+   8.2. Mapa térmico das votações
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#votacoes-identicas">
-   7.3. Votações idênticas
+   8.3. Votações idênticas
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#matriz-de-distancia-e-dendograma">
-   7.4. Matriz de distância e dendograma
+   8.4. Matriz de distância e dendograma
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#clustering-de-observacoes-spectrum-scaling">
-   7.5.
+   8.5.
    <em>
     Clustering
    </em>
@@ -385,7 +395,7 @@
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#multidimensional-scaling">
-     7.5.1.
+     8.5.1.
      <em>
       Multidimensional scaling
      </em>
@@ -395,7 +405,7 @@
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#propostas-apresentadas-quem-aprova-as-propostas-de-quem">
-   7.6. Propostas apresentadas: quem aprova as propostas de quem.
+   8.6. Propostas apresentadas: quem aprova as propostas de quem.
   </a>
  </li>
 </ul>
@@ -410,13 +420,13 @@
               <div>
                 
   <div class="tex2jax_ignore mathjax_ignore section" id="a-xv-legislatura-os-primeiros-6-meses">
-<h1><span class="section-number">7. </span>A XV Legislatura: os primeiros 6 meses<a class="headerlink" href="#a-xv-legislatura-os-primeiros-6-meses" title="Permalink to this headline">¶</a></h1>
+<h1><span class="section-number">8. </span>A XV Legislatura: os primeiros 6 meses<a class="headerlink" href="#a-xv-legislatura-os-primeiros-6-meses" title="Permalink to this headline">¶</a></h1>
 <blockquote class="epigraph">
 <div><p>“O primeiro é breve, mas perigoso, atravessa vários obstáculos que só poderá evitar com muitíssimo trabalho; o outro mais largo, com margens, é plano e fácil se ajudar com magnetismo, não desvia nem à esquerda, nem à direita. O terceiro é certamente a via real: alguns prazeres e espetáculos de nosso Rei tornam seu caminho agradável. Mas apenas um dentre mil chegam por ele ao objetivo. Entretanto, pelo quarto nenhum homem pode chegar ao Palácio do Rei.”</p>
 <p class="attribution">—As Bodas Químicas de CR</p>
 </div></blockquote>
 <div class="section" id="os-primeiros-meses-da-xv-legislatura">
-<h2><span class="section-number">7.1. </span>Os primeiros meses da XV legislatura<a class="headerlink" href="#os-primeiros-meses-da-xv-legislatura" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">8.1. </span>Os primeiros meses da XV legislatura<a class="headerlink" href="#os-primeiros-meses-da-xv-legislatura" title="Permalink to this headline">¶</a></h2>
 <div class="margin sidebar">
 <p class="sidebar-title">Detalhes da análise</p>
 <p>Esta análise vai cortar significativamente as explicações em torno do significado e métodos utilizados: são idênticos aos anteriores e podem ser explorados nas secções que descrevem em pormenor as opções tomadas, exemplos e referências.</p>
@@ -429,14 +439,14 @@
 </div>
 <div class="cell tag_remove-input tag_margin docutils container">
 <div class="cell_output docutils container">
-<p><em>Total de votações:</em> 307</p>
+<p><em>Total de votações:</em> 1296</p>
 <p><em>Data limite inferior:</em> 2022-04-22</p>
-<p><em>Data limite superior:</em> 2022-07-21</p>
+<p><em>Data limite superior:</em> 2023-04-28</p>
 </div>
 </div>
 </div>
 <div class="section" id="mapa-termico-das-votacoes">
-<h2><span class="section-number">7.2. </span>Mapa térmico das votações<a class="headerlink" href="#mapa-termico-das-votacoes" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">8.2. </span>Mapa térmico das votações<a class="headerlink" href="#mapa-termico-das-votacoes" title="Permalink to this headline">¶</a></h2>
 <p>O mapa térmico de votações para a legislatura – recordemos que nos permite ver através de cores todas as votações, dando uma imagem geral do comportamento dos vários partidos – é o seguinte:</p>
 <div class="cell tag_hide-input docutils container">
 <div class="cell_input docutils container">
@@ -463,7 +473,7 @@
 </div>
 </div>
 <div class="section" id="votacoes-identicas">
-<h2><span class="section-number">7.3. </span>Votações idênticas<a class="headerlink" href="#votacoes-identicas" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">8.3. </span>Votações idênticas<a class="headerlink" href="#votacoes-identicas" title="Permalink to this headline">¶</a></h2>
 <p>Das votações da legislatura é esta a matriz de votações idênticas:</p>
 <div class="cell tag_hide-input docutils container">
 <div class="cell_input docutils container">
@@ -488,11 +498,11 @@
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html"><style type="text/css">
-#T_a96d5_row0_col0, #T_a96d5_row1_col1, #T_a96d5_row2_col2, #T_a96d5_row3_col3, #T_a96d5_row4_col4, #T_a96d5_row5_col5, #T_a96d5_row6_col6, #T_a96d5_row7_col7 {
+#T_388da_row0_col0, #T_388da_row1_col1, #T_388da_row2_col2, #T_388da_row3_col3, #T_388da_row4_col4, #T_388da_row5_col5, #T_388da_row6_col6, #T_388da_row7_col7 {
   font-weight: bold;
 }
 </style>
-<table id="T_a96d5_">
+<table id="T_388da_">
   <thead>
     <tr>
       <th class="blank level0" >&nbsp;</th>
@@ -508,92 +518,92 @@
   </thead>
   <tbody>
     <tr>
-      <th id="T_a96d5_level0_row0" class="row_heading level0 row0" >BE</th>
-      <td id="T_a96d5_row0_col0" class="data row0 col0" >307</td>
-      <td id="T_a96d5_row0_col1" class="data row0 col1" >180</td>
-      <td id="T_a96d5_row0_col2" class="data row0 col2" >212</td>
-      <td id="T_a96d5_row0_col3" class="data row0 col3" >84</td>
-      <td id="T_a96d5_row0_col4" class="data row0 col4" >180</td>
-      <td id="T_a96d5_row0_col5" class="data row0 col5" >108</td>
-      <td id="T_a96d5_row0_col6" class="data row0 col6" >124</td>
-      <td id="T_a96d5_row0_col7" class="data row0 col7" >116</td>
+      <th id="T_388da_level0_row0" class="row_heading level0 row0" >BE</th>
+      <td id="T_388da_row0_col0" class="data row0 col0" >1296</td>
+      <td id="T_388da_row0_col1" class="data row0 col1" >846</td>
+      <td id="T_388da_row0_col2" class="data row0 col2" >975</td>
+      <td id="T_388da_row0_col3" class="data row0 col3" >355</td>
+      <td id="T_388da_row0_col4" class="data row0 col4" >879</td>
+      <td id="T_388da_row0_col5" class="data row0 col5" >468</td>
+      <td id="T_388da_row0_col6" class="data row0 col6" >502</td>
+      <td id="T_388da_row0_col7" class="data row0 col7" >521</td>
     </tr>
     <tr>
-      <th id="T_a96d5_level0_row1" class="row_heading level0 row1" >PCP</th>
-      <td id="T_a96d5_row1_col0" class="data row1 col0" >180</td>
-      <td id="T_a96d5_row1_col1" class="data row1 col1" >307</td>
-      <td id="T_a96d5_row1_col2" class="data row1 col2" >164</td>
-      <td id="T_a96d5_row1_col3" class="data row1 col3" >92</td>
-      <td id="T_a96d5_row1_col4" class="data row1 col4" >129</td>
-      <td id="T_a96d5_row1_col5" class="data row1 col5" >117</td>
-      <td id="T_a96d5_row1_col6" class="data row1 col6" >106</td>
-      <td id="T_a96d5_row1_col7" class="data row1 col7" >90</td>
+      <th id="T_388da_level0_row1" class="row_heading level0 row1" >PCP</th>
+      <td id="T_388da_row1_col0" class="data row1 col0" >846</td>
+      <td id="T_388da_row1_col1" class="data row1 col1" >1296</td>
+      <td id="T_388da_row1_col2" class="data row1 col2" >807</td>
+      <td id="T_388da_row1_col3" class="data row1 col3" >405</td>
+      <td id="T_388da_row1_col4" class="data row1 col4" >625</td>
+      <td id="T_388da_row1_col5" class="data row1 col5" >509</td>
+      <td id="T_388da_row1_col6" class="data row1 col6" >422</td>
+      <td id="T_388da_row1_col7" class="data row1 col7" >459</td>
     </tr>
     <tr>
-      <th id="T_a96d5_level0_row2" class="row_heading level0 row2" >L</th>
-      <td id="T_a96d5_row2_col0" class="data row2 col0" >212</td>
-      <td id="T_a96d5_row2_col1" class="data row2 col1" >164</td>
-      <td id="T_a96d5_row2_col2" class="data row2 col2" >307</td>
-      <td id="T_a96d5_row2_col3" class="data row2 col3" >98</td>
-      <td id="T_a96d5_row2_col4" class="data row2 col4" >198</td>
-      <td id="T_a96d5_row2_col5" class="data row2 col5" >120</td>
-      <td id="T_a96d5_row2_col6" class="data row2 col6" >123</td>
-      <td id="T_a96d5_row2_col7" class="data row2 col7" >98</td>
+      <th id="T_388da_level0_row2" class="row_heading level0 row2" >L</th>
+      <td id="T_388da_row2_col0" class="data row2 col0" >975</td>
+      <td id="T_388da_row2_col1" class="data row2 col1" >807</td>
+      <td id="T_388da_row2_col2" class="data row2 col2" >1296</td>
+      <td id="T_388da_row2_col3" class="data row2 col3" >366</td>
+      <td id="T_388da_row2_col4" class="data row2 col4" >927</td>
+      <td id="T_388da_row2_col5" class="data row2 col5" >452</td>
+      <td id="T_388da_row2_col6" class="data row2 col6" >501</td>
+      <td id="T_388da_row2_col7" class="data row2 col7" >445</td>
     </tr>
     <tr>
-      <th id="T_a96d5_level0_row3" class="row_heading level0 row3" >PS</th>
-      <td id="T_a96d5_row3_col0" class="data row3 col0" >84</td>
-      <td id="T_a96d5_row3_col1" class="data row3 col1" >92</td>
-      <td id="T_a96d5_row3_col2" class="data row3 col2" >98</td>
-      <td id="T_a96d5_row3_col3" class="data row3 col3" >307</td>
-      <td id="T_a96d5_row3_col4" class="data row3 col4" >83</td>
-      <td id="T_a96d5_row3_col5" class="data row3 col5" >146</td>
-      <td id="T_a96d5_row3_col6" class="data row3 col6" >111</td>
-      <td id="T_a96d5_row3_col7" class="data row3 col7" >62</td>
+      <th id="T_388da_level0_row3" class="row_heading level0 row3" >PS</th>
+      <td id="T_388da_row3_col0" class="data row3 col0" >355</td>
+      <td id="T_388da_row3_col1" class="data row3 col1" >405</td>
+      <td id="T_388da_row3_col2" class="data row3 col2" >366</td>
+      <td id="T_388da_row3_col3" class="data row3 col3" >1296</td>
+      <td id="T_388da_row3_col4" class="data row3 col4" >300</td>
+      <td id="T_388da_row3_col5" class="data row3 col5" >570</td>
+      <td id="T_388da_row3_col6" class="data row3 col6" >443</td>
+      <td id="T_388da_row3_col7" class="data row3 col7" >335</td>
     </tr>
     <tr>
-      <th id="T_a96d5_level0_row4" class="row_heading level0 row4" >PAN</th>
-      <td id="T_a96d5_row4_col0" class="data row4 col0" >180</td>
-      <td id="T_a96d5_row4_col1" class="data row4 col1" >129</td>
-      <td id="T_a96d5_row4_col2" class="data row4 col2" >198</td>
-      <td id="T_a96d5_row4_col3" class="data row4 col3" >83</td>
-      <td id="T_a96d5_row4_col4" class="data row4 col4" >307</td>
-      <td id="T_a96d5_row4_col5" class="data row4 col5" >121</td>
-      <td id="T_a96d5_row4_col6" class="data row4 col6" >132</td>
-      <td id="T_a96d5_row4_col7" class="data row4 col7" >119</td>
+      <th id="T_388da_level0_row4" class="row_heading level0 row4" >PAN</th>
+      <td id="T_388da_row4_col0" class="data row4 col0" >879</td>
+      <td id="T_388da_row4_col1" class="data row4 col1" >625</td>
+      <td id="T_388da_row4_col2" class="data row4 col2" >927</td>
+      <td id="T_388da_row4_col3" class="data row4 col3" >300</td>
+      <td id="T_388da_row4_col4" class="data row4 col4" >1296</td>
+      <td id="T_388da_row4_col5" class="data row4 col5" >464</td>
+      <td id="T_388da_row4_col6" class="data row4 col6" >529</td>
+      <td id="T_388da_row4_col7" class="data row4 col7" >535</td>
     </tr>
     <tr>
-      <th id="T_a96d5_level0_row5" class="row_heading level0 row5" >PSD</th>
-      <td id="T_a96d5_row5_col0" class="data row5 col0" >108</td>
-      <td id="T_a96d5_row5_col1" class="data row5 col1" >117</td>
-      <td id="T_a96d5_row5_col2" class="data row5 col2" >120</td>
-      <td id="T_a96d5_row5_col3" class="data row5 col3" >146</td>
-      <td id="T_a96d5_row5_col4" class="data row5 col4" >121</td>
-      <td id="T_a96d5_row5_col5" class="data row5 col5" >307</td>
-      <td id="T_a96d5_row5_col6" class="data row5 col6" >185</td>
-      <td id="T_a96d5_row5_col7" class="data row5 col7" >144</td>
+      <th id="T_388da_level0_row5" class="row_heading level0 row5" >PSD</th>
+      <td id="T_388da_row5_col0" class="data row5 col0" >468</td>
+      <td id="T_388da_row5_col1" class="data row5 col1" >509</td>
+      <td id="T_388da_row5_col2" class="data row5 col2" >452</td>
+      <td id="T_388da_row5_col3" class="data row5 col3" >570</td>
+      <td id="T_388da_row5_col4" class="data row5 col4" >464</td>
+      <td id="T_388da_row5_col5" class="data row5 col5" >1296</td>
+      <td id="T_388da_row5_col6" class="data row5 col6" >706</td>
+      <td id="T_388da_row5_col7" class="data row5 col7" >651</td>
     </tr>
     <tr>
-      <th id="T_a96d5_level0_row6" class="row_heading level0 row6" >IL</th>
-      <td id="T_a96d5_row6_col0" class="data row6 col0" >124</td>
-      <td id="T_a96d5_row6_col1" class="data row6 col1" >106</td>
-      <td id="T_a96d5_row6_col2" class="data row6 col2" >123</td>
-      <td id="T_a96d5_row6_col3" class="data row6 col3" >111</td>
-      <td id="T_a96d5_row6_col4" class="data row6 col4" >132</td>
-      <td id="T_a96d5_row6_col5" class="data row6 col5" >185</td>
-      <td id="T_a96d5_row6_col6" class="data row6 col6" >307</td>
-      <td id="T_a96d5_row6_col7" class="data row6 col7" >160</td>
+      <th id="T_388da_level0_row6" class="row_heading level0 row6" >IL</th>
+      <td id="T_388da_row6_col0" class="data row6 col0" >502</td>
+      <td id="T_388da_row6_col1" class="data row6 col1" >422</td>
+      <td id="T_388da_row6_col2" class="data row6 col2" >501</td>
+      <td id="T_388da_row6_col3" class="data row6 col3" >443</td>
+      <td id="T_388da_row6_col4" class="data row6 col4" >529</td>
+      <td id="T_388da_row6_col5" class="data row6 col5" >706</td>
+      <td id="T_388da_row6_col6" class="data row6 col6" >1296</td>
+      <td id="T_388da_row6_col7" class="data row6 col7" >603</td>
     </tr>
     <tr>
-      <th id="T_a96d5_level0_row7" class="row_heading level0 row7" >CH</th>
-      <td id="T_a96d5_row7_col0" class="data row7 col0" >116</td>
-      <td id="T_a96d5_row7_col1" class="data row7 col1" >90</td>
-      <td id="T_a96d5_row7_col2" class="data row7 col2" >98</td>
-      <td id="T_a96d5_row7_col3" class="data row7 col3" >62</td>
-      <td id="T_a96d5_row7_col4" class="data row7 col4" >119</td>
-      <td id="T_a96d5_row7_col5" class="data row7 col5" >144</td>
-      <td id="T_a96d5_row7_col6" class="data row7 col6" >160</td>
-      <td id="T_a96d5_row7_col7" class="data row7 col7" >307</td>
+      <th id="T_388da_level0_row7" class="row_heading level0 row7" >CH</th>
+      <td id="T_388da_row7_col0" class="data row7 col0" >521</td>
+      <td id="T_388da_row7_col1" class="data row7 col1" >459</td>
+      <td id="T_388da_row7_col2" class="data row7 col2" >445</td>
+      <td id="T_388da_row7_col3" class="data row7 col3" >335</td>
+      <td id="T_388da_row7_col4" class="data row7 col4" >535</td>
+      <td id="T_388da_row7_col5" class="data row7 col5" >651</td>
+      <td id="T_388da_row7_col6" class="data row7 col6" >603</td>
+      <td id="T_388da_row7_col7" class="data row7 col7" >1296</td>
     </tr>
   </tbody>
 </table>
@@ -638,7 +648,7 @@
 </div>
 </div>
 <div class="section" id="matriz-de-distancia-e-dendograma">
-<h2><span class="section-number">7.4. </span>Matriz de distância e dendograma<a class="headerlink" href="#matriz-de-distancia-e-dendograma" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">8.4. </span>Matriz de distância e dendograma<a class="headerlink" href="#matriz-de-distancia-e-dendograma" title="Permalink to this headline">¶</a></h2>
 <p>Considerando a distância entre os votos (onde um voto a favor está mais perto de uma abstenção do que de um voto contra) obtemos o seguinte <code class="docutils literal notranslate"><span class="pre">clustermap</span></code> que conjuga a visualização da matriz de distância com o dendograma: como se relacionam os partidos e como se agrupam com base nos seus votos.</p>
 <p>O <em>clustermap</em> inclui os resultados do agrupamentos pelo método de Ward, com base nas distâncias acima:</p>
 <div class="cell tag_hide-input docutils container">
@@ -665,7 +675,7 @@
 </div>
 </div>
 <div class="section" id="clustering-de-observacoes-spectrum-scaling">
-<h2><span class="section-number">7.5. </span><em>Clustering</em> de observações: <em>Spectrum Scaling</em><a class="headerlink" href="#clustering-de-observacoes-spectrum-scaling" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">8.5. </span><em>Clustering</em> de observações: <em>Spectrum Scaling</em><a class="headerlink" href="#clustering-de-observacoes-spectrum-scaling" title="Permalink to this headline">¶</a></h2>
 <p>Uma forma diferente de determinar agrupamentos é através de métodos de <em>clustering</em>, que procuram determinar agrupamentos de pontos com base em mecanismos específicos de cada um dos algoritmos.</p>
 <p><em>Spectral Clustering</em> é uma forma de <em>clustering</em> que utiliza os valores-próprios e vectores-próprios de matrizes como forma de determinação dos grupos. Este método necessita que seja determinado <em>a priori</em> o número de <em>clusters</em>; assim, podemos usar este método para agrupamentos mais finos.</p>
 <div class="cell tag_hide-input docutils container">
@@ -711,9 +721,9 @@
     <tr>
       <th>Group</th>
       <td>1</td>
-      <td>0</td>
-      <td>1</td>
       <td>3</td>
+      <td>1</td>
+      <td>0</td>
       <td>1</td>
       <td>2</td>
       <td>2</td>
@@ -724,7 +734,7 @@
 </div></div></div>
 </div>
 <div class="section" id="multidimensional-scaling">
-<h3><span class="section-number">7.5.1. </span><em>Multidimensional scaling</em><a class="headerlink" href="#multidimensional-scaling" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">8.5.1. </span><em>Multidimensional scaling</em><a class="headerlink" href="#multidimensional-scaling" title="Permalink to this headline">¶</a></h3>
 <p>Não temos ainda uma forma de visualizar a distância relativa de cada partido em relação aos outros com base nas distâncias/semelhanças: temos algo próximo com base no dendograma mas existem outras formas de visualização interessantes.</p>
 <p>Uma das formas é o <em>multidimensional scaling</em> que permite visualizar a distância ao projectar em 2 ou 3 dimensões (também conhecidas como <em>dimensões visualizavies</em>) conjuntos multidimensionais, mantendo a distância relativa <span id="id1">[<a class="reference internal" href="bib.html#id3">ZWH15</a>]</span>. Juntando à representação cores que representam o agrupamento feito por <em>Spectrum Clustering</em> temos o seguinte resultado:</p>
 <div class="cell tag_hide-input docutils container">
@@ -840,7 +850,7 @@
 <div class="cell_output docutils container">
 <div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
 <span class="ne">TypeError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
-<span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">ipykernel_300544</span><span class="o">/</span><span class="mf">3915135355.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">ipykernel_109287</span><span class="o">/</span><span class="mf">3915135355.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
 <span class="g g-Whitespace">     </span><span class="mi">25</span>     <span class="n">scaleratio</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
 <span class="g g-Whitespace">     </span><span class="mi">26</span>   <span class="p">)</span>
 <span class="ne">---&gt; </span><span class="mi">27</span> <span class="n">plot</span><span class="p">(</span><span class="n">fig</span><span class="p">,</span> <span class="n">filename</span> <span class="o">=</span> <span class="s1">&#39;l15-3d-mds.html&#39;</span><span class="p">)</span>
@@ -854,7 +864,7 @@
 </div>
 </div>
 <div class="section" id="propostas-apresentadas-quem-aprova-as-propostas-de-quem">
-<h2><span class="section-number">7.6. </span>Propostas apresentadas: quem aprova as propostas de quem.<a class="headerlink" href="#propostas-apresentadas-quem-aprova-as-propostas-de-quem" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">8.6. </span>Propostas apresentadas: quem aprova as propostas de quem.<a class="headerlink" href="#propostas-apresentadas-quem-aprova-as-propostas-de-quem" title="Permalink to this headline">¶</a></h2>
 <p>Utilizámos a mesma abordagem já detalhada em pormenor em análises da XIV legislatura, para a qual remetemos para mais detalhes. De forma resumida, a análise é feito com base nas propostas votadas na generalidade - e apenas essas - e das quais se obtem o partido que apresenta a iniciativa, e os votos dos restantes.</p>
 <p>O total de propostas votadas na generalidade, com a identificação das aprovadas e rejeitadas, é o seguinte:</p>
 <div class="margin sidebar">
@@ -902,51 +912,51 @@
   <tbody>
     <tr>
       <th>PAN</th>
-      <td>9</td>
-      <td>25</td>
-      <td>34</td>
-    </tr>
-    <tr>
-      <th>PCP</th>
-      <td>1</td>
-      <td>29</td>
-      <td>30</td>
+      <td>17</td>
+      <td>84</td>
+      <td>101</td>
     </tr>
     <tr>
       <th>CH</th>
       <td>0</td>
-      <td>24</td>
-      <td>24</td>
+      <td>89</td>
+      <td>89</td>
+    </tr>
+    <tr>
+      <th>PCP</th>
+      <td>3</td>
+      <td>77</td>
+      <td>80</td>
     </tr>
     <tr>
       <th>BE</th>
-      <td>3</td>
-      <td>20</td>
-      <td>23</td>
+      <td>5</td>
+      <td>72</td>
+      <td>77</td>
     </tr>
     <tr>
       <th>IL</th>
-      <td>3</td>
-      <td>12</td>
-      <td>15</td>
+      <td>10</td>
+      <td>52</td>
+      <td>62</td>
     </tr>
     <tr>
       <th>L</th>
-      <td>3</td>
-      <td>8</td>
       <td>11</td>
+      <td>37</td>
+      <td>48</td>
     </tr>
     <tr>
       <th>PSD</th>
-      <td>3</td>
-      <td>3</td>
-      <td>6</td>
+      <td>11</td>
+      <td>20</td>
+      <td>31</td>
     </tr>
     <tr>
       <th>PS</th>
-      <td>4</td>
+      <td>15</td>
       <td>0</td>
-      <td>4</td>
+      <td>15</td>
     </tr>
   </tbody>
 </table>
@@ -1084,6 +1094,547 @@
 <img alt="_images/l15-6m2_59_6.png" src="_images/l15-6m2_59_6.png" />
 </div>
 </div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">lch</span> <span class="o">=</span> <span class="n">l15af</span><span class="p">[</span><span class="n">l15af</span><span class="p">[</span><span class="s2">&quot;GP&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;CH&quot;</span><span class="p">]</span>
+<span class="n">lch</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">&#39;data&#39;</span><span class="p">,</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span> 
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/home/frmuno/.local/lib/python3.8/site-packages/pandas/util/_decorators.py:311: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">with</span> <span class="n">pd</span><span class="o">.</span><span class="n">option_context</span><span class="p">(</span><span class="s2">&quot;display.max_colwidth&quot;</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="s2">&quot;display.max_columns&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="s2">&quot;display.max_rows&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">):</span>
+    <span class="n">display</span><span class="p">(</span><span class="n">lch</span><span class="p">[</span><span class="n">lch</span><span class="p">[</span><span class="s2">&quot;BE&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;A Favor&quot;</span><span class="p">][[</span><span class="s2">&quot;data&quot;</span><span class="p">,</span><span class="s2">&quot;iniTitulo&quot;</span><span class="p">]])</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>data</th>
+      <th>iniTitulo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>749</th>
+      <td>2022-04-22</td>
+      <td>Recomenda ao Governo que promova uma campanha de informação que permita aos consumidores finais acompanhar e compreender a formação e evolução dos preços dos combustíveis</td>
+    </tr>
+    <tr>
+      <th>419</th>
+      <td>2022-04-22</td>
+      <td>Fixa um desconto extraordinário sobre o preço por litro de combustível</td>
+    </tr>
+    <tr>
+      <th>407</th>
+      <td>2022-04-29</td>
+      <td>Reduz a taxa de IVA aplicável aos serviços médico-veterinários</td>
+    </tr>
+    <tr>
+      <th>362</th>
+      <td>2022-06-17</td>
+      <td>Atribui ajudas de custo a professores do ensino básico e secundário que se encontrem deslocados</td>
+    </tr>
+    <tr>
+      <th>400</th>
+      <td>2022-06-17</td>
+      <td>Altera a lei do financiamento dos partidos políticos e das campanhas eleitorais, eliminando várias isenções de que os Partidos políticos beneficiam</td>
+    </tr>
+    <tr>
+      <th>703</th>
+      <td>2022-06-24</td>
+      <td>Recomenda ao Governo a requalificação do IC8</td>
+    </tr>
+    <tr>
+      <th>705</th>
+      <td>2022-06-30</td>
+      <td>Pela contratação imediata de profissionais de saúde para a região do Algarve, assegurando que os serviços de obstetrícia e pediatria não encerram</td>
+    </tr>
+    <tr>
+      <th>671</th>
+      <td>2022-06-30</td>
+      <td>Recomenda ao Governo que proceda à atualização anual da tabela de honorários para a proteção jurídica</td>
+    </tr>
+    <tr>
+      <th>221</th>
+      <td>2022-09-16</td>
+      <td>Prevê a redução da taxa de IVA aplicável ao gás e à eletricidade</td>
+    </tr>
+    <tr>
+      <th>190</th>
+      <td>2022-10-06</td>
+      <td>Altera o artigo 78ºE do Código do Imposto Sobre o Rendimento das Pessoas Singulares (IRS) no sentido de aumentar a percentagem e os limites da dedução das despesas relativas a habitação</td>
+    </tr>
+    <tr>
+      <th>210</th>
+      <td>2022-10-06</td>
+      <td>Amplia o leque de beneficiários do programa Porta 65 Jovem, assegurando o direito à habitação jovem</td>
+    </tr>
+    <tr>
+      <th>189</th>
+      <td>2022-10-06</td>
+      <td>Estabelece medidas de apoio e proteção dos particulares, por motivo do aumento das taxas de juros aplicáveis aos contratos de financiamento à aquisição de habitação própria e permanente</td>
+    </tr>
+    <tr>
+      <th>569</th>
+      <td>2022-10-07</td>
+      <td>Pelo reforço do quadro de pessoal da Autoridade para as Condições de Trabalho - ACT</td>
+    </tr>
+    <tr>
+      <th>545</th>
+      <td>2022-10-14</td>
+      <td>Recomenda ao Governo que proceda à contabilização do período compreendido entre os anos de 2013 a 2016 para efeitos de progressão na carreira dos trabalhadores da Caixa Geral de Depósitos</td>
+    </tr>
+    <tr>
+      <th>274</th>
+      <td>2022-12-02</td>
+      <td>Altera o decreto-lei nº165/2006 de 11 de agosto para promover um ensino de português de qualidade e gratuito no estrangeiro para as crianças e jovens portuguesas e lusodescendentes</td>
+    </tr>
+    <tr>
+      <th>668</th>
+      <td>2022-12-02</td>
+      <td>Pelo direito das crianças e jovens portuguesas e lusodescendentes a um ensino de português de qualidade e gratuito no estrangeiro</td>
+    </tr>
+    <tr>
+      <th>518</th>
+      <td>2022-12-02</td>
+      <td>Pelo incentivo à criação de Medidas de Recuperação de Rastreios do Cancro da Mama e à aprovação do financiamento de terapêutica por Lynparza® (Olaparib)</td>
+    </tr>
+    <tr>
+      <th>122</th>
+      <td>2022-12-22</td>
+      <td>Assegura o subsídio de insularidade a todos os funcionários públicos das Regiões Autónomas da Madeira e dos Açores</td>
+    </tr>
+    <tr>
+      <th>123</th>
+      <td>2022-12-22</td>
+      <td>Pela aprovação de várias faculdades inerentes à actividade prestada pelos guardas-florestais das Regiões Autónomas da Madeira e dos Açores e harmonização do seu respectivo regime de aposentação</td>
+    </tr>
+    <tr>
+      <th>225</th>
+      <td>2022-12-22</td>
+      <td>Altera o Decreto-Lei n.º 243/2015, de 19 de Outubro, garantindo o cumprimento dos critérios de pré-aposentação e aposentação dos profissionais da Polícia de Segurança Pública de acordo com o seu Estatuto Profissional</td>
+    </tr>
+    <tr>
+      <th>119</th>
+      <td>2022-12-22</td>
+      <td>Alarga o âmbito de aplicação da Lei n.º 95/2015, de 17 de Agosto, passando a contemplar as comunidades portuguesas no estrangeiro</td>
+    </tr>
+    <tr>
+      <th>233</th>
+      <td>2022-12-22</td>
+      <td>Reformula o critério inerente avaliação à incapacidade das pessoas com deficiência</td>
+    </tr>
+    <tr>
+      <th>234</th>
+      <td>2022-12-22</td>
+      <td>Eliminação do fator de sustentabilidade aplicado aos agentes da Polícia de Segurança Pública aposentados, não abrangidos pelo Decreto-Lei n.º 4/2017, de 6 de janeiro</td>
+    </tr>
+    <tr>
+      <th>228</th>
+      <td>2022-12-22</td>
+      <td>Determina que a profissão de motorista de veículos pesados de mercadorias e de passageiros seja considerada de desgaste rápido</td>
+    </tr>
+    <tr>
+      <th>667</th>
+      <td>2023-01-06</td>
+      <td>Pela manutenção do Jardim da Tapada das Necessidades</td>
+    </tr>
+    <tr>
+      <th>273</th>
+      <td>2023-01-06</td>
+      <td>Procede à equiparação entre os enfermeiros vinculados por contrato individual de trabalho (CIT) e enfermeiros vinculados com contrato de funções públicas (CTFP) para efeitos de remunerações e posições remuneratórias</td>
+    </tr>
+    <tr>
+      <th>89</th>
+      <td>2023-01-06</td>
+      <td>Altera a Lei n. º37/2003, de 22 de agosto, assegurando a introdução de complemento de insularidade aplicável ao financiamento dos estabelecimentos de ensino superior das Regiões Autónomas da Madeira e dos Açores</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>2023-01-20</td>
+      <td>Proibição de discriminações entre docentes, por efeito de alterações ao Estatuto da Carreira Docente em matéria de reposicionamento na carreira com efeitos remuneratórios</td>
+    </tr>
+    <tr>
+      <th>475</th>
+      <td>2023-02-03</td>
+      <td>Pela revisão das carreiras técnicas da DGRSP - Direção-Geral de Reinserção e Serviços Prisionais - e criação da carreira única de técnico de reinserção</td>
+    </tr>
+    <tr>
+      <th>474</th>
+      <td>2023-02-03</td>
+      <td>Recomenda ao Governo a avaliação do impacto psicológico da pandemia a crianças e jovens em idade escolar</td>
+    </tr>
+    <tr>
+      <th>483</th>
+      <td>2023-02-10</td>
+      <td>Recomenda ao Governo a revisão dos termos da PPP da Lusoponte, com vista à redução dos valores de taxas de portagem</td>
+    </tr>
+    <tr>
+      <th>482</th>
+      <td>2023-02-10</td>
+      <td>Recomenda ao Governo que proceda ao congelamento das tarifas de portagens</td>
+    </tr>
+    <tr>
+      <th>477</th>
+      <td>2023-02-10</td>
+      <td>Recomenda ao Governo que proceda à atualização salarial dos professores e correspondência com os elevados níveis de exigência que a profissão docente implica</td>
+    </tr>
+    <tr>
+      <th>473</th>
+      <td>2023-02-17</td>
+      <td>Recomenda ao Governo que proceda à elaboração e implementação de Estratégia Nacional de Combate à Endometriose e Adenomiose e que crie uma bolsa de investigação da doença\n</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">lch</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>fase</th>
+      <th>iniNr</th>
+      <th>iniTipo</th>
+      <th>iniDescTipo</th>
+      <th>iniLeg</th>
+      <th>iniSel</th>
+      <th>dataInicioleg</th>
+      <th>iniTitulo</th>
+      <th>iniTextoSubst</th>
+      <th>iniLinkTexto</th>
+      <th>...</th>
+      <th>6-PS</th>
+      <th>58-PSD</th>
+      <th>1-PS</th>
+      <th>3-PSD</th>
+      <th>5-PS</th>
+      <th>1-PSD</th>
+      <th>publicacao</th>
+      <th>ano</th>
+      <th>leg</th>
+      <th>GP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>753</th>
+      <td>Votação na generalidade</td>
+      <td>27</td>
+      <td>R</td>
+      <td>Projeto de Resolução</td>
+      <td>XV</td>
+      <td>1</td>
+      <td>2022-03-29</td>
+      <td>Pela Rejeição do Programa de Estabilidade 2022...</td>
+      <td>NAO</td>
+      <td>http://app.parlamento.pt/webutils/docs/doc.pdf...</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2022</td>
+      <td>15</td>
+      <td>CH</td>
+    </tr>
+    <tr>
+      <th>749</th>
+      <td>Votação na generalidade</td>
+      <td>31</td>
+      <td>R</td>
+      <td>Projeto de Resolução</td>
+      <td>XV</td>
+      <td>1</td>
+      <td>2022-03-29</td>
+      <td>Recomenda ao Governo que promova uma campanha ...</td>
+      <td>NAO</td>
+      <td>http://app.parlamento.pt/webutils/docs/doc.pdf...</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2022</td>
+      <td>15</td>
+      <td>CH</td>
+    </tr>
+    <tr>
+      <th>419</th>
+      <td>Votação na generalidade</td>
+      <td>38</td>
+      <td>J</td>
+      <td>Projeto de Lei</td>
+      <td>XV</td>
+      <td>1</td>
+      <td>2022-03-29</td>
+      <td>Fixa um desconto extraordinário sobre o preço ...</td>
+      <td>SIM</td>
+      <td>http://app.parlamento.pt/webutils/docs/doc.pdf...</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2022</td>
+      <td>15</td>
+      <td>CH</td>
+    </tr>
+    <tr>
+      <th>752</th>
+      <td>Votação na generalidade</td>
+      <td>28</td>
+      <td>R</td>
+      <td>Projeto de Resolução</td>
+      <td>XV</td>
+      <td>1</td>
+      <td>2022-03-29</td>
+      <td>Recomenda ao Governo que complemente o Program...</td>
+      <td>NAO</td>
+      <td>http://app.parlamento.pt/webutils/docs/doc.pdf...</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2022</td>
+      <td>15</td>
+      <td>CH</td>
+    </tr>
+    <tr>
+      <th>407</th>
+      <td>Votação na generalidade</td>
+      <td>56</td>
+      <td>J</td>
+      <td>Projeto de Lei</td>
+      <td>XV</td>
+      <td>1</td>
+      <td>2022-03-29</td>
+      <td>Reduz a taxa de IVA aplicável aos serviços méd...</td>
+      <td>NAO</td>
+      <td>http://app.parlamento.pt/webutils/docs/doc.pdf...</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2022</td>
+      <td>15</td>
+      <td>CH</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>Votação na generalidade</td>
+      <td>505</td>
+      <td>J</td>
+      <td>Projeto de Lei</td>
+      <td>XV</td>
+      <td>1</td>
+      <td>2022-03-29</td>
+      <td>Aumenta a transparência nos anúncios de empreg...</td>
+      <td>NAO</td>
+      <td>http://app.parlamento.pt/webutils/docs/doc.pdf...</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2023</td>
+      <td>15</td>
+      <td>CH</td>
+    </tr>
+    <tr>
+      <th>103</th>
+      <td>Votação na generalidade</td>
+      <td>414</td>
+      <td>J</td>
+      <td>Projeto de Lei</td>
+      <td>XV</td>
+      <td>1</td>
+      <td>2022-03-29</td>
+      <td>Determina a avaliação do custo/benefício e via...</td>
+      <td>NAO</td>
+      <td>http://app.parlamento.pt/webutils/docs/doc.pdf...</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2023</td>
+      <td>15</td>
+      <td>CH</td>
+    </tr>
+    <tr>
+      <th>473</th>
+      <td>Votação na generalidade</td>
+      <td>393</td>
+      <td>R</td>
+      <td>Projeto de Resolução</td>
+      <td>XV</td>
+      <td>1</td>
+      <td>2022-03-29</td>
+      <td>Recomenda ao Governo que proceda à elaboração ...</td>
+      <td>SIM</td>
+      <td>http://app.parlamento.pt/webutils/docs/doc.pdf...</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2023</td>
+      <td>15</td>
+      <td>CH</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>Votação na generalidade</td>
+      <td>526</td>
+      <td>J</td>
+      <td>Projeto de Lei</td>
+      <td>XV</td>
+      <td>1</td>
+      <td>2022-03-29</td>
+      <td>Prevê a participação de membros do Governo com...</td>
+      <td>NAO</td>
+      <td>http://app.parlamento.pt/webutils/docs/doc.pdf...</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2023</td>
+      <td>15</td>
+      <td>CH</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Votação na generalidade</td>
+      <td>539</td>
+      <td>J</td>
+      <td>Projeto de Lei</td>
+      <td>XV</td>
+      <td>1</td>
+      <td>2022-03-29</td>
+      <td>Procede à quinta alteração à Lei n.º 39/2009, ...</td>
+      <td>SIM</td>
+      <td>http://app.parlamento.pt/webutils/docs/doc.pdf...</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2023</td>
+      <td>15</td>
+      <td>CH</td>
+    </tr>
+  </tbody>
+</table>
+<p>89 rows × 50 columns</p>
+</div></div></div>
+</div>
 </div>
 </div>
 
@@ -1117,11 +1668,11 @@
 <div class='prev-next-bottom'>
     
     <div id="prev">
-        <a class="left-prev" href="comp_anos.html" title="previous page">
+        <a class="left-prev" href="evol_anos-update.html" title="previous page">
             <i class="prevnext-label fas fa-angle-left"></i>
             <div class="prevnext-info">
                 <p class="prevnext-label">previous</p>
-                <p class="prevnext-title"><span class="section-number">6. </span>As votações no tempo: comparação das legislaturas e anos</p>
+                <p class="prevnext-title"><span class="section-number">7. </span>Suporte, distâncias e aprovações na linha temporal</p>
             </div>
         </a>
     </div>
@@ -1129,7 +1680,7 @@
         <a class="right-next" href="OE2021.html" title="next page">
             <div class="prevnext-info">
                 <p class="prevnext-label">next</p>
-                <p class="prevnext-title"><span class="section-number">8. </span>Orçamento de Estado de 2021</p>
+                <p class="prevnext-title"><span class="section-number">9. </span>Orçamento de Estado de 2021</p>
             </div>
             <i class="prevnext-label fas fa-angle-right"></i>
         </a>

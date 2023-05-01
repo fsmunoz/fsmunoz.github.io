@@ -431,10 +431,34 @@ plt.show()
 # 
 # 
 
-# In[17]:
+# In[63]:
 
 
-lpev = l14af[l14af["GP"] == "PEV"]
-with pd.option_context("display.max_colwidth", -1):
-    display(lpev[lpev["PCP"] == "Contra"][["iniTitulo"]])
+lch = l14af[l14af["GP"] == "CH"]
+lch.sort_values(by='data', inplace = True) 
+
+
+# In[68]:
+
+
+with pd.option_context("display.max_colwidth", -1,"display.max_columns", None, "display.max_rows", None):
+    display(lch[lch["IL"] == "A Favor"])
+
+
+# In[60]:
+
+
+lch
+
+
+# In[66]:
+
+
+lch.columns
+
+
+# In[ ]:
+
+
+
 

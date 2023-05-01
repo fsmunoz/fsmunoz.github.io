@@ -361,7 +361,7 @@ dates.apply(lambda x: x.strftime('%Y-%m-%d'))
 all_votes.to_json("all_votes.json", orient="records")
 
 
-# In[14]:
+# In[ ]:
 
 
 from IPython.display import display, HTML
