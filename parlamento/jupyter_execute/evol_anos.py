@@ -303,7 +303,7 @@ l14_ini_df = ini_to_df(l14_ini_tree)
 l15_ini_df = ini_to_df(l15_ini_tree)
 
 
-# In[45]:
+# In[9]:
 
 
 ## Copy Livre voting record to new aggregate columns...
@@ -339,7 +339,7 @@ l15_votes_nu_hm=l15_votes_nu[l15_parties]
 l15_min_date=min(l15_votes["data"])
 
 
-# In[11]:
+# In[10]:
 
 
 l13_votes = l13_ini_df
@@ -361,7 +361,7 @@ l13_votes_nu_hm=l13_votes_nu[l13_parties]
 # ```{margin} XIII Legislatura
 # ```
 
-# In[177]:
+# In[11]:
 
 
 for year in sorted(set(l13_votes["ano"])):
@@ -372,7 +372,7 @@ for year in sorted(set(l13_votes["ano"])):
 plt.show()
 
 
-# In[120]:
+# In[12]:
 
 
 ## Change the mapping, we now consider Abst and Aus the same
@@ -430,7 +430,7 @@ plt.show()
 # ```{margin} XIV Legislatura
 # ```
 
-# In[178]:
+# In[13]:
 
 
 for year in sorted(set(l14_votes["ano"])):
@@ -441,7 +441,7 @@ for year in sorted(set(l14_votes["ano"])):
 plt.show()
 
 
-# In[137]:
+# In[14]:
 
 
 ## Change the mapping, we now consider Abst and Aus the same
@@ -489,13 +489,13 @@ plt.show()
 # * **2020**: Cristina Rodrigues já com votações próprias, agrupada com o PAN (até porque as votações até à data da sua saída são consideradas as mesmas). À esquerda o cenário que será final, e à direita também, com a excepção do agrupamento de PS e PSD.
 # * **2021**: PS a separar-se do PSD e, em geral, reduzindo as distâncias dos partidos à sua esquerda comparando com o ano anterior. Se até 2021 a tendência foi a de aumento da distância do PS dos partidos à sua esquerda (de forma geral, e com dimensões diferentes), neste ano essa distância estabiliza ou reduz-se ligeiramente.
 
-# In[69]:
+# In[15]:
 
 
 all_votes_hm = pd.concat([l14_votes_hm, l15_votes_hm], axis=0)
 
 
-# In[22]:
+# In[16]:
 
 
 def highlight_diag(df):
@@ -504,7 +504,7 @@ def highlight_diag(df):
     return pd.DataFrame(a, index=df.index, columns=df.columns)
 
 
-# In[75]:
+# In[17]:
 
 
 ## Change the mapping, we now consider Abst and Aus the same
@@ -537,7 +537,7 @@ distmat = pd.DataFrame(
 distmat.style.apply(highlight_diag, axis=None)
 
 
-# In[76]:
+# In[18]:
 
 
 distmat_mm=((distmat-distmat.min().min())/(distmat.max().max()-distmat.min().min()))*1
@@ -546,7 +546,7 @@ affinmat_mm = pd.DataFrame(1-distmat_mm, distmat.index, distmat.columns)
 affinmat_mm.style.apply(highlight_diag, axis=None)
 
 
-# In[77]:
+# In[19]:
 
 
 from sklearn.cluster import SpectralClustering
@@ -556,7 +556,7 @@ sc_dict = dict(zip(distmat,sc))
 pd.DataFrame.from_dict(sc_dict, orient='index', columns=["Group"]).T
 
 
-# In[78]:
+# In[20]:
 
 
 from sklearn.manifold import MDS
@@ -587,7 +587,7 @@ plt.show()
 glue("mds_14", fig, display=False)
 
 
-# In[79]:
+# In[21]:
 
 
 ## Perform hierarchical linkage on the distance matrix using Ward's method.

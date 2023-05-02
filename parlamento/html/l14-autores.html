@@ -415,13 +415,6 @@ What I tell you three times is true.”</p>
 <li><p>Isolar uma determinada categoria de votação que permita a imputação de autoria de forma directa.</p></li>
 </ol>
 <p>Optámos pela opção 2, pela maior fiabilidade dos resultados, sob a forma de isolamento das Votações na Generalidade - que são, das que cumprem o requisito, as que são em amior número, e também aquelas que à partida melhor representam os projectos postos a votação (por não serem alvo de alterações na especialdiade que podem ser substanciais).</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#l14a.to_csv(&quot;all_votes.csv&quot;)</span>
-</pre></div>
-</div>
-</div>
-</div>
 </div>
 <div class="section" id="as-propostas-quantidade-aprovacoes-rejeicoes">
 <h2><span class="section-number">5.2. </span>As propostas: quantidade, aprovações, rejeições<a class="headerlink" href="#as-propostas-quantidade-aprovacoes-rejeicoes" title="Permalink to this headline">¶</a></h2>
@@ -617,86 +610,10 @@ What I tell you three times is true.”</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">KeyboardInterrupt</span><span class="g g-Whitespace">                         </span>Traceback (most recent call last)
-<span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">ipykernel_108528</span><span class="o">/</span><span class="mf">3608379799.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-<span class="g g-Whitespace">     </span><span class="mi">20</span>         <span class="n">subp</span> <span class="o">=</span> <span class="n">gpsubs</span><span class="p">[</span><span class="n">gpsubs</span><span class="p">[</span><span class="s1">&#39;GP&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="n">p2</span><span class="p">][[</span><span class="n">party</span><span class="p">]]</span>
-<span class="g g-Whitespace">     </span><span class="mi">21</span>         <span class="n">sp</span> <span class="o">=</span> <span class="n">subp</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="s2">&quot;Ausência&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="o">.</span><span class="n">value_counts</span><span class="p">)</span>
-<span class="ne">---&gt; </span><span class="mi">22</span>         <span class="n">d</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;GP&quot;</span><span class="p">,</span><span class="s2">&quot;Abstenção&quot;</span><span class="p">,</span> <span class="s2">&quot;Contra&quot;</span><span class="p">,</span> <span class="s2">&quot;Ausência&quot;</span><span class="p">,</span><span class="s2">&quot;A Favor&quot;</span><span class="p">])</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">sp</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="s2">&quot;right&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
-<span class="g g-Whitespace">     </span><span class="mi">23</span>         <span class="n">d</span><span class="p">[</span><span class="s2">&quot;GP&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">party</span>
-<span class="g g-Whitespace">     </span><span class="mi">24</span>         <span class="n">d</span> <span class="o">=</span> <span class="n">d</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s2">&quot;GP&quot;</span><span class="p">)</span>
-
-<span class="nn">~/.local/lib/python3.8/site-packages/pandas/core/frame.py</span> in <span class="ni">merge</span><span class="nt">(self, right, how, on, left_on, right_on, left_index, right_index, sort, suffixes, copy, indicator, validate)</span>
-<span class="g g-Whitespace">   </span><span class="mi">9188</span>         <span class="kn">from</span> <span class="nn">pandas.core.reshape.merge</span> <span class="kn">import</span> <span class="n">merge</span>
-<span class="g g-Whitespace">   </span><span class="mi">9189</span> 
-<span class="ne">-&gt; </span><span class="mi">9190</span>         <span class="k">return</span> <span class="n">merge</span><span class="p">(</span>
-<span class="g g-Whitespace">   </span><span class="mi">9191</span>             <span class="bp">self</span><span class="p">,</span>
-<span class="g g-Whitespace">   </span><span class="mi">9192</span>             <span class="n">right</span><span class="p">,</span>
-
-<span class="nn">~/.local/lib/python3.8/site-packages/pandas/core/reshape/merge.py</span> in <span class="ni">merge</span><span class="nt">(left, right, how, on, left_on, right_on, left_index, right_index, sort, suffixes, copy, indicator, validate)</span>
-<span class="g g-Whitespace">    </span><span class="mi">119</span>         <span class="n">validate</span><span class="o">=</span><span class="n">validate</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">120</span>     <span class="p">)</span>
-<span class="ne">--&gt; </span><span class="mi">121</span>     <span class="k">return</span> <span class="n">op</span><span class="o">.</span><span class="n">get_result</span><span class="p">()</span>
-<span class="g g-Whitespace">    </span><span class="mi">122</span> 
-<span class="g g-Whitespace">    </span><span class="mi">123</span> 
-
-<span class="nn">~/.local/lib/python3.8/site-packages/pandas/core/reshape/merge.py</span> in <span class="ni">get_result</span><span class="nt">(self)</span>
-<span class="g g-Whitespace">    </span><span class="mi">715</span>         <span class="n">join_index</span><span class="p">,</span> <span class="n">left_indexer</span><span class="p">,</span> <span class="n">right_indexer</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_get_join_info</span><span class="p">()</span>
-<span class="g g-Whitespace">    </span><span class="mi">716</span> 
-<span class="ne">--&gt; </span><span class="mi">717</span>         <span class="n">llabels</span><span class="p">,</span> <span class="n">rlabels</span> <span class="o">=</span> <span class="n">_items_overlap_with_suffix</span><span class="p">(</span>
-<span class="g g-Whitespace">    </span><span class="mi">718</span>             <span class="bp">self</span><span class="o">.</span><span class="n">left</span><span class="o">.</span><span class="n">_info_axis</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">right</span><span class="o">.</span><span class="n">_info_axis</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">suffixes</span>
-<span class="g g-Whitespace">    </span><span class="mi">719</span>         <span class="p">)</span>
-
-<span class="nn">~/.local/lib/python3.8/site-packages/pandas/core/reshape/merge.py</span> in <span class="ni">_items_overlap_with_suffix</span><span class="nt">(left, right, suffixes)</span>
-<span class="g g-Whitespace">   </span><span class="mi">2299</span>         <span class="p">)</span>
-<span class="g g-Whitespace">   </span><span class="mi">2300</span> 
-<span class="ne">-&gt; </span><span class="mi">2301</span>     <span class="n">to_rename</span> <span class="o">=</span> <span class="n">left</span><span class="o">.</span><span class="n">intersection</span><span class="p">(</span><span class="n">right</span><span class="p">)</span>
-<span class="g g-Whitespace">   </span><span class="mi">2302</span>     <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">to_rename</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-<span class="g g-Whitespace">   </span><span class="mi">2303</span>         <span class="k">return</span> <span class="n">left</span><span class="p">,</span> <span class="n">right</span>
-
-<span class="nn">~/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py</span> in <span class="ni">intersection</span><span class="nt">(self, other, sort)</span>
-<span class="g g-Whitespace">   </span><span class="mi">3093</span>             <span class="k">return</span> <span class="n">this</span><span class="o">.</span><span class="n">intersection</span><span class="p">(</span><span class="n">other</span><span class="p">,</span> <span class="n">sort</span><span class="o">=</span><span class="n">sort</span><span class="p">)</span>
-<span class="g g-Whitespace">   </span><span class="mi">3094</span> 
-<span class="ne">-&gt; </span><span class="mi">3095</span>         <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_intersection</span><span class="p">(</span><span class="n">other</span><span class="p">,</span> <span class="n">sort</span><span class="o">=</span><span class="n">sort</span><span class="p">)</span>
-<span class="g g-Whitespace">   </span><span class="mi">3096</span>         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_wrap_intersection_result</span><span class="p">(</span><span class="n">other</span><span class="p">,</span> <span class="n">result</span><span class="p">)</span>
-<span class="g g-Whitespace">   </span><span class="mi">3097</span> 
-
-<span class="nn">~/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py</span> in <span class="ni">_intersection</span><span class="nt">(self, other, sort)</span>
-<span class="g g-Whitespace">   </span><span class="mi">3101</span>         <span class="sd">&quot;&quot;&quot;</span>
-<span class="g g-Whitespace">   </span><span class="mi">3102</span><span class="sd">         if (</span>
-<span class="ne">-&gt; </span><span class="mi">3103</span><span class="sd">             self.is_monotonic</span>
-<span class="g g-Whitespace">   </span><span class="mi">3104</span><span class="sd">             and other.is_monotonic</span>
-<span class="g g-Whitespace">   </span><span class="mi">3105</span><span class="sd">             and not is_interval_dtype(self.dtype)</span>
-
-<span class="nn">~/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py</span> in <span class="ni">is_monotonic</span><span class="nt">(self)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1944</span><span class="sd">         Alias for is_monotonic_increasing.</span>
-<span class="g g-Whitespace">   </span><span class="mi">1945</span><span class="sd">         &quot;&quot;&quot;</span>
-<span class="ne">-&gt; </span><span class="mi">1946</span>         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">is_monotonic_increasing</span>
-<span class="g g-Whitespace">   </span><span class="mi">1947</span> 
-<span class="g g-Whitespace">   </span><span class="mi">1948</span>     <span class="nd">@property</span>
-
-<span class="nn">~/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py</span> in <span class="ni">is_monotonic_increasing</span><span class="nt">(self)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1961</span>         <span class="kc">False</span>
-<span class="g g-Whitespace">   </span><span class="mi">1962</span>         <span class="s2">&quot;&quot;&quot;</span>
-<span class="ne">-&gt; </span><span class="mi">1963</span><span class="s2">         return self._engine.is_monotonic_increasing</span>
-<span class="g g-Whitespace">   </span><span class="mi">1964</span><span class="s2"> </span>
-<span class="g g-Whitespace">   </span><span class="mi">1965</span><span class="s2">     @property</span>
-
-<span class="nn">~/.local/lib/python3.8/site-packages/pandas/_libs/properties.pyx</span> in <span class="ni">pandas._libs.properties.CachedProperty.__get__</span><span class="nt">()</span>
-
-<span class="nn">~/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py</span> in <span class="ni">_engine</span><span class="nt">(self)</span>
-<span class="g g-Whitespace">    </span><span class="mi">772</span><span class="s2">         # `self` is not passed into the lambda.</span>
-<span class="g g-Whitespace">    </span><span class="mi">773</span><span class="s2">         target_values = self._get_engine_target()</span>
-<span class="ne">--&gt; </span><span class="mi">774</span><span class="s2">         return self._engine_type(lambda: target_values, len(self))</span>
-<span class="g g-Whitespace">    </span><span class="mi">775</span><span class="s2"> </span>
-<span class="g g-Whitespace">    </span><span class="mi">776</span><span class="s2">     @final</span>
-
-<span class="ne">KeyboardInterrupt</span>: 
-</pre></div>
+<img alt="_images/l14-autores_23_0.png" src="_images/l14-autores_23_0.png" />
 </div>
 </div>
-</div>
-<p>Uma outra visualização que foca cada gráfico nas propostas de cada partido, e como votaram os restantes_</p>
+<p>Uma outra visualização que foca cada gráfico nas propostas de cada partido, e como votaram os restantes:</p>
 <div class="cell tag_hide-input docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span>
@@ -767,7 +684,7 @@ What I tell you three times is true.”</p>
 </ul>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">lch</span> <span class="o">=</span> <span class="n">l14af</span><span class="p">[</span><span class="n">l14af</span><span class="p">[</span><span class="s2">&quot;GP&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;CH&quot;</span><span class="p">]</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">lch</span> <span class="o">=</span> <span class="n">l14af</span><span class="p">[</span><span class="n">l14af</span><span class="p">[</span><span class="s2">&quot;GP&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;L/JKM&quot;</span><span class="p">]</span>
 <span class="n">lch</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">&#39;data&#39;</span><span class="p">,</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span> 
 </pre></div>
 </div>
@@ -782,600 +699,6 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 </pre></div>
 </div>
 </div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">with</span> <span class="n">pd</span><span class="o">.</span><span class="n">option_context</span><span class="p">(</span><span class="s2">&quot;display.max_colwidth&quot;</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="s2">&quot;display.max_columns&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="s2">&quot;display.max_rows&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">):</span>
-    <span class="n">display</span><span class="p">(</span><span class="n">lch</span><span class="p">[</span><span class="n">lch</span><span class="p">[</span><span class="s2">&quot;IL&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;A Favor&quot;</span><span class="p">])</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_html"><div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>fase</th>
-      <th>iniNr</th>
-      <th>iniTipo</th>
-      <th>iniDescTipo</th>
-      <th>iniLeg</th>
-      <th>iniSel</th>
-      <th>dataInicioleg</th>
-      <th>dataFimleg</th>
-      <th>iniTitulo</th>
-      <th>iniTextoSubst</th>
-      <th>iniLinkTexto</th>
-      <th>iniciativasOriginadas</th>
-      <th>iniEventos</th>
-      <th>iniAutorOutros</th>
-      <th>iniId</th>
-      <th>iniAutorGruposParlamentares</th>
-      <th>id</th>
-      <th>Tipo</th>
-      <th>resultado</th>
-      <th>descricao</th>
-      <th>reuniao</th>
-      <th>tipoReuniao</th>
-      <th>PS</th>
-      <th>PSD</th>
-      <th>BE</th>
-      <th>PCP</th>
-      <th>CDS-PP</th>
-      <th>PAN</th>
-      <th>PEV</th>
-      <th>CH</th>
-      <th>CR</th>
-      <th>L/JKM</th>
-      <th>IL</th>
-      <th>data</th>
-      <th>iniAnexos</th>
-      <th>unanime</th>
-      <th>iniTextoSubstCampo</th>
-      <th>iniObs</th>
-      <th>L</th>
-      <th>ausencias</th>
-      <th>peticoes</th>
-      <th>publicacao</th>
-      <th>iniciativasOrigem</th>
-      <th>GP</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>1255</th>
-      <td>Votação na generalidade</td>
-      <td>379</td>
-      <td>R</td>
-      <td>Projeto de Resolução</td>
-      <td>XIV</td>
-      <td>1</td>
-      <td>2019-10-25</td>
-      <td>2020-09-14</td>
-      <td>Pela implementação de Centros de Apoio e Contenção de pacientes com o COVID-19, em infraestruturas existentes, bem como a criação de uma linha Gratuita de apoio para todos os lares de idosos e casas de saúde a operar</td>
-      <td>NAO</td>
-      <td>http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953565a4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764f474669597a4d774e5445744d6a6b354f5330304d7a55314c5467334e4463744e445935596a52694d6a5a694e6a41354c6d527659773d3d&amp;fich=8abc3051-2999-4355-8747-469b4b26b609.doc&amp;Inline=true</td>
-      <td>NaN</td>
-      <td>None</td>
-      <td>None</td>
-      <td>44688</td>
-      <td>CH</td>
-      <td>86651</td>
-      <td>I</td>
-      <td>Rejeitado</td>
-      <td>NaN</td>
-      <td>45</td>
-      <td>RP</td>
-      <td>Contra</td>
-      <td>Contra</td>
-      <td>Abstenção</td>
-      <td>Abstenção</td>
-      <td>Abstenção</td>
-      <td>A Favor</td>
-      <td>Abstenção</td>
-      <td>A Favor</td>
-      <td>NaN</td>
-      <td>Abstenção</td>
-      <td>A Favor</td>
-      <td>2020-04-08</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>1253</th>
-      <td>Votação na generalidade</td>
-      <td>381</td>
-      <td>R</td>
-      <td>Projeto de Resolução</td>
-      <td>XIV</td>
-      <td>1</td>
-      <td>2019-10-25</td>
-      <td>2020-09-14</td>
-      <td>Pela garantia de acesso de todos os docentes do país a meios informáticos que lhes permitam leccionar à distância</td>
-      <td>NAO</td>
-      <td>http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953565a4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45765a6d51344d7a4e6d4e5463744e5751304e7930305a474d784c57457859574574597a4a695a5445785a475a6a4d6a67314c6d527659773d3d&amp;fich=fd833f57-5d47-4dc1-a1aa-c2be11dfc285.doc&amp;Inline=true</td>
-      <td>NaN</td>
-      <td>None</td>
-      <td>None</td>
-      <td>44690</td>
-      <td>CH</td>
-      <td>87032</td>
-      <td>I</td>
-      <td>Rejeitado</td>
-      <td>NaN</td>
-      <td>51</td>
-      <td>RP</td>
-      <td>Contra</td>
-      <td>A Favor</td>
-      <td>Contra</td>
-      <td>Contra</td>
-      <td>Abstenção</td>
-      <td>Abstenção</td>
-      <td>Contra</td>
-      <td>A Favor</td>
-      <td>NaN</td>
-      <td>Contra</td>
-      <td>A Favor</td>
-      <td>2020-05-07</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>286</th>
-      <td>Votação na generalidade</td>
-      <td>388</td>
-      <td>J</td>
-      <td>Projeto de Lei</td>
-      <td>XIV</td>
-      <td>1</td>
-      <td>2019-10-25</td>
-      <td>2020-09-14</td>
-      <td>Aditamento à Lista I anexa ao Código do IVA com a inclusão dos serviços prestados na área do exercício físico nos ginásios, clubes de fitness e de saúde</td>
-      <td>NAO</td>
-      <td>http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953565a4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764d44646c593249305a6a497459575977595330304d32466d4c5749324e6a6b744f4759334d324a684e7a4a695a6a466b4c6d52765933673d&amp;fich=07ecb4f2-af0a-43af-b669-8f73ba72bf1d.docx&amp;Inline=true</td>
-      <td>NaN</td>
-      <td>None</td>
-      <td>None</td>
-      <td>44885</td>
-      <td>CH</td>
-      <td>87935</td>
-      <td>I</td>
-      <td>Rejeitado</td>
-      <td>NaN</td>
-      <td>75</td>
-      <td>RP</td>
-      <td>Contra</td>
-      <td>Abstenção</td>
-      <td>Abstenção</td>
-      <td>Contra</td>
-      <td>Abstenção</td>
-      <td>A Favor</td>
-      <td>Contra</td>
-      <td>A Favor</td>
-      <td>A Favor</td>
-      <td>Ausência</td>
-      <td>A Favor</td>
-      <td>2020-07-10</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>JOACINE KATAR MOREIRA (Ninsc)</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>998</th>
-      <td>Votação na generalidade</td>
-      <td>620</td>
-      <td>R</td>
-      <td>Projeto de Resolução</td>
-      <td>XIV</td>
-      <td>1</td>
-      <td>2019-10-25</td>
-      <td>2020-09-14</td>
-      <td>Recomenda ao Governo que estabeleça o dia 25 de setembro como o Dia Nacional da Sustentabilidade</td>
-      <td>NAO</td>
-      <td>http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953565a4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764e44426c596a6b7a4e5467744d7a55774d4330304e6a6c684c54686d4f544d745a545a684f474e6c5a6d59325a574d7a4c6d527659773d3d&amp;fich=40eb9358-3500-469a-8f93-e6a8ceff6ec3.doc&amp;Inline=true</td>
-      <td>NaN</td>
-      <td>None</td>
-      <td>None</td>
-      <td>45201</td>
-      <td>CH</td>
-      <td>89448</td>
-      <td>I</td>
-      <td>Aprovado</td>
-      <td>NaN</td>
-      <td>32</td>
-      <td>RP</td>
-      <td>A Favor</td>
-      <td>Abstenção</td>
-      <td>Abstenção</td>
-      <td>Abstenção</td>
-      <td>A Favor</td>
-      <td>Abstenção</td>
-      <td>A Favor</td>
-      <td>A Favor</td>
-      <td>A Favor</td>
-      <td>Abstenção</td>
-      <td>A Favor</td>
-      <td>2020-12-18</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>1254</th>
-      <td>Votação na generalidade</td>
-      <td>380</td>
-      <td>R</td>
-      <td>Projeto de Resolução</td>
-      <td>XIV</td>
-      <td>1</td>
-      <td>2019-10-25</td>
-      <td>2020-09-14</td>
-      <td>Pela imediata distribuição de máscaras a todas as forças de segurança, segurança privada e guardas prisionais</td>
-      <td>NAO</td>
-      <td>http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953565a4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764f4464694d474d344d3249744e6d5a6d5a4330305a6d46694c54677a595749744f47497a4f5752684e6d5179595751774c6d527659773d3d&amp;fich=87b0c83b-6ffd-4fab-83ab-8b39da6d2ad0.doc&amp;Inline=true</td>
-      <td>NaN</td>
-      <td>None</td>
-      <td>None</td>
-      <td>44689</td>
-      <td>CH</td>
-      <td>89573</td>
-      <td>I</td>
-      <td>Rejeitado</td>
-      <td>NaN</td>
-      <td>36</td>
-      <td>RP</td>
-      <td>Contra</td>
-      <td>A Favor</td>
-      <td>Abstenção</td>
-      <td>Abstenção</td>
-      <td>A Favor</td>
-      <td>Abstenção</td>
-      <td>Abstenção</td>
-      <td>NaN</td>
-      <td>A Favor</td>
-      <td>Abstenção</td>
-      <td>A Favor</td>
-      <td>2021-01-08</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>1250</th>
-      <td>Votação na generalidade</td>
-      <td>384</td>
-      <td>R</td>
-      <td>Projeto de Resolução</td>
-      <td>XIV</td>
-      <td>1</td>
-      <td>2019-10-25</td>
-      <td>2020-09-14</td>
-      <td>Pela obrigatoriedade do uso de máscaras de protecção nos supermercados durante a pandemia</td>
-      <td>NAO</td>
-      <td>http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953565a4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764d44466a4e47566b4d7a63744d5745794f5330305a6a45344c546b774e5459744e6d5a684e32526c596d497a5a5749344c6d527659773d3d&amp;fich=01c4ed37-1a29-4f18-9056-6fa7debb3eb8.doc&amp;Inline=true</td>
-      <td>NaN</td>
-      <td>None</td>
-      <td>None</td>
-      <td>44732</td>
-      <td>CH</td>
-      <td>89574</td>
-      <td>I</td>
-      <td>Rejeitado</td>
-      <td>NaN</td>
-      <td>36</td>
-      <td>RP</td>
-      <td>Contra</td>
-      <td>Abstenção</td>
-      <td>Abstenção</td>
-      <td>Abstenção</td>
-      <td>Abstenção</td>
-      <td>Abstenção</td>
-      <td>Abstenção</td>
-      <td>NaN</td>
-      <td>Abstenção</td>
-      <td>Abstenção</td>
-      <td>A Favor</td>
-      <td>2021-01-08</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>3326</th>
-      <td>Votação na generalidade</td>
-      <td>753</td>
-      <td>R</td>
-      <td>Projeto de Resolução</td>
-      <td>XIV</td>
-      <td>2</td>
-      <td>2020-09-15</td>
-      <td>2021-09-14</td>
-      <td>Pela tomada de medidas de proteção ao comércio local e à restauração, durante o estado de emergência</td>
-      <td>NAO</td>
-      <td>http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953565a4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d4576596d55795a574e6b4e4749745a6d557a4d4330304e7a51784c54686b596a41744d44457a4d5751784d32566c4d6a52684c6d527659773d3d&amp;fich=be2ecd4b-fe30-4741-8db0-0131d13ee24a.doc&amp;Inline=true</td>
-      <td>NaN</td>
-      <td>None</td>
-      <td>None</td>
-      <td>45454</td>
-      <td>CH</td>
-      <td>90394</td>
-      <td>I</td>
-      <td>Rejeitado</td>
-      <td>NaN</td>
-      <td>52</td>
-      <td>RP</td>
-      <td>Contra</td>
-      <td>Abstenção</td>
-      <td>A Favor</td>
-      <td>Contra</td>
-      <td>A Favor</td>
-      <td>A Favor</td>
-      <td>Contra</td>
-      <td>A Favor</td>
-      <td>A Favor</td>
-      <td>Abstenção</td>
-      <td>A Favor</td>
-      <td>2021-03-25</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>1221</th>
-      <td>Votação na generalidade</td>
-      <td>420</td>
-      <td>R</td>
-      <td>Projeto de Resolução</td>
-      <td>XIV</td>
-      <td>1</td>
-      <td>2019-10-25</td>
-      <td>2020-09-14</td>
-      <td>Recomenda ao Governo que mantenha a realização dos exames finais nacionais para efeitos de aprovação de disciplinas e conclusão do ensino secundário e que recorra à utilização de espaços sob a alçada das autarquias para realização das provas de ensino em causa</td>
-      <td>NAO</td>
-      <td>http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953565a4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764d5441324d444935597a55744d7a63325a6930304e7a677a4c546b305a5745745a474d314f4441355957526d4e44646d4c6d527659773d3d&amp;fich=106029c5-376f-4783-94ea-dc5809adf47f.doc&amp;Inline=true</td>
-      <td>NaN</td>
-      <td>None</td>
-      <td>None</td>
-      <td>44798</td>
-      <td>CH</td>
-      <td>90466</td>
-      <td>I</td>
-      <td>Rejeitado</td>
-      <td>NaN</td>
-      <td>53</td>
-      <td>RP</td>
-      <td>Contra</td>
-      <td>Abstenção</td>
-      <td>Contra</td>
-      <td>Contra</td>
-      <td>A Favor</td>
-      <td>Contra</td>
-      <td>Contra</td>
-      <td>A Favor</td>
-      <td>A Favor</td>
-      <td>Contra</td>
-      <td>A Favor</td>
-      <td>2021-03-31</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>2396</th>
-      <td>Votação na generalidade</td>
-      <td>774</td>
-      <td>J</td>
-      <td>Projeto de Lei</td>
-      <td>XIV</td>
-      <td>2</td>
-      <td>2020-09-15</td>
-      <td>2021-09-14</td>
-      <td>Altera o decreto-lei n.º 22-d/2021, de 22 de março, eliminando-se a não realização das provas finais do ensino básico do 9.º ano de escolaridade e dos exames finais nacionais, quando realizados por alunos internos, para efeitos de aprovação de disciplinas e conclusão do ensino secundário e eliminando  a dispensa da realização de provais finais de ciclo, nos casos em que a respectiva realização se encontre prevista apenas para efeitos de prosseguimento de estudo</td>
-      <td>NAO</td>
-      <td>http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953565a4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764d325668593259775a5467744f4459334f433030593245794c54686c595755744d7a4530597a526a4f575979597a45324c6d527659773d3d&amp;fich=3eacf0e8-8678-4ca2-8eae-314c4c9f2c16.doc&amp;Inline=true</td>
-      <td>NaN</td>
-      <td>None</td>
-      <td>None</td>
-      <td>110622</td>
-      <td>CH</td>
-      <td>90626</td>
-      <td>I</td>
-      <td>Rejeitado</td>
-      <td>NaN</td>
-      <td>56</td>
-      <td>RP</td>
-      <td>Contra</td>
-      <td>Abstenção</td>
-      <td>Contra</td>
-      <td>Contra</td>
-      <td>A Favor</td>
-      <td>Contra</td>
-      <td>Contra</td>
-      <td>A Favor</td>
-      <td>Abstenção</td>
-      <td>Contra</td>
-      <td>A Favor</td>
-      <td>2021-04-15</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>1479</th>
-      <td>Votação na generalidade</td>
-      <td>117</td>
-      <td>R</td>
-      <td>Projeto de Resolução</td>
-      <td>XIV</td>
-      <td>1</td>
-      <td>2019-10-25</td>
-      <td>2020-09-14</td>
-      <td>Assegurar o acesso a todos os idosos a uma de residências geriátricas</td>
-      <td>NAO</td>
-      <td>http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953565a4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d45764d7a6377595449775a6a49744d4759774d5330304d57497a4c57493259545974596a42684d57597a596a6b324d4755354c6d527659773d3d&amp;fich=370a20f2-0f01-41b3-b6a6-b0a1f3b960e9.doc&amp;Inline=true</td>
-      <td>NaN</td>
-      <td>None</td>
-      <td>None</td>
-      <td>44202</td>
-      <td>CH</td>
-      <td>90953</td>
-      <td>I</td>
-      <td>Rejeitado</td>
-      <td>NaN</td>
-      <td>66</td>
-      <td>RP</td>
-      <td>Contra</td>
-      <td>Abstenção</td>
-      <td>Abstenção</td>
-      <td>Abstenção</td>
-      <td>A Favor</td>
-      <td>Abstenção</td>
-      <td>Abstenção</td>
-      <td>A Favor</td>
-      <td>NaN</td>
-      <td>Abstenção</td>
-      <td>A Favor</td>
-      <td>2021-05-14</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>1538</th>
-      <td>Votação na generalidade</td>
-      <td>45</td>
-      <td>R</td>
-      <td>Projeto de Resolução</td>
-      <td>XIV</td>
-      <td>1</td>
-      <td>2019-10-25</td>
-      <td>2020-09-14</td>
-      <td>Pela instauração da celebração solene do 25 de Novembro</td>
-      <td>NAO</td>
-      <td>http://app.parlamento.pt/webutils/docs/doc.pdf?path=6148523063484d364c793968636d356c6443397a6158526c6379395953565a4d5a5763765247396a6457316c626e527663306c7561574e7059585270646d4576593251304e544d354d575574596d566c4e4330305a4468684c546b784e7a51744e6a51774d5745775a5441344d44566a4c6d527659773d3d&amp;fich=cd45391e-bee4-4d8a-9174-6401a0e0805c.doc&amp;Inline=true</td>
-      <td>NaN</td>
-      <td>None</td>
-      <td>None</td>
-      <td>44050</td>
-      <td>CH</td>
-      <td>91952</td>
-      <td>I</td>
-      <td>Rejeitado</td>
-      <td>NaN</td>
-      <td>15</td>
-      <td>RP</td>
-      <td>Contra</td>
-      <td>Contra</td>
-      <td>Contra</td>
-      <td>Contra</td>
-      <td>A Favor</td>
-      <td>Abstenção</td>
-      <td>Contra</td>
-      <td>A Favor</td>
-      <td>Abstenção</td>
-      <td>Contra</td>
-      <td>A Favor</td>
-      <td>2021-10-22</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-  </tbody>
-</table>
-</div></div></div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1427,664 +750,64 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
   </thead>
   <tbody>
     <tr>
-      <th>528</th>
+      <th>757</th>
       <td>Votação na generalidade</td>
-      <td>272</td>
+      <td>126</td>
       <td>J</td>
       <td>Projeto de Lei</td>
       <td>XIV</td>
       <td>1</td>
       <td>2019-10-25</td>
       <td>2020-09-14</td>
-      <td>Pela atribuição de um prazo de três meses de m...</td>
+      <td>Nona alteração à Lei n.º 37/81, de 3 de outubr...</td>
       <td>NAO</td>
       <td>...</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
+      <td>A Favor</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
+      <td>L/JKM</td>
     </tr>
     <tr>
-      <th>1255</th>
+      <th>1268</th>
       <td>Votação na generalidade</td>
-      <td>379</td>
+      <td>365</td>
       <td>R</td>
       <td>Projeto de Resolução</td>
       <td>XIV</td>
       <td>1</td>
       <td>2019-10-25</td>
       <td>2020-09-14</td>
-      <td>Pela implementação de Centros de Apoio e Conte...</td>
-      <td>NAO</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>1256</th>
-      <td>Votação na generalidade</td>
-      <td>378</td>
-      <td>R</td>
-      <td>Projeto de Resolução</td>
-      <td>XIV</td>
-      <td>1</td>
-      <td>2019-10-25</td>
-      <td>2020-09-14</td>
-      <td>Pela criação de um Complemento Social de Crise...</td>
-      <td>NAO</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>1244</th>
-      <td>Votação na generalidade</td>
-      <td>396</td>
-      <td>R</td>
-      <td>Projeto de Resolução</td>
-      <td>XIV</td>
-      <td>1</td>
-      <td>2019-10-25</td>
-      <td>2020-09-14</td>
-      <td>Pela criação e implementação imediata do Plano...</td>
-      <td>NAO</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>1253</th>
-      <td>Votação na generalidade</td>
-      <td>381</td>
-      <td>R</td>
-      <td>Projeto de Resolução</td>
-      <td>XIV</td>
-      <td>1</td>
-      <td>2019-10-25</td>
-      <td>2020-09-14</td>
-      <td>Pela garantia de acesso de todos os docentes d...</td>
-      <td>NAO</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>286</th>
-      <td>Votação na generalidade</td>
-      <td>388</td>
-      <td>J</td>
-      <td>Projeto de Lei</td>
-      <td>XIV</td>
-      <td>1</td>
-      <td>2019-10-25</td>
-      <td>2020-09-14</td>
-      <td>Aditamento à Lista I anexa ao Código do IVA co...</td>
-      <td>NAO</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>JOACINE KATAR MOREIRA (Ninsc)</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>998</th>
-      <td>Votação na generalidade</td>
-      <td>620</td>
-      <td>R</td>
-      <td>Projeto de Resolução</td>
-      <td>XIV</td>
-      <td>1</td>
-      <td>2019-10-25</td>
-      <td>2020-09-14</td>
-      <td>Recomenda ao Governo que estabeleça o dia 25 d...</td>
-      <td>NAO</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>1248</th>
-      <td>Votação na generalidade</td>
-      <td>392</td>
-      <td>R</td>
-      <td>Projeto de Resolução</td>
-      <td>XIV</td>
-      <td>1</td>
-      <td>2019-10-25</td>
-      <td>2020-09-14</td>
-      <td>Pela criação da carreira profissional de técni...</td>
-      <td>NAO</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>1249</th>
-      <td>Votação na generalidade</td>
-      <td>385</td>
-      <td>R</td>
-      <td>Projeto de Resolução</td>
-      <td>XIV</td>
-      <td>1</td>
-      <td>2019-10-25</td>
-      <td>2020-09-14</td>
-      <td>Pela atribuição de um subsídio de risco aos pr...</td>
-      <td>NAO</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>1478</th>
-      <td>Votação na generalidade</td>
-      <td>118</td>
-      <td>R</td>
-      <td>Projeto de Resolução</td>
-      <td>XIV</td>
-      <td>1</td>
-      <td>2019-10-25</td>
-      <td>2020-09-14</td>
-      <td>Recomenda ao Governo a atribuição do estatuto ...</td>
-      <td>NAO</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>1254</th>
-      <td>Votação na generalidade</td>
-      <td>380</td>
-      <td>R</td>
-      <td>Projeto de Resolução</td>
-      <td>XIV</td>
-      <td>1</td>
-      <td>2019-10-25</td>
-      <td>2020-09-14</td>
-      <td>Pela imediata distribuição de máscaras a todas...</td>
-      <td>NAO</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>2639</th>
-      <td>Votação na generalidade</td>
-      <td>604</td>
-      <td>J</td>
-      <td>Projeto de Lei</td>
-      <td>XIV</td>
-      <td>2</td>
-      <td>2020-09-15</td>
-      <td>2021-09-14</td>
-      <td>Tipificação de crime público para as agressões...</td>
-      <td>NAO</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>1250</th>
-      <td>Votação na generalidade</td>
-      <td>384</td>
-      <td>R</td>
-      <td>Projeto de Resolução</td>
-      <td>XIV</td>
-      <td>1</td>
-      <td>2019-10-25</td>
-      <td>2020-09-14</td>
-      <td>Pela obrigatoriedade do uso de máscaras de pro...</td>
-      <td>NAO</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>3326</th>
-      <td>Votação na generalidade</td>
-      <td>753</td>
-      <td>R</td>
-      <td>Projeto de Resolução</td>
-      <td>XIV</td>
-      <td>2</td>
-      <td>2020-09-15</td>
-      <td>2021-09-14</td>
-      <td>Pela tomada de medidas de proteção ao comércio...</td>
-      <td>NAO</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>3340</th>
-      <td>Votação na generalidade</td>
-      <td>740</td>
-      <td>R</td>
-      <td>Projeto de Resolução</td>
-      <td>XIV</td>
-      <td>2</td>
-      <td>2020-09-15</td>
-      <td>2021-09-14</td>
-      <td>Pelo apoio aos guias de informação turística a...</td>
-      <td>NAO</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>3096</th>
-      <td>Votação na generalidade</td>
-      <td>990</td>
-      <td>R</td>
-      <td>Projeto de Resolução</td>
-      <td>XIV</td>
-      <td>2</td>
-      <td>2020-09-15</td>
-      <td>2021-09-14</td>
-      <td>A reabertura dos cabeleireiros e barbeiros a p...</td>
-      <td>NAO</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>1221</th>
-      <td>Votação na generalidade</td>
-      <td>420</td>
-      <td>R</td>
-      <td>Projeto de Resolução</td>
-      <td>XIV</td>
-      <td>1</td>
-      <td>2019-10-25</td>
-      <td>2020-09-14</td>
-      <td>Recomenda ao Governo que mantenha a realização...</td>
-      <td>NAO</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>2396</th>
-      <td>Votação na generalidade</td>
-      <td>774</td>
-      <td>J</td>
-      <td>Projeto de Lei</td>
-      <td>XIV</td>
-      <td>2</td>
-      <td>2020-09-15</td>
-      <td>2021-09-14</td>
-      <td>Altera o decreto-lei n.º 22-d/2021, de 22 de m...</td>
-      <td>NAO</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>1479</th>
-      <td>Votação na generalidade</td>
-      <td>117</td>
-      <td>R</td>
-      <td>Projeto de Resolução</td>
-      <td>XIV</td>
-      <td>1</td>
-      <td>2019-10-25</td>
-      <td>2020-09-14</td>
-      <td>Assegurar o acesso a todos os idosos a uma de ...</td>
-      <td>NAO</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>2379</th>
-      <td>Votação na generalidade</td>
-      <td>807</td>
-      <td>J</td>
-      <td>Projeto de Lei</td>
-      <td>XIV</td>
-      <td>2</td>
-      <td>2020-09-15</td>
-      <td>2021-09-14</td>
-      <td>Altera o código penal e cria o artigo 335.º-A,...</td>
+      <td>Proteção dos Idosos do Vírus Sars-Cov-2 em Lar...</td>
       <td>SIM</td>
       <td>...</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>Substituição de texto de iniciativa em 2021-06...</td>
+      <td>Texto inicial substituído a pedido do autor em...</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>CH</td>
+      <td>L/JKM</td>
     </tr>
     <tr>
-      <th>2710</th>
+      <th>1269</th>
       <td>Votação na generalidade</td>
-      <td>564</td>
-      <td>J</td>
-      <td>Projeto de Lei</td>
-      <td>XIV</td>
-      <td>2</td>
-      <td>2020-09-15</td>
-      <td>2021-09-14</td>
-      <td>Agravamento das molduras penais mínimas e máxi...</td>
-      <td>NAO</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>246</th>
-      <td>Votação na generalidade</td>
-      <td>411</td>
-      <td>J</td>
-      <td>Projeto de Lei</td>
-      <td>XIV</td>
-      <td>1</td>
-      <td>2019-10-25</td>
-      <td>2020-09-14</td>
-      <td>Altera a Lei n.º 52/2019, de 31 de Julho que “...</td>
-      <td>NAO</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>2543</th>
-      <td>Votação na generalidade</td>
-      <td>671</td>
-      <td>J</td>
-      <td>Projeto de Lei</td>
-      <td>XIV</td>
-      <td>2</td>
-      <td>2020-09-15</td>
-      <td>2021-09-14</td>
-      <td>Cria um art.º 150-A ao Decreto-Lei nº 48/95, d...</td>
-      <td>NAO</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>2333</th>
-      <td>Votação na generalidade</td>
-      <td>905</td>
-      <td>J</td>
-      <td>Projeto de Lei</td>
-      <td>XIV</td>
-      <td>2</td>
-      <td>2020-09-15</td>
-      <td>2021-09-14</td>
-      <td>Procede a alterações aos artigos 12.º e 13º, d...</td>
-      <td>NAO</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>2756</th>
-      <td>Votação na generalidade</td>
-      <td>524</td>
-      <td>J</td>
-      <td>Projeto de Lei</td>
-      <td>XIV</td>
-      <td>2</td>
-      <td>2020-09-15</td>
-      <td>2021-09-14</td>
-      <td>Pelo aumento da licença parental atribuída às ...</td>
-      <td>NAO</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>2901</th>
-      <td>Votação na generalidade</td>
-      <td>1268</td>
-      <td>R</td>
-      <td>Projeto de Resolução</td>
-      <td>XIV</td>
-      <td>2</td>
-      <td>2020-09-15</td>
-      <td>2021-09-14</td>
-      <td>Recomenda a utilização de câmeras pelos agente...</td>
-      <td>NAO</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>3130</th>
-      <td>Votação na generalidade</td>
-      <td>956</td>
-      <td>R</td>
-      <td>Projeto de Resolução</td>
-      <td>XIV</td>
-      <td>2</td>
-      <td>2020-09-15</td>
-      <td>2021-09-14</td>
-      <td>Apoio excecional às famílias monoparentais e n...</td>
-      <td>NAO</td>
-      <td>...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>CH</td>
-    </tr>
-    <tr>
-      <th>1477</th>
-      <td>Votação na generalidade</td>
-      <td>119</td>
+      <td>364</td>
       <td>R</td>
       <td>Projeto de Resolução</td>
       <td>XIV</td>
       <td>1</td>
       <td>2019-10-25</td>
       <td>2020-09-14</td>
-      <td>Pelo reforço do investimento e valorização das...</td>
+      <td>Recomenda ao Governo medidas de apoio ao pagam...</td>
       <td>NAO</td>
       <td>...</td>
       <td>NaN</td>
@@ -2096,19 +819,19 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>CH</td>
+      <td>L/JKM</td>
     </tr>
     <tr>
-      <th>1538</th>
+      <th>1270</th>
       <td>Votação na generalidade</td>
-      <td>45</td>
+      <td>363</td>
       <td>R</td>
       <td>Projeto de Resolução</td>
       <td>XIV</td>
       <td>1</td>
       <td>2019-10-25</td>
       <td>2020-09-14</td>
-      <td>Pela instauração da celebração solene do 25 de...</td>
+      <td>Recomenda ao Governo medidas de apoio aos trab...</td>
       <td>NAO</td>
       <td>...</td>
       <td>NaN</td>
@@ -2120,19 +843,19 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>CH</td>
+      <td>L/JKM</td>
     </tr>
     <tr>
-      <th>1429</th>
+      <th>1132</th>
       <td>Votação na generalidade</td>
-      <td>186</td>
+      <td>498</td>
       <td>R</td>
       <td>Projeto de Resolução</td>
       <td>XIV</td>
       <td>1</td>
       <td>2019-10-25</td>
       <td>2020-09-14</td>
-      <td>Alargamento da Rede de Creches Públicas e apoi...</td>
+      <td>Plano Urgente de Ação para a Qualidade do Ar</td>
       <td>NAO</td>
       <td>...</td>
       <td>NaN</td>
@@ -2144,32 +867,444 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>CH</td>
+      <td>L/JKM</td>
+    </tr>
+    <tr>
+      <th>1134</th>
+      <td>Votação na generalidade</td>
+      <td>496</td>
+      <td>R</td>
+      <td>Projeto de Resolução</td>
+      <td>XIV</td>
+      <td>1</td>
+      <td>2019-10-25</td>
+      <td>2020-09-14</td>
+      <td>Plano de Ação para a Redução Drástica de Resíduos</td>
+      <td>NAO</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>L/JKM</td>
+    </tr>
+    <tr>
+      <th>1159</th>
+      <td>Votação na generalidade</td>
+      <td>476</td>
+      <td>R</td>
+      <td>Projeto de Resolução</td>
+      <td>XIV</td>
+      <td>1</td>
+      <td>2019-10-25</td>
+      <td>2020-09-14</td>
+      <td>Recomenda ao Governo o aumento da oferta de tr...</td>
+      <td>NAO</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>L/JKM</td>
+    </tr>
+    <tr>
+      <th>996</th>
+      <td>Votação na generalidade</td>
+      <td>621</td>
+      <td>R</td>
+      <td>Projeto de Resolução</td>
+      <td>XIV</td>
+      <td>1</td>
+      <td>2019-10-25</td>
+      <td>2020-09-14</td>
+      <td>Institui o dia 25 de setembro como o Dia Nacio...</td>
+      <td>NAO</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>unanime</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>L/JKM</td>
+    </tr>
+    <tr>
+      <th>3269</th>
+      <td>Votação na generalidade</td>
+      <td>812</td>
+      <td>R</td>
+      <td>Projeto de Resolução</td>
+      <td>XIV</td>
+      <td>2</td>
+      <td>2020-09-15</td>
+      <td>2021-09-14</td>
+      <td>Recomenda ao Governo a criação de medidas que ...</td>
+      <td>NAO</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>L/JKM</td>
+    </tr>
+    <tr>
+      <th>3203</th>
+      <td>Votação na generalidade</td>
+      <td>879</td>
+      <td>R</td>
+      <td>Projeto de Resolução</td>
+      <td>XIV</td>
+      <td>2</td>
+      <td>2020-09-15</td>
+      <td>2021-09-14</td>
+      <td>Reforçar e Melhorar as Políticas de Saúde Ment...</td>
+      <td>SIM</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Título e texto substituídos a pedido do autor ...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>L/JKM</td>
+    </tr>
+    <tr>
+      <th>3128</th>
+      <td>Votação na generalidade</td>
+      <td>960</td>
+      <td>R</td>
+      <td>Projeto de Resolução</td>
+      <td>XIV</td>
+      <td>2</td>
+      <td>2020-09-15</td>
+      <td>2021-09-14</td>
+      <td>Recomenda a salvaguarda integral, valorização ...</td>
+      <td>NAO</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>L/JKM</td>
+    </tr>
+    <tr>
+      <th>3031</th>
+      <td>Votação na generalidade</td>
+      <td>1097</td>
+      <td>R</td>
+      <td>Projeto de Resolução</td>
+      <td>XIV</td>
+      <td>2</td>
+      <td>2020-09-15</td>
+      <td>2021-09-14</td>
+      <td>Recomenda ao Governo o Reforço Financeiro e Té...</td>
+      <td>NAO</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>L/JKM</td>
+    </tr>
+    <tr>
+      <th>2976</th>
+      <td>Votação na generalidade</td>
+      <td>1177</td>
+      <td>R</td>
+      <td>Projeto de Resolução</td>
+      <td>XIV</td>
+      <td>2</td>
+      <td>2020-09-15</td>
+      <td>2021-09-14</td>
+      <td>Recomenda ao Governo proceder à declaração de ...</td>
+      <td>NAO</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>L/JKM</td>
+    </tr>
+    <tr>
+      <th>2995</th>
+      <td>Votação na generalidade</td>
+      <td>1143</td>
+      <td>R</td>
+      <td>Projeto de Resolução</td>
+      <td>XIV</td>
+      <td>2</td>
+      <td>2020-09-15</td>
+      <td>2021-09-14</td>
+      <td>Por uma Lei Europeia do Clima com metas ambici...</td>
+      <td>SIM</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Substituição do texto da iniciativa em 2021-03...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>L/JKM</td>
+    </tr>
+    <tr>
+      <th>3036</th>
+      <td>Votação na generalidade</td>
+      <td>1088</td>
+      <td>R</td>
+      <td>Projeto de Resolução</td>
+      <td>XIV</td>
+      <td>2</td>
+      <td>2020-09-15</td>
+      <td>2021-09-14</td>
+      <td>Por uma Educação para a Sexualidade e para os ...</td>
+      <td>NAO</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>L/JKM</td>
+    </tr>
+    <tr>
+      <th>2884</th>
+      <td>Votação na generalidade</td>
+      <td>1288</td>
+      <td>R</td>
+      <td>Projeto de Resolução</td>
+      <td>XIV</td>
+      <td>2</td>
+      <td>2020-09-15</td>
+      <td>2021-09-14</td>
+      <td>Pelo reforço das respostas locais de acesso a ...</td>
+      <td>NAO</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>L/JKM</td>
+    </tr>
+    <tr>
+      <th>2906</th>
+      <td>Votação na generalidade</td>
+      <td>1259</td>
+      <td>R</td>
+      <td>Projeto de Resolução</td>
+      <td>XIV</td>
+      <td>2</td>
+      <td>2020-09-15</td>
+      <td>2021-09-14</td>
+      <td>Pela requalificação da Quinta dos Ingleses com...</td>
+      <td>NAO</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>L/JKM</td>
+    </tr>
+    <tr>
+      <th>2398</th>
+      <td>Votação na generalidade</td>
+      <td>772</td>
+      <td>J</td>
+      <td>Projeto de Lei</td>
+      <td>XIV</td>
+      <td>2</td>
+      <td>2020-09-15</td>
+      <td>2021-09-14</td>
+      <td>Procede a uma alteração do Código Penal, atrib...</td>
+      <td>NAO</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>L/JKM</td>
+    </tr>
+    <tr>
+      <th>2868</th>
+      <td>Votação na generalidade</td>
+      <td>1310</td>
+      <td>R</td>
+      <td>Projeto de Resolução</td>
+      <td>XIV</td>
+      <td>2</td>
+      <td>2020-09-15</td>
+      <td>2021-09-14</td>
+      <td>Por uma Política de Migração que garanta a pro...</td>
+      <td>NAO</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>L/JKM</td>
+    </tr>
+    <tr>
+      <th>2845</th>
+      <td>Votação na generalidade</td>
+      <td>1340</td>
+      <td>R</td>
+      <td>Projeto de Resolução</td>
+      <td>XIV</td>
+      <td>2</td>
+      <td>2020-09-15</td>
+      <td>2021-09-14</td>
+      <td>Pelo reforço dos incentivos à aquisição de vel...</td>
+      <td>NAO</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>L/JKM</td>
+    </tr>
+    <tr>
+      <th>2455</th>
+      <td>Votação na generalidade</td>
+      <td>734</td>
+      <td>J</td>
+      <td>Projeto de Lei</td>
+      <td>XIV</td>
+      <td>2</td>
+      <td>2020-09-15</td>
+      <td>2021-09-14</td>
+      <td>Cria o regime de proteção e ampliação do arvor...</td>
+      <td>NAO</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>L/JKM</td>
+    </tr>
+    <tr>
+      <th>2842</th>
+      <td>Votação na generalidade</td>
+      <td>1347</td>
+      <td>R</td>
+      <td>Projeto de Resolução</td>
+      <td>XIV</td>
+      <td>2</td>
+      <td>2020-09-15</td>
+      <td>2021-09-14</td>
+      <td>Pela restauração dos ecossistemas e por um mod...</td>
+      <td>NAO</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>L/JKM</td>
+    </tr>
+    <tr>
+      <th>3325</th>
+      <td>Votação na generalidade</td>
+      <td>754</td>
+      <td>R</td>
+      <td>Projeto de Resolução</td>
+      <td>XIV</td>
+      <td>2</td>
+      <td>2020-09-15</td>
+      <td>2021-09-14</td>
+      <td>Classificação da Serra de Carnaxide como Paisa...</td>
+      <td>NAO</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>L/JKM</td>
     </tr>
   </tbody>
 </table>
-<p>30 rows × 44 columns</p>
+<p>23 rows × 44 columns</p>
 </div></div></div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">lch</span><span class="o">.</span><span class="n">columns</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Index([&#39;fase&#39;, &#39;iniNr&#39;, &#39;iniTipo&#39;, &#39;iniDescTipo&#39;, &#39;iniLeg&#39;, &#39;iniSel&#39;,
-       &#39;dataInicioleg&#39;, &#39;dataFimleg&#39;, &#39;iniTitulo&#39;, &#39;iniTextoSubst&#39;,
-       &#39;iniLinkTexto&#39;, &#39;iniciativasOriginadas&#39;, &#39;iniEventos&#39;, &#39;iniAutorOutros&#39;,
-       &#39;iniId&#39;, &#39;iniAutorGruposParlamentares&#39;, &#39;id&#39;, &#39;Tipo&#39;, &#39;resultado&#39;,
-       &#39;descricao&#39;, &#39;reuniao&#39;, &#39;tipoReuniao&#39;, &#39;PS&#39;, &#39;PSD&#39;, &#39;BE&#39;, &#39;PCP&#39;,
-       &#39;CDS-PP&#39;, &#39;PAN&#39;, &#39;PEV&#39;, &#39;CH&#39;, &#39;CR&#39;, &#39;L/JKM&#39;, &#39;IL&#39;, &#39;data&#39;, &#39;iniAnexos&#39;,
-       &#39;unanime&#39;, &#39;iniTextoSubstCampo&#39;, &#39;iniObs&#39;, &#39;L&#39;, &#39;ausencias&#39;, &#39;peticoes&#39;,
-       &#39;publicacao&#39;, &#39;iniciativasOrigem&#39;, &#39;GP&#39;],
-      dtype=&#39;object&#39;)
-</pre></div>
-</div>
-</div>
 </div>
 </div>
 </div>

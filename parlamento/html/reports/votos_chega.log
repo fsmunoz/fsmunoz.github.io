@@ -35,7 +35,7 @@ sns.set_theme(style="whitegrid", palette="pastel")
 
 [0;31m---------------------------------------------------------------------------[0m
 [0;31mKeyError[0m                                  Traceback (most recent call last)
-[0;32m/tmp/ipykernel_109504/4223055067.py[0m in [0;36m<module>[0;34m[0m
+[0;32m/tmp/ipykernel_137322/4223055067.py[0m in [0;36m<module>[0;34m[0m
 [1;32m     12[0m [0;31m#sns.set(font="EB Garamond")[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
 [1;32m     13[0m [0msns[0m[0;34m.[0m[0mset_theme[0m[0;34m([0m[0mstyle[0m[0;34m=[0m[0;34m"whitegrid"[0m[0;34m,[0m [0mpalette[0m[0;34m=[0m[0;34m"pastel"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
 [0;32m---> 14[0;31m [0mget_ipython[0m[0;34m([0m[0;34m)[0m[0;34m.[0m[0mrun_line_magic[0m[0;34m([0m[0;34m'matplotlib'[0m[0;34m,[0m [0;34m'inlineg'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m

@@ -36,7 +36,7 @@ from IPython.core.display import display, HTML
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 #sns.set(font="EB Garamond")
 sns.set_theme(style="whitegrid", palette="pastel")
-from myst_nb import glue
+#from myst_nb import glue
 get_ipython().run_line_magic('matplotlib', 'inline')
 
 
@@ -543,7 +543,7 @@ for label, x, y in zip(distmat_mm.columns, coords[:, 0], coords[:, 1]):
     ax.annotate(label,xy = (x-0.02, y+0.025))
 
 plt.show()
-glue("mds_15", fig, display=False)
+#glue("mds_15", fig, display=False)
 
 
 # In[22]:
@@ -617,7 +617,8 @@ fig.update_yaxes(
     scaleanchor = "x",
     scaleratio = 1,
   )
-plot(fig, filename = 'l15-3d-mds.html')
+
+fig.write_html('l15-3d-mds.html')
 display(HTML('l15-3d-mds.html'))
 
 
@@ -625,7 +626,7 @@ display(HTML('l15-3d-mds.html'))
 
 # Utilizámos a mesma abordagem já detalhada em pormenor em análises da XIV legislatura, para a qual remetemos para mais detalhes. De forma resumida, a análise é feito com base nas propostas votadas na generalidade - e apenas essas - e das quais se obtem o partido que apresenta a iniciativa, e os votos dos restantes.
 
-# In[61]:
+# In[26]:
 
 
 #votes_hm=votes[l14_parties]
@@ -634,7 +635,7 @@ l15af["GP"] = l15af["iniAutorGruposParlamentares"]
 l15af = l15af[l15af["GP"].notna()]
 
 
-# In[62]:
+# In[27]:
 
 
 l15a.columns
@@ -642,7 +643,7 @@ l15a.columns
 
 # O total de propostas votadas na generalidade, com a identificação das aprovadas e rejeitadas, é o seguinte:
 
-# In[63]:
+# In[28]:
 
 
 l15af.groupby('GP')[['id']].count().sort_values(by=['id'], axis=0, ascending=False).plot(kind="bar",stacked=True,figsize=(6,6))
@@ -653,7 +654,7 @@ plt.show()
 # Em formato tabular, com os totais.
 # ```
 
-# In[64]:
+# In[29]:
 
 
 ct = pd.crosstab(l15af.GP, l15af.resultado)
@@ -663,7 +664,7 @@ ct.sort_values(by=['Total'], axis=0, ascending=False)
 
 # Podemos também visualizar a quantidade de propostas aprovadas e rejeitadas:
 
-# In[65]:
+# In[30]:
 
 
 ct.sort_values(by=['Total'], axis=0, ascending=False).drop("Total", axis=1).plot(kind="bar", stacked=True)
@@ -672,7 +673,7 @@ plt.show()
 
 # Com esta informação, e de forma muito semelhante à utilizada para determinar os apoios às propostas de alteração do Orçamento de Estado, é possível determinar os padrões de votação; o diagrama seguinte mostra a relação entre cada par de partidos: no eixo horizontal quem propõe, e no vertical como votaram:
 
-# In[66]:
+# In[31]:
 
 
 mycol  = ['GP', 'BE', 'PCP', 'L','PS', 'PAN','PSD','IL', 'CH' ]
@@ -681,7 +682,7 @@ submissions_ini = df[mycol]
 submissions_ini.head()
 
 
-# In[67]:
+# In[32]:
 
 
 import seaborn as sns
@@ -748,7 +749,7 @@ plt.show()
 
 # Uma outra visualização que foca cada gráfico nas propostas de cada partido, e como votaram os restantes:
 
-# In[68]:
+# In[33]:
 
 
 from IPython.display import display
@@ -794,7 +795,7 @@ plt.show()
 # 
 # 
 
-# In[35]:
+# In[34]:
 
 
 lpcp = l15af[l15af["GP"] == "CH"]
@@ -802,21 +803,21 @@ with pd.option_context("display.max_colwidth", -1):
     display(lpcp[lpcp["PS"] == "A Favor"][["iniTitulo"]])
 
 
-# In[70]:
+# In[35]:
 
 
 lch = l15af[l15af["GP"] == "CH"]
 lch.sort_values(by='data', inplace = True) 
 
 
-# In[78]:
+# In[36]:
 
 
 with pd.option_context("display.max_colwidth", -1,"display.max_columns", None, "display.max_rows", None):
     display(lch[lch["BE"] == "A Favor"][["data","iniTitulo"]])
 
 
-# In[81]:
+# In[37]:
 
 
 lch
@@ -836,13 +837,13 @@ lch
 lpan = l15af[l15af["GP"] == "PAN"]
 with pd.option_context("display.max_colwidth", -1):
     display(lpan[[iniTitulo]])
-# In[73]:
+# In[38]:
 
 
 lpan = l15af[l15af["GP"] == "PAN"]
 
 
-# In[80]:
+# In[39]:
 
 
 lpcp = l15af[l15af["GP"] == "PCP"]
@@ -854,7 +855,7 @@ with pd.option_context("display.max_colwidth", -1):
 # 
 # Usando a tabela obtida através da análise dos votos é possível ver os dados fundamentais das votações na generalidade.
 
-# In[125]:
+# In[40]:
 
 
 with pd.option_context("display.max_colwidth", -1,'display.max_rows', 500):

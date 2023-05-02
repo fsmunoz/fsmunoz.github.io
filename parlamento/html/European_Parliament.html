@@ -1531,7 +1531,7 @@ Based on this principle we compute the euclidean pairwise distance between all g
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/tmp/ipykernel_105319/115050311.py:15: MatplotlibDeprecationWarning: 
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/tmp/ipykernel_134885/115050311.py:15: MatplotlibDeprecationWarning: 
 The M attribute was deprecated in Matplotlib 3.4 and will be removed two minor releases later. Use self.axes.M instead.
   xs, ys, zs = proj_transform(xs3d, ys3d, zs3d, renderer.M)
 </pre></div>
@@ -1595,67 +1595,15 @@ The M attribute was deprecated in Matplotlib 3.4 and will be removed two minor r
 <img alt="_images/European_Parliament_39_8.png" src="_images/European_Parliament_39_8.png" />
 <img alt="_images/European_Parliament_39_9.png" src="_images/European_Parliament_39_9.png" />
 <img alt="_images/European_Parliament_39_10.png" src="_images/European_Parliament_39_10.png" />
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">KeyboardInterrupt</span><span class="g g-Whitespace">                         </span>Traceback (most recent call last)
-<span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">ipykernel_105319</span><span class="o">/</span><span class="mf">3588680406.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-<span class="g g-Whitespace">     </span><span class="mi">14</span>     <span class="n">aaffinmat_mm</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="n">distmat_mm</span><span class="p">,</span> <span class="n">distmat</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">adistmat</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span>
-<span class="g g-Whitespace">     </span><span class="mi">15</span> 
-<span class="ne">---&gt; </span><span class="mi">16</span>     <span class="n">asc</span> <span class="o">=</span> <span class="n">SpectralClustering</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="n">affinity</span><span class="o">=</span><span class="s2">&quot;precomputed&quot;</span><span class="p">,</span><span class="n">random_state</span><span class="o">=</span><span class="mi">2020</span><span class="p">)</span><span class="o">.</span><span class="n">fit_predict</span><span class="p">(</span><span class="n">aaffinmat_mm</span><span class="p">)</span>
-<span class="g g-Whitespace">     </span><span class="mi">17</span>     <span class="n">asc_dict</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">adistmat</span><span class="p">,</span><span class="n">asc</span><span class="p">))</span>
-<span class="g g-Whitespace">     </span><span class="mi">18</span> 
-
-<span class="nn">~/.local/lib/python3.8/site-packages/sklearn/cluster/_spectral.py</span> in <span class="ni">fit_predict</span><span class="nt">(self, X, y)</span>
-<span class="g g-Whitespace">    </span><span class="mi">655</span>             <span class="n">Cluster</span> <span class="n">labels</span><span class="o">.</span>
-<span class="g g-Whitespace">    </span><span class="mi">656</span>         <span class="s2">&quot;&quot;&quot;</span>
-<span class="ne">--&gt; </span><span class="mi">657</span><span class="s2">         return super().fit_predict(X, y)</span>
-<span class="g g-Whitespace">    </span><span class="mi">658</span><span class="s2"> </span>
-<span class="g g-Whitespace">    </span><span class="mi">659</span><span class="s2">     def _more_tags(self):</span>
-
-<span class="nn">~/.local/lib/python3.8/site-packages/sklearn/base.py</span> in <span class="ni">fit_predict</span><span class="nt">(self, X, y)</span>
-<span class="g g-Whitespace">    </span><span class="mi">729</span><span class="s2">         # non-optimized default implementation; override when a better</span>
-<span class="g g-Whitespace">    </span><span class="mi">730</span><span class="s2">         # method is possible for a given clustering algorithm</span>
-<span class="ne">--&gt; </span><span class="mi">731</span><span class="s2">         self.fit(X)</span>
-<span class="g g-Whitespace">    </span><span class="mi">732</span><span class="s2">         return self.labels_</span>
-<span class="g g-Whitespace">    </span><span class="mi">733</span><span class="s2"> </span>
-
-<span class="nn">~/.local/lib/python3.8/site-packages/sklearn/cluster/_spectral.py</span> in <span class="ni">fit</span><span class="nt">(self, X, y)</span>
-<span class="g g-Whitespace">    </span><span class="mi">620</span><span class="s2"> </span>
-<span class="g g-Whitespace">    </span><span class="mi">621</span><span class="s2">         random_state = check_random_state(self.random_state)</span>
-<span class="ne">--&gt; </span><span class="mi">622</span><span class="s2">         self.labels_ = spectral_clustering(</span>
-<span class="g g-Whitespace">    </span><span class="mi">623</span><span class="s2">             self.affinity_matrix_,</span>
-<span class="g g-Whitespace">    </span><span class="mi">624</span><span class="s2">             n_clusters=self.n_clusters,</span>
-
-<span class="nn">~/.local/lib/python3.8/site-packages/sklearn/cluster/_spectral.py</span> in <span class="ni">spectral_clustering</span><span class="nt">(affinity, n_clusters, n_components, eigen_solver, random_state, n_init, eigen_tol, assign_labels, verbose)</span>
-<span class="g g-Whitespace">    </span><span class="mi">298</span><span class="s2">     # and should be kept for spectral clustering (drop_first = False)</span>
-<span class="g g-Whitespace">    </span><span class="mi">299</span><span class="s2">     # See spectral_embedding documentation.</span>
-<span class="ne">--&gt; </span><span class="mi">300</span><span class="s2">     maps = spectral_embedding(</span>
-<span class="g g-Whitespace">    </span><span class="mi">301</span><span class="s2">         affinity,</span>
-<span class="g g-Whitespace">    </span><span class="mi">302</span><span class="s2">         n_components=n_components,</span>
-
-<span class="nn">~/.local/lib/python3.8/site-packages/sklearn/manifold/_spectral_embedding.py</span> in <span class="ni">spectral_embedding</span><span class="nt">(adjacency, n_components, eigen_solver, random_state, eigen_tol, norm_laplacian, drop_first)</span>
-<span class="g g-Whitespace">    </span><span class="mi">297</span><span class="s2">             laplacian *= -1</span>
-<span class="g g-Whitespace">    </span><span class="mi">298</span><span class="s2">             v0 = _init_arpack_v0(laplacian.shape[0], random_state)</span>
-<span class="ne">--&gt; </span><span class="mi">299</span><span class="s2">             _, diffusion_map = eigsh(</span>
-<span class="g g-Whitespace">    </span><span class="mi">300</span><span class="s2">                 laplacian, k=n_components, sigma=1.0, which=&quot;LM&quot;, tol=eigen_tol, v0=v0</span>
-<span class="g g-Whitespace">    </span><span class="mi">301</span><span class="s2">             )</span>
-
-<span class="nn">~/.local/lib/python3.8/site-packages/scipy/sparse/linalg/eigen/arpack/arpack.py</span> in <span class="ni">eigsh</span><span class="nt">(A, k, M, sigma, which, v0, ncv, maxiter, tol, return_eigenvectors, Minv, OPinv, mode)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1688</span><span class="s2">     with _ARPACK_LOCK:</span>
-<span class="g g-Whitespace">   </span><span class="mi">1689</span><span class="s2">         while not params.converged:</span>
-<span class="ne">-&gt; </span><span class="mi">1690</span><span class="s2">             params.iterate()</span>
-<span class="g g-Whitespace">   </span><span class="mi">1691</span><span class="s2"> </span>
-<span class="g g-Whitespace">   </span><span class="mi">1692</span><span class="s2">         return params.extract(return_eigenvectors)</span>
-
-<span class="nn">~/.local/lib/python3.8/site-packages/scipy/sparse/linalg/eigen/arpack/arpack.py</span> in <span class="ni">iterate</span><span class="nt">(self)</span>
-<span class="g g-Whitespace">    </span><span class="mi">556</span><span class="s2">                                                     self.workd[Bxslice]))</span>
-<span class="g g-Whitespace">    </span><span class="mi">557</span><span class="s2">             else:</span>
-<span class="ne">--&gt; </span><span class="mi">558</span><span class="s2">                 Bxslice = slice(self.ipntr[2] - 1, self.ipntr[2] - 1 + self.n)</span>
-<span class="g g-Whitespace">    </span><span class="mi">559</span><span class="s2">                 self.workd[yslice] = self.OPa(self.workd[Bxslice])</span>
-<span class="g g-Whitespace">    </span><span class="mi">560</span><span class="s2">         elif self.ido == 2:</span>
-
-<span class="ne">KeyboardInterrupt</span>: 
-</pre></div>
-</div>
+<img alt="_images/European_Parliament_39_11.png" src="_images/European_Parliament_39_11.png" />
+<img alt="_images/European_Parliament_39_12.png" src="_images/European_Parliament_39_12.png" />
+<img alt="_images/European_Parliament_39_13.png" src="_images/European_Parliament_39_13.png" />
+<img alt="_images/European_Parliament_39_14.png" src="_images/European_Parliament_39_14.png" />
+<img alt="_images/European_Parliament_39_15.png" src="_images/European_Parliament_39_15.png" />
+<img alt="_images/European_Parliament_39_16.png" src="_images/European_Parliament_39_16.png" />
+<img alt="_images/European_Parliament_39_17.png" src="_images/European_Parliament_39_17.png" />
+<img alt="_images/European_Parliament_39_18.png" src="_images/European_Parliament_39_18.png" />
+<img alt="_images/European_Parliament_39_19.png" src="_images/European_Parliament_39_19.png" />
 </div>
 </div>
 </div>

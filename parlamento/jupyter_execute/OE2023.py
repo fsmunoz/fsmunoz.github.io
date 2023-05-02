@@ -378,7 +378,7 @@ plt.show()
 
 # Uma outra visualização, menos condensada mas com maior clareza quantitativa: para cada partido é criado um gráfico de barras, ordenado pelos votos favoráveis, com  comportamento de votos dos restantes para com as suas propostas.
 
-# In[44]:
+# In[17]:
 
 
 from IPython.display import display
@@ -418,7 +418,7 @@ plt.show()
 # 
 # Com base nas votações obtemos a distância euclideana entre todos os partidos (a distância entre todos os pares possíveis, considerado todas as votações), e com base nela um dendograma que indica a distância entre eles.
 
-# In[45]:
+# In[18]:
 
 
 from scipy.spatial.distance import squareform
@@ -474,7 +474,7 @@ plt.show()
 # Fica a ressalva: a consideração apenas dos votos "idênticos" desconsidera completamente a diferença entre votar Contra e Abstenção. Esta dimensão irá ser capturada na matriz de distâncias. Por outro lado, é também independente do número de propostas aprovadas: um partido pode estar mais "longe" (por ter votado mais vezes de forma diferente) e ter um número de propostas aprovada maior (por ter tido, nas suas propostas, a coincidência dos votos do PS, neste caso) do que um partido mais "próximo" (número de votações coincidentes maiores) mas que, nas propostas que fez, teve os votos contra do partido maioritário.
 # ```
 
-# In[46]:
+# In[19]:
 
 
 pv_list = []
@@ -495,7 +495,7 @@ pv = pd.DataFrame(pv_list,index=votes_hm.columns)
 pv.style.apply(highlight_diag, axis=None)
 
 
-# In[47]:
+# In[20]:
 
 
 fig = plt.figure(figsize=(8,8))
@@ -518,7 +518,7 @@ plt.show()
 # 
 # Tendo como base os votos no OE podemos utilizar a mesma técnica que empregámos na análise de toda a legislatura. Para identificar grupos usamos (mais uma vez, como no trabalho original, e presente nos Apêndices) *Spectral scaling*, definindo 4 grupos.
 
-# In[31]:
+# In[21]:
 
 
 
@@ -563,7 +563,7 @@ for area in oe_df["Domain"].unique():
     print(asc_dict)
 
 
-# In[32]:
+# In[22]:
 
 
 sc = SpectralClustering(3, affinity="precomputed",random_state=2020).fit_predict(affinmat_mm)
@@ -574,7 +574,7 @@ pd.DataFrame.from_dict(sc_dict, orient='index', columns=["Group"]).T
 
 # São resultados, mais uma vez, idênticos ao da votação anterior, com o PS individualizado e separado de um grupo à sua esquerda, e outro à sua direita.
 
-# In[60]:
+# In[23]:
 
 
 from sklearn.manifold import MDS
@@ -606,7 +606,7 @@ plt.show()
 # 
 # Uma visualização em 3D permtie uma visão diferente, com mais uma dimensão:
 
-# In[34]:
+# In[24]:
 
 
 mds = MDS(n_components=3, dissimilarity='precomputed',random_state=1234, n_init=100, max_iter=1000)

@@ -17,74 +17,27 @@ Traceback (most recent call last):
     raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
 nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
 ------------------
-all_votes_hmn = all_votes_hm.replace(["A Favor", "Contra", "Abstenção", "Ausência"], [1,-1,0,0]).fillna(0)
-all_votes_hmn['data'] = pd.to_datetime(all_votes_hmn['data'])
-all_votes_hmn.sort_values(by='data', inplace = True) 
-all_ts =all_votes_hmn.set_index("data")
-all_parties = ['BE', 'PCP', 'L', 'PS', 'PAN', 'PSD', 'IL', 'CH']
-all_ts
+l15af = l15a[l15a["fase"] == "Votação na generalidade"]
+l15af["GP"] = l15af["iniAutorGruposParlamentares"]
+l15af = l15af[l15af["GP"].notna()]
+
+l14af["iniAutorGruposParlamentares"]  = l14af["iniAutorGruposParlamentares"].replace("JOACINE KATAR MOREIRA", "L")
+l14af = l14a[l14a["fase"] == "Votação na generalidade"]
+l14af["GP"] = l14af["iniAutorGruposParlamentares"]
+l14af = l14af[l14af["GP"].notna()]
+
+
 ------------------
 
 [0;31m---------------------------------------------------------------------------[0m
-[0;31mTypeError[0m                                 Traceback (most recent call last)
-[0;32m~/.local/lib/python3.8/site-packages/pandas/core/arrays/datetimes.py[0m in [0;36mobjects_to_datetime64ns[0;34m(data, dayfirst, yearfirst, utc, errors, require_iso8601, allow_object, allow_mixed)[0m
-[1;32m   2186[0m         [0;32mtry[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-[0;32m-> 2187[0;31m             [0mvalues[0m[0;34m,[0m [0mtz_parsed[0m [0;34m=[0m [0mconversion[0m[0;34m.[0m[0mdatetime_to_datetime64[0m[0;34m([0m[0mdata[0m[0;34m.[0m[0mravel[0m[0;34m([0m[0;34m"K"[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[0m[1;32m   2188[0m             [0;31m# If tzaware, these values represent unix timestamps, so we[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;31mNameError[0m                                 Traceback (most recent call last)
+[0;32m/tmp/ipykernel_157585/4077841856.py[0m in [0;36m<module>[0;34m[0m
+[1;32m      3[0m [0ml15af[0m [0;34m=[0m [0ml15af[0m[0;34m[[0m[0ml15af[0m[0;34m[[0m[0;34m"GP"[0m[0;34m][0m[0;34m.[0m[0mnotna[0m[0;34m([0m[0;34m)[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
+[1;32m      4[0m [0;34m[0m[0m
+[0;32m----> 5[0;31m [0ml14af[0m[0;34m[[0m[0;34m"iniAutorGruposParlamentares"[0m[0;34m][0m  [0;34m=[0m [0ml14af[0m[0;34m[[0m[0;34m"iniAutorGruposParlamentares"[0m[0;34m][0m[0;34m.[0m[0mreplace[0m[0;34m([0m[0;34m"JOACINE KATAR MOREIRA"[0m[0;34m,[0m [0;34m"L"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m      6[0m [0ml14af[0m [0;34m=[0m [0ml14a[0m[0;34m[[0m[0ml14a[0m[0;34m[[0m[0;34m"fase"[0m[0;34m][0m [0;34m==[0m [0;34m"Votação na generalidade"[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
+[1;32m      7[0m [0ml14af[0m[0;34m[[0m[0;34m"GP"[0m[0;34m][0m [0;34m=[0m [0ml14af[0m[0;34m[[0m[0;34m"iniAutorGruposParlamentares"[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
 
-[0;32m~/.local/lib/python3.8/site-packages/pandas/_libs/tslibs/conversion.pyx[0m in [0;36mpandas._libs.tslibs.conversion.datetime_to_datetime64[0;34m()[0m
-
-[0;31mTypeError[0m: Unrecognized value type: <class 'int'>
-
-During handling of the above exception, another exception occurred:
-
-[0;31mValueError[0m                                Traceback (most recent call last)
-[0;32m/tmp/ipykernel_128728/1583406093.py[0m in [0;36m<module>[0;34m[0m
-[1;32m      1[0m [0mall_votes_hmn[0m [0;34m=[0m [0mall_votes_hm[0m[0;34m.[0m[0mreplace[0m[0;34m([0m[0;34m[[0m[0;34m"A Favor"[0m[0;34m,[0m [0;34m"Contra"[0m[0;34m,[0m [0;34m"Abstenção"[0m[0;34m,[0m [0;34m"Ausência"[0m[0;34m][0m[0;34m,[0m [0;34m[[0m[0;36m1[0m[0;34m,[0m[0;34m-[0m[0;36m1[0m[0;34m,[0m[0;36m0[0m[0;34m,[0m[0;36m0[0m[0;34m][0m[0;34m)[0m[0;34m.[0m[0mfillna[0m[0;34m([0m[0;36m0[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[0;32m----> 2[0;31m [0mall_votes_hmn[0m[0;34m[[0m[0;34m'data'[0m[0;34m][0m [0;34m=[0m [0mpd[0m[0;34m.[0m[0mto_datetime[0m[0;34m([0m[0mall_votes_hmn[0m[0;34m[[0m[0;34m'data'[0m[0;34m][0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[0m[1;32m      3[0m [0mall_votes_hmn[0m[0;34m.[0m[0msort_values[0m[0;34m([0m[0mby[0m[0;34m=[0m[0;34m'data'[0m[0;34m,[0m [0minplace[0m [0;34m=[0m [0;32mTrue[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[1;32m      4[0m [0mall_ts[0m [0;34m=[0m[0mall_votes_hmn[0m[0;34m.[0m[0mset_index[0m[0;34m([0m[0;34m"data"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[1;32m      5[0m [0mall_parties[0m [0;34m=[0m [0;34m[[0m[0;34m'BE'[0m[0;34m,[0m [0;34m'PCP'[0m[0;34m,[0m [0;34m'L'[0m[0;34m,[0m [0;34m'PS'[0m[0;34m,[0m [0;34m'PAN'[0m[0;34m,[0m [0;34m'PSD'[0m[0;34m,[0m [0;34m'IL'[0m[0;34m,[0m [0;34m'CH'[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
-
-[0;32m~/.local/lib/python3.8/site-packages/pandas/core/tools/datetimes.py[0m in [0;36mto_datetime[0;34m(arg, errors, dayfirst, yearfirst, utc, format, exact, unit, infer_datetime_format, origin, cache)[0m
-[1;32m    881[0m                 [0mresult[0m [0;34m=[0m [0mresult[0m[0;34m.[0m[0mtz_localize[0m[0;34m([0m[0mtz[0m[0;34m)[0m  [0;31m# type: ignore[call-arg][0m[0;34m[0m[0;34m[0m[0m
-[1;32m    882[0m     [0;32melif[0m [0misinstance[0m[0;34m([0m[0marg[0m[0;34m,[0m [0mABCSeries[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-[0;32m--> 883[0;31m         [0mcache_array[0m [0;34m=[0m [0m_maybe_cache[0m[0;34m([0m[0marg[0m[0;34m,[0m [0mformat[0m[0;34m,[0m [0mcache[0m[0;34m,[0m [0mconvert_listlike[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[0m[1;32m    884[0m         [0;32mif[0m [0;32mnot[0m [0mcache_array[0m[0;34m.[0m[0mempty[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-[1;32m    885[0m             [0mresult[0m [0;34m=[0m [0marg[0m[0;34m.[0m[0mmap[0m[0;34m([0m[0mcache_array[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-
-[0;32m~/.local/lib/python3.8/site-packages/pandas/core/tools/datetimes.py[0m in [0;36m_maybe_cache[0;34m(arg, format, cache, convert_listlike)[0m
-[1;32m    193[0m         [0munique_dates[0m [0;34m=[0m [0munique[0m[0;34m([0m[0marg[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[1;32m    194[0m         [0;32mif[0m [0mlen[0m[0;34m([0m[0munique_dates[0m[0;34m)[0m [0;34m<[0m [0mlen[0m[0;34m([0m[0marg[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-[0;32m--> 195[0;31m             [0mcache_dates[0m [0;34m=[0m [0mconvert_listlike[0m[0;34m([0m[0munique_dates[0m[0;34m,[0m [0mformat[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[0m[1;32m    196[0m             [0mcache_array[0m [0;34m=[0m [0mSeries[0m[0;34m([0m[0mcache_dates[0m[0;34m,[0m [0mindex[0m[0;34m=[0m[0munique_dates[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[1;32m    197[0m             [0;31m# GH#39882 and GH#35888 in case of None and NaT we get duplicates[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
-
-[0;32m~/.local/lib/python3.8/site-packages/pandas/core/tools/datetimes.py[0m in [0;36m_convert_listlike_datetimes[0;34m(arg, format, name, tz, unit, errors, infer_datetime_format, dayfirst, yearfirst, exact)[0m
-[1;32m    399[0m     [0;32massert[0m [0mformat[0m [0;32mis[0m [0;32mNone[0m [0;32mor[0m [0minfer_datetime_format[0m[0;34m[0m[0;34m[0m[0m
-[1;32m    400[0m     [0mutc[0m [0;34m=[0m [0mtz[0m [0;34m==[0m [0;34m"utc"[0m[0;34m[0m[0;34m[0m[0m
-[0;32m--> 401[0;31m     result, tz_parsed = objects_to_datetime64ns(
-[0m[1;32m    402[0m         [0marg[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
-[1;32m    403[0m         [0mdayfirst[0m[0;34m=[0m[0mdayfirst[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
-
-[0;32m~/.local/lib/python3.8/site-packages/pandas/core/arrays/datetimes.py[0m in [0;36mobjects_to_datetime64ns[0;34m(data, dayfirst, yearfirst, utc, errors, require_iso8601, allow_object, allow_mixed)[0m
-[1;32m   2191[0m             [0;32mreturn[0m [0mvalues[0m[0;34m.[0m[0mview[0m[0;34m([0m[0;34m"i8"[0m[0;34m)[0m[0;34m,[0m [0mtz_parsed[0m[0;34m[0m[0;34m[0m[0m
-[1;32m   2192[0m         [0;32mexcept[0m [0;34m([0m[0mValueError[0m[0;34m,[0m [0mTypeError[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-[0;32m-> 2193[0;31m             [0;32mraise[0m [0merr[0m[0;34m[0m[0;34m[0m[0m
-[0m[1;32m   2194[0m [0;34m[0m[0m
-[1;32m   2195[0m     [0;32mif[0m [0mtz_parsed[0m [0;32mis[0m [0;32mnot[0m [0;32mNone[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-
-[0;32m~/.local/lib/python3.8/site-packages/pandas/core/arrays/datetimes.py[0m in [0;36mobjects_to_datetime64ns[0;34m(data, dayfirst, yearfirst, utc, errors, require_iso8601, allow_object, allow_mixed)[0m
-[1;32m   2173[0m     [0morder[0m[0;34m:[0m [0mLiteral[0m[0;34m[[0m[0;34m"F"[0m[0;34m,[0m [0;34m"C"[0m[0;34m][0m [0;34m=[0m [0;34m"F"[0m [0;32mif[0m [0mflags[0m[0;34m.[0m[0mf_contiguous[0m [0;32melse[0m [0;34m"C"[0m[0;34m[0m[0;34m[0m[0m
-[1;32m   2174[0m     [0;32mtry[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-[0;32m-> 2175[0;31m         result, tz_parsed = tslib.array_to_datetime(
-[0m[1;32m   2176[0m             [0mdata[0m[0;34m.[0m[0mravel[0m[0;34m([0m[0;34m"K"[0m[0;34m)[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
-[1;32m   2177[0m             [0merrors[0m[0;34m=[0m[0merrors[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
-
-[0;32m~/.local/lib/python3.8/site-packages/pandas/_libs/tslib.pyx[0m in [0;36mpandas._libs.tslib.array_to_datetime[0;34m()[0m
-
-[0;32m~/.local/lib/python3.8/site-packages/pandas/_libs/tslib.pyx[0m in [0;36mpandas._libs.tslib.array_to_datetime[0;34m()[0m
-
-[0;31mValueError[0m: mixed datetimes and integers in passed array
-ValueError: mixed datetimes and integers in passed array
+[0;31mNameError[0m: name 'l14af' is not defined
+NameError: name 'l14af' is not defined
 

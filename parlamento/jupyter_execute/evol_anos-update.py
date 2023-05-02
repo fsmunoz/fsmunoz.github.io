@@ -323,8 +323,9 @@ l14_ini_df["L/JKM"] = l14_ini_df["L"]
 ## ... and fill the NAs with JKM voting record.
 l14_ini_df["L/JKM"] = l14_ini_df["L/JKM"].fillna(l14_ini_df["Joacine Katar Moreira (Ninsc)"])
 l14_ini_df[["descricao","L","Joacine Katar Moreira (Ninsc)","L/JKM"]]
-## Remove next like to keep JKM separate
+## Remove next to keep JKM separate
 l14_ini_df["L"] = l14_ini_df["L/JKM"]
+
 ## Copy PAN voting record to new aggregate columns...
 l14_ini_df["PAN/CR"] = l14_ini_df["PAN"]
 ## ... and update/replace with CR voting where it exists
@@ -392,12 +393,13 @@ l15af = l15a[l15a["fase"] == "Votação na generalidade"]
 l15af["GP"] = l15af["iniAutorGruposParlamentares"]
 l15af = l15af[l15af["GP"].notna()]
 
+l14af["iniAutorGruposParlamentares"]  = l14af["iniAutorGruposParlamentares"].replace("JOACINE KATAR MOREIRA", "L")
 l14af = l14a[l14a["fase"] == "Votação na generalidade"]
 l14af["GP"] = l14af["iniAutorGruposParlamentares"]
 l14af = l14af[l14af["GP"].notna()]
 
 
-# In[13]:
+# In[226]:
 
 
 mycol  = ['GP', 'data','BE', 'PCP', 'L','PS', 'PAN','PSD','IL', 'CH' ]
@@ -410,7 +412,7 @@ submissions_ini.sort_values(by='data', inplace = True)
 min_date=min(submissions_ini["data"])
 max_date=max(submissions_ini["data"])
 #submissions_ini
-#max_date
+#max_date 
 
 
 # ## Âmbito e pressupostos
@@ -425,7 +427,7 @@ max_date=max(submissions_ini["data"])
 # Os dados essenciais dos ficheiro XML importado são os seguintes:
 # ```
 
-# In[14]:
+# In[229]:
 
 
 from datetime import datetime
@@ -462,24 +464,24 @@ display(Markdown("*Data limite superior:* {}".format(datetime.date(max_date))))
 # 
 # O eixo horizontal representa as datas das votações, e o vertical o valor acumulado conforme a quantificação descrita acima.
 
-# In[15]:
+# In[230]:
 
 
 submissions_ini_hm = submissions_ini.replace(["A Favor", "Contra", "Abstenção", "Ausência"], [1,-1,0,0]).fillna(0)
 
 
-# In[16]:
+# In[231]:
 
 
 
 submissions_ini_hm =submissions_ini_hm.set_index("data")
-submissions_ini_hm 
+submissions_ini_hm
 
 
-# In[17]:
+# In[236]:
 
 
-parties = ['BE', 'PCP', 'PS', 'PAN','PSD','IL','CH' ]
+parties = ['BE', 'PCP', 'L','PS', 'PAN','PSD','IL','CH' ]
 gpsubs = submissions_ini_hm
 for party in parties:
     subp = gpsubs[gpsubs['GP'] == party]
@@ -521,16 +523,17 @@ for party in parties:
 # Ao medirmos a distância, o gráfico irá ter uma forma diferente: aqui, um partido que vote _sempre_ da mesma forma que o partido em análise irá ter uma linha horizontal, por a distância será sempre 0. Não existem valores negativos, pois a distância mínima entre dois partidos é 0: quanto mais "cresce" a linha mais distante o partido está.
 # 
 
-# In[18]:
+# In[118]:
 
 
-l13_votes_hm["data"]=l13_votes["data"]
 l14_votes_hm["data"]=l14_votes["data"]
+l15_votes_hm["data"]=l15_votes["data"]
 
 all_votes_hm = pd.concat([l14_votes_hm, l15_votes_hm], axis=0)
+all_votes_hm["data"]
 
 
-# In[19]:
+# In[106]:
 
 
 l13_min_date=min(l13_votes["data"])
@@ -539,7 +542,7 @@ l13_min_date
 l13_max_date
 
 
-# In[20]:
+# In[119]:
 
 
 all_votes_hmn = all_votes_hm.replace(["A Favor", "Contra", "Abstenção", "Ausência"], [1,-1,0,0]).fillna(0)
@@ -548,9 +551,10 @@ all_votes_hmn.sort_values(by='data', inplace = True)
 all_ts =all_votes_hmn.set_index("data")
 all_parties = ['BE', 'PCP', 'L', 'PS', 'PAN', 'PSD', 'IL', 'CH']
 all_ts
+#all_votes_hmn['data']
 
 
-# In[57]:
+# In[120]:
 
 
 distances = {}
@@ -578,7 +582,7 @@ for party in all_parties:
     #display(party_dist_df)
 
 
-# In[24]:
+# In[ ]:
 
 
 all_votes_hm

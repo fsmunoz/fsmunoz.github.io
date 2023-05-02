@@ -51,7 +51,7 @@ from IPython.core.display import display, HTML
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 #sns.set(font="EB Garamond")
 sns.set_theme(style="whitegrid", palette="pastel")
-from myst_nb import glue
+#from myst_nb import glue
 get_ipython().run_line_magic('matplotlib', 'inline')
 
 
@@ -373,7 +373,7 @@ text = axes[0].text(-0.4,-6,"Como votaram",rotation=90,fontsize=26)
 plt.show()
 
 
-# Uma outra visualização que foca cada gráfico nas propostas de cada partido, e como votaram os restantes_
+# Uma outra visualização que foca cada gráfico nas propostas de cada partido, e como votaram os restantes:
 
 # In[16]:
 
@@ -431,27 +431,27 @@ plt.show()
 # 
 # 
 
-# In[63]:
+# In[17]:
 
 
-lch = l14af[l14af["GP"] == "CH"]
+lch = l14af[l14af["GP"] == "L/JKM"]
 lch.sort_values(by='data', inplace = True) 
 
 
-# In[68]:
+# In[18]:
 
 
 with pd.option_context("display.max_colwidth", -1,"display.max_columns", None, "display.max_rows", None):
     display(lch[lch["IL"] == "A Favor"])
 
 
-# In[60]:
+# In[19]:
 
 
 lch
 
 
-# In[66]:
+# In[20]:
 
 
 lch.columns

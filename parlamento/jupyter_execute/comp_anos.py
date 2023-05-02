@@ -297,7 +297,7 @@ l13_ini_df = ini_to_df(l13_ini_tree)
 l14_ini_df = ini_to_df(l14_ini_tree)
 
 
-# In[94]:
+# In[9]:
 
 
 ## Copy Livre voting record to new aggregate columns...
@@ -321,7 +321,7 @@ l14_votes_nu_hm=l14_votes_nu[l14_parties]
 l14_min_date=min(l14_votes["data"])
 
 
-# In[107]:
+# In[10]:
 
 
 l13_votes = l13_ini_df
@@ -343,7 +343,7 @@ l13_votes_nu_hm=l13_votes_nu[l13_parties]
 # ```{margin} XIII Legislatura
 # ```
 
-# In[177]:
+# In[11]:
 
 
 for year in sorted(set(l13_votes["ano"])):
@@ -354,7 +354,7 @@ for year in sorted(set(l13_votes["ano"])):
 plt.show()
 
 
-# In[120]:
+# In[12]:
 
 
 ## Change the mapping, we now consider Abst and Aus the same
@@ -412,7 +412,7 @@ plt.show()
 # ```{margin} XIV Legislatura
 # ```
 
-# In[178]:
+# In[13]:
 
 
 for year in sorted(set(l14_votes["ano"])):
@@ -423,7 +423,7 @@ for year in sorted(set(l14_votes["ano"])):
 plt.show()
 
 
-# In[137]:
+# In[14]:
 
 
 ## Change the mapping, we now consider Abst and Aus the same

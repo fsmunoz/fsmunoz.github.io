@@ -540,7 +540,7 @@ for area in oe_df["Domain"].unique():
     #print(asc_dict)
 
 
-# In[179]:
+# In[20]:
 
 
 sc = SpectralClustering(3, affinity="precomputed",random_state=2020).fit_predict(affinmat_mm)
@@ -553,7 +553,7 @@ pd.DataFrame.from_dict(sc_dict, orient='index', columns=["Group"]).T
 # 
 # Esta separação pode ser vista também em termos de agrupamento e proximidade relativa:
 
-# In[180]:
+# In[21]:
 
 
 from sklearn.manifold import MDS
@@ -585,7 +585,7 @@ plt.show()
 # 
 # Uma visualização em 3D adiciona uma dimensão 
 
-# In[181]:
+# In[22]:
 
 
 mds = MDS(n_components=3, dissimilarity='precomputed',random_state=1234, n_init=100, max_iter=1000)

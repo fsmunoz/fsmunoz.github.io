@@ -407,7 +407,7 @@ plt.show()
 
 # Uma outra visualização, menos condensada mas com maior clareza quantitativa: para cada partido é criado um gráfico de barras, ordenado pelos votos favoráveis, com  comportamento de votos dos restantes para com as suas propostas.
 
-# In[33]:
+# In[18]:
 
 
 from IPython.display import display
@@ -447,7 +447,7 @@ plt.show()
 # 
 # Com base nas votações obtemos a distância euclideana entre todos os partidos (a distância entre todos os pares possíveis, considerado todas as votações), e com base nela um dendograma que indica a distância entre eles; note-se pelos diagramas acima que o número de votações de PEV. JKM e CR são várias ordens de magnitude inferiores aos restantes. A opção aqui foi removermos estes partidos da análise por considerarmos que o resultado seria muito pouco representativo (e possivelmente enganador) - em todo o caso, é uma opção subjectiva.
 
-# In[27]:
+# In[19]:
 
 
 from scipy.spatial.distance import squareform
@@ -505,7 +505,7 @@ plt.show()
 # Com base na identificação do "Tema" (_Domain_, no _dataframe_) pode-se verificar a proximidade (e _clustering_) em termos de cada tema; é necessário ter em conta a diferença (por vezes substancial) do número de votações de cada tema: existem temas com menos de 10 votações, e até com 1, o que produziria um número elevado de diagramas, razão pela qual excluímos os temas com menos de 10 votações.
 # ```
 
-# In[203]:
+# In[20]:
 
 
 
@@ -550,7 +550,7 @@ for area in oe_df["Domain"].unique():
     #print(asc_dict)
 
 
-# In[204]:
+# In[21]:
 
 
 sc = SpectralClustering(3, affinity="precomputed",random_state=2020).fit_predict(affinmat_mm)
@@ -563,7 +563,7 @@ pd.DataFrame.from_dict(sc_dict, orient='index', columns=["Group"]).T
 # 
 # Esta separação pode ser vista também em termos de agrupamento e proximidade relativa:
 
-# In[205]:
+# In[22]:
 
 
 from sklearn.manifold import MDS
@@ -595,7 +595,7 @@ plt.show()
 # 
 # Uma visualização em 3D adiciona uma dimensão 
 
-# In[206]:
+# In[23]:
 
 
 mds = MDS(n_components=3, dissimilarity='precomputed',random_state=1234, n_init=100, max_iter=1000)
