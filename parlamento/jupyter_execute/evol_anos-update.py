@@ -393,13 +393,14 @@ l15af = l15a[l15a["fase"] == "Votação na generalidade"]
 l15af["GP"] = l15af["iniAutorGruposParlamentares"]
 l15af = l15af[l15af["GP"].notna()]
 
-l14af["iniAutorGruposParlamentares"]  = l14af["iniAutorGruposParlamentares"].replace("JOACINE KATAR MOREIRA", "L")
+
 l14af = l14a[l14a["fase"] == "Votação na generalidade"]
+l14af["iniAutorGruposParlamentares"]  = l14af["iniAutorGruposParlamentares"].replace("JOACINE KATAR MOREIRA", "L")
 l14af["GP"] = l14af["iniAutorGruposParlamentares"]
 l14af = l14af[l14af["GP"].notna()]
 
 
-# In[226]:
+# In[13]:
 
 
 mycol  = ['GP', 'data','BE', 'PCP', 'L','PS', 'PAN','PSD','IL', 'CH' ]
@@ -427,7 +428,7 @@ max_date=max(submissions_ini["data"])
 # Os dados essenciais dos ficheiro XML importado são os seguintes:
 # ```
 
-# In[229]:
+# In[14]:
 
 
 from datetime import datetime
@@ -464,13 +465,13 @@ display(Markdown("*Data limite superior:* {}".format(datetime.date(max_date))))
 # 
 # O eixo horizontal representa as datas das votações, e o vertical o valor acumulado conforme a quantificação descrita acima.
 
-# In[230]:
+# In[15]:
 
 
 submissions_ini_hm = submissions_ini.replace(["A Favor", "Contra", "Abstenção", "Ausência"], [1,-1,0,0]).fillna(0)
 
 
-# In[231]:
+# In[16]:
 
 
 
@@ -478,8 +479,10 @@ submissions_ini_hm =submissions_ini_hm.set_index("data")
 submissions_ini_hm
 
 
-# In[236]:
+# In[17]:
 
+
+sns.set_style("whitegrid")
 
 parties = ['BE', 'PCP', 'L','PS', 'PAN','PSD','IL','CH' ]
 gpsubs = submissions_ini_hm
@@ -497,9 +500,16 @@ for party in parties:
             size=10, va="center")
 
     #plt.legend(loc='lower left')
+    plt.axvline(pd.to_datetime('2021-11-26'), color='grey', linestyle='--', lw=1)
+    plt.axvline(pd.to_datetime('2022-03-29'), color='grey', linestyle='--', lw=1)
+    ax.text(pd.to_datetime('2022-03-29'), 0.99, 'XV', color='grey', ha='right', va='top', rotation=90,
+            transform=ax.get_xaxis_transform())
+    ax.text(pd.to_datetime('2021-11-26'), 0.99, 'XIV', color='grey', ha='right', va='top', rotation=90,
+            transform=ax.get_xaxis_transform())
     ax.get_legend().remove()
+    plt.tight_layout()
 
-    plt.show()
+    #plt.show()
 
 
 # A maior parte dos gráficos mostra-nos uma tendência constante de votações, sem grandes variações abruptas. Os resultados finais têm, de uma forma imediata, relação com os _clustermaps_ anterire
@@ -522,8 +532,10 @@ for party in parties:
 # 
 # Ao medirmos a distância, o gráfico irá ter uma forma diferente: aqui, um partido que vote _sempre_ da mesma forma que o partido em análise irá ter uma linha horizontal, por a distância será sempre 0. Não existem valores negativos, pois a distância mínima entre dois partidos é 0: quanto mais "cresce" a linha mais distante o partido está.
 # 
+# Acrescentámos duas linhas verticais que marcam o fim da XIV legislatura, e o início da XV, para de forma mais clara se poder observar eventuais mudanças na dinâmica das votações.
+# 
 
-# In[118]:
+# In[18]:
 
 
 l14_votes_hm["data"]=l14_votes["data"]
@@ -533,7 +545,7 @@ all_votes_hm = pd.concat([l14_votes_hm, l15_votes_hm], axis=0)
 all_votes_hm["data"]
 
 
-# In[106]:
+# In[19]:
 
 
 l13_min_date=min(l13_votes["data"])
@@ -542,7 +554,7 @@ l13_min_date
 l13_max_date
 
 
-# In[119]:
+# In[20]:
 
 
 all_votes_hmn = all_votes_hm.replace(["A Favor", "Contra", "Abstenção", "Ausência"], [1,-1,0,0]).fillna(0)
@@ -554,7 +566,7 @@ all_ts
 #all_votes_hmn['data']
 
 
-# In[120]:
+# In[21]:
 
 
 distances = {}
@@ -567,7 +579,7 @@ for party in all_parties:
     distances[party] = party_dist_df.copy(deep=True)
     party_dist_df = party_dist_df.drop(str("dist_" + party), axis=1)
 
-    fig = plt.figure()
+    #fig = plt.figure()
     ax = party_dist_df.filter(regex=("dist_.*")).resample("1W").sum().cumsum().plot(kind="line", title=party, figsize=(15,8))
     #ax = party_dist_df.filter(regex=("dist_.*")).cumsum().plot(kind="line", title=party, figsize=(15,8))
     
@@ -578,11 +590,19 @@ for party in all_parties:
                 size=10, va="center")
     #plt.legend(loc='upper left'
     ax.get_legend().remove()
-    plt.show()
+    plt.axvline(pd.to_datetime('2021-11-26'), color='grey', linestyle='--', lw=1)
+    plt.axvline(pd.to_datetime('2022-03-29'), color='grey', linestyle='--', lw=1)
+    ax.text(pd.to_datetime('2022-03-29'), 0.99, 'XV', color='grey', ha='right', va='top', rotation=90,
+            transform=ax.get_xaxis_transform())
+    ax.text(pd.to_datetime('2021-11-26'), 0.99, 'XIV', color='grey', ha='right', va='top', rotation=90,
+            transform=ax.get_xaxis_transform())
+    plt.tight_layout()
+
+    #plt.show()
     #display(party_dist_df)
 
 
-# In[ ]:
+# In[22]:
 
 
 all_votes_hm
@@ -596,7 +616,7 @@ all_votes_hm
 # 
 # Note-se que a quantidade de propostas de cada partido pode ser substancialmente diferente (valor indicado no eixo vertical).
 
-# In[58]:
+# In[23]:
 
 
 mycol  = ['GP', 'data','BE', 'PCP', 'L','PS', 'PAN','PSD','IL', 'CH','resultado' ]
@@ -609,18 +629,21 @@ submissions_ini['data'] = pd.to_datetime(submissions_ini['data'])
 submissions_ini
 
 
-# In[59]:
+# In[24]:
 
 
 submissions_ini_hm = submissions_ini.replace(["A Favor", "Contra", "Abstenção", "Ausência"], [1,-1,0,0]).fillna(0)
 #submissions_ini_hm = pd.melt(submissions_ini_hm,id_vars=value_vars=["resultado"])
+
+submissions_ini = submissions_ini[submissions_ini["resultado"].isin(["Aprovado", "Rejeitado"])]
+                                                                              
 submissions_ini_hm = submissions_ini.replace(["Aprovado", "Rejeitado"], [1,0]).fillna(0)
 
 submissions_ini_hm =submissions_ini_hm.set_index("data")
 submissions_ini_hm 
 
 
-# In[65]:
+# In[25]:
 
 
 parties = ['BE', 'PCP', 'L', 'PS', 'PAN','PSD','IL','CH' ]
@@ -628,7 +651,7 @@ gpsubs = submissions_ini_hm
 for party in parties:
     subp = gpsubs[gpsubs['GP'] == party]
     result_dummies = pd.get_dummies(subp["resultado"])
-    result_dummies.columns = ['Rejeitado', 'Aprovado']
+    result_dummies.columns = ['Aprovado','Rejeitado']
     subp = pd.concat([subp, result_dummies], axis=1)
     subp.drop("resultado", axis=1, inplace=True)
     #fig = plt.figure()
@@ -636,8 +659,14 @@ for party in parties:
     ax.set_ylim([0, 25])
 
     plt.legend(loc='lower left')
+    plt.axvline(pd.to_datetime('2021-11-26'), color='g', linestyle='--', lw=1)
+    plt.axvline(pd.to_datetime('2022-03-29'), color='r', linestyle='--', lw=2)
     plt.show()
     #display(subp.resample("1M").sum().cumsum())
 
 
-# Um dos aspectos que é facilmente observável é a diferença antes e depois de Janeiro de 2023, sensivelmente, correspondendo ao novo governo resultante da maioria absoluta do PS: em particular no BE, PCP, e PAN, a quantidade de propostas rejeitadas é significativamente maior, tal como o rácio entre aprovadas/rejeitadas.
+# In[ ]:
+
+
+
+
