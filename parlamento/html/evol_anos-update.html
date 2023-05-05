@@ -418,6 +418,7 @@
 <p>Um próximo passo poderá ser a criação de análises por legislatura.</p>
 </div>
 <p>No caso dos deputados únicos, os votos do Livre incluem os da deputada Joacine Kata Moreira.</p>
+<p>São contabilizados apenas os votos</p>
 <div class="margin sidebar">
 <p class="sidebar-title">Estatísticas base</p>
 <p>Os dados essenciais dos ficheiro XML importado são os seguintes:</p>
@@ -463,7 +464,7 @@
     <span class="n">subp</span> <span class="o">=</span> <span class="n">subp</span><span class="p">[</span><span class="n">parties</span><span class="p">]</span>
     <span class="c1">#fig = plt.figure()</span>
     <span class="n">subp</span> <span class="o">=</span> <span class="n">subp</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">party</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-    <span class="n">ax</span> <span class="o">=</span> <span class="n">subp</span><span class="o">.</span><span class="n">resample</span><span class="p">(</span><span class="s2">&quot;1W&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">.</span><span class="n">cumsum</span><span class="p">()</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s2">&quot;line&quot;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="n">party</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
+    <span class="n">ax</span> <span class="o">=</span> <span class="n">subp</span><span class="o">.</span><span class="n">resample</span><span class="p">(</span><span class="s2">&quot;1M&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">.</span><span class="n">cumsum</span><span class="p">()</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s2">&quot;line&quot;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="n">party</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
     
     <span class="k">for</span> <span class="n">line</span><span class="p">,</span> <span class="n">name</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">ax</span><span class="o">.</span><span class="n">lines</span><span class="p">,</span> <span class="n">subp</span><span class="o">.</span><span class="n">columns</span><span class="p">):</span>
         <span class="n">y</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">get_ydata</span><span class="p">()[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
@@ -520,7 +521,7 @@
 
 <span class="k">for</span> <span class="n">party</span> <span class="ow">in</span> <span class="n">all_parties</span><span class="p">:</span>
     <span class="n">party_dist_df</span> <span class="o">=</span> <span class="n">all_ts</span>
-
+    <span class="n">party_dist_df</span> <span class="o">=</span> <span class="n">party_dist_df</span>
     <span class="k">for</span> <span class="n">dist_party</span> <span class="ow">in</span> <span class="n">all_parties</span><span class="p">:</span>
         <span class="n">party_dist_df</span><span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="s2">&quot;dist_&quot;</span> <span class="o">+</span> <span class="n">dist_party</span><span class="p">)]</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">party_dist_df</span><span class="p">[</span><span class="n">party</span><span class="p">]</span><span class="o">-</span><span class="n">party_dist_df</span><span class="p">[</span><span class="n">dist_party</span><span class="p">])</span>
     <span class="n">distances</span><span class="p">[</span><span class="n">party</span><span class="p">]</span> <span class="o">=</span> <span class="n">party_dist_df</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="n">deep</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>

@@ -304,7 +304,7 @@ def political_heatmap(vdf,plist,title):
 l13_parties = ['BE', 'PCP' ,'PEV', 'PS', 'PAN', 'PSD','CDS-PP']
 l14_parties = ['BE', 'PCP', 'L', 'PS', 'PAN','PSD','IL', 'CH']
 l15_parties = ['BE', 'PCP', 'L', 'PS', 'PAN','PSD','IL', 'CH']
-l14_parties = ['BE', 'PCP', 'PEV', 'L/JKM', 'PS', 'PAN','PAN/CR','PSD','IL','CDS-PP', 'CH']
+l14_parties = ['BE', 'PCP', 'PEV', 'L', 'PS', 'PAN','PAN/CR','PSD','IL','CDS-PP', 'CH']
 
 
 # In[8]:
@@ -423,6 +423,8 @@ max_date=max(submissions_ini["data"])
 # Um próximo passo poderá ser a criação de análises por legislatura.
 # ```
 # No caso dos deputados únicos, os votos do Livre incluem os da deputada Joacine Kata Moreira.
+# 
+# São contabilizados apenas os votos
 
 # ```{margin} Estatísticas base
 # Os dados essenciais dos ficheiro XML importado são os seguintes:
@@ -468,7 +470,10 @@ display(Markdown("*Data limite superior:* {}".format(datetime.date(max_date))))
 # In[15]:
 
 
-submissions_ini_hm = submissions_ini.replace(["A Favor", "Contra", "Abstenção", "Ausência"], [1,-1,0,0]).fillna(0)
+#submissions_ini_hm = submissions_ini[submissions_ini != "Ausência"]
+submissions_ini_hm = submissions_ini.replace(["A Favor", "Contra", "Abstenção", "Ausência"], [1,-1,0,0])
+#df = df[df.line_race != 0]
+#submissions_ini_hm["resultado"].unique()
 
 
 # In[16]:
@@ -491,7 +496,7 @@ for party in parties:
     subp = subp[parties]
     #fig = plt.figure()
     subp = subp.drop(party, axis=1)
-    ax = subp.resample("1W").sum().cumsum().plot(kind="line", title=party, figsize=(15,5))
+    ax = subp.resample("1M").sum().cumsum().plot(kind="line", title=party, figsize=(15,5))
     
     for line, name in zip(ax.lines, subp.columns):
         y = line.get_ydata()[-1]
@@ -543,6 +548,8 @@ l15_votes_hm["data"]=l15_votes["data"]
 
 all_votes_hm = pd.concat([l14_votes_hm, l15_votes_hm], axis=0)
 all_votes_hm["data"]
+#l14af["iniAutorGruposParlamentares"]  = l14af["iniAutorGruposParlamentares"].replace("JOACINE KATAR MOREIRA", "L")
+all_votes_hm
 
 
 # In[19]:
@@ -557,12 +564,14 @@ l13_max_date
 # In[20]:
 
 
-all_votes_hmn = all_votes_hm.replace(["A Favor", "Contra", "Abstenção", "Ausência"], [1,-1,0,0]).fillna(0)
+
+#all_votes_hm = all_votes_hm[all_votes_hm != "Ausência"]
+all_votes_hmn = all_votes_hm.replace(["A Favor", "Contra", "Abstenção", "Ausência"], [1,-1,0,0])
 all_votes_hmn['data'] = pd.to_datetime(all_votes_hmn['data'])
 all_votes_hmn.sort_values(by='data', inplace = True) 
 all_ts =all_votes_hmn.set_index("data")
 all_parties = ['BE', 'PCP', 'L', 'PS', 'PAN', 'PSD', 'IL', 'CH']
-all_ts
+
 #all_votes_hmn['data']
 
 
@@ -573,7 +582,7 @@ distances = {}
 
 for party in all_parties:
     party_dist_df = all_ts
-
+    party_dist_df = party_dist_df
     for dist_party in all_parties:
         party_dist_df[str("dist_" + dist_party)] = abs(party_dist_df[party]-party_dist_df[dist_party])
     distances[party] = party_dist_df.copy(deep=True)
