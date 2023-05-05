@@ -17,51 +17,64 @@ Traceback (most recent call last):
     raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
 nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
 ------------------
-submissions_ini_hm = submissions_ini[submissions_ini != "Ausência"]
-submissions_ini_hm = submissions_ini.replace(["A Favor", "Contra", "Abstenção", "Ausência"], [1,-1,0,0])
-#df = df[df.line_race != 0]
-submissions_ini_hm["resultado"].unique()
+parties = ['BE', 'PCP', 'L', 'PS', 'PAN','PSD','IL','CH' ]
+gpsubs= submissions_ini_hm.copy(deep=True)
+
+#gpsubs = submissions_ini_hm
+for party in parties:
+    subp = gpsubs[gpsubs['GP'] == party]
+    result_dummies = pd.get_dummies(subp["resultado"])
+    result_dummies.columns = ['Aprovado','Rejeitado']
+    subp = pd.concat([subp, result_dummies], axis=1)
+    subp = subp[["Aprovado", "Rejeitado"]]
+    ax = subp.resample("1M").sum().plot(kind="area", stacked=False, title=party, figsize=(15,5))
+    ax.set_ylim([0, 25])
+    plt.legend(loc='lower left')
+    plt.axvline(pd.to_datetime('2021-11-26'), color='g', linestyle='--', lw=1)
+    plt.axvline(pd.to_datetime('2022-03-29'), color='r', linestyle='--', lw=2)
+    plt.show()
+    #display(subp.resample("1M").sum().cumsum())
 ------------------
 
 [0;31m---------------------------------------------------------------------------[0m
-[0;31mKeyError[0m                                  Traceback (most recent call last)
-[0;32m~/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py[0m in [0;36mget_loc[0;34m(self, key, method, tolerance)[0m
-[1;32m   3360[0m             [0;32mtry[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-[0;32m-> 3361[0;31m                 [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_engine[0m[0;34m.[0m[0mget_loc[0m[0;34m([0m[0mcasted_key[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[0m[1;32m   3362[0m             [0;32mexcept[0m [0mKeyError[0m [0;32mas[0m [0merr[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;31mValueError[0m                                Traceback (most recent call last)
+[0;32m/tmp/ipykernel_239874/1025337943.py[0m in [0;36m<module>[0;34m[0m
+[1;32m      6[0m     [0msubp[0m [0;34m=[0m [0mgpsubs[0m[0;34m[[0m[0mgpsubs[0m[0;34m[[0m[0;34m'GP'[0m[0;34m][0m [0;34m==[0m [0mparty[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
+[1;32m      7[0m     [0mresult_dummies[0m [0;34m=[0m [0mpd[0m[0;34m.[0m[0mget_dummies[0m[0;34m([0m[0msubp[0m[0;34m[[0m[0;34m"resultado"[0m[0;34m][0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m----> 8[0;31m     [0mresult_dummies[0m[0;34m.[0m[0mcolumns[0m [0;34m=[0m [0;34m[[0m[0;34m'Aprovado'[0m[0;34m,[0m[0;34m'Rejeitado'[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m      9[0m     [0msubp[0m [0;34m=[0m [0mpd[0m[0;34m.[0m[0mconcat[0m[0;34m([0m[0;34m[[0m[0msubp[0m[0;34m,[0m [0mresult_dummies[0m[0;34m][0m[0;34m,[0m [0maxis[0m[0;34m=[0m[0;36m1[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     10[0m     [0msubp[0m [0;34m=[0m [0msubp[0m[0;34m[[0m[0;34m[[0m[0;34m"Aprovado"[0m[0;34m,[0m [0;34m"Rejeitado"[0m[0;34m][0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
 
-[0;32m~/.local/lib/python3.8/site-packages/pandas/_libs/index.pyx[0m in [0;36mpandas._libs.index.IndexEngine.get_loc[0;34m()[0m
+[0;32m~/.local/lib/python3.8/site-packages/pandas/core/generic.py[0m in [0;36m__setattr__[0;34m(self, name, value)[0m
+[1;32m   5498[0m         [0;32mtry[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   5499[0m             [0mobject[0m[0;34m.[0m[0m__getattribute__[0m[0;34m([0m[0mself[0m[0;34m,[0m [0mname[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m-> 5500[0;31m             [0;32mreturn[0m [0mobject[0m[0;34m.[0m[0m__setattr__[0m[0;34m([0m[0mself[0m[0;34m,[0m [0mname[0m[0;34m,[0m [0mvalue[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   5501[0m         [0;32mexcept[0m [0mAttributeError[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   5502[0m             [0;32mpass[0m[0;34m[0m[0;34m[0m[0m
 
-[0;32m~/.local/lib/python3.8/site-packages/pandas/_libs/index.pyx[0m in [0;36mpandas._libs.index.IndexEngine.get_loc[0;34m()[0m
+[0;32m~/.local/lib/python3.8/site-packages/pandas/_libs/properties.pyx[0m in [0;36mpandas._libs.properties.AxisProperty.__set__[0;34m()[0m
 
-[0;32mpandas/_libs/hashtable_class_helper.pxi[0m in [0;36mpandas._libs.hashtable.PyObjectHashTable.get_item[0;34m()[0m
+[0;32m~/.local/lib/python3.8/site-packages/pandas/core/generic.py[0m in [0;36m_set_axis[0;34m(self, axis, labels)[0m
+[1;32m    764[0m     [0;32mdef[0m [0m_set_axis[0m[0;34m([0m[0mself[0m[0;34m,[0m [0maxis[0m[0;34m:[0m [0mint[0m[0;34m,[0m [0mlabels[0m[0;34m:[0m [0mIndex[0m[0;34m)[0m [0;34m->[0m [0;32mNone[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    765[0m         [0mlabels[0m [0;34m=[0m [0mensure_index[0m[0;34m([0m[0mlabels[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 766[0;31m         [0mself[0m[0;34m.[0m[0m_mgr[0m[0;34m.[0m[0mset_axis[0m[0;34m([0m[0maxis[0m[0;34m,[0m [0mlabels[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    767[0m         [0mself[0m[0;34m.[0m[0m_clear_item_cache[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    768[0m [0;34m[0m[0m
 
-[0;32mpandas/_libs/hashtable_class_helper.pxi[0m in [0;36mpandas._libs.hashtable.PyObjectHashTable.get_item[0;34m()[0m
+[0;32m~/.local/lib/python3.8/site-packages/pandas/core/internals/managers.py[0m in [0;36mset_axis[0;34m(self, axis, new_labels)[0m
+[1;32m    214[0m     [0;32mdef[0m [0mset_axis[0m[0;34m([0m[0mself[0m[0;34m,[0m [0maxis[0m[0;34m:[0m [0mint[0m[0;34m,[0m [0mnew_labels[0m[0;34m:[0m [0mIndex[0m[0;34m)[0m [0;34m->[0m [0;32mNone[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    215[0m         [0;31m# Caller is responsible for ensuring we have an Index object.[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 216[0;31m         [0mself[0m[0;34m.[0m[0m_validate_set_axis[0m[0;34m([0m[0maxis[0m[0;34m,[0m [0mnew_labels[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    217[0m         [0mself[0m[0;34m.[0m[0maxes[0m[0;34m[[0m[0maxis[0m[0;34m][0m [0;34m=[0m [0mnew_labels[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    218[0m [0;34m[0m[0m
 
-[0;31mKeyError[0m: 'resultado'
+[0;32m~/.local/lib/python3.8/site-packages/pandas/core/internals/base.py[0m in [0;36m_validate_set_axis[0;34m(self, axis, new_labels)[0m
+[1;32m     55[0m [0;34m[0m[0m
+[1;32m     56[0m         [0;32melif[0m [0mnew_len[0m [0;34m!=[0m [0mold_len[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 57[0;31m             raise ValueError(
+[0m[1;32m     58[0m                 [0;34mf"Length mismatch: Expected axis has {old_len} elements, new "[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     59[0m                 [0;34mf"values have {new_len} elements"[0m[0;34m[0m[0;34m[0m[0m
 
-The above exception was the direct cause of the following exception:
-
-[0;31mKeyError[0m                                  Traceback (most recent call last)
-[0;32m/tmp/ipykernel_213290/3682240672.py[0m in [0;36m<module>[0;34m[0m
-[1;32m      2[0m [0msubmissions_ini_hm[0m [0;34m=[0m [0msubmissions_ini[0m[0;34m.[0m[0mreplace[0m[0;34m([0m[0;34m[[0m[0;34m"A Favor"[0m[0;34m,[0m [0;34m"Contra"[0m[0;34m,[0m [0;34m"Abstenção"[0m[0;34m,[0m [0;34m"Ausência"[0m[0;34m][0m[0;34m,[0m [0;34m[[0m[0;36m1[0m[0;34m,[0m[0;34m-[0m[0;36m1[0m[0;34m,[0m[0;36m0[0m[0;34m,[0m[0;36m0[0m[0;34m][0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[1;32m      3[0m [0;31m#df = df[df.line_race != 0][0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
-[0;32m----> 4[0;31m [0msubmissions_ini_hm[0m[0;34m[[0m[0;34m"resultado"[0m[0;34m][0m[0;34m.[0m[0munique[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[0m
-[0;32m~/.local/lib/python3.8/site-packages/pandas/core/frame.py[0m in [0;36m__getitem__[0;34m(self, key)[0m
-[1;32m   3456[0m             [0;32mif[0m [0mself[0m[0;34m.[0m[0mcolumns[0m[0;34m.[0m[0mnlevels[0m [0;34m>[0m [0;36m1[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-[1;32m   3457[0m                 [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_getitem_multilevel[0m[0;34m([0m[0mkey[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[0;32m-> 3458[0;31m             [0mindexer[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0mcolumns[0m[0;34m.[0m[0mget_loc[0m[0;34m([0m[0mkey[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[0m[1;32m   3459[0m             [0;32mif[0m [0mis_integer[0m[0;34m([0m[0mindexer[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-[1;32m   3460[0m                 [0mindexer[0m [0;34m=[0m [0;34m[[0m[0mindexer[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
-
-[0;32m~/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py[0m in [0;36mget_loc[0;34m(self, key, method, tolerance)[0m
-[1;32m   3361[0m                 [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_engine[0m[0;34m.[0m[0mget_loc[0m[0;34m([0m[0mcasted_key[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[1;32m   3362[0m             [0;32mexcept[0m [0mKeyError[0m [0;32mas[0m [0merr[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-[0;32m-> 3363[0;31m                 [0;32mraise[0m [0mKeyError[0m[0;34m([0m[0mkey[0m[0;34m)[0m [0;32mfrom[0m [0merr[0m[0;34m[0m[0;34m[0m[0m
-[0m[1;32m   3364[0m [0;34m[0m[0m
-[1;32m   3365[0m         [0;32mif[0m [0mis_scalar[0m[0;34m([0m[0mkey[0m[0;34m)[0m [0;32mand[0m [0misna[0m[0;34m([0m[0mkey[0m[0;34m)[0m [0;32mand[0m [0;32mnot[0m [0mself[0m[0;34m.[0m[0mhasnans[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-
-[0;31mKeyError[0m: 'resultado'
-KeyError: 'resultado'
+[0;31mValueError[0m: Length mismatch: Expected axis has 3 elements, new values have 2 elements
+ValueError: Length mismatch: Expected axis has 3 elements, new values have 2 elements
 

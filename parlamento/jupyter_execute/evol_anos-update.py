@@ -481,7 +481,6 @@ submissions_ini_hm = submissions_ini.replace(["A Favor", "Contra", "Abstenção"
 
 
 submissions_ini_hm =submissions_ini_hm.set_index("data")
-submissions_ini_hm
 
 
 # In[17]:
@@ -634,21 +633,22 @@ all_subs_hm = pd.concat([l14af, l15af], axis=0)
 df=all_subs_hm
 submissions_ini = df[mycol]
 submissions_ini['data'] = pd.to_datetime(submissions_ini['data'])
-
+#submissions_ini.sort_values(by='data', inplace = True) 
+submissions_ini = submissions_ini.set_index("data")
 submissions_ini
 
 
 # In[24]:
 
 
+submissions_ini = submissions_ini[submissions_ini["resultado"].isin(["Aprovado", "Rejeitado"])]
+
 submissions_ini_hm = submissions_ini.replace(["A Favor", "Contra", "Abstenção", "Ausência"], [1,-1,0,0]).fillna(0)
 #submissions_ini_hm = pd.melt(submissions_ini_hm,id_vars=value_vars=["resultado"])
 
-submissions_ini = submissions_ini[submissions_ini["resultado"].isin(["Aprovado", "Rejeitado"])]
                                                                               
-submissions_ini_hm = submissions_ini.replace(["Aprovado", "Rejeitado"], [1,0]).fillna(0)
-
-submissions_ini_hm =submissions_ini_hm.set_index("data")
+#submissions_ini_hm = submissions_ini.replace(["Aprovado", "Rejeitado"], [1,0])
+#submissions_ini_hm =submissions_ini_hm.set_index("data")
 submissions_ini_hm 
 
 
@@ -656,26 +656,20 @@ submissions_ini_hm
 
 
 parties = ['BE', 'PCP', 'L', 'PS', 'PAN','PSD','IL','CH' ]
-gpsubs = submissions_ini_hm
+gpsubs= submissions_ini_hm.copy(deep=True)
+
+#gpsubs = submissions_ini_hm
 for party in parties:
     subp = gpsubs[gpsubs['GP'] == party]
     result_dummies = pd.get_dummies(subp["resultado"])
     result_dummies.columns = ['Aprovado','Rejeitado']
     subp = pd.concat([subp, result_dummies], axis=1)
-    subp.drop("resultado", axis=1, inplace=True)
-    #fig = plt.figure()
+    subp = subp[["Aprovado", "Rejeitado"]]
     ax = subp.resample("1M").sum().plot(kind="area", stacked=False, title=party, figsize=(15,5))
     ax.set_ylim([0, 25])
-
     plt.legend(loc='lower left')
     plt.axvline(pd.to_datetime('2021-11-26'), color='g', linestyle='--', lw=1)
     plt.axvline(pd.to_datetime('2022-03-29'), color='r', linestyle='--', lw=2)
     plt.show()
     #display(subp.resample("1M").sum().cumsum())
-
-
-# In[ ]:
-
-
-
 
