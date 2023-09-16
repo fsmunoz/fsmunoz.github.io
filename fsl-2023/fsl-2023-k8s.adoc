@@ -25,12 +25,19 @@ image::https://avatars0.githubusercontent.com/u/285727?s=460&v=4[width="150", bo
 * Kubernetes 1.29 Release Team - Release Notes Lead
 * Kubernetes 1.25-1.29 Releate Team Member
 
-Mastodon: https://mastodon.sdf.org/@fsm
+[.small]
+icon:globe[] https://interlaye.red
 
+[.small]
+icon:mastodon[] https://mastodon.sdf.org/@fsm
+
+[.small]
 icon:envelope-o[] <frederico.munoz@sas.com>
 
+[.small]
 icon:linkedin[] https://www.linkedin.com/in/fsmunoz/
 
+[.small]
 icon:github[] https://github.com/fsmunoz
 
 == Agenda
@@ -81,9 +88,15 @@ https://en.wikipedia.org/wiki/History_of_cloud_computing
 [background-iframe=https://en.wikipedia.org/wiki/History_of_cloud_computing]
 == !
 
-[background-iframe=https://www.dataversity.net/brief-history-cloud-computing/]
-== !
 
+
+== Containers
+
+* VM/CMS
+* chroot
+* jails
+* Solaris containers
+* ...
 
 == Containers
 [.reference]
@@ -91,7 +104,6 @@ https://www.businesswire.com/news/home/20140311005474/en/Docker-Announces-First-
 
 [background-iframe="https://web.archive.org/web/20220221140942/https://www.businesswire.com/news/home/20140311005474/en/Docker-Announces-First-Annual-Conference-and-Opening-of-Call-for-Papers"]
 == !
-
 
 == Agile development
 [.reference]
@@ -109,39 +121,75 @@ https://www.12factor.net/
 [background-iframe="https://web.archive.org/web/20230906230817/https://www.12factor.net/"]
 == !
 
-== Kubernetes history and role
 
-[background-iframe=https://queue.acm.org/detail.cfm?id=2898444]
+== Other beginnings
+
+* Nebula
+* OpenStack
+* Heroku
+
+[background-iframe=https://web.archive.org/web/20230402063945/https://www.opennasa.org/nebula-nasa-and-openstack.html]
 == !
 
-== What does that server really serve?
+== Who does that server really serve?
 [.reference]
-https://www.bostonreview.net/articles/what-does-that-server-really-serve/
+http://www.gnu.org/philosophy/who-does-that-server-really-serve.html
 
-[background-iframe=https://web.archive.org/web/20230901014517/https://www.bostonreview.net/articles/what-does-that-server-really-serve/]
+[background-iframe=https://web.archive.org/web/20230912141135/http://www.gnu.org/philosophy/who-does-that-server-really-serve.html]
 == !
 
+== Open Source "gets pragmatic"
+[.reference]
+https://www.cnet.com/tech/tech-industry/open-source-gets-pragmatic/
 
-== Adoption and the fight against "lunatics"
+[background-iframe=https://web.archive.org/web/20230817220325/https://www.cnet.com/tech/tech-industry/open-source-gets-pragmatic/]
+== !
+
+== Adoption
+
+High stakes, and the fight against "free software cult"
+
 [.reference]
 https://thenewstack.io/for-better-or-worse-richard-stallman-returns-to-the-free-software-foundation/
 
 [background-iframe=https://web.archive.org/web/20230606202455/https://thenewstack.io/for-better-or-worse-richard-stallman-returns-to-the-free-software-foundation/]
 == !
 
-== Open Source "gets pragmatic"
-[.reference]
-https://www.cnet.com/tech/tech-industry/open-source-gets-pragmatic/
-[background-iframe=https://web.archive.org/web/20230817220325/https://www.cnet.com/tech/tech-industry/open-source-gets-pragmatic/]
+
+== Kubernetes history and role
+
+[background-iframe=https://queue.acm.org/detail.cfm?id=2898444]
 == !
 
+== Popularity, money, and infighting
 
-== Cloud providers and the open-source community
+== !
+
+MongoDB licence change.
+
+[background-iframe=https://en.wikipedia.org/wiki/Server_Side_Public_License]
+== !
+
+== !
+
+(and now HashiCorp's BSL)
+
+[background-iframe=https://web.archive.org/web/20230823212234/https://www.infoq.com/news/2023/08/hashicorp-adopts-bsl/]
+== !
+
+== !
+
+Cloud providers, cloud-native development, containers, licensing, and the
+open-source community.
 
 [background-iframe=Cloud_Native_Development_Containers_and_Open_Sourc.pdf]
 == !
 
+
 == CNCF
+
+The Cloud Native Computing Foundation
+
 [.reference]
 https://www.cncf.io
 
@@ -156,7 +204,6 @@ https://www.cncf.io/about/members
 [background-iframe="https://www.cncf.io/about/members/"]
 == !
 
-
 == CNCF landscape
 [.reference]
 https://landscape.cncf.io/
@@ -164,7 +211,7 @@ https://landscape.cncf.io/
 [background-iframe=https://landscape.cncf.io/]
 == !
 
-== Contributions
+== Kubernetes: a big community effort
 
 == !
 
@@ -174,13 +221,19 @@ Cloud Native Computing Foundation’s first hosted project in March
 Linux and is the primary container orchestration tool for 71% of
 Fortune 100 companies"
 
-
 == Devstats
+
+Measure contributions
+
 https://devstats.cncf.io/
 
 [background-iframe=https://devstats.cncf.io/]
 == !
+
 == How to get involved?
+
+We have good guidance on how to start - all types of contributions
+welcomed!
 
 [background-iframe="https://www.kubernetes.dev/welcome"]
 == !
@@ -188,6 +241,10 @@ https://devstats.cncf.io/
 [background-iframe="https://www.kubernetes.dev/docs/guide/"]
 == !
 
+
+== !
+
+Join in - it's free software after all!
 
 == Thank you
 
