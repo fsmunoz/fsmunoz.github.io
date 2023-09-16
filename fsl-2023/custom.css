@@ -1,0 +1,25 @@
+.reveal .author p  {
+  white-space: pre;
+  font-size: 2rem;
+  //line-height: 1.2em;
+  vertical-align: bottom;
+  font-weight: normal;
+  //text-align: left;
+  /*      t  r b l */
+}
+
+.reveal .location p  {
+  white-space: pre;
+  font-size: 2rem;
+  //line-height: 1.2em;
+  vertical-align: bottom;
+  font-weight: bold;
+  //text-align: left;
+  /*      t  r b l */
+}
+
+.reference p {
+  font-size: 1rem;
+  vertical-align: bottom;
+  margin-bottom: 1rem;
+}

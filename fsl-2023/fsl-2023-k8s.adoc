@@ -1,0 +1,194 @@
+:customcss: sas.css
+= Kubernetes, Cloud Native, Software Livre
+:date: 22-6-2022
+:revealjs_theme: simple
+:customcss: custom.css
+:slide-background-video: ../videos/stars.webm
+:_title-slide-background-image: cover_bg.png
+:icons: font
+:email: <frederico.munoz@sas.com>
+:author: Frederico Muñoz
+:company: SAS Institute
+:revealjs_preloadIframes: true
+
+
+[.location]
+Festa do Software Livre | Set 2023
+
+[.big]
+== Hello
+
+== !
+image::https://avatars0.githubusercontent.com/u/285727?s=460&v=4[width="150", border="0"]
+
+* Cloud & Architecture Lead, Europe, SAS Institute
+* Kubernetes 1.29 Release Team - Release Notes Lead
+* Kubernetes 1.25-1.29 Releate Team Member
+
+Mastodon: https://mastodon.sdf.org/@fsm
+
+icon:envelope-o[] <frederico.munoz@sas.com>
+
+icon:linkedin[] https://www.linkedin.com/in/fsmunoz/
+
+icon:github[] https://github.com/fsmunoz
+
+== Agenda
+
+* Intro
+* Definitions
+* Free software timeline
+* Cloud computing timeline
+* Wide adoption and impact
+* The CNCF: what it is, members, landscape
+* Kubernetes project: how to get involved
+
+
+== Cloud computing
+
+[background-iframe=https://en.wikipedia.org/wiki/Cloud_computing]
+== !
+
+== Cloud native
+
+[background-iframe=https://en.wikipedia.org/wiki/Cloud-native_computing]
+== !
+
+== Free Software timeline
+
+[background-image=https://www.gnu.org/graphics/RMS.jpeg]
+== GNU Project and the FSF
+
+[background-image=https://www.itsfoss.net/wp-content/uploads/2021/08/lt-1.jpg]
+== Linus and the Linux kernel
+
+[background-iframe=https://en.wikipedia.org/wiki/Timeline_of_free_and_open-source_software]
+== !
+
+== First mention of cloud computing
+
+[.quote]
+"The beauty of Telescript," says Andy, "is that now, instead
+of just having a device to program, we now have the entire Cloud out
+there, where a single program can go and travel to many different
+sources of information and create a sort of a virtual service."
+
+[.reference]
+https://en.wikipedia.org/wiki/History_of_cloud_computing
+
+== Cloud computing timeline
+
+[background-iframe=https://en.wikipedia.org/wiki/History_of_cloud_computing]
+== !
+
+[background-iframe=https://www.dataversity.net/brief-history-cloud-computing/]
+== !
+
+
+== Containers
+[.reference]
+https://www.businesswire.com/news/home/20140311005474/en/Docker-Announces-First-Annual-Conference-and-Opening-of-Call-for-Papers
+
+[background-iframe="https://web.archive.org/web/20220221140942/https://www.businesswire.com/news/home/20140311005474/en/Docker-Announces-First-Annual-Conference-and-Opening-of-Call-for-Papers"]
+== !
+
+
+== Agile development
+[.reference]
+http://www.halfarsedagilemanifesto.org/
+
+[background-iframe=https://web.archive.org/web/20230901134142/http://www.halfarsedagilemanifesto.org/]
+== !
+
+
+== The Twelve-Factor App
+
+[.reference]
+https://www.12factor.net/
+
+[background-iframe="https://web.archive.org/web/20230906230817/https://www.12factor.net/"]
+== !
+
+== Kubernetes history and role
+
+[background-iframe=https://queue.acm.org/detail.cfm?id=2898444]
+== !
+
+== What does that server really serve?
+[.reference]
+https://www.bostonreview.net/articles/what-does-that-server-really-serve/
+
+[background-iframe=https://web.archive.org/web/20230901014517/https://www.bostonreview.net/articles/what-does-that-server-really-serve/]
+== !
+
+
+== Adoption and the fight against "lunatics"
+[.reference]
+https://thenewstack.io/for-better-or-worse-richard-stallman-returns-to-the-free-software-foundation/
+
+[background-iframe=https://web.archive.org/web/20230606202455/https://thenewstack.io/for-better-or-worse-richard-stallman-returns-to-the-free-software-foundation/]
+== !
+
+== Open Source "gets pragmatic"
+[.reference]
+https://www.cnet.com/tech/tech-industry/open-source-gets-pragmatic/
+[background-iframe=https://web.archive.org/web/20230817220325/https://www.cnet.com/tech/tech-industry/open-source-gets-pragmatic/]
+== !
+
+
+== Cloud providers and the open-source community
+
+[background-iframe=Cloud_Native_Development_Containers_and_Open_Sourc.pdf]
+== !
+
+== CNCF
+[.reference]
+https://www.cncf.io
+
+[background-iframe="https://www.cncf.io"]
+== !
+
+== CNCF members
+
+[.reference]
+https://www.cncf.io/about/members
+
+[background-iframe="https://www.cncf.io/about/members/"]
+== !
+
+
+== CNCF landscape
+[.reference]
+https://landscape.cncf.io/
+
+[background-iframe=https://landscape.cncf.io/]
+== !
+
+== Contributions
+
+== !
+
+"Initially created by Google engineers in 2014, it became the
+Cloud Native Computing Foundation’s first hosted project in March
+2016. It is the second largest open source project in the world after
+Linux and is the primary container orchestration tool for 71% of
+Fortune 100 companies"
+
+
+== Devstats
+https://devstats.cncf.io/
+
+[background-iframe=https://devstats.cncf.io/]
+== !
+== How to get involved?
+
+[background-iframe="https://www.kubernetes.dev/welcome"]
+== !
+
+[background-iframe="https://www.kubernetes.dev/docs/guide/"]
+== !
+
+
+== Thank you
+
+(any questions highly appreciated!)
