@@ -1,29 +1,28 @@
 :customcss: sas.css
-= Kubernetes, Cloud Native, Software Livre
+= Kubernetes, Cloud Native, Free Software
 :date: 22-6-2022
 :revealjs_theme: simple
 :customcss: custom.css
-:slide-background-video: ../videos/stars.webm
-:_title-slide-background-image: cover_bg.png
+:title-slide-background-image: cover_bg.png
 :icons: font
 :email: <frederico.munoz@sas.com>
 :author: Frederico Muñoz
 :company: SAS Institute
 :revealjs_preloadIframes: true
+:revealjs_viewDistance: 6
 
 
 [.location]
 Festa do Software Livre | Set 2023
 
-[.big]
 == Hello
 
 == !
 image::https://avatars0.githubusercontent.com/u/285727?s=460&v=4[width="150", border="0"]
 
-* Cloud & Architecture Lead, Europe, SAS Institute
+* Cloud & Architecture Lead, SWEE Europe, https://www.sas.com/[SAS]
 * Kubernetes 1.29 Release Team - Release Notes Lead
-* Kubernetes 1.25-1.29 Releate Team Member
+* Kubernetes 1.25-1.29 Release Team Member
 
 [.small]
 icon:globe[] https://interlaye.red
@@ -51,23 +50,65 @@ icon:github[] https://github.com/fsmunoz
 * Kubernetes project: how to get involved
 
 
-== Cloud computing
+
+== Definitions
+
+[%auto-animate]
+== !
+
+Cloud
+
+[%auto-animate]
+== !
+Cloud
+
+computing
 
 [background-iframe=https://en.wikipedia.org/wiki/Cloud_computing]
 == !
 
-== Cloud native
+[%auto-animate]
+== !
+
+Cloud
+
+[%auto-animate]
+== !
+
+Cloud
+
+native
 
 [background-iframe=https://en.wikipedia.org/wiki/Cloud-native_computing]
 == !
 
+== Timelines
+
+[%auto-animate]
+== !
+
+Looking back,
+
+[%auto-animate]
+== !
+
+Looking back,
+
+to understand where we are.
+
 == Free Software timeline
 
 [background-image=https://www.gnu.org/graphics/RMS.jpeg]
-== GNU Project and the FSF
+== !
+[.white]
+[.big]
+GNU Project and the FSF
 
 [background-image=https://www.itsfoss.net/wp-content/uploads/2021/08/lt-1.jpg]
-== Linus and the Linux kernel
+== !
+
+[.big]
+Linus and the Linux kernel
 
 [background-iframe=https://en.wikipedia.org/wiki/Timeline_of_free_and_open-source_software]
 == !
@@ -75,10 +116,13 @@ icon:github[] https://github.com/fsmunoz
 == First mention of cloud computing
 
 [.quote]
-"The beauty of Telescript," says Andy, "is that now, instead
+
+"The beauty of Telescript ...  is that now, instead
 of just having a device to program, we now have the entire Cloud out
 there, where a single program can go and travel to many different
 sources of information and create a sort of a virtual service."
+
+-- Andy Hertzfeld, Wired.
 
 [.reference]
 https://en.wikipedia.org/wiki/History_of_cloud_computing
@@ -89,16 +133,59 @@ https://en.wikipedia.org/wiki/History_of_cloud_computing
 == !
 
 
-
 == Containers
 
+== !
+New technology?
+
+image::https://dl.acm.org/cms/attachment/f4e127d3-b458-46a8-bc7f-a3e7e73b46a2/csur5301-05-f01.jpg[width=100%]
+
+[.reference]
+https://dl.acm.org/doi/fullHtml/10.1145/3365199
+
+== !
+
+"The origins of both virtual machines and containers can be traced to
+a fundamental shift in hardware and software architectures toward the
+late 1950s. The hardware of the time introduced the concept of
+multiprogramming, which included both basic multitasking in the form
+of simple context-switching and basic multiprocessing in the form of
+dedicated I/O processors and multiple CPUs"
+
+-- Allison Randal, "The Ideal Versus the Real: Revisiting the History
+   of Virtual Machines and Containers"
+
+
+
+[background-iframe=https://web.archive.org/web/20230310050241/https://dl.acm.org/doi/fullHtml/10.1145/3365199]
+== !
+
+== !
+
+[.highlight-current-red%step]
 * VM/CMS
 * chroot
 * jails
 * Solaris containers
 * ...
 
-== Containers
+[%auto-animate]
+== !
+
+The important of
+
+Containers
+
+[%auto-animate]
+== !
+The important of
+
+Containers
+
+and specifically
+
+**Docker**
+
 [.reference]
 https://www.businesswire.com/news/home/20140311005474/en/Docker-Announces-First-Annual-Conference-and-Opening-of-Call-for-Papers
 
@@ -106,12 +193,21 @@ https://www.businesswire.com/news/home/20140311005474/en/Docker-Announces-First-
 == !
 
 == Agile development
+
+Feedback loops, and the benefits of on-demand.
+
 [.reference]
 http://www.halfarsedagilemanifesto.org/
 
-[background-iframe=https://web.archive.org/web/20230901134142/http://www.halfarsedagilemanifesto.org/]
+[background-iframe=https://agilemanifesto.org/]
 == !
 
+== !
+
+(actual application might vary)
+
+[background-iframe=https://web.archive.org/web/20230901134142/http://www.halfarsedagilemanifesto.org/]
+== !
 
 == The Twelve-Factor App
 
@@ -122,6 +218,22 @@ https://www.12factor.net/
 == !
 
 
+== DevOps
+
+[%auto-animate]
+== !
+Combining _software development_
+
+[%auto-animate]
+== !
+
+Combining _software development_
+
+with _deployment and operations_.
+
+[background-iframe=https://en.wikipedia.org/wiki/DevOps]
+== !
+
 == Other beginnings
 
 * Nebula
@@ -130,6 +242,23 @@ https://www.12factor.net/
 
 [background-iframe=https://web.archive.org/web/20230402063945/https://www.opennasa.org/nebula-nasa-and-openstack.html]
 == !
+
+
+== It's a cloud world
+
+
+[%auto-animate]
+== !
+
+Where do we stand?
+
+
+[%auto-animate]
+== !
+
+Where do we stand?
+
+Some different perspectives
 
 == Who does that server really serve?
 [.reference]
@@ -147,7 +276,15 @@ https://www.cnet.com/tech/tech-industry/open-source-gets-pragmatic/
 
 == Adoption
 
-High stakes, and the fight against "free software cult"
+[%auto-animate]
+== !
+High stakes
+
+[%auto-animate]
+== !
+High stakes
+
+and the fight against "free software cult"
 
 [.reference]
 https://thenewstack.io/for-better-or-worse-richard-stallman-returns-to-the-free-software-foundation/
@@ -155,6 +292,8 @@ https://thenewstack.io/for-better-or-worse-richard-stallman-returns-to-the-free-
 [background-iframe=https://web.archive.org/web/20230606202455/https://thenewstack.io/for-better-or-worse-richard-stallman-returns-to-the-free-software-foundation/]
 == !
 
+
+== The importance of orchestration
 
 == Kubernetes history and role
 
@@ -185,6 +324,7 @@ open-source community.
 [background-iframe=Cloud_Native_Development_Containers_and_Open_Sourc.pdf]
 == !
 
+== Cloud native community
 
 == CNCF
 
@@ -249,3 +389,6 @@ Join in - it's free software after all!
 == Thank you
 
 (any questions highly appreciated!)
+
+[.reference]
+Parts of the content in this presentation use the https://archive.org/web/[Internet Archive Wayback Machine]

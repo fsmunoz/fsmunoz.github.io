@@ -29,3 +29,11 @@
   vertical-align: bottom;
   margin-bottom: 1rem;
 }
+
+.white p {
+  color: white;
+}
+
+.big p {
+  font-size: 4rem;
+}
