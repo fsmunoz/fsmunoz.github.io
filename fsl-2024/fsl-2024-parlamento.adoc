@@ -1,0 +1,495 @@
+= Análise da atividade parlamentar: software livre, dados abertos e cidadania
+:date: 12-10-2024
+:revealjs_theme: simple
+:customcss: custom.css
+:title-slide-background-image: cover_bg.png
+:icons: font
+:email: <frederico.munoz@sas.com>
+:author: Frederico Muñoz
+:company: SAS Institute
+:revealjs_preloadIframes: true
+:revealjs_viewDistance: 6
+
+
+[.location]
+Festa do Software Livre | Outubro 2024
+
+[%auto-animate]
+== !
+
+image::https://avatars0.githubusercontent.com/u/285727?s=460&v=4[width="150", border="0"]
+
+* Cloud & Architecture Lead, SWEE Europe, https://www.sas.com/[SAS]
+* Kubernetes 1.32 Release Team Lead
+* Kubernetes 1.25-1.31 Release Team Member
+* CNCF Ambassador
+
+[%auto-animate]
+== !
+
+image::https://avatars0.githubusercontent.com/u/285727?s=460&v=4[width="150", border="0"]
+
+[.small]
+icon:globe[] https://interlaye.red
+[.small]
+icon:mastodon[] https://mastodon.sdf.org/@fsm
+[.small]
+icon:envelope-o[] <frederico.munoz@sas.com>
+[.small]
+icon:linkedin[] https://www.linkedin.com/in/fsmunoz/
+[.small]
+icon:github[] https://github.com/fsmunoz
+
+== Agenda
+
+[%auto-animate]
+== !
+Motivação
+
+[%auto-animate]
+== !
+Motivação
+
+Contexto histórico
+
+[%auto-animate]
+== !
+Motivação
+
+Contexto histórico
+
+Dados abertos
+
+[%auto-animate]
+== !
+Motivação
+
+Contexto histórico
+
+Dados abertos
+
+Evolução do projecto
+
+[%auto-animate]
+== !
+Motivação
+
+Contexto histórico
+
+Dados abertos
+
+Evolução do projecto
+
+Visualizações e análises
+
+
+
+[%auto-animate]
+== !
+Motivação
+
+Contexto histórico
+
+Dados abertos
+
+Evolução do projecto
+
+Visualizações e análises
+
+Demonstração
+
+
+[%auto-animate]
+== !
+Motivação
+
+Contexto histórico
+
+Dados abertos
+
+Evolução do projecto
+
+Visualizações e análises
+
+Demonstração
+
+Análise do impacto e cidadania
+
+
+== Motivação
+
+[%auto-animate]
+[background-iframe=https://www.sabado.pt/portugal/detalhe/iniciativa-liberal-descontente-com-o-lugar-atribuido-no-parlamento]
+== !
+
+
+[%auto-animate]
+[.big]
+== !
+importância do lugar
+
+[%auto-animate]
+[background-iframe=https://upload.wikimedia.org/wikipedia/commons/6/66/Elei%C3%A7%C3%B5es_Legislativas_Portuguesas_de_2019.svg]
+== !
+
+[%auto-animate]
+[.big]
+== !
+
+porquê?
+
+[.big]
+[%auto-animate]
+== !
+
+porquê?
+
+como medir?
+
+[%auto-animate]
+== !
+
+Programa?
+
+
+[%auto-animate]
+== !
+
+Programa?
+
+Auto-descrição?
+
+[%auto-animate]
+== !
+
+Programa?
+
+Auto-descrição?
+
+Votações?
+
+== Contexto histórico
+
+== !
+
+1789: Estados Gerais e Assembleia Nacional
+
+[.stretch]
+[background-image=https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Estatesgeneral.jpg/1920px-Estatesgeneral.jpg]
+== !
+
+
+== !
+
+Revolução Liberal 1820
+
+
+[background-image=https://www.parlamento.pt/Parlamento/PublishingImages/200A-revolucao-liberal/crono/grav_0002.jpg]
+== !
+
+
+== !
+
+São Bento: as Cortes Gerais da Nação
+
+[background-iframe=https://pt.wikipedia.org/wiki/Pal%C3%A1cio_de_S%C3%A3o_Bento]
+== !
+
+
+== !
+
+Congresso da República
+
+[background-iframe=https://pt.wikipedia.org/wiki/Congresso_da_Rep%C3%BAblica]
+== !
+
+== !
+
+Assembleia Nacional
+
+[background-iframe=https://pt.wikipedia.org/wiki/Assembleia_Nacional_(Portugal)]
+== !
+
+== !
+
+Assembleia Constituinte
+
+[background-iframe=https://pt.wikipedia.org/wiki/Assembleia_Constituinte_(Portugal)]
+== !
+
+
+== !
+
+https://www.parlamento.pt/cidadania/paginas/dadosabertos.aspx[Dados Abertos]
+
+
+[background-image=dados_abertos.png]
+== !
+
+
+== !
+
+Iniciativas
+
+Actividades
+
+Informação de deputados
+
+...
+
+== !
+
+XML
+
+JSON
+
+
+== !
+
+excelente recurso
+
+== !
+
+secções "manuais"
+
+
+== !
+
+[source,xml]
+----
+          <pt_gov_ar_objectos_VotacaoOut>
+            <id>126496</id>
+            <resultado>Rejeitado</resultado>
+            <reuniao>8</reuniao>
+            <tipoReuniao>RP</tipoReuniao>
+            <detalhe>A Favor: &lt;I&gt;IL&lt;/I&gt;, &lt;I&gt; BE&lt;/I&gt;, &lt;I&gt; PCP&lt;/I&gt;, &lt;I&gt; L&lt;/I&gt;, &lt;I&gt; PAN&lt;/I&gt;&lt;BR&gt;Contra:&lt;I&gt;PSD&lt;/I&gt;, &lt;I&gt; PS&lt;/I&gt;, &lt;I&gt; CDS-PP&lt;/I&gt;&lt;BR&gt;Absten&#xE7;&#xE3;o:&lt;I&gt;CH&lt;/I&gt;</detalhe>
+            <data>2024-04-19</data>
+          </pt_gov_ar_objectos_VotacaoOut>
+
+----
+== Primeira abordagem
+
+== !
+
+Jupyter notebook
+
+== !
+
+ElementTree
+
+BeautifulSoup
+
+Pandas
+
+matplotlib
+
+Seaborn
+
+Numpy
+
+SciPy
+
+scikit-learn
+
+[background-iframe=https://nbviewer.org/github/fsmunoz/pt-act-parlamentar/raw/master/Actividade%20Parlamentar%20da%20XIV%20Legislatura.ipynb]
+== !
+
+== !
+
+preocupação com transparência
+
+
+[%auto-animate]
+== !
+
+excesso de detalhe
+
+[%auto-animate]
+== !
+
+excesso de detalhe
+
+complexidade
+
+[%auto-animate]
+== !
+
+excesso de detalhe
+
+complexidade
+
+ausência de interactividade
+
+
+== Segunda versão
+
+== !
+
+Jupyter Book
+
+
+[background-iframe=https://fsmunoz.github.io/parlamento/html/intro.html]
+== !
+
+[%auto-animate]
+== !
+
+melhor organização
+
+[%auto-animate]
+== !
+
+melhor organização
+
+menos complexo
+
+
+[%auto-animate]
+== !
+
+melhor organização
+
+menos complexo
+
+esteticamente mais apelativo
+
+
+[%auto-animate]
+== !
+
+não interactivo
+
+
+== Visualizações e análises
+
+== !
+
+Distâncias
+
+Votos idênticos
+
+Agrupamento
+
+Visualização 2D e 3D
+
+
+[background-iframe=https://fsmunoz.github.io/parlamento/html/intro_metodo.html]
+== !
+
+
+== Versão actual
+
+== !
+
+https://streamlit.io/[Streamlit]
+
+== !
+
+Python
+
+Interactivo
+
+Simples de adaptar
+
+Instalação local ou em nuvem
+
+[background-iframe=https://pt.hemicycle.party/]
+== !
+
+
+== !
+
+Dois projectos relacionados
+
+== voting-analysis-streamlit
+
+https://github.com/fsmunoz/voting-analysis-streamlit[Portal interactivo]
+
+
+== proc-parl-pt
+
+https://github.com/fsmunoz/proc-parl-pt[Processamento de XML para CSV]
+
+
+
+== Impacto
+
+[background-iframe=https://expresso.pt/opiniao/2020-10-31-Depois-de-amanha]
+== !
+
+
+== !
+
+https://rr.sapo.pt/especial/politica/2021/11/29/ps-votou-mais-vezes-ao-lado-do-psd-do-que-do-be-e-pcp/262079/[PS votou mais vezes ao lado do PSD do que do BE e PCP]
+
+[background-image=rr1.png]
+== !
+
+[background-iframe=https://expresso.pt/politica/2021-11-14-PS-passou-a-votar-mais-com-a-direita.-Viragem-comecou-em-2018-b9e8dbcf]
+== !
+
+
+== !
+https://rr.sapo.pt/especial/politica/2024/05/03/ps-votou-mais-vezes-contra-o-chega-partido-de-ventura-absteve-se-mais-nas-medidas-socialistas/376935/[PS votour mais vezes contra o Chega]
+
+[background-image=rr2.png]
+== !
+
+== !
+
+https://poligrafo.sapo.pt/fact-check/psd-foi-o-partido-que-mais-vezes-votou-ao-lado-do-ps-durante-os-seis-anos-da-geringonca/[PSD foi o partido que mais vezes votou ao lado do PS durante os 6 anos de Geringonça]
+
+
+[background-image=poligrafo1.png]
+== !
+
+== !
+
+https://poligrafo.sapo.pt/politica/proximidade-com-ventura-dura-ha-meses-cristina-rodrigues-ex-ira-foi-quem-mais-votou-a-favor-de-propostas-do-chega/[Proximidade com Ventura dura há meses]
+
+[background-image=poligrafo2.png]
+== !
+
+
+== !
+...e  pelos cidadãos?
+
+
+[%auto-animate]
+== !
+
+por "picos"
+
+[%auto-animate]
+== !
+
+por "picos"
+
+impacto questionável
+
+[%auto-animate]
+== !
+
+por "picos"
+
+impacto questionável
+
+ao sabor de necessidades políticas
+
+
+
+== !
+
+será a informação _verdadeiramente_ importante?
+
+== Importância do software livre
+
+== !
+
+para além do resto: *transparência*
+
+
+== Obrigado!
+
+[.reference]
+Partes desta apresentação incluem conteúdo da http://pt.wikipedia.org[Wikipédia].
