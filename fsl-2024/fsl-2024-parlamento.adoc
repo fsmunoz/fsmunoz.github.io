@@ -47,6 +47,12 @@ como estamos na Festa do Software  Livre...
 [background-image=fsfe-portugal.png]
 == !
 
+
+== !
+
+[.stretch]
+image::cltl.jpg[]
+
 == Agenda
 
 image::qrcode.png[width="50%"]
