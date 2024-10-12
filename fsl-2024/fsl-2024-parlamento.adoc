@@ -450,6 +450,12 @@ https://poligrafo.sapo.pt/politica/proximidade-com-ventura-dura-ha-meses-cristin
 [background-image=poligrafo2.png]
 == !
 
+== !
+
+...na comunidade
+
+[background-iframe=https://podcastubuntuportugal.org/e299/]
+== !
 
 == !
 ...e  pelos cidadãos?
