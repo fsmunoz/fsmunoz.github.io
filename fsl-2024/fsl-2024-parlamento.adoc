@@ -394,6 +394,8 @@ Visualização 2D e 3D
 
 == Versão actual
 
+https://pt.hemicycle.party/[]
+
 == !
 
 https://streamlit.io/[Streamlit]
