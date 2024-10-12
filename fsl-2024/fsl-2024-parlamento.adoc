@@ -4,7 +4,6 @@
 :customcss: custom.css
 :title-slide-background-image: cover_bg.png
 :icons: font
-:email: <frederico.munoz@sas.com>
 :author: Frederico Muñoz
 :company: SAS Institute
 :revealjs_preloadIframes: true
@@ -40,7 +39,17 @@ icon:linkedin[] https://www.linkedin.com/in/fsmunoz/
 [.small]
 icon:github[] https://github.com/fsmunoz
 
+
+== !
+
+como estamos na Festa do Software  Livre...
+
+[background-image=fsfe-portugal.png]
+== !
+
 == Agenda
+
+image::qrcode.png[width="50%"]
 
 [%auto-animate]
 == !
