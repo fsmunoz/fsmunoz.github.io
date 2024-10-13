@@ -1,11 +1,10 @@
-= Análise da atividade parlamentar: software livre, dados abertos e cidadania
+= Análise da actividade parlamentar: software livre, dados abertos e cidadania
 :date: 12-10-2024
 :revealjs_theme: simple
 :customcss: custom.css
-:title-slide-background-image: cover_bg.png
+:title-slide-background-image: bastilha.jpg
 :icons: font
 :author: Frederico Muñoz
-:company: SAS Institute
 :revealjs_preloadIframes: true
 :revealjs_viewDistance: 6
 
@@ -33,7 +32,7 @@ icon:globe[] https://interlaye.red
 [.small]
 icon:mastodon[] https://mastodon.sdf.org/@fsm
 [.small]
-icon:envelope-o[] <frederico.munoz@sas.com>
+icon:envelope-o[] <fsmunoz@gmail.com>
 [.small]
 icon:linkedin[] https://www.linkedin.com/in/fsmunoz/
 [.small]
@@ -44,9 +43,10 @@ icon:github[] https://github.com/fsmunoz
 
 como estamos na Festa do Software  Livre...
 
-[background-image=fsfe-portugal.png]
+[.stretch]
+[_background-image=fsfe-portugal.png]
 == !
-
+image::fsfe-portugal.png[]
 
 == !
 
@@ -196,7 +196,7 @@ Votações?
 
 == !
 
-Revolução Liberal 1820
+Revolução Liberal, 1820
 
 
 [background-image=https://www.parlamento.pt/Parlamento/PublishingImages/200A-revolucao-liberal/crono/grav_0002.jpg]
@@ -414,10 +414,20 @@ Instalação local ou em nuvem
 == !
 
 
+
+[%auto-animate]
 == !
 
 Dois projectos relacionados
 
+[%auto-animate]
+== !
+
+Dois projectos relacionados
+
+(ambos https://www.gnu.org/licenses/gpl-3.0.html[GPLv3])
+
+image::https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/GPLv3_Logo.svg/220px-GPLv3_Logo.svg.png[]
 == voting-analysis-streamlit
 
 https://github.com/fsmunoz/voting-analysis-streamlit[Portal interactivo]
@@ -427,6 +437,10 @@ https://github.com/fsmunoz/voting-analysis-streamlit[Portal interactivo]
 
 https://github.com/fsmunoz/proc-parl-pt[Processamento de XML para CSV]
 
+== !
+
+* Processamento: concentra a lógica de processamento de XML e produção de CSV para múltiplos usos.
+* Visualização: usa os CSV para permitir a exploração interactiva.
 
 
 == Impacto
@@ -447,7 +461,7 @@ https://rr.sapo.pt/especial/politica/2021/11/29/ps-votou-mais-vezes-ao-lado-do-p
 
 
 == !
-https://rr.sapo.pt/especial/politica/2024/05/03/ps-votou-mais-vezes-contra-o-chega-partido-de-ventura-absteve-se-mais-nas-medidas-socialistas/376935/[PS votour mais vezes contra o Chega]
+https://rr.sapo.pt/especial/politica/2024/05/03/ps-votou-mais-vezes-contra-o-chega-partido-de-ventura-absteve-se-mais-nas-medidas-socialistas/376935/[PS votou mais vezes contra o Chega]
 
 [background-image=rr2.png]
 == !
@@ -497,13 +511,36 @@ por "picos"
 
 impacto questionável
 
-ao sabor de necessidades políticas
-
+ao sabor da utilidade política periódica
 
 
 == !
 
+sobretudo, difícil de fazer chegar a uma audiência vasta por ser um
+projecto independente.
+
+[%auto-animate]
+== !
+
 será a informação _verdadeiramente_ importante?
+
+
+[%auto-animate]
+== !
+
+será a informação _verdadeiramente_ importante?
+
+_Sim_, por quem a quiser usar para acompanhar a actividade parlamentar.
+
+
+[%auto-animate]
+== !
+
+será a informação _verdadeiramente_ importante?
+
+_Sim_, por quem a quiser usar para acompanhar a actividade parlamentar.
+
+_Não_, no sentido em que há uma posição a priori que não é afectada pela informação.
 
 == Importância do software livre
 
